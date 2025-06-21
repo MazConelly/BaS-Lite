@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+
+	<string id="st_wpn_ppsh_bas">
+		<text>PPSh-41 (BaS)</text>
+	</string>
+	<string id="st_wpn_ppsh_bas_descr">
+		<text>A major infantry weapon of the Soviet armed forces during World War II, the PPSh-41 was a durable, low-maintenance weapon made of cheap, easily-obtained components. They utilise 7.62x25mm cartridge.\n 
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.\n 
+		%c[d_purple] • %c[ui_gray_2] Scopes: None \n 
+		%c[d_purple] • %c[ui_gray_2] Suppressor:  None</text>
+	</string>
+
+	<string id="st_wpn_ppsh_bas_uptacppsh">
+		<text>PPSh-41 Bandolero (BaS)</text>
+	</string>
+	<string id="st_wpn_ppsh_bas_uptacppsh_descr">
+		<text>A major infantry weapon of the Soviet armed forces during World War II, the PPSh-41 was a durable, low-maintenance weapon made of cheap, easily-obtained components. They utilise 7.62x25mm cartridge.\n 
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] The tactical kit "Bandolero" is installed on the weapon, which includes the EKP-8-18 collimator sight and improved barrel casing (heat is removed faster), as a result of which it became possible to increase the rate of fire compared to the original. (This upgrade is irreversible).\n 
+		%c[d_purple] • %c[ui_gray_2] Scopes: Axion Kobra EKP-8-18 reflex sight - included.\n 
+		%c[d_purple] • %c[ui_gray_2] Suppressor: None</text>
+	</string>
+
+	<string id="st_addon_scope_uptacppsh">
+		<text>Bandolero Upgrade Kit for PPSh-41 (BaS)</text>
+	</string>
+	<string id="st_addon_scope_uptacppsh_descr">
+		<text>
+		%c[ui_gray_1]Set of components for PPSh-41 upgrade.\n 
+		%c[d_purple] • %c[ui_gray_2] The kit includes: the EKP-8-18 collimator sight and improved barrel casing (heat is removed faster), as a result of which it became possible to increase the rate of fire compared to the original. (This upgrade is irreversible).\n \n
+		%c[ui_gray_2]COMPATIBILITY:\n 
+		%c[d_cyan] • %c[ui_gray_2]PPSh-41 (BaS)
+		</text>
+	</string>
+
+</string_table>

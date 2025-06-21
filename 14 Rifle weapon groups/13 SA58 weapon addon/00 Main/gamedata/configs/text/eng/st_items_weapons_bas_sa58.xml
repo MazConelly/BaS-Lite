@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+    <string id="st_wpn_fal_aus">
+        <text>DS ARMS SA-58 AUS "Austrian Style" (BaS)</text>
+    </string>
+    <string id="st_wpn_fal_aus_descr">
+		<text>SA-58 manufactured by american company DSA (David Selveggio Arms) is a legal copy of the FAL, it's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. This modelel comes with 21" barrel length, and other "Austrian Style" stuff like original Austrian foregrip for a FAL, aluminum-alloy lower receiver, and improved Glass-filled Nylon furniture. This model used by military and Law Enforcement and can run a fully automatic. The DSA-58 can use any metric-measurement FAL magazines.\n
+	    %c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: None \n 
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kits \n
+		%c[d_purple] • %c[ui_gray_2] Silencer: SR-25 suppressor</text>
+    </string>
+
+	<string id="st_wpn_fal_aus_kit_aus_tri">
+		<text>DS Arms SA-58 AUS "Scout" (BaS)</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_aus_tri_descr">
+		<text>FAL SA58 AUS modernised using DS Arms tactical kit. After the modification this weapon can be used very effectively at long and medium distances. SA-58 manufactured by american company DSA (David Selveggio Arms) is a legal copy of the FAL, it's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. This modelel comes with 21" barrel length, and other "Austrian Style" stuff like original Austrian foregrip for a FAL, aluminum-alloy lower receiver, and improved Glass-filled Nylon furniture. This model used by military and Law Enforcement and can run a fully automatic. The DSA-58 can use any metric-measurement FAL magazines.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon Acog and Aimpoint T1 (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: SR-25 suppressor</text>
+	</string>
+
+	<string id="st_wpn_fal_aus_kit_sa5x_spec">
+		<text>DS Arms SA-58 AUS "Defender" (BaS)</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_sa5x_spec_descr">
+		<text>FAL SA58 AUS modernised using DS Arms tactical kit. After the modification this weapon can be used very effectively at long and medium distances. SA-58 manufactured by american company DSA (David Selveggio Arms) is a legal copy of the FAL, it's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. This modelel comes with 21" barrel length, and other "Austrian Style" stuff like original Austrian foregrip for a FAL, aluminum-alloy lower receiver, and improved Glass-filled Nylon furniture. This model used by military and Law Enforcement and can run a fully automatic. The DSA-58 can use any metric-measurement FAL magazines.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: ELCAN SpecterDr and Aimpoint T1 (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: SR-25 suppressor</text>
+	</string>
+
+	<string id="st_wpn_fal_aus_kit_fal_leup">
+		<text>DS Arms SA-58 AUS "Marauder" (BaS)</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_fal_leup_descr">
+		<text>FAL SA58 AUS modernised using DS Arms tactical kit. After the modification this weapon can be used very effectively at long and medium distances. SA-58 manufactured by american company DSA (David Selveggio Arms) is a legal copy of the FAL, it's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. This modelel comes with 21" barrel length, and other "Austrian Style" stuff like original Austrian foregrip for a FAL, aluminum-alloy lower receiver, and improved Glass-filled Nylon furniture. This model used by military and Law Enforcement and can run a fully automatic. The DSA-58 can use any metric-measurement FAL magazines.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Leupold Mark 8 and Aimpoint T1 (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: SR-25 suppressor</text>
+	</string>
+
+
+	<string id="st_addon_scope_kit_aus_tri">
+		<text>"Scout" Tactical kit for SA58 FAL AUS (BaS)</text>
+	</string>
+	<string id="st_addon_scope_kit_aus_tri_descr">
+		<text>
+		%c[ui_gray_1]The kit converting the gun in to the great marksman rifle. The kit includes: Fab AG FAL pistol grip, dust cover DS Arms Extreme Duty with Picatinny rail, Vltor CASV foregrip for FAL, 21" barrel for SA-58 7.62x51 and DSA BRS stock. Also there is two scopes: Aimpoint T1 on NcStar 45 and Trijicon Acog. This upgrade is irreversible.\n \n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] DS Arms SA-58 AUS "Austrian Style".
+		</text>
+	</string>
+	
+	<string id="st_addon_scope_kit_fal_leup">
+		<text>"Marauder" Tactical kit for SA58 FAL AUS (BaS)</text>
+	</string>
+	<string id="st_addon_scope_kit_fal_leup_descr">
+		<text>
+		%c[ui_gray_1]The kit converting the gun in to the great marksman rifle. The kit includes: Fab AG FAL pistol grip, dust cover DS Arms Extreme Duty with Picatinny rail, Vltor CASV foregrip for FAL, 21" barrel for SA-58 7.62x51 and DSA BRS stock. Also there is two scopes: Aimpoint T1 on NcStar 45 and Leupold Mark 8 CQBSS. This upgrade is irreversible.\n \n
+		%c[ui_gray_2]COMPATIBILITY:\n 
+		%c[d_cyan] • %c[ui_gray_2] DS Arms SA-58 AUS "Austrian Style".
+		</text>
+	</string>	
+
+	<string id="st_addon_scope_kit_sa5x_spec">
+		<text>"Defender" Tactical kit for SA58 FAL AUS (BaS)</text>
+	</string>
+	<string id="st_addon_scope_kit_sa5x_spec_descr">
+		<text>
+		%c[ui_gray_1]The kit converting the gun in to the great marksman rifle. The kit includes: Fab AG FAL pistol grip, dust cover DS Arms Extreme Duty with Picatinny rail, Vltor CASV foregrip for FAL, 21" barrel for SA-58 7.62x51 and DSA BRS stock. Also there is two scopes: Aimpoint T1 on NcStar 45 and ELCAN SpecterDR. This upgrade is irreversible.\n \n
+		%c[ui_gray_2]COMPATIBILITY:\n 
+		%c[d_cyan] • %c[ui_gray_2] DS Arms SA-58 AUS "Austrian Style".
+		</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+	<string id="st_wpn_ak105_bas">
+		<text>AK-105 (BaS)</text>
+	</string>
+	<string id="st_wpn_ak105_bas_descr">
+		<text>The AK-105 is a 5.45x39mm carbine version of the AK-74M rifle. The AK-105 is supplementing AKS-74U carbines in Russian Army service. Ideal for CQC (close quarters combat), it's not intended for long range combat. The rifle's reiver is made of stamped steel; the magazine is made out of reinforced fibreglass and the stock is made of hollow plastic, making it lighter, more durable, and allowing a field kit to be stored inside of it.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon.\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor</text>
+	</string>
+
+	<string id="st_wpn_ak105_bas_swamp">
+		<text>AK-105 Swamp Thing (BaS)</text>
+	</string>
+	<string id="st_wpn_ak105_bas_swamp_descr">
+		<text>The AK-105 is a 5.45x39mm carbine version of the AK-74M rifle. The AK-105 is supplementing AKS-74U carbines in Russian Army service. A very rare variant of the AK-105. It is found mainly among the veterans of the Clear Sky group. Due to the presence of several sighting devices, it is ideal for combat both at close and medium-long distances.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] The weapon was upgraded using "Swamp Thing" Tactical Kit\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Elcan SpecterDr, Trijicon RMR and AN/PEQ-15 LAM (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor</text>
+	</string>
+
+	<string id="st_wpn_ak105_bas_shakal">
+		<text>AK-105 Shakal (BaS)</text>
+	</string>
+	<string id="st_wpn_ak105_bas_shakal_descr">
+		<text>The AK-105 is a 5.45x39mm carbine version of the AK-74M rifle. The AK-105 is supplementing AKS-74U carbines in Russian Army service. A very rare variant of the AK-105. It is found mainly among the veterans of the Duty group. Due to the presence of several sighting devices, it is ideal for combat both at close and medium-long distances.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] The weapon was upgraded using "Shakal" Tactical Kit\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon Acog, Trijicon RMR and AN/PEQ-15 LAM (integrated)\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor</text>
+	</string>
+
+<!-- 	<string id="st_wpn_ak105_sp">
+		<text>AK-105 Specialist (BaS)</text>
+	</string>
+	<string id="st_wpn_ak105_sp_descr">
+		<text>The modification was based on the usual AK-105, which, as a result, (thanks to mercenaries craftsmen) for a long time turned into a favorite burrel of these guys. A very balanced weapon with low recoil, good accuracy and high wear resistance.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Leupold Deltapoint Pro Red Dot sight preinstalled on NcStar 45 mount\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for dovetail mount except of PSO scopes with an eyecup, 1P59 Giperon and red dot sights.\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A.\n </text>
+	</string>	 -->
+	
+	
+	<string id="st_addon_scope_swamp">
+		<text>"Swamp Thing" for AK-105 (BaS)</text>
+	</string>
+	<string id="st_addon_scope_swamp_descr">
+		<text>
+		%c[ui_gray_1]A rare and not very popular body kit for the AK-105 due to its price. Very similar to kit used by Duty. It is found mainly among veterans of the Clear Sky group. The set includes: an extended fore-end, an ergonomic stock and a more comfortable pistol grip. In addition, the kit includes an improved trigger and three sighting devices that turn the weapon into an "ideal companion" at close and medium-long distances. Scopes (included): Elcan SpecterDR, Trijicon RMR calimator sight mounted at 45 degrees and AN/PEQ-15 LAM. The kit also includes a set of 45 rounds mags. This upgrade is irreversible. \n \n 
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] AK-105
+		</text>
+	</string>
+
+
+	<string id="st_addon_scope_shakal">
+		<text>"Shakal" for AK-105 (BaS)</text>
+	</string>
+	<string id="st_addon_scope_shakal_descr">
+		<text>
+		%c[ui_gray_1]A rare and heard to get body kit for the AK-105. Very similar to kit used by Clear Sky. It is found mainly among veterans of the Duty group. The set includes: an extended fore-end, an ergonomic stock and a more comfortable pistol grip. In addition, the kit includes an improved trigger and three sighting devices that turn the weapon into an "ideal companion" at close and medium-long distances. Scopes (included): Trijicon Acog, Trijicon RMR calimator sight mounted at 45 degrees and AN/PEQ-15 LAM. The kit also includes a set of 45 rounds mags. This upgrade is irreversible. \n \n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] AK-105
+		</text>
+	</string>
+
+
+</string_table>

@@ -84,7 +84,9 @@ ammo_limit                  = 5
 ammo_mag_size               = 5
 startup_ammo                = 5
 
-scopes                      = archangel, magpul_pro, mod_x_gen3, lapua700
+scopes                      = 
+; archangel, magpul_pro, mod_x_gen3, lapua700
+
 scope_status                = 1
 scope_dynamic_zoom          = on
 
@@ -187,7 +189,7 @@ snd_reload_misfire              = weapons\toz106\reload_empty
 [wpn_remington700_bas_hud]:hud_base
 
 item_visual                 = dynamics\weapons\wpn_remington700_bas\wpn_remington700_bas_hud.ogf
-
+		
 attach_place_idx            = 0
 zoom_hide_crosshair         = true
 
@@ -247,7 +249,7 @@ anm_bore						= toz106_inspect_fullstock, inspect
 anm_bore_empty					= toz106_inspect_fullstock, inspect_empty
 anm_reload_misfire              = toz106_reload_empty_4rnd_fullstock, reload_empty_old
 ;--------
-        
+
 shell_dir                   = 0, 1, 0
 
 shell_point				    = 0,0,0 ;0.013,0.046,0.463
@@ -267,7 +269,7 @@ lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1
 
 parent_section              = wpn_remington700_bas_archangel
 
-visual					     = dynamics\weapons\wpn_remington700_bas\wpn_remington700_bas_archangel_world.ogf ;_v.ogf
+visual					     = dynamics\weapons\wpn_remington700_bas\wpn_remington700_bas_archangel_world.ogf                                                                                                                                                                                                                                                  _v.ogf
 
 inv_name                                 = st_wpn_remington700_bas_archangel
 inv_name_short                           = st_wpn_remington700_bas_archangel
@@ -641,27 +643,27 @@ anm_reload_misfire              = toz106_reload_empty_4rnd_fullstock, reload_emp
 ;------------------------------------------------------------------------------------------------
 
 ![addons_table]
-archangel                                           = scope
+; archangel                                           = scope
 ; magpul_pro                                          = scope
-mod_x_gen3                                          = scope
-lapua700                                            = scope
+; mod_x_gen3                                          = scope
+; lapua700                                            = scope
 
 
 
 ;-------------------------------------------------------------------------------
-[archangel]:addon
-visual				                                = dynamics\weapons\wpn_addon_world_models\wpn_case_archangel_world.ogf
-cost                		                        = 28000
-inv_name        		                            = st_addon_scope_archangel
-inv_name_short  		                            = st_addon_scope_archangel
-description    			                            = st_addon_scope_archangel_descr
-inv_weight         		                            = 2.200
-inv_grid_width     = 5
-inv_grid_height    = 1
-inv_grid_x         = 0
-inv_grid_y         = 2
-repair_type                                         = scope
-icons_texture                                       = ui\ui_icon_bas_remington700
+; [archangel]:addon
+; visual				                                = dynamics\weapons\wpn_addon_world_models\wpn_case_archangel_world.ogf
+; cost                		                        = 28000
+; inv_name        		                            = st_addon_scope_archangel
+; inv_name_short  		                            = st_addon_scope_archangel
+; description    			                            = st_addon_scope_archangel_descr
+; inv_weight         		                            = 2.200
+; inv_grid_width     = 5
+; inv_grid_height    = 1
+; inv_grid_x         = 0
+; inv_grid_y         = 2
+; repair_type                                         = scope
+; icons_texture                                       = ui\ui_icon_bas_remington700
 ;-------------------------------------------------------------------------------
 ; [magpul_pro]:addon
 ; visual				                                = dynamics\weapons\wpn_addon_world_models\wpn_case_magpul_pro_world.ogf
@@ -677,33 +679,33 @@ icons_texture                                       = ui\ui_icon_bas_remington70
 ; repair_type                                         = scope
 ; icons_texture                                       = ui\ui_icon_bas_remington700
 ;-------------------------------------------------------------------------------
-[mod_x_gen3]:addon
-visual				                                = dynamics\weapons\wpn_addon_world_models\wpn_case_mod_x_gen3_world.ogf
-cost                		                        = 48000
-inv_name        		                            = st_addon_scope_mod_x_gen3
-inv_name_short  		                            = st_addon_scope_mod_x_gen3
-description    			                            = st_addon_scope_mod_x_gen3_descr
-inv_weight         		                            = 1.65
-inv_grid_width     = 4
-inv_grid_height    = 2
-inv_grid_x         = 0
-inv_grid_y         = 4
-repair_type                                         = scope
-icons_texture                                       = ui\ui_icon_bas_remington700
+; [mod_x_gen3]:addon
+; visual				                                = dynamics\weapons\wpn_addon_world_models\wpn_case_mod_x_gen3_world.ogf
+; cost                		                        = 48000
+; inv_name        		                            = st_addon_scope_mod_x_gen3
+; inv_name_short  		                            = st_addon_scope_mod_x_gen3
+; description    			                            = st_addon_scope_mod_x_gen3_descr
+; inv_weight         		                            = 1.65
+; inv_grid_width     = 4
+; inv_grid_height    = 2
+; inv_grid_x         = 0
+; inv_grid_y         = 4
+; repair_type                                         = scope
+; icons_texture                                       = ui\ui_icon_bas_remington700
 ;-------------------------------------------------------------------------------
-[lapua700]:addon
-visual				                                = dynamics\weapons\wpn_addon_world_models\wpn_case_lapua700_world.ogf
-cost                		                        = 55350
-inv_name        		                            = st_addon_scope_lapua700
-inv_name_short  		                            = st_addon_scope_lapua700
-description    			                            = st_addon_scope_lapua700_descr
-inv_weight         		                            = 2.600
-inv_grid_width     = 6
-inv_grid_height    = 2
-inv_grid_x         = 4
-inv_grid_y         = 4
-repair_type                                         = scope
-icons_texture                                       = ui\ui_icon_bas_remington700
+; [lapua700]:addon
+; visual				                                = dynamics\weapons\wpn_addon_world_models\wpn_case_lapua700_world.ogf
+; cost                		                        = 55350
+; inv_name        		                            = st_addon_scope_lapua700
+; inv_name_short  		                            = st_addon_scope_lapua700
+; description    			                            = st_addon_scope_lapua700_descr
+; inv_weight         		                            = 2.600
+; inv_grid_width     = 6
+; inv_grid_height    = 2
+; inv_grid_x         = 4
+; inv_grid_y         = 4
+; repair_type                                         = scope
+; icons_texture                                       = ui\ui_icon_bas_remington700
 ;-------------------------------------------------------------------------------
 [wpn_sil_lapu7]:wpn_addon_silencer
 description		= st_addon_sil_lapu7_descr

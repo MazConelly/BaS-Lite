@@ -131,7 +131,9 @@ ammo_elapsed                = 45
 ammo_mag_size               = 45
 startup_ammo                = 90
 
-scopes 					= acog, eot, specter, c-more, 0kp2, ac10632, d0cter, leupold, aimpoint, aim_low, point_aimpro, e0t2, pn23, gauss_sight, rmr, deltapoint, susat, compm4s, rakurs, marchf, kemper, triji, mark8_rmr, spec_alt, mono_kit, mepro, ekp8_18
+scopes 					= acog, eot, specter, c-more, 0kp2, ac10632, d0cter, leupold, aimpoint, aim_low, point_aimpro, e0t2, pn23, gauss_sight, rmr, deltapoint, susat, compm4s, rakurs, marchf, kemper, triji, mark8_rmr, spec_alt, mepro, ekp8_18
+;, mono_kit
+
 scope_status                = 0
 scope_zoom_factor           = 0
 
@@ -253,7 +255,7 @@ item_visual                 = dynamics\weapons\wpn_ak12_custom\wpn_ak12_custom_h
 
 attach_place_idx            = 0
 zoom_hide_crosshair         = true
-        
+
 hands_position              = -0.062, -0.18, 0.1655
 hands_orientation           = 0.55, 2.39, 0.15
 
@@ -1874,25 +1876,25 @@ aim_hud_offset_rot_16x9				= 0.001037,0.009625,-0.057000
 
 ;------------------------------------------------------------------------------------------------
 
-![addons_table]
-mono_kit                                            = scope  
+; ![addons_table]
+; mono_kit                                            = scope  
 
 
 
 ;-------------------------------------------------------------------------------
-[mono_kit]:addon
-visual          		                            = dynamics\weapons\wpn_addon_world_models\wpn_case_mono_kit_world.ogf
-cost				                                = 21950
-inv_name			                                = st_addon_scope_mono_kit
-inv_name_short			                            = st_addon_scope_mono_kit
-description			                                = st_addon_scope_mono_kit_descr
-inv_weight			                                = 0.555
-inv_grid_width     = 4
-inv_grid_height    = 2
-inv_grid_x         = 5
-inv_grid_y         = 2
-repair_type                                         = scope	
-icons_texture                                       = ui\ui_icon_bas_ak12
+; [mono_kit]:addon
+; visual          		                            = dynamics\weapons\wpn_addon_world_models\wpn_case_mono_kit_world.ogf
+; cost				                                = 21950
+; inv_name			                                = st_addon_scope_mono_kit
+; inv_name_short			                            = st_addon_scope_mono_kit
+; description			                                = st_addon_scope_mono_kit_descr
+; inv_weight			                                = 0.555
+; inv_grid_width     = 4
+; inv_grid_height    = 2
+; inv_grid_x         = 5
+; inv_grid_y         = 2
+; repair_type                                         = scope	
+; icons_texture                                       = ui\ui_icon_bas_ak12
 ;--------------------------------------------------------------------------------
 [wpn_addon_grenade_launcher_monolit]:identity_immunities
 GroupControlSection	                                = spawn_group

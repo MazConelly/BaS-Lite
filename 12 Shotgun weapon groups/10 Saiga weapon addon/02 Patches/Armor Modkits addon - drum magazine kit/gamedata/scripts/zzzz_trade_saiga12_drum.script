@@ -1,0 +1,31 @@
+-- local fitting_coms = {
+    -- 'ecolog', 'army', 'dolg', 'isg', 'monolith'
+-- }
+
+-- local function custom_resuply(npc)
+    -- if trader_autoinject.get_trader_type(npc) ~= trader_autoinject.SUPPLIER then return end
+
+    -- local npc_com = trader_autoinject.get_real_community(npc)
+    -- local fitting = false
+    -- for _,com in ipairs(fitting_coms) do
+        -- if npc_com == com then fitting = true end
+    -- end
+    -- if not fitting then return end
+
+    -- local table = {}
+    -- local supply_level = trader_autoinject.supply_level(npc, true) or 1
+
+    -- if (supply_level >= 4) then
+        -- table['saiga_drum_kit'] = 1
+    -- end
+    -- if supply_level >= 5 and npc_com == 'ecolog' then
+        -- table["wpn_saiga12s_m1_saiga_drum_kit"] = math.random(0, 100) > 50 and 1 or 0
+    -- end
+
+    -- trader_autoinject.spawn_items(npc, table, true)
+-- end
+
+
+-- function on_game_start()
+	-- RegisterScriptCallback("trade_custom_update", custom_resuply)
+-- end

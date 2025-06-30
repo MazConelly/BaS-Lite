@@ -534,13 +534,6 @@
 		<text>This tactical kit includes combination of two scopes made by Russin Central Design Bureau "Tochpribor" and US Trijicon companies. The kit gives ability to install two scopes 1P78 Kashtan and Trijicon RMR on rifles that have both dovetail and picatinny mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
 	</string>
 
-<!-- 	<string id="st_addon_scope_susatov">
-		<text>SUSAT for native L85 mount only (BaS)</text>
-	</string>
-	<string id="st_addon_scope_susatov_descr">
-		<text>SUSAT is 4X optical sight, developed in the UK at the Royal Arms Research and Development Center. Manufactured by Avimo as well as United Scientific Instruments. It is most often used for aimed fire from light small arms at medium and long distances. It is mounted on a special mount for the L85 “Dovetail”. (The scope has back up iron sights on top of it).</text>
-	</string> -->
-
 	<string id="st_grenade_launcher_scar">
 		<text>FN40GL Grenade Launcher (BaS)</text>
 	</string>
@@ -549,15 +542,6 @@
 		40mm grenade launcher developed by the Belgian company FN Herstal for the FN SCAR assault rifle\n
 		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade\n</text>
 	</string>
-
-<!-- 	<string id="st_grenade_launcher_l85">
-		<text>M320 Grenade Launcher (BaS)</text>
-	</string>
-	<string id="st_grenade_launcher_l85_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] L85\n \n%c[ui_gray_1]
-		The M320 under-barrel grenade launcher developed by Heckler & Koch in 2008 to replace the M203 grenade launcher.\n
-		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade\n</text>
-	</string>	 -->
 
 	<string id="st_addon_scope_okep77">
 		<text>OKP-77 (For Picatinny/weaver) (BaS)</text>

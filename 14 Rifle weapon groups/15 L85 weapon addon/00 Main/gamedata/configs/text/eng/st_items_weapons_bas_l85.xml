@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+
+	<string id="st_wpn_l85_m1">
+		<text>L85 A2 (BaS)</text>
+	</string>
+	<string id="st_wpn_l85_m1_descr">
+		<text>The development of the SA80 system, which included two weapons - the SA80 IW assault rifle and SA80 LSW light machine gun, began in the late 1960s when the British Army decided to develop a new rifle, to replace the ageing 7.62x51mm L1 SLR British made FN FAL. The standard individual weapon for the British armed forces, the L85 (in its original A1 version) had numerous performance issues. The A2 variant came to be as the result of a significant upgrade in the early 2000s by Heckler & Koch and remains in service as of 2020. L85A2 is extremely reliable over a range of climates for various operational scenarios. The current L85A2 rifles are recognised as reliable and accurate, especially when using standard issue SUSAT telescope sights.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n		
+		%c[d_purple] • %c[ui_gray_2] Scopes: Susat with L85 native mount\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO Silencer\n
+		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: none\n</text>
+	</string>
+	
+	<string id="st_wpn_l85_m2">
+		<text>L85 A2 Modernized (BaS)</text>
+	</string>
+	<string id="st_wpn_l85_m2_descr">
+		<text>The development of the SA80 system, which included two weapons - the SA80 IW assault rifle and SA80 LSW light machine gun, began in the late 1960s when the British Army decided to develop a new rifle, to replace the ageing 7.62x51mm L1 SLR British made FN FAL. The standard individual weapon for the British armed forces, the L85 (in its original A1 version) had numerous performance issues. The A2 variant came to be as the result of a significant upgrade in the early 2000s by Heckler & Koch and remains in service as of 2020. L85A2 is extremely reliable over a range of climates for various operational scenarios. The current L85A2 rifles are recognised as reliable and accurate, especially when using standard issue SUSAT telescope sights.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+        %c[d_purple] • %c[ui_gray_2] Upgraded: Picatinny rail installed on top of the native dovetail mount\n		
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO Silencer\n
+		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: none\n</text>
+	</string>
+
+	<string id="st_wpn_l85_m3">
+		<text>L85 A2 Tactic (BaS)</text>
+	</string>
+	<string id="st_wpn_l85_m3_descr">
+		<text>The development of the SA80 system, which included two weapons - the SA80 IW assault rifle and SA80 LSW light machine gun, began in the late 1960s when the British Army decided to develop a new rifle, to replace the ageing 7.62x51mm L1 SLR British made FN FAL. The standard individual weapon for the British armed forces, the L85 (in its original A1 version) had numerous performance issues. The A2 variant came to be as the result of a significant upgrade in the early 2000s by Heckler & Koch and remains in service as of 2020. L85A2 is extremely reliable over a range of climates for various operational scenarios. The current L85A2 rifles are recognised as reliable and accurate, especially when using standard issue SUSAT telescope sights.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+        %c[d_purple] • %c[ui_gray_2] Upgraded: Picatinny rail installed on top of the native dovetail mount, quadrail fore-end, foregrip and B.E. MEYERS MAWL-C1 tactical green laser aim modul.\n		
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO Silencer\n
+		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: Heckler&Koch M320</text>
+	</string>
+
+	<string id="st_addon_scope_susatov">
+		<text>SUSAT for native L85 mount only (BaS)</text>
+	</string>
+	<string id="st_addon_scope_susatov_descr">
+		<text>SUSAT is 4X optical sight, developed in the UK at the Royal Arms Research and Development Center. Manufactured by Avimo as well as United Scientific Instruments. It is most often used for aimed fire from light small arms at medium and long distances. It is mounted on a special mount for the L85 “Dovetail”. (The scope has back up iron sights on top of it).</text>
+	</string>
+
+	<string id="st_grenade_launcher_l85">
+		<text>M320 Grenade Launcher (BaS)</text>
+	</string>
+	<string id="st_grenade_launcher_l85_descr">
+		<text>%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] L85\n
+		%c[ui_gray_1]The M320 under-barrel grenade launcher developed by Heckler & Koch in 2008 to replace the M203 grenade launcher.\n
+		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade</text>
+	</string>
+	
+</string_table>

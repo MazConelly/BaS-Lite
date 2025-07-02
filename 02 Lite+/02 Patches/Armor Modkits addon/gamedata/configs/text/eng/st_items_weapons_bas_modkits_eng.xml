@@ -123,19 +123,6 @@
 		<text>Tactical tomahawk, multi-tool and breaching tool, all-in-one solution.</text>
 	</string>
 
-	<string id="st_wpn_ak74_pmc">
-		<text>AK-74 PMC (BaS)</text>
-	</string>
-	<string id="st_wpn_ak74_pmc_descr">
-		<text>A modification of the Kalashnikov assault rifle, developed in 1970 for the 5.45x39 cartridge.
-		It differs from the standard version by the installed body kit, which includes a tactical grip, a forend with picatinny rails and a folding telescopic buttstock, which significantly improves ergonomics of the gun. The kit also includes a laser targeting device, a tactical flashlight and an adapter mount for sighting devices.
-		In the Zone similar models are usually used by mercenaries, Ukrainian special forces, various PMCs and other power structures for conducting special operations.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight. \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver and for Dovetail mount except of PSO scopes with eyecup, EOTS-62 and 1P59 Giperon. \n
-		%c[d_purple] • %c[ui_gray_2] Silencer: ATG suppressor</text>
-	</string>
-
 <!-- 	<string id="st_wpn_svds_pmc">
 		<text>SVDS PMC (BaS)</text>
 	</string>
@@ -247,19 +234,9 @@
 		%c[d_purple] • %c[ui_gray_2] All scopes for picatinny/weaver\n
 		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher\n
 		%c[d_purple] • %c[ui_gray_2] 5.45/7.62x39 Hexagon Sound Suppressor\n </text>
-	</string> -->
-
-	<string id="st_wpn_ak104_alfa">
-    	<text>AK-104 Alpha (BaS)</text>
-  	</string>
-  	<string id="st_wpn_ak104_alfa_descr">
-		<text>Customized version of the 7.62 mm AK-104 assault rifle. Looks like a finger tip of some Mid-Eastern operators...\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] All scopes for picatinny/weaver\n		
-		%c[d_purple] • %c[ui_gray_2] Silencer: ATG suppressor</text>
-  	</string>
-
-<!-- 	<string id="st_wpn_ak74_n">
+	</string>
+	
+	<string id="st_wpn_ak74_n">
 		<text>AK-74 (BaS)</text>
 	</string>
     <string id="st_wpn_ak74_n_descr">

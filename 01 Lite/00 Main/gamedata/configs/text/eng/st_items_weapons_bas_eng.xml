@@ -6,12 +6,12 @@
 
 <string_table>
 
-	<string id="st_not_in_use">
+<!-- 	<string id="st_not_in_use">
         <text>ѕредмет не используетс€/The Item is not in use (BaS)</text>
     </string>
     <string id="st_not_in_use_descr">
         <text>ѕредмет не используетс€/The Item is not in use </text>
-    </string>
+    </string> -->
 
 	<string id="st_knifebf4">
         <text>The ЂOTs-04ї Combat knife (BaS)</text>
@@ -27,40 +27,6 @@
         <text>This is a special blade made of high-carbon spring-spring steel of the bus, which for many years stood in an anomalous field, and therefore has excellent cutting and chopping properties. Ideal for cutting mutants of all stripes, and for protection against them.</text>
 		</string>
 
-		<string id="st_wpn_usp_tac">
-        <text>HK USP Match Tactical (BaS)</text>
-    </string>
-    <string id="st_wpn_usp_tac_descr">
-        <text>This is a modification of the HK USP Match specially developed for scientists by the personal order of Professor Sakhorov, designed for use in the "Specialist-Scientist" kit. The operation of the system of mechanisms is improved with the help of artifacts. The difference from the standard USP Match is the ability to install a silencer. The gun is equipped with an enlarged magazine for 22 rounds of 9mm caliber. (The Specialist-Scientist kit includes: BCC Savant, HK USP Match Tactical, Monolith Blade).\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] The kit includes Laser Aiming Module and Red Dot Sights mount.\n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: Docter Sight, Aimpoint T1 (low mount), Trijicon RMR, Leupold DeltaPoint PRO.\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: Gemtech suppressor</text>
-    </string>
-
-<!-- 	<string id="st_wpn_vintorez_m1">
-		<text>VSS "Savant" (BaS)</text>
-	</string>
-	<string id="st_wpn_vintorez_m1_descr">
-		<text>This is early prototype of VSS Savant. This build is more popular between pro-stalkers because of lower price than final version. \n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All except of Tactical Kits (double scopes)\n
-		%c[d_purple] Х %c[ui_gray_2] suppressor VSS (integrated)\n </text>
-	</string>
-	
-	
-	<string id="st_wpn_vintorez_m2">
-		<text>VSS "Merc" (BaS)</text>
-	</string>
-	<string id="st_wpn_vintorez_m2_descr">
-		<text>At the request of the Syndicate of Mercenaries, a team of enthusiastic scientists led by Professor Sakhorov was engaged in finalizing the prototype. To develop and conduct field trials, it took about 20 artifacts from gravitational anomalies. As a result, this allowed the Picatini bar to be installed on the receiver without loss of accuracy, as well as improved mechanics, which led to higher reliability indicators.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight. \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All except of 1P59 Giperon\n
-		%c[d_purple] Х %c[ui_gray_2] Fab Defense stock and foregrip are installed\n
-		%c[d_purple] Х %c[ui_gray_2] suppressor VSS (integrated)\n </text>
-	</string> -->
-
 	<string id="st_tactical_knife">
 		<text>Monolith's Blade (BaS)</text>
 	</string>
@@ -68,270 +34,12 @@
 		<text>[RUSSIAN ACCENT "ON"] It is rumoured, these blades are produced in very a few by masters from a groupment Monolith. Threw composition of alloy not known - it is talked to extract him it is possible only in the heart of sarcophagus.[RUSSIAN ACCENT "OFF"]</text>
 	</string>
 
-	<string id="st_wpn_m4_ru556">
-		<text>Ruger SR-556 (BaS)</text>
-	</string>
-	<string id="st_wpn_m4_ru556_descr">
-		<text>Several of these rifles entered the Zone through scientists. According to legend, Professor Sakharov received 6 small containers with these guns from foreign sponsors, but 5 of them were lost during transportation. Ruger SR-556 is an American self-loading carbine manufactured by the arms company Sturm, Ruger & Company, Inc. became the first Ruger of the AR-10 family. Ruger SR-762 chambered for .308. Belongs to a few samples of AR-15 rifles using the removal of powder gases. Production ceased in January 2016 after the introduction of the Keymod Lightweight option.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it. \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes:  All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
-	</string>
-
-<!-- 	<string id="st_wpn_vintorez_isg">
-		<text>Rifle Dynamics RD-9x39 ISG (BaS)</text>
-	</string>
-	<string id="st_wpn_vintorez_isg_descr">
-		<text>The brainchild of the founder of Rifle Dynamics, Jim Fuller. The model is developed on the basis of the well-known and well-established VSS Vintorez. One of the main differences from the original is the presence of a special mechanism that allows you to fire with a misfire of two bullets and a picatinny rail installed along the entire length of the weapon. Used by ISG special units.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight. \n
-		%c[d_purple] Х %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it. \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for picatinny/weaver and dovetail except of 1P78 Kashtan.\n
-		%c[d_purple] Х %c[ui_gray_2] Some rumors say that this gun can be used with an under-barrel grenade launcher) \n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: Integrated \n </text>
-	</string> -->
-	
 	<string id="st_tomahawk">
 		<text>Gerber Downrange Tomahawk (BaS)</text>
 	</string>
 	<string id="st_tomahawk_descr">
 		<text>Tactical tomahawk, multi-tool and breaching tool, all-in-one solution.</text>
 	</string>
-
-<!-- 	<string id="st_wpn_svds_pmc">
-		<text>SVDS PMC (BaS)</text>
-	</string>
-	<string id="st_wpn_svds_pmc_descr">
-		<text>Dragunov sniper rifle with folding stock - the SVDS variant. Was specially designed for Russian paratroopers and special forces units. In the Zone similar models are usually used by mercenaries, Ukrainian special forces, various PMCs and other power structures for conducting special operations.\n 
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for picatinny/weaver except of red dot sights. \n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: Rotor 43 \n
-		%c[ui_gray_2] The kit includes:\n
-		%c[d_purple] Х %c[ui_gray_2] Rotor 43 thread adapter for SVD-S,  \n
-        %c[d_purple] Х %c[ui_gray_2] SAG MK1 Freefloat Chassis for SVD, \n
-        %c[d_purple] Х %c[ui_gray_2] Zenit foregrip RK-5 (short) for very good recoil control\n
-        %c[d_purple] Х %c[ui_gray_2] Custom SVDS dust cover,\n
-        %c[d_purple] Х %c[ui_gray_2] Zenit RK3 pistol grip, \n
-		%c[d_purple] Х %c[ui_gray_2] Universal mount by NcStar that allows installing the auxiliary sight at 45 degrees angle with Trijicon RMR red dot sight installed on it. \n</text>
-	</string>
-
-	<string id="st_wpn_val_tac">
-		<text>AS Val Tactic (BaS)</text>
-	</string>
-	<string id="st_wpn_val_tac_descr">
-		<text>The AS Val is widely used by Russian Army recon units, as well as by MVD (Internal Affairs Ministry) and FSB (Federal Security Bureau) Special Forces. The AS-VAL is a gas operated, integrally suppressed weapon. The receiver is machined from steel forging for improved strength. It has a standard side-mounted rail for optical, night vision or red dot scopes but has no provision for mounting a bayonet or a grenade launcher. The integral suppressor could be easily detached for maintenance, repair, or compact storage, but the rifle should not be fired with the suppressor removed due to safety and reliability issues.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for dovetail mount\n
-		%c[d_purple] Х %c[ui_gray_2] VSS suppressor (integrated)\n </text>
-	</string>
-
-	<string id="st_wpn_vintorez_n1">
-		<text>VSS Vintorez (BaS)</text>
-	</string>
-	<string id="st_wpn_vintorez_n1_descr">
-		<text>Designed at TsNIITochMash by Peter Serdyukov and his team, the new rifle was intended for various Spetsnaz troops of the Soviet Army, KGB and MVD. The VSS is quite popular among its users for its stealthy capabilities and the great lethality of the heavy 9x39mm bullets. The effective range of the VSS is limited to 300-400 metres. Standard sighting equipment consists of side rail on the receiver, which usually accommodates the 4x  PSO-1M2-1 scope. Any other scope or night vision sight can be mounted on the appropriate mount. Backup iron sights consist of tangent rear and blade front. The rear sight is graduated for up to 400 metres.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for dovetail mount\n
-		%c[d_purple] Х %c[ui_gray_2] VSS suppressor (integrated)\n </text>
-	</string>	 -->
-
-    <string id="st_wpn_mp153_m1">
-        <text>Carabineer (BaS)</text>
-    </string>
-    <string id="st_wpn_mp153_m1_descr">
-		<text>A customized version of the MP-153 shotgun. Capable of semi-automatic fire like its predecessor, but provides better recoil compensation thanks to the quite effective muzzle brake. It also has Picatinny rail which allows to use reflex and holographic sights and ability to use sound suppressor.\n
-	    %c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: Due to the position of the stock, it is possible to install sights only with a very low mount: Barska AC10632, C-More, Docter Sight, Aimpoint T1, Trijicon RMR, Leupold DeltaPoint PRO, OKP-7, 1P76 Rakurs. \n \n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
-    </string>
-
-<!-- 	<string id="st_wpn_pm_bas_actor">
-		<text>Unic Makarov PM (BaS)</text>
-	</string>
-	<string id="st_wpn_pm_bas_actor_descr">
-		<text>A semi-mythical PM with extended barrel and suppressor mount threading. Some claim it was a limited series manufactured in Bulgaria, others insist on DDR, and some are even prone to think of it as a handcrafted upgrade. How did it end up in the Zone, no living soul can tell...\n
-				%c[ui_gray_2]ATTACHMENTS: \n
-   %c[d_purple] Х %c[ui_gray_2] Silencer: Silencer 9mm\n</text>
-	</string>
-	
-	<string id="st_wpn_pm_bas_custom">
-		<text>PM (custom) (BaS)</text>
-	</string>
-	<string id="st_wpn_pm_bas_custom_descr">
-	<text>Customized version of Makarov PM with longer threaded barrel for use with PMM silencer. This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defence handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size. In 1951, the Pistol Makarova was selected because of its simplicity, easy manufacturing, accuracy, and reasonable stopping power.\n
-				%c[ui_gray_2]ATTACHMENTS: \n
-   %c[d_purple] Х %c[ui_gray_2] Silencer: Silencer PMM\n</text>
-	</string>
-		
-	<string id="st_wpn_pm_bas">
-	      <text>PM (BaS)</text>
-	</string>
-	<string id="st_wpn_pm_bas_descr">
-		<text>This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defence handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size. In 1951, the Pistol Makarova was selected because of its simplicity, easy manufacturing, accuracy, and reasonable stopping power.</text>
-	</string>
-
-	<string id="st_wpn_pmm_bas">
-		<text>PMM (BaS)</text>
-	</string>
-	<string id="st_wpn_pmm_bas_descr">
-		<text>The most widely known variant, the Makarov PMM was a redesign of the original gun. In 1990 a group of engineers reworked the original Makarov, primarily by increasing the load for the cartridge. The result is 25% more gas pressure increasing in muzzle velocity. The PMM magazine holds 12 rounds, compared to the PM's 8 rounds.\n
-				%c[ui_gray_2]ATTACHMENTS: \n
-   %c[d_purple] Х %c[ui_gray_2] Silencer: Silencer PMM\n</text>
-	</string> -->
-
-
-<!-- 	<string id="st_wpn_ak12_m1">
-        <text>ј -12 (2016) (BaS)</text>
-    </string>
-    <string id="st_wpn_ak12_m1_descr">
-        <text>The version of the AK-12 presented to the public in 2016. It differs quite significantly in appearance and in the design of a number of important units from the previous version of the AK-12 shown in 2015. The design of the machine was revised both to eliminate a number of identified shortcomings and problems, and in the direction of improving manufacturability, taking into account the wishes of the military.\n 
-		%c[0,140,140,140]ATTACHMENTS: \n
-		%c[0,93,0,116] Х %c[0,140,140,140] Scopes: All scopes for picatinny\n
-		%c[0,93,0,116] Х %c[0,140,140,140] GP-25 grenade launcher\n
-		%c[0,93,0,116] Х %c[0,140,140,140] Silencer: 5.45/7.62 Hexagon Sound Suppressor\n</text>
-    </string>
-
- 	<string id="st_wpn_ak12_bas">
-		<text>AK-12 2012 (BaS)</text>
-	</string>
-	<string id="st_wpn_ak12_bas_descr">
-		<text>The Kalashnikov AK-12 assault rifle is the newest creation of the IZMASH factory. It is intended to replace older Kalashnikov AK-74M and AK-100 series rifles for domestic use, as well as for export. The rifle is a gas operated, selective fire rifle using traditional "Kalashnikov type" action with long stroke gas piston and rotary bolt locking. The bolt group is noticeably lightened to decrease recoil and improve accuracy in automatic fire.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] All scopes for picatinny/weaver\n
-		%c[d_purple] Х %c[ui_gray_2] GP-25 grenade launcher\n
-		%c[d_purple] Х %c[ui_gray_2] 5.45/7.62x39 Hexagon Sound Suppressor\n </text>
-	</string> -->
-
-<!-- 
-	<string id="st_wpn_svd_m1">
-		<text>SVD (BaS)</text>
-	</string>
-	<string id="st_wpn_svd_m1_descr">
-		<text>Originally intended for designated marksmen in every basic Soviet infantry unit, the Dragunov SVD was not designed for specialised sniper teams. Relatively light for a sniper rifle but well-balanced and having semiautomatic fire, its precision is good but not exceptional. It has an effective range of up to 800 metres.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes:  All dovetail mount scopes except of except of red dot sights.\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: KZRZP suppressor (after modification)\n </text>
-	</string>
-
-	<string id="st_wpn_svds">
-		<text>SVDS (BaS)</text>
-	</string>
-	<string id="st_wpn_svds_descr">
-		<text>Dragunov sniper rifle with folding stock - the SVDS variant. Was specially designed for Russian paratroopers and special forces units.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All dovetail mount scopes except of except of red dot sights.\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: TGP-V Suppressor\n </text>
-	</string>
-
-	<string id="st_wpn_rpg7">
-		<text>RPG-7 (BaS)</text>
-	</string>
-	<string id="st_wpn_rpg7_descr">
-		<text>The RPG-7 is a further development of the previous RPG-2 anti-tank grenade launcher. The RPG-7, in its first version, known as RPG-7V, has been adopted by the Soviet army in 1961, and is still fielded in Russia and at least 50 more countries. By far, RPG-7 can be considered as one of the most successful anti-tank grenade launchers ever made. Initially thought of as an anti-armour weapon, it was later adopted for other fire support missions with the introduction of other types of grenades, such as anti-infantry HE-FRAG and multi-purpose Thermobaric/FAE. The RPG-7 is a shoulder fired, single shot, smoothbore recoilless launcher, grenades are loaded from the front, and the rear of the barrel is fitted with venturi nozzle. Due to the recoilless design, the backblast is dangerous. The RPG-7 is usually issued with 2.7X fixed magnification optical sight, designated PGO-7. It is a simple and inexpensive, but possess a high threat to modern tanks and can also serve in a number of other roles, making it a flexible weapon.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: PGO-7V Sight\n </text>
-	</string>
-
-	<string id="st_wpn_colt1911_n">
-		<text>Colt M1911 (BaS)</text>
-	</string>
-	<string id="st_wpn_colt1911_n_descr">
-		<text>An improved version of a classic automatic pistol, which passed all the major armed conflicts of the 20th century with flying colours and entered the new millennium with confidence. Produced by dozens if not hundreds of arms manufacturers around the world in both standard and modified configurations. The weapon's only drawback, its mediocre magazine capacity, is largely compensated by the hard-hitting ammo it uses.\n </text>
-	</string>
-
-	<string id="st_wpn_abakan_n">
-		<text>AN-94 Abakan (BaS)</text>
-	</string>
-	<string id="st_wpn_abakan_n_descr">
-		<text>A key improvement of the AN-94 over the AK-74 is the introduction of the additional 2-rounds burst mode. Nikonov design delays the force of recoil until the fired rounds have left the barrel, which along with a unique 1800 rpm two-shot burst function increases body armour piercing capabilities of this firearm. Used by Spetsnaz operators as well as Duty members to take out armoured targets at relatively long ranges.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] GP-25 grenade launcher (after modification)\n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All dovetail mount scopes except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon.\n </text>
-	</string>
-
-	<string id="st_wpn_aps_bas">
-		<text>APS (BaS)</text>
-	</string>
-	<string id="st_wpn_aps_bas_descr">
-		<text>The Stechkin APS is a Russian selective fire machine pistol, bearing the name of its designer Igor Stechkin. The Stechkin automatic pistol was originally chambered for 7.62x25mm Tokarev but was changed to the 9x18mm caliber used in the new Makarov pistol, as it became clear that this cartridge was set to become the new service ammunition for handguns in the Soviet Army. In 1951, both the Makarov and Stechkin were introduced into the Soviet military arsenal, replacing the ageing TT-33.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Can be upgraded using Tactical Kit.\n 
-		%c[d_purple] Х %c[ui_gray_2] Silencer: None \n</text>
-	</string>
-
-	<string id="st_wpn_aps_bas_apsabigo">
-		<text>APS Upgraded (BaS)</text>
-	</string>
-	<string id="st_wpn_aps_bas_apsabigo_descr">
-		<text>The Stechkin APS is a Russian selective fire machine pistol, bearing the name of its designer Igor Stechkin. The Stechkin automatic pistol was originally chambered for 7.62x25mm Tokarev but was changed to the 9x18mm caliber used in the new Makarov pistol, as it became clear that this cartridge was set to become the new service ammunition for handguns in the Soviet Army. In 1951, both the Makarov and Stechkin were introduced into the Soviet military arsenal, replacing the ageing TT-33.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Installed Tactical Kit: Threaded barrel for using with APB sound suppressor, Tritium sights and ergonomic pistol grip rubber.\n 
-		%c[d_purple] Х %c[ui_gray_2] Silencer: APB \n</text>
-	</string> -->
-
-	<string id="st_wpn_mp133_bas">
-		<text>MP-133 (BaS)</text>
-	</string>
-	<string id="st_wpn_mp133_bas_descr">
-		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets. It is produced in two basic versions: standard MP-133 with tubular magazine and MP-133K with detachable box magazine, both versions can be in various barrel lengths and styles, wood or polymer furniture, fixed or side folding polymer stock or pistol grip only. The MP-133 shotgun uses traditional pump action with sliding forend that has dual action bars. Locking is achieved by a tilting locking piece, installed in the bolt and engages the notch in the barrel extension when in battery. Feed is from tubular under-barrel magazine that holds 4 rounds, though capacity can be enhanced by installing magazine extension tubes.\n </text>
-	</string>
-
-	<string id="st_wpn_mp153_bas">
-		<text>MP-153 (BaS)</text>
-	</string>
-	<string id="st_wpn_mp153_bas_descr">
-		<text>The MP-153 self-loading shotgun was the first semi-automatic shotgun designed and manufactured by Izhevsk Mechanical Plant. It was developed along with the pump action MP-133 shotgun and shares many parts and assemblies with it. The MP-153 is one of the most popular semi-automatic shotguns of Russian origin, and is widely used to hunt various games in Russia. It is also sold for export, it is known as Remington "Spartan" SPR-453 autoloader in US. MP-153 shotguns are known for solid but somewhat heavy construction and reliability.\n</text>
-	</string>
-
-<!-- 	<string id="st_wpn_gauss_bas">
-		<text>Gauss rifle (BaS)</text>
-	</string>
-	<string id="st_wpn_gauss_bas_descr">
-		<text>A highly experimental, artefact-powered, super-accurate weapon made by an unknown party in the Zone. Its gunshot is nearly inaudible, because instead of gunpowder, it uses magnets to accelerate its bullet to incredible speeds. Despite the gauss rifle's tremendous firepower, the recoil is insignificant. The accuracy and power of this gun exceeds those of all other small arms.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Enhanced computer EOTS-62 scope (integrated)</text>
-	</string>
-
-	<string id="st_wpn_umirotvoritel_bas">
-		<text>Unidentified weapon (BaS)</text>
-	</string>
-	<string id="st_wpn_umirotvoritel_bas_descr">
-		<text>An unknown weapon, the firing mechanism of which has not been established. The weapon appears faulty - squeezing the trigger doesn't do anything. It's very heavy and definitely high-tech. Of note is that it appears not to fire bullets based on ignition. Most probably, the rounds are propelled by electro-magnetic forces. One can only suspect what kind of destructive potential it possesses.</text>
-	</string>
-
-	<string id="st_wpn_pb_bas">
-		<text>PB (BaS)</text>
-	</string>
-	<string id="st_wpn_pb_bas_custom">
-		<text>PB (modern) (BaS)</text>
-	</string>
-	<string id="st_wpn_pb_bas_descr">
-		<text>The PB (Pistolet Besshumnyj or Silent Pistol), also known in the Soviet army as 6P9, has been developed in 1967 for Spetsnaz units of the Soviet Army, as well as for KGB operatives. The pistol is based on a modified Makarov PM pistol and features an unique integral two part suppressor. Issued into service in 1967, the PB (GRAU index 6P9) is a Soviet silenced pistol based on the Makarov PM. It was intended for use by the KGB and army reconnaissance groups. The front part of the suppressor is detachable, so that the pistol can be broken down into two parts for convenient carry. The PB's integral suppressor also reduces the bullet velocity to below subsonic levels.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] 6P9 suppressor (integrated)</text>
-	</string> -->
-
-<!-- 	
-	<string id="st_wpn_aug_a1_bas">
-		<text>Steyr AUG A1 (BaS)</text>
-	</string>
-	<string id="st_wpn_aug_a1_bas_descr">
-		<text>Steyr AUG A1 in standard rifle configuration (military green colour). The AUG is an Austrian bullpup 5.56mm assault rifle, designed in the 1960s by Steyr Mannlicher GmbH &amp; Co KG (formerly Steyr-Daimler-Puch). The AUG (Armee-Universal-Gewehr "universal army rifle") was adopted by the Austrian Army as the StG 77 (Sturmgewehr 77) in 1978, where it replaced the 7.62mm StG 58 automatic rifle (a licence-built FN FAL). In production since 1978, it is the standard small arm of the Austrian Bundesheer and various national police units.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] 1.5x scope (integrated).\n 
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: Steyr UMS \n</text>
-	</string>
-	
-	<string id="st_wpn_aug_a3_bas">
-		<text>Steyr AUG A3 (BaS)</text>
-	</string>
-	<string id="st_wpn_aug_a3_bas_descr">
-		<text>Steyr AUG (Armee Universal Gewehr - Army Universal Rifle) is an Austrian 5.56x45mm NATO bullpup assault rifle, designed in the 1960s by Steyr-Daimler-Puch and now manufactured by Steyr Mannlicher GmbH & Co KG. The Steyr AUG A3 differs from the base model in the presence of four Picatinny slats: the top one is used for attaching sights, a grenade launcher or a vertical front handle can be attached to the bottom, and a laser pointer or other necessary additional equipment is attached to the side.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver except of scopes with very low mounting: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight.\n 
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: Steyr UMS \n</text>
-	</string>		 -->
 
 	<string id="st_wpn_aug_a1_custom_bas">
 		<text>Steyr AUG A1 CQB (BaS)</text>
@@ -353,6 +61,79 @@
 		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
 
+	<string id="st_wpn_howa20">
+		<text>Howa Type 20 (BaS)</text>
+	</string>
+	<string id="st_wpn_howa20_descr">
+		<text>The assault rifle was officially unveiled to the public in May 2020. This weapon is intended to replace the Type 89 assault rifle, which has been in service for about 30 years. The new rifle of the Japanese Self-Defense Forces, like the previous one, was developed by Howa Machinery Co, and uses 5.56 mm ammunition. The development of a new rifle to replace the Type 89 began at the request of the Japanese Armed Forces in 2014. Externally and structurally, the new Type 20 rifle is a kind of arithmetic mean of many modern rifles, such as the HK433 or CZ BREN II, and, apparently, does not have any original features. However, there is nothing wrong with this, since it is not the originality of the design that is required from the army weapon, but reliability, low price and compliance with the customer's requirements. It remains a mystery how and in what quantity this rifle came to the participants of a scientific expedition to the Zone.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Includes: MARCH Shorty scope and AN/PEQ-15A DBAL-A2 Laser Device\n
+		%c[d_purple] Х %c[ui_gray_2] Silencer: NATO suppressor</text>
+	</string>
+
+	<string id="st_wpn_m4_ru556">
+		<text>Ruger SR-556 (BaS)</text>
+	</string>
+	<string id="st_wpn_m4_ru556_descr">
+		<text>Several of these rifles entered the Zone through scientists. According to legend, Professor Sakharov received 6 small containers with these guns from foreign sponsors, but 5 of them were lost during transportation. Ruger SR-556 is an American self-loading carbine manufactured by the arms company Sturm, Ruger & Company, Inc. became the first Ruger of the AR-10 family. Ruger SR-762 chambered for .308. Belongs to a few samples of AR-15 rifles using the removal of powder gases. Production ceased in January 2016 after the introduction of the Keymod Lightweight option.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it. \n
+		%c[d_purple] Х %c[ui_gray_2] Scopes:  All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\\n
+		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
+	</string>
+
+	<string id="st_wpn_mp133_bas">
+		<text>MP-133 (BaS)</text>
+	</string>
+	<string id="st_wpn_mp133_bas_descr">
+		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets. It is produced in two basic versions: standard MP-133 with tubular magazine and MP-133K with detachable box magazine, both versions can be in various barrel lengths and styles, wood or polymer furniture, fixed or side folding polymer stock or pistol grip only. The MP-133 shotgun uses traditional pump action with sliding forend that has dual action bars. Locking is achieved by a tilting locking piece, installed in the bolt and engages the notch in the barrel extension when in battery. Feed is from tubular under-barrel magazine that holds 4 rounds, though capacity can be enhanced by installing magazine extension tubes.\n </text>
+	</string>
+
+	<string id="st_wpn_mp153_bas">
+		<text>MP-153 (BaS)</text>
+	</string>
+	<string id="st_wpn_mp153_bas_descr">
+		<text>The MP-153 self-loading shotgun was the first semi-automatic shotgun designed and manufactured by Izhevsk Mechanical Plant. It was developed along with the pump action MP-133 shotgun and shares many parts and assemblies with it. The MP-153 is one of the most popular semi-automatic shotguns of Russian origin, and is widely used to hunt various games in Russia. It is also sold for export, it is known as Remington "Spartan" SPR-453 autoloader in US. MP-153 shotguns are known for solid but somewhat heavy construction and reliability.\n</text>
+	</string>
+
+    <string id="st_wpn_mp153_m1">
+        <text>Carabineer (BaS)</text>
+    </string>
+    <string id="st_wpn_mp153_m1_descr">
+		<text>A customized version of the MP-153 shotgun. Capable of semi-automatic fire like its predecessor, but provides better recoil compensation thanks to the quite effective muzzle brake. It also has Picatinny rail which allows to use reflex and holographic sights and ability to use sound suppressor.\n
+	    %c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Scopes: Due to the position of the stock, it is possible to install sights only with a very low mount: Barska AC10632, C-More, Docter Sight, Aimpoint T1, Trijicon RMR, Leupold DeltaPoint PRO, OKP-7, 1P76 Rakurs. \n \n
+		%c[d_purple] Х %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
+    </string>
+
+	<string id="st_wpn_pk_siber">
+    	<text>PK (BaS)</text>
+  	</string>
+  	<string id="st_wpn_pk_siber_descr">
+		<text>The PK (Pulemyot Kalashnikova, or "Kalashnikov's machine gun"), is a belt-fed general-purpose machine gun, chambered for the 7.62?54mmR rimmed cartridge. Designed in the Soviet Union and currently in production in Russia, the original PK machine gun was introduced in 1961 and the improved PKM variant was introduced in 1969. The PK was designed to replace the SGM and RP-46 machine guns that were previously in Soviet service. The weapon remains in use as a front-line infantry and vehicle-mounted weapon with Russia's armed forces and has also been exported extensively and produced in several other countries under license.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] None</text>
+  	</string>
+
+	<string id="st_wpn_pkm_siber">
+		<text>PKM (BaS)</text>
+	</string>
+	<string id="st_wpn_pkm_siber_descr">
+		<text>Modification of an army machine gun with belt feed. Despite the high mass and unsatisfactory accuracy, it has found a fairly wide application in the Zone. It is mainly used to suppress an enemy outnumbered and when clearing mutant lairs.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] None \n</text>
+	</string>
+
+	<string id="st_wpn_pkp_siber">
+		<text>PKP Pecheneg (BaS)</text>
+	</string>
+	<string id="st_wpn_pkp_siber_descr">
+		<text>The PKP "Pecheneg" is a Russian light machine gun chambered for the 7.62x54mmR round. It is a modernised PKM machine gun. The Pecheneg is said to be more accurate than all its predecessors due to a heavier, non-removable, forced air cooling barrel with radial cooling ribs and a handle which eliminates the haze effect from hot gases and keeps the barrel cooler, making the weapon more reliable.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Scopes: all scopes for Dovetail mount\n
+		%c[d_purple] Х %c[ui_gray_2] Silencer: KZRZP suppressor</text>
+	</string>
+
 	<string id="st_wpn_scar_siber">
 		<text>FN SCAR-H (BaS)</text>
 	</string>
@@ -364,84 +145,49 @@
 		%c[d_purple] Х %c[ui_gray_2] Grenade Launcher: FN HERSTAL FN40GL Mk2\n</text>
 	</string>
 
-	<!-- <string id="st_wpn_scar_siber_black">
-		<text>FN SCAR-H (Black) (BaS)</text>
+	<string id="st_wpn_scar_l_tac">
+		<text>Scar-L CQB (BaS)</text>
 	</string>
-	<string id="st_wpn_scar_siber_black_descr">
-		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n \n
+	<string id="st_wpn_scar_l_tac_descr">
+		<text>The FN SCAR-L (Special Operation Forces Combat Assault Rifle - Light) assault rifle chambered in 5.56x45 NATO rounds, was adopted by USSOCOM (United States Special Operations Command) as the Mk 16. Features a side-folding polymer stock and a free-floating, cold hammer-forged Mil-Spec barrel with hardchromed bore. Fully-ambidextrous operating controls instantly adapt the SCAR to any user or any shooting position. The receiver-integrated optical rail plus three accessory rails enable mounting of a wide variety of scopes, electronic sights, tactical lights and lasers. Manufactured by Fabrique Nationale Herstal. Comes in black and flat dark earth.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: AAC 7.62 SDN-6\n
-		%c[d_purple] Х %c[ui_gray_2] Grenade Launcher: FN HERSTAL FN40GL Mk2\n</text>
+		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, B.E. MEYERS MAWL-C1 tactical green laser aim modul (included) \n
+		%c[d_purple] Х %c[ui_gray_2] Silencer: NATO suppressor</text>
 	</string>
 
-	<string id="st_wpn_scar_siber_m1">
-		<text>FN SCAR-H Tactical (BaS)</text>
+	<string id="st_wpn_sig550_tac_siber">
+		<text>SIG SG550 Tactical (BaS)</text>
 	</string>
-	<string id="st_wpn_scar_siber_m1_descr">
-		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n \n
+	<string id="st_wpn_sig550_tac_siber_descr">
+		<text>Renowned for its high production quality and good performance, the SG 550 is often referred to as the finest 5.56 mm rifle ever made. It has a side-folding skeletonised buttstock and a lightweight aluminium bipod that folds into grooves in the lower handguard.\n \n
 		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Tactical Magpull foregrip, Tritium Sights\n		
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: AAC 7.62 SDN-6\n
-		%c[d_purple] Х %c[ui_gray_2] Grenade Launcher: none\n</text>
+	    %c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Tactical handguard, Vertical grip, AN/PEQ-16 Laser Aim modul and Tritium sights.\n 
+		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
+		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor\n
+	    %c[d_purple] Х %c[ui_gray_2] M203 grenade launcher\n</text>
 	</string>
 
-	<string id="st_wpn_scar_siber_m1_black">
-		<text>FN SCAR-H Tactical Black (BaS)</text>
+	<string id="st_wpn_sig552_tac_siber">
+		<text>SIG SG552 Tac Commando (BaS)</text>
 	</string>
-	<string id="st_wpn_scar_siber_m1_black_descr">
-		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n \n
+	<string id="st_wpn_sig552_tac_siber_descr">
+		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities.\n \n
 		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Tactical Magpull foregrip, Tritium Sights\n	
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: AAC 7.62 SDN-6\n
-		%c[d_purple] Х %c[ui_gray_2] Grenade Launcher: none\n</text>
+	    %c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Vertical grip, AN/PEQ-16 Laser Aim modul and Tritium sights.\n 		
+		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
+		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
 
-	<string id="st_wpn_scar_siber_m2">
-		<text>FN SCAR-H Expert Operator (BaS)</text>
-	</string>
-	<string id="st_wpn_scar_siber_m2_descr">
-		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n \n
+	<string id="st_wpn_usp_tac">
+        <text>HK USP Match Tactical (BaS)</text>
+    </string>
+    <string id="st_wpn_usp_tac_descr">
+        <text>This is a modification of the HK USP Match specially developed for scientists by the personal order of Professor Sakhorov, designed for use in the "Specialist-Scientist" kit. The operation of the system of mechanisms is improved with the help of artifacts. The difference from the standard USP Match is the ability to install a silencer. The gun is equipped with an enlarged magazine for 22 rounds of 9mm caliber. (The Specialist-Scientist kit includes: BCC Savant, HK USP Match Tactical, Monolith Blade).\n
 		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Tactical Magpull foregrip, Tritium Sights, B.E. MEYERS MAWL-C1 tactical green laser aim modul\n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: AAC 7.62 SDN-6\n
-		%c[d_purple] Х %c[ui_gray_2] Grenade Launcher: none\n</text>
-	</string>
-	
-	<string id="st_wpn_scar_siber_m2_custom">
-		<text>FN SCAR-H Specialist Operator (BaS)</text>
-	</string>
-	<string id="st_wpn_scar_siber_m2_custom_descr">
-		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Installed Upgrades: B.E. MEYERS MAWL-C1 tactical green laser aim modul\n
-		%c[d_purple] Х %c[ui_gray_2] Scopes installed: Vortex RAZOR UH-1 и EOTech G33.STS magnifier.\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: AAC 7.62 SDN-6\n
-		%c[d_purple] Х %c[ui_gray_2] Grenade Launcher: none\n</text>
-	</string>
-
-	<string id="st_wpn_korth">
-		<text>Korth 4" Barrel (BaS)</text>
-	</string>
-	<string id="st_wpn_korth_descr">
-		<text>Korth is a high-end firearms manufacturer based in Lollar, Hesse, Germany. Korth. For some gun aficionados, nothing more needs to be said. Builders in the tradition of ultimate European luxury brands, Korth are perhaps best known for revolvers with price tags that most people would find easier to associate with German cars than German guns. But that out-of-this-world pricing reputation which is the stuff of gun counter lore world wide is derived from their full custom stuff; the entry point is far more accessible. The starting point for a Korth is around the starting point for a Rolex: five thousand dollars will put some of that European goodness in your hands, and it will sure be memorable. Korth guns are legendary.\n
-		%c[ui_gray_2]ATTACHMENTS: \n		
-		%c[d_purple] Х %c[ui_gray_2] Silencer: none\n </text>
-	</string>
-
-	<string id="st_wpn_korth_custom">
-		<text>Korth 6" Barrel (BaS)</text>
-	</string>
-	<string id="st_wpn_korth_custom_descr">
-		<text>Korth is a high-end firearms manufacturer based in Lollar, Hesse, Germany. Korth is a high-end firearms manufacturer based in Lollar, Hesse, Germany. Korth. For some gun aficionados, nothing more needs to be said. Builders in the tradition of ultimate European luxury brands, Korth are perhaps best known for revolvers with price tags that most people would find easier to associate with German cars than German guns. But that out-of-this-world pricing reputation which is the stuff of gun counter lore world wide is derived from their full custom stuff; the entry point is far more accessible. The starting point for a Korth is around the starting point for a Rolex: five thousand dollars will put some of that European goodness in your hands, and it will sure be memorable. Korth guns are legendary.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Installed long 6 inch threaded barrel.\n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: Docter Sight\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: BLACK BOX .45\n </text>
-	</string> -->
+		%c[d_purple] Х %c[ui_gray_2] The kit includes Laser Aiming Module and Red Dot Sights mount.\n
+		%c[d_purple] Х %c[ui_gray_2] Scopes: Docter Sight, Aimpoint T1 (low mount), Trijicon RMR, Leupold DeltaPoint PRO.\n
+		%c[d_purple] Х %c[ui_gray_2] Silencer: Gemtech suppressor</text>
+    </string>
 
 	<string id="st_grenade_launcher">
 		<text>GP-25 "Kostyor" grenade launcher (BaS+Van)</text>
@@ -463,129 +209,6 @@
 		%c[d_purple] Х %c[ui_gray_2] fire range: %c[ui_gray_1]~300 m\n
 		%c[d_purple] Х %c[ui_gray_2] reload time: %c[ui_gray_1]slow\n
 		%c[d_purple] Х %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade</text>
-	</string>
-
-	<string id="st_wpn_howa20">
-		<text>Howa Type 20 (BaS)</text>
-	</string>
-	<string id="st_wpn_howa20_descr">
-		<text>The assault rifle was officially unveiled to the public in May 2020. This weapon is intended to replace the Type 89 assault rifle, which has been in service for about 30 years. The new rifle of the Japanese Self-Defense Forces, like the previous one, was developed by Howa Machinery Co, and uses 5.56 mm ammunition. The development of a new rifle to replace the Type 89 began at the request of the Japanese Armed Forces in 2014. Externally and structurally, the new Type 20 rifle is a kind of arithmetic mean of many modern rifles, such as the HK433 or CZ BREN II, and, apparently, does not have any original features. However, there is nothing wrong with this, since it is not the originality of the design that is required from the army weapon, but reliability, low price and compliance with the customer's requirements. It remains a mystery how and in what quantity this rifle came to the participants of a scientific expedition to the Zone.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Includes: MARCH Shorty scope and AN/PEQ-15A DBAL-A2 Laser Device\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: NATO suppressor</text>
-	</string>
-
-<!-- 	<string id="st_wpn_ar15_freedom">
-		<text>AR-15 HERA (BaS)</text>
-	</string>
-	<string id="st_wpn_ar15_freedom_descr">
-		<text>A deeply modernized AR15 rifle, usually in service with the veterans of the Freedom. The body kit installed on the weapon allows you to feel confident at any firing range, but at the same time, the weapon is distinguished by a high price due to the use of very expensive components in the kit.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
-		%c[d_purple] Х %c[ui_gray_2] Installed Upgrades: B.E. MEYERS MAWL-C1 tactical green laser aim modul and Here Arms foregrip (helps in recoil control) and stock.\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: Surefire SOCOM556-MONSTER\n </text>
-	</string>
-
-	<string id="st_wpn_sig550_siber">
-		<text>SIG SG550 (BaS)</text>
-	</string>
-	<string id="st_wpn_sig550_siber_descr">
-		<text>Renowned for its high production quality and good performance, the SG 550 is often referred to as the finest 5.56 mm rifle ever made. It has a side-folding skeletonised buttstock and a lightweight aluminium bipod that folds into grooves in the lower handguard.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: ADVANCED ARMAMENT (AAC) M4-2000\n</text>
-	</string> -->
-	
-		<string id="st_wpn_sig550_tac_siber">
-		<text>SIG SG550 Tactical (BaS)</text>
-	</string>
-	<string id="st_wpn_sig550_tac_siber_descr">
-		<text>Renowned for its high production quality and good performance, the SG 550 is often referred to as the finest 5.56 mm rifle ever made. It has a side-folding skeletonised buttstock and a lightweight aluminium bipod that folds into grooves in the lower handguard.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-	    %c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Tactical handguard, Vertical grip, AN/PEQ-16 Laser Aim modul and Tritium sights.\n 
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor\n
-	    %c[d_purple] Х %c[ui_gray_2] M203 grenade launcher\n</text>
-	</string>
-
-<!-- <string id="st_wpn_sig552_siber">
-		<text>SIG SG552 Commando (BaS)</text>
-	</string>
-	<string id="st_wpn_sig552_siber_descr">
-		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: ADVANCED ARMAMENT (AAC) M4-2000\n</text>
-	</string> -->
-
-	<string id="st_wpn_sig552_tac_siber">
-		<text>SIG SG552 Tac Commando (BaS)</text>
-	</string>
-	<string id="st_wpn_sig552_tac_siber_descr">
-		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-	    %c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Vertical grip, AN/PEQ-16 Laser Aim modul and Tritium sights.\n 		
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
-	</string>
-
-<!--	<string id="st_wpn_sig552_isg_siber">
-		<text>SIG SG552 Commando ISG (BaS)</text>
-	</string>
-	<string id="st_wpn_sig552_isg_siber_descr">
-		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities. This version of SG552 was seen in use of ISG infiltration teams.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-	    %c[d_purple] Х %c[ui_gray_2] Installed Upgrades: Magpul tactical grip  and sights, B.E. MEYERS MAWL-C1 tactical green laser aim modul.\n 		
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: Rifle Dynamics ISG Sound Suppressor\n</text>
-	</string> -->
-
-	<string id="st_wpn_pkm_siber">
-		<text>PKM (BaS)</text>
-	</string>
-	<string id="st_wpn_pkm_siber_descr">
-		<text>Modification of an army machine gun with belt feed. Despite the high mass and unsatisfactory accuracy, it has found a fairly wide application in the Zone. It is mainly used to suppress an enemy outnumbered and when clearing mutant lairs.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] None \n</text>
-	</string>
-
-<!-- 	<string id="st_wpn_adar2_15">
-		<text>ADAR 2-15 (BaS)</text>
-	</string>
-	<string id="st_wpn_adar2_15_descr">
-		<text>The ADAR 2-15 Russian civilian carbine that is based on the design of the AR-15. The carbine is produced in St. Petersburg with use of Israeli components and chrome barrels made by Molot Arms.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount) and OKP-7.\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: ADVANCED ARMAMENT (AAC) M4-2000\n</text>
-	</string> -->
-
-	<string id="st_wpn_pk_siber">
-    	<text>PK (BaS)</text>
-  	</string>
-  	<string id="st_wpn_pk_siber_descr">
-		<text>The PK (Pulemyot Kalashnikova, or "Kalashnikov's machine gun"), is a belt-fed general-purpose machine gun, chambered for the 7.62?54mmR rimmed cartridge. Designed in the Soviet Union and currently in production in Russia, the original PK machine gun was introduced in 1961 and the improved PKM variant was introduced in 1969. The PK was designed to replace the SGM and RP-46 machine guns that were previously in Soviet service. The weapon remains in use as a front-line infantry and vehicle-mounted weapon with Russia's armed forces and has also been exported extensively and produced in several other countries under license.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] None</text>
-  	</string>
-
-	<string id="st_wpn_scar_l_tac">
-		<text>Scar-L CQB (BaS)</text>
-	</string>
-	<string id="st_wpn_scar_l_tac_descr">
-		<text>The FN SCAR-L (Special Operation Forces Combat Assault Rifle - Light) assault rifle chambered in 5.56x45 NATO rounds, was adopted by USSOCOM (United States Special Operations Command) as the Mk 16. Features a side-folding polymer stock and a free-floating, cold hammer-forged Mil-Spec barrel with hardchromed bore. Fully-ambidextrous operating controls instantly adapt the SCAR to any user or any shooting position. The receiver-integrated optical rail plus three accessory rails enable mounting of a wide variety of scopes, electronic sights, tactical lights and lasers. Manufactured by Fabrique Nationale Herstal. Comes in black and flat dark earth.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, B.E. MEYERS MAWL-C1 tactical green laser aim modul (included) \n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: NATO suppressor</text>
-	</string>
-
-		<string id="st_wpn_pkp_siber">
-		<text>PKP Pecheneg (BaS)</text>
-	</string>
-	<string id="st_wpn_pkp_siber_descr">
-		<text>The PKP "Pecheneg" is a Russian light machine gun chambered for the 7.62x54mmR round. It is a modernised PKM machine gun. The Pecheneg is said to be more accurate than all its predecessors due to a heavier, non-removable, forced air cooling barrel with radial cooling ribs and a handle which eliminates the haze effect from hot gases and keeps the barrel cooler, making the weapon more reliable.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: all scopes for Dovetail mount\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: KZRZP suppressor</text>
 	</string>
 
 </string_table>

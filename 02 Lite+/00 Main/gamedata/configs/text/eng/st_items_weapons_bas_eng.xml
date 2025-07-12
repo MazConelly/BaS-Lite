@@ -5,7 +5,7 @@
 -->
 
 <string_table>
-	
+
 	<string id="st_not_in_use">
         <text>ѕредмет не используетс€/The Item is not in use (BaS)</text>
     </string>
@@ -24,20 +24,9 @@
         <text>Kukri (BaS)</text>
     </string>
     <string id="st_kukri_descr">
-        <text>This is a special blade made of high-carbon spring-spring steel of the bus, which for many years stood in an anomal field, and therefore has excellent cutting and chopping properties. Ideal for cutting mutants of all stripes, and for protection against them.</text>
+        <text>This is a special blade made of high-carbon spring-spring steel of the bus, which for many years stood in an anomalous field, and therefore has excellent cutting and chopping properties. Ideal for cutting mutants of all stripes, and for protection against them.</text>
 		</string>
 
-<!-- 	<string id="st_wpn_ak12_m1">
-        <text>ј -12 (2016) (BaS)</text>
-    </string>
-    <string id="st_wpn_ak12_m1_descr">
-        <text>The version of the AK-12 presented to the public in 2016. It differs quite significantly in appearance and in the design of a number of important units from the previous version of the AK-12 shown in 2015. The design of the machine was revised both to eliminate a number of identified shortcomings and problems, and in the direction of improving manufacturability, taking into account the wishes of the military.\n 
-		%c[0,140,140,140]ATTACHMENTS: \n
-		%c[0,93,0,116] Х %c[0,140,140,140] Scopes: All scopes for picatinny\n
-		%c[0,93,0,116] Х %c[0,140,140,140] GP-25 grenade launcher\n
-		%c[0,93,0,116] Х %c[0,140,140,140] Silencer: 5.45/7.62 Hexagon Sound Suppressor\n</text>
-    </string> -->
-		
 		<string id="st_wpn_usp_tac">
         <text>HK USP Match Tactical (BaS)</text>
     </string>
@@ -48,9 +37,7 @@
 		%c[d_purple] Х %c[ui_gray_2] Scopes: Docter Sight, Aimpoint T1 (low mount), Trijicon RMR, Leupold DeltaPoint PRO.\n
 		%c[d_purple] Х %c[ui_gray_2] Silencer: Gemtech suppressor</text>
     </string>
-	
-	
-	
+
 <!-- 	<string id="st_wpn_vintorez_m1">
 		<text>VSS "Savant" (BaS)</text>
 	</string>
@@ -73,15 +60,14 @@
 		%c[d_purple] Х %c[ui_gray_2] Fab Defense stock and foregrip are installed\n
 		%c[d_purple] Х %c[ui_gray_2] suppressor VSS (integrated)\n </text>
 	</string> -->
-	
-	
+
 	<string id="st_tactical_knife">
 		<text>Monolith's Blade (BaS)</text>
 	</string>
 	<string id="st_tactical_knife_descr">
 		<text>[RUSSIAN ACCENT "ON"] It is rumoured, these blades are produced in very a few by masters from a groupment Monolith. Threw composition of alloy not known - it is talked to extract him it is possible only in the heart of sarcophagus.[RUSSIAN ACCENT "OFF"]</text>
 	</string>
-	
+
 	<string id="st_wpn_m4_ru556">
 		<text>Ruger SR-556 (BaS)</text>
 	</string>
@@ -92,17 +78,7 @@
 		%c[d_purple] Х %c[ui_gray_2] Scopes:  All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\\n
 		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
-	
-<!-- 	<string id="st_wpn_ak74m_beard">
-		<text>AK-74M Beard (BaS)</text>
-	</string>
-	<string id="st_wpn_ak74m_beard_descr">
-		<text>This AK, a kind of beard venom (not to be confused with his tea). Lightweight and tailored to the harsh conditions of the Zone. Does not provide for mounting a grenade launcher. It is made at Skadovsk and Yanov Station, from where it disperses throughout the Zone.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: all scopes for Dovetail mount (except of 1p59 Giperon and PSO scopes with an eyecup) and all red dot sights (except of Aimpoint PRO and Aimpoint T1 with high mount and Barska 11090). The use of PSO scopes with an eyecup on this weapon is highly not recommended.\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: TGP-A. No Grenade Launcher available for this model\n </text>
-	</string> -->
-	
+
 <!-- 	<string id="st_wpn_vintorez_isg">
 		<text>Rifle Dynamics RD-9x39 ISG (BaS)</text>
 	</string>
@@ -158,27 +134,7 @@
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for dovetail mount\n
 		%c[d_purple] Х %c[ui_gray_2] VSS suppressor (integrated)\n </text>
-	</string>	
-
-	<string id="st_wpn_ak74u_n1">
-		<text>AKS-74U (BaS)</text>
-	</string>
-	<string id="st_wpn_ak74u_n1_descr">
-		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for dovetail mount (except of PSO scopes with eye cup and 1P59 Giperon). The use of PSO scopes with an eyecup on this weapon is highly not recommended.\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: PBS-4 suppressor\n </text>
-	</string>
-
-	<string id="st_wpn_ak74u_tac">
-		<text>AKS-74U Tactical (BaS)</text>
-	</string>
-	<string id="st_wpn_ak74u_tac_descr">
-		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range. This special variant has a 45 round RPK magazine.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All scopes for dovetail mount (except of PSO scopes with eye cup and 1P59 Giperon) and all Red Dot Sights except of Aimpoint PRO and Aimpoint T1 with high mount.\n
-		%c[d_purple] Х %c[ui_gray_2] Silencer: PBS-4 suppressor</text>
-	</string> -->
+	</string>	 -->
 
     <string id="st_wpn_mp153_m1">
         <text>Carabineer (BaS)</text>
@@ -329,6 +285,101 @@
 	</string>
 	<string id="st_wpn_mp133_bas_descr">
 		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets. It is produced in two basic versions: standard MP-133 with tubular magazine and MP-133K with detachable box magazine, both versions can be in various barrel lengths and styles, wood or polymer furniture, fixed or side folding polymer stock or pistol grip only. The MP-133 shotgun uses traditional pump action with sliding forend that has dual action bars. Locking is achieved by a tilting locking piece, installed in the bolt and engages the notch in the barrel extension when in battery. Feed is from tubular under-barrel magazine that holds 4 rounds, though capacity can be enhanced by installing magazine extension tubes.\n </text>
+
+<!-- 	<string id="st_wpn_ak12_m1">
+        <text>ј -12 (2016) (BaS)</text>
+    </string>
+    <string id="st_wpn_ak12_m1_descr">
+        <text>The version of the AK-12 presented to the public in 2016. It differs quite significantly in appearance and in the design of a number of important units from the previous version of the AK-12 shown in 2015. The design of the machine was revised both to eliminate a number of identified shortcomings and problems, and in the direction of improving manufacturability, taking into account the wishes of the military.\n 
+		%c[0,140,140,140]ATTACHMENTS: \n
+		%c[0,93,0,116] Х %c[0,140,140,140] Scopes: All scopes for picatinny\n
+		%c[0,93,0,116] Х %c[0,140,140,140] GP-25 grenade launcher\n
+		%c[0,93,0,116] Х %c[0,140,140,140] Silencer: 5.45/7.62 Hexagon Sound Suppressor\n</text>
+    </string>
+
+ 	<string id="st_wpn_ak12_bas">
+		<text>AK-12 2012 (BaS)</text>
+	</string>
+	<string id="st_wpn_ak12_bas_descr">
+		<text>The Kalashnikov AK-12 assault rifle is the newest creation of the IZMASH factory. It is intended to replace older Kalashnikov AK-74M and AK-100 series rifles for domestic use, as well as for export. The rifle is a gas operated, selective fire rifle using traditional "Kalashnikov type" action with long stroke gas piston and rotary bolt locking. The bolt group is noticeably lightened to decrease recoil and improve accuracy in automatic fire.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] All scopes for picatinny/weaver\n
+		%c[d_purple] Х %c[ui_gray_2] GP-25 grenade launcher\n
+		%c[d_purple] Х %c[ui_gray_2] 5.45/7.62x39 Hexagon Sound Suppressor\n </text>
+	</string> -->
+
+<!-- 
+	<string id="st_wpn_svd_m1">
+		<text>SVD (BaS)</text>
+	</string>
+	<string id="st_wpn_svd_m1_descr">
+		<text>Originally intended for designated marksmen in every basic Soviet infantry unit, the Dragunov SVD was not designed for specialised sniper teams. Relatively light for a sniper rifle but well-balanced and having semiautomatic fire, its precision is good but not exceptional. It has an effective range of up to 800 metres.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Scopes:  All dovetail mount scopes except of except of red dot sights.\n
+		%c[d_purple] Х %c[ui_gray_2] Silencer: KZRZP suppressor (after modification)\n </text>
+	</string>
+
+	<string id="st_wpn_svds">
+		<text>SVDS (BaS)</text>
+	</string>
+	<string id="st_wpn_svds_descr">
+		<text>Dragunov sniper rifle with folding stock - the SVDS variant. Was specially designed for Russian paratroopers and special forces units.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Scopes: All dovetail mount scopes except of except of red dot sights.\n
+		%c[d_purple] Х %c[ui_gray_2] Silencer: TGP-V Suppressor\n </text>
+	</string>
+
+	<string id="st_wpn_rpg7">
+		<text>RPG-7 (BaS)</text>
+	</string>
+	<string id="st_wpn_rpg7_descr">
+		<text>The RPG-7 is a further development of the previous RPG-2 anti-tank grenade launcher. The RPG-7, in its first version, known as RPG-7V, has been adopted by the Soviet army in 1961, and is still fielded in Russia and at least 50 more countries. By far, RPG-7 can be considered as one of the most successful anti-tank grenade launchers ever made. Initially thought of as an anti-armour weapon, it was later adopted for other fire support missions with the introduction of other types of grenades, such as anti-infantry HE-FRAG and multi-purpose Thermobaric/FAE. The RPG-7 is a shoulder fired, single shot, smoothbore recoilless launcher, grenades are loaded from the front, and the rear of the barrel is fitted with venturi nozzle. Due to the recoilless design, the backblast is dangerous. The RPG-7 is usually issued with 2.7X fixed magnification optical sight, designated PGO-7. It is a simple and inexpensive, but possess a high threat to modern tanks and can also serve in a number of other roles, making it a flexible weapon.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Scopes: PGO-7V Sight\n </text>
+	</string>
+
+	<string id="st_wpn_colt1911_n">
+		<text>Colt M1911 (BaS)</text>
+	</string>
+	<string id="st_wpn_colt1911_n_descr">
+		<text>An improved version of a classic automatic pistol, which passed all the major armed conflicts of the 20th century with flying colours and entered the new millennium with confidence. Produced by dozens if not hundreds of arms manufacturers around the world in both standard and modified configurations. The weapon's only drawback, its mediocre magazine capacity, is largely compensated by the hard-hitting ammo it uses.\n </text>
+	</string>
+
+	<string id="st_wpn_abakan_n">
+		<text>AN-94 Abakan (BaS)</text>
+	</string>
+	<string id="st_wpn_abakan_n_descr">
+		<text>A key improvement of the AN-94 over the AK-74 is the introduction of the additional 2-rounds burst mode. Nikonov design delays the force of recoil until the fired rounds have left the barrel, which along with a unique 1800 rpm two-shot burst function increases body armour piercing capabilities of this firearm. Used by Spetsnaz operators as well as Duty members to take out armoured targets at relatively long ranges.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] GP-25 grenade launcher (after modification)\n
+		%c[d_purple] Х %c[ui_gray_2] Scopes: All dovetail mount scopes except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon.\n </text>
+	</string>
+
+	<string id="st_wpn_aps_bas">
+		<text>APS (BaS)</text>
+	</string>
+	<string id="st_wpn_aps_bas_descr">
+		<text>The Stechkin APS is a Russian selective fire machine pistol, bearing the name of its designer Igor Stechkin. The Stechkin automatic pistol was originally chambered for 7.62x25mm Tokarev but was changed to the 9x18mm caliber used in the new Makarov pistol, as it became clear that this cartridge was set to become the new service ammunition for handguns in the Soviet Army. In 1951, both the Makarov and Stechkin were introduced into the Soviet military arsenal, replacing the ageing TT-33.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Can be upgraded using Tactical Kit.\n 
+		%c[d_purple] Х %c[ui_gray_2] Silencer: None \n</text>
+	</string>
+
+	<string id="st_wpn_aps_bas_apsabigo">
+		<text>APS Upgraded (BaS)</text>
+	</string>
+	<string id="st_wpn_aps_bas_apsabigo_descr">
+		<text>The Stechkin APS is a Russian selective fire machine pistol, bearing the name of its designer Igor Stechkin. The Stechkin automatic pistol was originally chambered for 7.62x25mm Tokarev but was changed to the 9x18mm caliber used in the new Makarov pistol, as it became clear that this cartridge was set to become the new service ammunition for handguns in the Soviet Army. In 1951, both the Makarov and Stechkin were introduced into the Soviet military arsenal, replacing the ageing TT-33.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] Х %c[ui_gray_2] Installed Tactical Kit: Threaded barrel for using with APB sound suppressor, Tritium sights and ergonomic pistol grip rubber.\n 
+		%c[d_purple] Х %c[ui_gray_2] Silencer: APB \n</text>
+	</string> -->
+
+	<string id="st_wpn_mp133_bas">
+		<text>MP-133 (BaS)</text>
+	</string>
+	<string id="st_wpn_mp133_bas_descr">
+		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets. It is produced in two basic versions: standard MP-133 with tubular magazine and MP-133K with detachable box magazine, both versions can be in various barrel lengths and styles, wood or polymer furniture, fixed or side folding polymer stock or pistol grip only. The MP-133 shotgun uses traditional pump action with sliding forend that has dual action bars. Locking is achieved by a tilting locking piece, installed in the bolt and engages the notch in the barrel extension when in battery. Feed is from tubular under-barrel magazine that holds 4 rounds, though capacity can be enhanced by installing magazine extension tubes.\n </text>
 	</string>
 
 	<string id="st_wpn_mp153_bas">
@@ -366,17 +417,7 @@
 		%c[d_purple] Х %c[ui_gray_2] 6P9 suppressor (integrated)</text>
 	</string> -->
 
-<!-- 	<string id="st_wpn_akm_alfa">
-    	<text>CAA AK-Alfa (BaS)</text>
-  	</string>
-  	<string id="st_wpn_akm_alfa_descr">
-		<text>Developed in Israel by Command Arms & Acessories (CAA), the AK-Alfa assault rifle was first presented to the public in 2016. This weapon is marketed under two brands - "Kalashnikov USA" and "Kalashnikov Israel". Apparently, this weapon got into the Zone with the the ISG faction. The AK-Alpha assault rifle is an attempt to improve the ergonomics of the AK rifle while maintaining its main advantages - high reliability and ease of maintenance.
-               The base for the AK-Alpha is the receiver, the barrel with the gas tube, the bolt group and the main components of the trigger of the Russian-made Saiga carbine.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver except of scopes with very low mounting: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight.\n		
-		%c[d_purple] Х %c[ui_gray_2] Silencer: 5.45/7.62x39 Hexagon Sound Suppressor\n </text>
-  	</string>
-
+<!-- 	
 	<string id="st_wpn_aug_a1_bas">
 		<text>Steyr AUG A1 (BaS)</text>
 	</string>
@@ -395,7 +436,7 @@
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] Х %c[ui_gray_2] Scopes: All for picatinny/weaver except of scopes with very low mounting: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight.\n 
 		%c[d_purple] Х %c[ui_gray_2] Suppressor: Steyr UMS \n</text>
-	</string>	
+	</string>		 -->
 
 	<string id="st_wpn_aug_a1_custom_bas">
 		<text>Steyr AUG A1 CQB (BaS)</text>
@@ -404,7 +445,7 @@
 		<text>Steyr AUG A1 in standard rifle configuration (military green colour). The AUG is an Austrian bullpup 5.56mm assault rifle, designed in the 1960s by Steyr Mannlicher GmbH&Co KG (formerly Steyr-Daimler-Puch). The AUG (Armee-Universal-Gewehr "universal army rifle") was adopted by the Austrian Army as the StG 77 (Sturmgewehr 77) in 1978, where it replaced the 7.62mm StG 58 automatic rifle (a licence-built FN FAL). In production since 1978, it is the standard small arm of the Austrian Bundesheer and various national police units. CQB - has less weight and increased rate of fire compared to the original.\n \n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] Х %c[ui_gray_2] 1.5x scope (integrated).\n 
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: Steyr UMS \n</text>
+		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
 
 	<string id="st_wpn_aug_a3_custom_bas">
@@ -414,31 +455,8 @@
 		<text>Steyr AUG (Armee Universal Gewehr - Army Universal Rifle) is an Austrian 5.56x45mm NATO bullpup assault rifle, designed in the 1960s by Steyr-Daimler-Puch and now manufactured by Steyr Mannlicher GmbH & Co KG. The Steyr AUG A3 differs from the base model in the presence of four Picatinny slats: the top one is used for attaching sights, a grenade launcher or a vertical front handle can be attached to the bottom, and a laser pointer or other necessary additional equipment is attached to the side.\n \n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] Х %c[ui_gray_2] Installed Trijicon Acog (x4) and PEQ LA5 LAM.\n 
-		%c[d_purple] Х %c[ui_gray_2] Suppressor:  Steyr UMS \n</text>
+		%c[d_purple] Х %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
-
-	<string id="st_wpn_akm_bas">
-		<text>AKM (BaS)</text>
-	</string>
-	<string id="st_wpn_akm_bas_descr">
-		<text>The AKM is a 7.62x39mm assault rifle designed by Mikhail Kalashnikov. It is an improved version of the AK-47 rifle and was developed in the 1950's. Introduced to the Red Army in 1959, the AKM is the most ubiquitous variant of the AK series of firearms and it has found widespread use with the former Warsaw Pact states and its many African and Asian allies. The production of AKM rifles was carried out at the Tula Arsenal and Izhevsk Mechanical Works.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] Х %c[ui_gray_2] Scopes: None\n
-		%c[d_purple] Х %c[ui_gray_2] Suppressor: PBS-1\n
-		%c[d_purple] Х %c[ui_gray_2] GP-25 grenade launcher (after modification)\n</text>
-	</string>
-
-	<string id="st_wpn_akms_bas">
-		<text>AKMS (BaS)</text>
-	</string>
-	<string id="st_wpn_akms_bas_descr">
-		<text>A variant of the AKM, equipped with an under-folding metal shoulder stock in place of the fixed wooden stock. The metal stock of the AKMS is somewhat different from the folding stock of the previous AK-47 model as it has a modified locking mechanism, which locks both support arms of the AKMS stock instead of just one.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n		
-		%c[d_purple] Х %c[ui_gray_2] Scopes: None\n
-		%c[d_purple] Х %c[ui_gray_2] PBS-1 suppressor\n
-		%c[d_purple] Х %c[ui_gray_2] GP-25 grenade launcher (after modification)\n</text>
-	</string>
-	 -->
 
 	<string id="st_wpn_scar_siber">
 		<text>FN SCAR-H (BaS)</text>

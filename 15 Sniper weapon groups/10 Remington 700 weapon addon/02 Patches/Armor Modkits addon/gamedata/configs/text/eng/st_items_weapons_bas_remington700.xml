@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+	<string id="st_wpn_remington700_bas">
+		<text>Remington 700 (BaS)</text>
+	</string>
+	<string id="st_wpn_remington700_bas_descr">
+		<text>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit, Custom weapon mod kit, Specialized weapon mod kit, Mercenary modification kit</text>
+	</string>
+	
+		<string id="st_wpn_remington700_bas_archangel">
+		<text>Remington 700 Archangel (BaS)</text>
+	</string>
+	<string id="st_wpn_remington700_bas_archangel_descr">
+		<text>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962. This model has Promag Archangel polymer stock installed on it.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Promag Archangel polymer stock\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor</text>
+	</string>
+<!-- 
+	<string id="st_wpn_remington700_bas_magpul_pro">
+		<text>Remington 700 Magpul PRO (BaS)</text>
+	</string>
+	<string id="st_wpn_remington700_bas_magpul_pro_descr">
+		<text>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962. This model has Magpul PRO 700 chassis and additional Trijicon RMR Red Dot Sight installed on it.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed Magpul "PRO 700" chassis\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor</text>
+	</string>
+ -->
+	<string id="st_wpn_remington700_bas_mod_x_gen3">
+		<text>Remington 700 Modular Rifle System (BaS)</text>
+	</string>
+	<string id="st_wpn_remington700_bas_mod_x_gen3_descr">
+		<text>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962. This model has MOD X GEN III Modular Rifle System and additional Leupold DeltaPoint PRO Red Dot Sight installed on it.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Installed MOD X Gen.3 chassis\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor</text>
+	</string>
+
+	<string id="st_wpn_remington700_bas_lapua700">
+		<text>M700 The Deer Hunter (BaS)</text>
+	</string>
+	<string id="st_wpn_remington700_bas_lapua700_descr">
+		<text>The Deer Hunter is modification of Remington Model 700 for precise shooting on very long distances. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] The weapon was upgraded using The Deer Hunter .338 kit\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: M700 .338LM \n </text>
+	</string>
+
+<!-- 	<string id="st_wpn_rem700_mcmillan">
+		<text>Remington 700 McMillan (BaS)</text>
+	</string>
+	<string id="st_wpn_rem700_mcmillan_descr">
+		<text>Model 700 rifles have been produced in the USA by Remington since 1962. It is possibly the most widely used bolt-action sniper and hunting rifle in the United States. It is the top product of Remington Arms. There are many variants of the rifle for different cartridges, however, the .338 Lapua Magnum cartridge was chosen for ammunition for this model for firing at long and extra-long distances. The rifle is fitted with a McMillan A5 stock, 26" PGW Defense C14 fluted barrel and muzzle brake compensator, as well as a Badger Ordanance Embedded Front Rail for additional night sights.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Schmidt&Bender PM II 3-12x50 (included), PN-23 "Nozzle" \n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: PGW Defense C14 Timberwolf.\n </text>
+	</string>
+
+	<string id="st_wpn_rem700_aics">
+		<text>Remington 700 AICS (BaS)</text>
+	</string>
+	<string id="st_wpn_rem700_aics_descr">
+		<text>Model 700 rifles have been produced in the USA by Remington since 1962. It is possibly the most widely used bolt-action sniper and hunting rifle in the United States. It is the top product of Remington Arms. There are many variants of the rifle for different cartridges, however, the .338 Lapua Magnum cartridge was chosen for ammunition for this model for firing at long and extra-long distances. The rifle is fitted with a AICS (Accuracy International Chassis Systems) stock, 22" PGW Defense C14 fluted barrel and muzzle brake compensator, as well as a Badger Ordanance Embedded Front Rail for additional night sights.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Schmidt&Bender PM II 3-12x50 (included), PN-23 "Nozzle" \n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: PGW Defense C14 Timberwolf.\n </text>
+	</string>
+ -->
+
+<!-- 	<string id="st_addon_scope_archangel">
+		<text>Promag Archangel polymer stock for Remington M700 (BaS)</text>
+	</string>
+	<string id="st_addon_scope_archangel_descr">
+		<text>
+		%c[ui_gray_1]Archangel polymer stock for Remington Model 700 rifle. Includes set of 20 round magazines. This upgrade is irreversible. \n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700</text>
+	</string> -->
+<!-- 
+	<string id="st_addon_scope_magpul_pro">
+		<text>Magpul PRO 700 chassis for Remington M700 (BaS)</text>
+	</string>
+	<string id="st_addon_scope_magpul_pro_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] Remington M700\n \n%c[ui_gray_1]
+ PRO 700 is a lightweight, ergonomic chassis designed for the Remington Model 700 by Magpul. Includes set of 12 round magazines and Trijicon RMR Red Dot Sight installed on 45 degree angle mount. This upgrade is irreversible. \n </text>
+	</string>
+ -->
+<!-- 	<string id="st_addon_scope_mod_x_gen3">
+		<text>MOD X Gen.3 chassis for Remington M700 (BaS)</text>
+	</string>
+	<string id="st_addon_scope_mod_x_gen3_descr">
+		<text>
+		%c[ui_gray_1]The A*B Arms MOD X GEN III Modular Rifle System is a lightweight, ergonomic, drop-in chassis designed for Remington Model 700. Includes set of 12 round magazines and Leupold DeltaPoint PRO Red Dot Sight installed on 45 degree angle mount. This upgrade is irreversible. \n 
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700</text>
+	</string>
+
+	<string id="st_addon_scope_lapua700">
+		<text>The Deer Hunter: .338 Remington M700 kit (BaS)</text>
+	</string>
+	<string id="st_addon_scope_lapua700_descr">
+		<text>
+		%c[ui_gray_1]A set to change the .308 Remington Model 700 to the .338 Lapua Magnum for engaging targets at extra long distances. Includes a 338 barrel with a thread for a .338 silencer, a Magpul Pro stock including a barrel locking system, a set of magazines chambered for 338LM and an improved Leupold sight. This upgrade is irreversible. \n 
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700</text>
+	</string>
+
+ -->	<string id="st_addon_sil_lapu7">
+		<text>M700 .338LM Sound Suppressor (BaS)</text>
+	</string>
+	<string id="st_addon_sil_lapu7_descr">
+		<text>
+		%c[ui_gray_1]Sound suppressor with anti-heat casing for Remington M700 .338 Lapua Magnum\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700 .338 Lapua Magnum.\n \n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]Medium</text>
+	</string>
+
+
+</string_table>

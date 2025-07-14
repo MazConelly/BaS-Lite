@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+	<string id="st_wpn_pkm_siber">
+		<text>PKM (BaS)</text>
+	</string>
+	<string id="st_wpn_pkm_siber_descr">
+		<text> Modification of an army machine gun with belt feed. Despite the high mass and unsatisfactory accuracy, it has found a fairly wide application in the Zone. It is mainly used to suppress an enemy outnumbered and when clearing mutant lairs.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] None \n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+	</string>
+
+	<string id="st_wpn_pkp_siber">
+		<text>PKP Pecheneg (BaS)</text>
+	</string>
+	<string id="st_wpn_pkp_siber_descr">
+		<text>The PKP "Pecheneg" is a Russian light machine gun chambered for the 7.62x54mmR round. It is a modernised PKM machine gun. The Pecheneg is said to be more accurate than all its predecessors due to a heavier, non-removable, forced air cooling barrel with radial cooling ribs and a handle which eliminates the haze effect from hot gases and keeps the barrel cooler, making the weapon more reliable.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP Suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
+	</string>
+
+		<string id="st_wpn_pkm_zenit_shorty">
+		<text>PKM Shorty (BaS)</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_shorty_descr">
+		<text>A lighter and improved modification of the PKM machine gun in a body kit from the Zenitka company. Thanks to the short barrel, the model has improved ergonomics, which makes it more suitable for fighting in urban areas. The model has angled foregrip installed for better recoil control. In the Zone it is used mainly by the military (special forces).\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, Zenit Perst-3 tactical device with red laser (included) \n
+		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor</text>
+	</string>
+
+		<string id="st_wpn_pkm_zenit_siber">
+		<text>PKM Zenit (BaS)</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_siber_descr">
+		<text>An improved modification of the PKM machine gun in a body kit from the Zenitka company. The model has angled foregrip installed for better recoil control. In the Zone it is used mainly by the military (special forces).\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, Zenit Perst-3 tactical device with red laser (included) \n
+		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_pkp_tac_siber">
+		<text>PKP Pecheneg Tactical (BaS)</text>
+	</string>
+	<string id="st_wpn_pkp_tac_siber_descr">
+		<text>A lighter and improved modification of the PKP machine gun. Thanks to the short barrel, the model has improved ergonomics, which makes it more suitable for fighting in urban areas. The model has angled foregrip installed for better recoil control. In the Zone it is used mainly by the military (special forces) and Mercenaries.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, Zenit Perst-3 tactical device with red laser (included)\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor</text>
+	</string>
+	
+</string_table>

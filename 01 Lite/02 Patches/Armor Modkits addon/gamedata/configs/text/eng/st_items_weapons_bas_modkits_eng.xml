@@ -94,8 +94,7 @@
 	</string>
 	<string id="st_wpn_mp153_bas_descr">
 		<text>The MP-153 self-loading shotgun was the first semi-automatic shotgun designed and manufactured by Izhevsk Mechanical Plant. It was developed along with the pump action MP-133 shotgun and shares many parts and assemblies with it. The MP-153 is one of the most popular semi-automatic shotguns of Russian origin, and is widely used to hunt various games in Russia. It is also sold for export, it is known as Remington "Spartan" SPR-453 autoloader in US. MP-153 shotguns are known for solid but somewhat heavy construction and reliability.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Custom weapon mod kit.</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
 	</string>
 
     <string id="st_wpn_mp153_m1">
@@ -114,8 +113,8 @@
   	<string id="st_wpn_pk_siber_descr">
 		<text>The PK (Pulemyot Kalashnikova, or "Kalashnikov's machine gun"), is a belt-fed general-purpose machine gun, chambered for the 7.62?54mmR rimmed cartridge. Designed in the Soviet Union and currently in production in Russia, the original PK machine gun was introduced in 1961 and the improved PKM variant was introduced in 1969. The PK was designed to replace the SGM and RP-46 machine guns that were previously in Soviet service. The weapon remains in use as a front-line infantry and vehicle-mounted weapon with Russia's armed forces and has also been exported extensively and produced in several other countries under license.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Gunsmith weapon mod kit.\n 
-		%c[d_purple] • %c[ui_gray_2] None</text>
+		%c[d_purple] • %c[ui_gray_2] None \n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit<</text>
   	</string>
 
 	<string id="st_wpn_pkm_siber">
@@ -124,7 +123,8 @@
 	<string id="st_wpn_pkm_siber_descr">
 		<text>Modification of an army machine gun with belt feed. Despite the high mass and unsatisfactory accuracy, it has found a fairly wide application in the Zone. It is mainly used to suppress an enemy outnumbered and when clearing mutant lairs.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] None \n</text>
+		%c[d_purple] • %c[ui_gray_2] None \n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_pkp_siber">
@@ -134,7 +134,8 @@
 		<text>The PKP "Pecheneg" is a Russian light machine gun chambered for the 7.62x54mmR round. It is a modernised PKM machine gun. The Pecheneg is said to be more accurate than all its predecessors due to a heavier, non-removable, forced air cooling barrel with radial cooling ribs and a handle which eliminates the haze effect from hot gases and keeps the barrel cooler, making the weapon more reliable.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_scar_siber">

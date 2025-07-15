@@ -534,15 +534,6 @@
 		<text>This tactical kit includes combination of two scopes made by Russin Central Design Bureau "Tochpribor" and US Trijicon companies. The kit gives ability to install two scopes 1P78 Kashtan and Trijicon RMR on rifles that have both dovetail and picatinny mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
 	</string>
 
-	<string id="st_grenade_launcher_scar">
-		<text>FN40GL Grenade Launcher (BaS)</text>
-	</string>
-	<string id="st_grenade_launcher_scar_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] FN SCAR\n \n%c[ui_gray_1]
-		40mm grenade launcher developed by the Belgian company FN Herstal for the FN SCAR assault rifle\n
-		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade\n</text>
-	</string>
-
 	<string id="st_addon_scope_okep77">
 		<text>OKP-77 (For Picatinny/weaver) (BaS)</text>
 	</string>

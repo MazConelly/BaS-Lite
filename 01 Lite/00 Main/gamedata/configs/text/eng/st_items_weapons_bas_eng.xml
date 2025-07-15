@@ -107,34 +107,6 @@
 		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
     </string>
 
-	<string id="st_wpn_pk_siber">
-    	<text>PK (BaS)</text>
-  	</string>
-  	<string id="st_wpn_pk_siber_descr">
-		<text>The PK (Pulemyot Kalashnikova, or "Kalashnikov's machine gun"), is a belt-fed general-purpose machine gun, chambered for the 7.62?54mmR rimmed cartridge. Designed in the Soviet Union and currently in production in Russia, the original PK machine gun was introduced in 1961 and the improved PKM variant was introduced in 1969. The PK was designed to replace the SGM and RP-46 machine guns that were previously in Soviet service. The weapon remains in use as a front-line infantry and vehicle-mounted weapon with Russia's armed forces and has also been exported extensively and produced in several other countries under license.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] None</text>
-  	</string>
-
-	<string id="st_wpn_pkm_siber">
-		<text>PKM (BaS)</text>
-	</string>
-	<string id="st_wpn_pkm_siber_descr">
-		<text>Modification of an army machine gun with belt feed. Despite the high mass and unsatisfactory accuracy, it has found a fairly wide application in the Zone. It is mainly used to suppress an enemy outnumbered and when clearing mutant lairs.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] None \n</text>
-	</string>
-
-	<string id="st_wpn_pkp_siber">
-		<text>PKP Pecheneg (BaS)</text>
-	</string>
-	<string id="st_wpn_pkp_siber_descr">
-		<text>The PKP "Pecheneg" is a Russian light machine gun chambered for the 7.62x54mmR round. It is a modernised PKM machine gun. The Pecheneg is said to be more accurate than all its predecessors due to a heavier, non-removable, forced air cooling barrel with radial cooling ribs and a handle which eliminates the haze effect from hot gases and keeps the barrel cooler, making the weapon more reliable.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor</text>
-	</string>
-
 	<string id="st_wpn_scar_siber">
 		<text>FN SCAR-H (BaS)</text>
 	</string>

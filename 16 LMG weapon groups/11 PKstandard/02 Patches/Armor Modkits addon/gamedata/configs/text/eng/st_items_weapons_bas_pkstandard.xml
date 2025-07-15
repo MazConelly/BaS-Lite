@@ -13,7 +13,8 @@
 		<text>The PK (Pulemyot Kalashnikova, or "Kalashnikov's machine gun"), is a belt-fed general-purpose machine gun, chambered for the 7.62?54mmR rimmed cartridge. Designed in the Soviet Union and currently in production in Russia, the original PK machine gun was introduced in 1961 and the improved PKM variant was introduced in 1969. The PK was designed to replace the SGM and RP-46 machine guns that were previously in Soviet service. The weapon remains in use as a front-line infantry and vehicle-mounted weapon with Russia's armed forces and has also been exported extensively and produced in several other countries under license.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] None \n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit<</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit
+		</text>
   	</string>
 
 	<string id="st_wpn_pkm_siber">
@@ -23,7 +24,8 @@
 		<text>Modification of an army machine gun with belt feed. Despite the high mass and unsatisfactory accuracy, it has found a fairly wide application in the Zone. It is mainly used to suppress an enemy outnumbered and when clearing mutant lairs.\n
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] None \n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
 	</string>
 
 	<string id="st_wpn_pkp_siber">
@@ -34,7 +36,8 @@
 		%c[ui_gray_2]ATTACHMENTS: \n
 		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
+		</text>
 	</string>
 
 </string_table>

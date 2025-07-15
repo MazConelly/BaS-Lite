@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_mp133_bas">
+		<text>MP-133 (BaS)</text>
+	</string>
+	<string id="st_wpn_mp133_bas_descr">
+		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets. It is produced in two basic versions: standard MP-133 with tubular magazine and MP-133K with detachable box magazine, both versions can be in various barrel lengths and styles, wood or polymer furniture, fixed or side folding polymer stock or pistol grip only. The MP-133 shotgun uses traditional pump action with sliding forend that has dual action bars. Locking is achieved by a tilting locking piece, installed in the bolt and engages the notch in the barrel extension when in battery. Feed is from tubular under-barrel magazine that holds 4 rounds, though capacity can be enhanced by installing magazine extension tubes.\n </text>
+	</string>
+
+	<string id="st_wpn_mp153_bas">
+		<text>MP-153 (BaS)</text>
+	</string>
+	<string id="st_wpn_mp153_bas_descr">
+		<text>The MP-153 self-loading shotgun was the first semi-automatic shotgun designed and manufactured by Izhevsk Mechanical Plant. It was developed along with the pump action MP-133 shotgun and shares many parts and assemblies with it. The MP-153 is one of the most popular semi-automatic shotguns of Russian origin, and is widely used to hunt various games in Russia. It is also sold for export, it is known as Remington "Spartan" SPR-453 autoloader in US. MP-153 shotguns are known for solid but somewhat heavy construction and reliability.\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+	</string>
+
+    <string id="st_wpn_mp153_m1">
+        <text>Carabineer (BaS)</text>
+    </string>
+    <string id="st_wpn_mp153_m1_descr">
+		<text>A customized version of the MP-153 shotgun. Capable of semi-automatic fire like its predecessor, but provides better recoil compensation thanks to the quite effective muzzle brake. It also has Picatinny rail which allows to use reflex and holographic sights and ability to use sound suppressor.\n
+	    %c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Due to the position of the stock, it is possible to install sights only with a very low mount: Barska AC10632, C-More, Docter Sight, Aimpoint T1, Trijicon RMR, Leupold DeltaPoint PRO, OKP-7, 1P76 Rakurs. \n \n
+		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
+    </string>
+
+</string_table>

@@ -18,12 +18,12 @@ inv_name		= ammo_338_federal
 inv_name_short	= ammo_338_federal_s
 inv_weight		= .420
 
-icons_texture                                       = ui\ui_icon_bas_338
+icons_texture	= ui\ui_icon_bas_338
 
-inv_grid_width     = 2
-inv_grid_height    = 1
-inv_grid_x         = 6
-inv_grid_y         = 0
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 6
+inv_grid_y		= 0
 
 k_disp			= 0.67
 k_hit			= 1.0 
@@ -31,9 +31,9 @@ k_impulse		= 0.81
 k_ap			= 0.9
 tracer_color_ID	= 2
 wm_size         = 0.066
-k_air_resistance = 0.05
+k_air_resistance= 0.05
 
-tier                                     = 3
+tier			= 3
 
 ;------------------------------------------------------------------------------------------------
 
@@ -45,11 +45,11 @@ tier                                     = 3
 GroupControlSection         = spawn_group
 $npc                        = on
 $prefetch                   = 8
-$spawn                      = "weapons\svd"
+$spawn                      = "weapons\dvl10"
 scheduled                   = off
 cform                       = skeleton
 
-parent_section                      = wpn_dvl10
+parent_section				= wpn_dvl10
 
 class                       = WP_SVD
 slot                        = 2
@@ -62,11 +62,11 @@ single_handed               = 0
 default_to_ruck             = false
 sprint_allowed              = true
 
-icons_texture                                       = ui\ui_icon_bas_338        
-inv_grid_width     = 6
-inv_grid_height    = 2
-inv_grid_x         = 0
-inv_grid_y         = 0
+icons_texture				= ui\ui_icon_bas_338        
+inv_grid_width				= 6
+inv_grid_height				= 2
+inv_grid_x					= 0
+inv_grid_y					= 0
 
 inv_name                    = st_wpn_dvl10
 inv_name_short              = st_wpn_dvl10
@@ -81,7 +81,7 @@ weapon_class                = sniper_rifle
 hud                         = wpn_dvl10_hud
 visual                      = dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
 
-position                    = -0.08, 0.1, -0.23      ;(left/right, up/down, forward/back )
+position                    = -0.08, 0.1, -0.23	;(left/right, up/down, forward/back )
 orientation                 = 0, 0, 0
 fire_point                  = 0.0, 0.195, 0.777
 fire_point2                 = 0.0, 0.195, 0.777
@@ -93,7 +93,7 @@ ph_mass                     = 3
 
 flame_particles             = weapons\generic_weapon06
 ;smoke_particles             = weapons\generic_shoot_00
-smoke_particles		   	    = ghost_particles\weapons\flame_eft_sks          ;particles remade incomp. 
+smoke_particles		   	    = ghost_particles\weapons\flame_eft_sks	;particles remade incomp. 
 
 shell_point		 			= 0.0, 0.129, 0.192
 shell_dir		 			= 0.0, 0.0, 0.4
@@ -122,8 +122,8 @@ ammo_mag_size               = 10
 startup_ammo                = 10
 
 scope_status                = 0
-scopes 				                     = acog, specter, leupold, pn23, gauss_sight, marchf
-scope_zoom_factor                        = 0
+scopes						= acog, specter, leupold, pn23, gauss_sight, marchf
+scope_zoom_factor			= 0
 
 silencer_name               = wpn_addon_silencer
 silencer_status             = 0
@@ -151,7 +151,7 @@ time_to_aim                 = 0.0 ;  1.0
 zoom_enabled                = true
 zoom_rotate_time            = 0.25
 reload_dof                  = 0.0, 0.5, 5, 2.2
-control_inertion_factor = 1.0f
+control_inertion_factor		= 1.0f
 crosshair_inertion          = 9
 fire_dispersion_base        = 0.065
 fire_dispersion_condition_factor = 0.001
@@ -203,7 +203,7 @@ kill_msg_y                  = 0
 kill_msg_width              = 98
 kill_msg_height             = 23
 
-hud_fov                             = 0.78		
+hud_fov						= 0.78
 ;----------------------------------------------------------------------------SND------------------------------------------------------------------------
 snd_draw						= eft_wp\dvl_10\dvl_draw
 snd_holster					    = eft_wp\dvl_10\dvl_hide
@@ -213,250 +213,237 @@ snd_reload					    = eft_wp\dvl_10\dvl_reload
 snd_reload_empty			    = eft_wp\dvl_10\dvl_reload_empty
 ;snd_close					    = weapons\generic_close
 snd_bore				        = $no_sound
-snd_bore1				        = $no_sound				
+snd_bore1				        = $no_sound
 snd_reload_misfire              = eft_wp\dvl_10\dvl_reload_empty 
 ;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
 [wpn_dvl10_hud]:hud_base
 
-item_visual				= dynamics\weapons\wpn_dvl10\wpn_dvl10_hud.ogf
+item_visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_hud.ogf
 
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
 
-hands_position              = -0.07, -0.185, 0.2
-hands_orientation           = 0, 0, 0
+hands_position		= -0.07, -0.185, 0.2
+hands_orientation	= 0, 0, 0
 
-aim_hud_offset_pos          = -0.0818, 0.057, -0.15
-aim_hud_offset_rot          = 0, 0, 0
+aim_hud_offset_pos	= -0.0818, 0.057, -0.15
+aim_hud_offset_rot	= 0, 0, 0
 
-gl_hud_offset_pos           = 0, 0, 0
-gl_hud_offset_rot           = 0, 0, 0
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
 
-lean_hud_offset_pos         = 0, 0, 0
-lean_hud_offset_rot         = 0, 0, 0
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
 
 ;-----------		
-aim_hud_offset_pos_16x9				= -0.047265,0.002550,-0.064101
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.047265,0.002550,-0.064101
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 
-hands_position_16x9				= 0.000000,-0.018526,-0.102698
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.018526,-0.102698
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-item_position               = 0, 0, 0
-item_orientation            = 0, 0, 0
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
 ;----------
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1  
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1  
 
-anm_show						= dvl_10_draw, idle
-anm_hide             	        = dvl_10_holster, idle
-anm_shots					    = dvl_10_shoot, shoot
-anm_reload					    = dvl_10_reload, reload
-anm_reload_empty				= dvl_10_reload_empty, reload_empty
-anm_bore						= dvl_10_idle, idle
-anm_idle             	        = dvl_10_idle, idle
-anm_idle_aim				    = dvl_10_idle_aim, idle
-anm_idle_moving 		     	= dvl_10_idle_move, idle
-anm_idle_sprint			        = dvl_10_idle_sprint, idle
-anm_reload_misfire              = dvl_10_reload_empty, reload_empty
+anm_show			= dvl_10_draw, idle
+anm_hide			= dvl_10_holster, idle
+anm_shots			= dvl_10_shoot, shoot
+anm_reload			= dvl_10_reload, reload
+anm_reload_empty	= dvl_10_reload_empty, reload_empty
+anm_bore			= dvl_10_idle, idle
+anm_idle			= dvl_10_idle, idle
+anm_idle_aim		= dvl_10_idle_aim, idle
+anm_idle_moving		= dvl_10_idle_move, idle
+anm_idle_sprint		= dvl_10_idle_sprint, idle
+anm_reload_misfire	= dvl_10_reload_empty, reload_empty
 
-shell_bone                  = gilza
-shell_dir                   = 0, 1, 0
-shell_point                 = 0, 0, 0
+shell_bone	= gilza
+shell_dir	= 0, 1, 0
+shell_point	= 0, 0, 0
 
-fire_bone                   = muzzle
-fire_point                  = 0, 0, 0
+fire_bone	= muzzle
+fire_point	= 0, 0, 0
 
-freelook_z_offset_mul		= 0.3
+freelook_z_offset_mul	= 0.3
 
 ;-----------------------------------------------------------------------Addons--------------------------------------------------------------------------
 [wpn_dvl10_acog]:wpn_dvl10
+visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
 
-visual					     = dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
+$spawn			= "weapons\wpn_dvl10_acog"
+1icon_layer		= acog
+1icon_layer_x	= 79
+1icon_layer_y	= 0
 
-$spawn                                             = "weapons\wpn_dvl10_acog"
-1icon_layer                                        = acog
-1icon_layer_x                                      = 79
-1icon_layer_y                                      = 0
+inv_weight			= 6.350
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
-inv_weight                                         = 6.350
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_acog
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
-
-hud					                               = wpn_dvl10_acog_hud
+hud			= wpn_dvl10_acog_hud
 
 [wpn_dvl10_acog_hud]:wpn_dvl10_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10\wpn_dvl10_acog_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.024826,-0.102698
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.024826,-0.102698
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.046365,0.004950,-0.064101
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.046365,0.004950,-0.064101
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 ;-------------------------------------------------------------------------------
 [wpn_dvl10_specter]:wpn_dvl10
+$spawn			= "weapons\wpn_dvl10_specter"
+visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
+hud				= wpn_dvl10_specter_hud
 
-$spawn					= "weapons\wpn_dvl10_specter"
-visual					= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
-hud					= wpn_dvl10_specter_hud
+1icon_layer		= specter
+1icon_layer_x	= 56
+1icon_layer_y	= -4
 
-1icon_layer                              = specter
-1icon_layer_x                            = 56
-1icon_layer_y                            = -4
-
-inv_weight                                         = 6.670
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_specter
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
+inv_weight			= 6.670
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
 
 [wpn_dvl10_specter_hud]:wpn_dvl10_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10\wpn_dvl10_specter_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.024826,-0.102698
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.024826,-0.102698
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.046365,0.004950,-0.034101
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.046365,0.004950,-0.034101
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 ;--------------------------------------------------------------------------------
 [wpn_dvl10_pks]:wpn_dvl10
+$spawn			= "weapons\wpn_dvl10_pks"
 
-$spawn					= "weapons\wpn_dvl10_pks"
+visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
 
-visual					     = dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
+hud				= wpn_dvl10_pks_hud
 
-hud					= wpn_dvl10_pks_hud
+1icon_layer		= pks
+1icon_layer_x	= 60
+1icon_layer_y	= 2
 
-1icon_layer                              = pks
-1icon_layer_x                            = 60
-1icon_layer_y                            = 2
-
-inv_weight                                         = 6.800
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_pks
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
+inv_weight			= 6.800
+scope_status		= 1
+scope_texture		= wpn_crosshair_pks
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
 [wpn_dvl10_pks_hud]:wpn_dvl10_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10\wpn_dvl10_pks_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.018526,-0.091898
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.018526,-0.091898
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.047265,0.005850,-0.030501
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
----------------------------------------------------------------------------------------------
+aim_hud_offset_pos_16x9	= -0.047265,0.005850,-0.030501
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
+; ----------------------------------------------------------------------------------------------------------------
 [wpn_dvl10_leupold]:wpn_dvl10
+$spawn			= "weapons\wpn_dvl10_leupold"
 
-$spawn					= "weapons\wpn_dvl10_leupold"
+visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
 
-visual					= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
+hud				= wpn_dvl10_leupold_hud
 
-hud					= wpn_dvl10_leupold_hud
+1icon_layer		= leupold
+1icon_layer_x	= 64
+1icon_layer_y	= 4
 
-1icon_layer                              = leupold
-1icon_layer_x                            = 64
-1icon_layer_y                            = 4
-
-inv_weight                                         = 6.680
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_leupold
-scope_zoom_factor                                  = 7
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
+inv_weight			= 6.680
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
 
 [wpn_dvl10_leupold_hud]:wpn_dvl10_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10\wpn_dvl10_leupold_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.023926,-0.090998
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.023926,-0.090998
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.047265,0.004950,-0.043401
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
-----------------------------------------------------------------------------------------------------------
+aim_hud_offset_pos_16x9	= -0.047265,0.004950,-0.043401
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
+; ----------------------------------------------------------------------------------------------------------------
 [wpn_dvl10_pn23]:wpn_dvl10
-$spawn					= "weapons\wpn_dvl10_pn23"
+$spawn			= "weapons\wpn_dvl10_pn23"
 
-visual					= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
+visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
 
-hud					= wpn_dvl10_pn23_hud
+hud				= wpn_dvl10_pn23_hud
 
-1icon_layer                              = pn23
-1icon_layer_x                            = 44
-1icon_layer_y                            = -7
+1icon_layer		= pn23
+1icon_layer_x	= 44
+1icon_layer_y	= -7
 
-;scope_nightvision                        = scope_nightvision_3gen
+;scope_nightvision	= scope_nightvision_3gen
 
 nv_scope_status = 1
 
-inv_weight                                         = 6.649
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_pn23
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
+inv_weight			= 6.649
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
 [wpn_dvl10_pn23_hud]:wpn_dvl10_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10\wpn_dvl10_pn23_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.033226,-0.046598
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.033226,-0.046598
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.048165,0.007650,-0.036201
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
--------------------------------------------------------------------------------------------------------------------------------
+aim_hud_offset_pos_16x9	= -0.048165,0.007650,-0.036201
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
+; ----------------------------------------------------------------------------------------------------------------
 [wpn_dvl10_gauss_sight]:wpn_dvl10
-$spawn					= "weapons\wpn_dvl10_gauss_sight"
+$spawn			= "weapons\wpn_dvl10_gauss_sight"
 
-visual					= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
+visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
 
-hud					= wpn_dvl10_gauss_sight_hud
+hud				= wpn_dvl10_gauss_sight_hud
 
-1icon_layer                              = gauss_sight
-1icon_layer_x                            = 54
-1icon_layer_y                            = 8
+1icon_layer		= gauss_sight
+1icon_layer_x	= 54
+1icon_layer_y	= 8
 
-inv_weight                                         = 7.400
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_gauss
-scope_zoom_factor                                  = 12
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
+inv_weight			= 7.400
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
 
 [wpn_dvl10_gauss_sight_hud]:wpn_dvl10_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10\wpn_dvl10_gauss_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.046965,0.012150,-0.050001
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.046965,0.012150,-0.050001
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_dvl10_marchf]:wpn_dvl10
-1icon_layer                              = marchf
-1icon_layer_x                            = 64
-1icon_layer_y                            = 4
+1icon_layer		= marchf
+1icon_layer_x	= 64
+1icon_layer_y	= 4
 
-inv_weight                               = 6.640
+inv_weight		= 6.640
 
-hud                                      = wpn_dvl10_marchf_hud
-visual                                   = dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
+hud				= wpn_dvl10_marchf_hud
+visual			= dynamics\weapons\wpn_dvl10\wpn_dvl10_world.ogf
 
-
-
-scope_status                             = 1
-scope_dynamic_zoom                       = on
-scope_texture                            = wpn_crosshair_marchf
-scope_zoom_factor                                  = 6
-
+scope_status		= 1
+scope_dynamic_zoom	= on
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
 
 [wpn_dvl10_marchf_hud]:wpn_dvl10_hud
-item_visual                              = dynamics\weapons\wpn_dvl10\wpn_dvl10_marchf_hud.ogf
+item_visual		= dynamics\weapons\wpn_dvl10\wpn_dvl10_marchf_hud.ogf
 ;-----------------------------------------------------------------------------------------------------
 
 
@@ -469,7 +456,7 @@ $spawn                      = "weapons\svd"
 scheduled                   = off
 cform                       = skeleton
 
-parent_section                      = wpn_dvl10_m1		
+parent_section				= wpn_dvl10_m1		
 
 class                       = WP_SVD
 slot                        = 2
@@ -482,7 +469,7 @@ single_handed               = 0
 default_to_ruck             = false
 sprint_allowed              = true
 
-icons_texture                                       = ui\ui_icon_bas_338        
+icons_texture				= ui\ui_icon_bas_338        
 inv_grid_width     = 6
 inv_grid_height    = 2
 inv_grid_x         = 0
@@ -542,8 +529,8 @@ ammo_mag_size               = 10
 startup_ammo                = 10
 
 scope_status                = 0
-scopes 				                     = acog, specter, leupold, pn23, gauss_sight, marchf
-scope_zoom_factor                        = 0
+scopes						= acog, specter, leupold, pn23, gauss_sight, marchf
+scope_zoom_factor			= 0
 
 silencer_name               = wpn_addon_silencer
 silencer_status             = 0
@@ -623,62 +610,61 @@ kill_msg_y                  = 0
 kill_msg_width              = 98
 kill_msg_height             = 23
 
-hud_fov                             = 0.78 		
+hud_fov                             = 0.78
 ;----------------------------------------------------------------------------SND------------------------------------------------------------------------
-snd_draw						= eft_wp\dvl_10\dvl_draw
-snd_holster					    = eft_wp\dvl_10\dvl_hide
-snd_shoot					    = eft_wp\dvl_10\dvl_shoot_silenced
-snd_empty					    = eft_wp\dvl_10\trigger_hammer
-snd_reload					    = eft_wp\dvl_10\dvl_reload
-snd_reload_empty			    = eft_wp\dvl_10\dvl_reload_empty
-;snd_close					    = weapons\generic_close
-snd_bore				        = $no_sound
-snd_bore1				        = $no_sound					
-snd_reload_misfire              = eft_wp\dvl_10\dvl_reload_empty
+snd_draw			= eft_wp\dvl_10\dvl_draw
+snd_holster			= eft_wp\dvl_10\dvl_hide
+snd_shoot			= eft_wp\dvl_10\dvl_shoot_silenced
+snd_empty			= eft_wp\dvl_10\trigger_hammer
+snd_reload			= eft_wp\dvl_10\dvl_reload
+snd_reload_empty	= eft_wp\dvl_10\dvl_reload_empty
+;snd_close			= weapons\generic_close
+snd_bore			= $no_sound
+snd_bore1			= $no_sound
+snd_reload_misfire  = eft_wp\dvl_10\dvl_reload_empty
 ;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
 [wpn_dvl10_m1_hud]:hud_base
+item_visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_hud.ogf
 
-item_visual				= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
 
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
+hands_position		= -0.07, -0.185, 0.2
+hands_orientation	= 0, 0, 0
 
-hands_position              = -0.07, -0.185, 0.2
-hands_orientation           = 0, 0, 0
+aim_hud_offset_pos	= -0.0818, 0.057, -0.15
+aim_hud_offset_rot	= 0, 0, 0
 
-aim_hud_offset_pos          = -0.0818, 0.057, -0.15
-aim_hud_offset_rot          = 0, 0, 0
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
 
-gl_hud_offset_pos           = 0, 0, 0
-gl_hud_offset_rot           = 0, 0, 0
-
-lean_hud_offset_pos         = 0, 0, 0
-lean_hud_offset_rot         = 0, 0, 0
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
 
 ;------------		
-aim_hud_offset_pos_16x9				= -0.047265,0.002550,-0.064101
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.047265,0.002550,-0.064101
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 
-hands_position_16x9				= 0.000000,-0.018526,-0.102698
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.018526,-0.102698
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-item_position               = 0, 0, 0
-item_orientation            = 0, 0, 0
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
 ;-----------
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1  
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1  
 
-anm_show						= dvl_10_draw, idle
-anm_hide             	        = dvl_10_holster, idle
-anm_shots					    = dvl_10_shoot, shoot
-anm_reload					    = dvl_10_reload, reload
-anm_reload_empty				= dvl_10_reload_empty, reload_empty
-anm_bore						= dvl_10_idle, idle
-anm_idle             	        = dvl_10_idle, idle
-anm_idle_aim				    = dvl_10_idle_aim, idle
-anm_idle_moving 		     	= dvl_10_idle_move, idle
-anm_idle_sprint			        = dvl_10_idle_sprint, idle
-anm_reload_misfire              = dvl_10_reload_empty, reload_empty
+anm_show					= dvl_10_draw, idle
+anm_hide             	    = dvl_10_holster, idle
+anm_shots					= dvl_10_shoot, shoot
+anm_reload					= dvl_10_reload, reload
+anm_reload_empty			= dvl_10_reload_empty, reload_empty
+anm_bore					= dvl_10_idle, idle
+anm_idle             	    = dvl_10_idle, idle
+anm_idle_aim				= dvl_10_idle_aim, idle
+anm_idle_moving 		    = dvl_10_idle_move, idle
+anm_idle_sprint			    = dvl_10_idle_sprint, idle
+anm_reload_misfire          = dvl_10_reload_empty, reload_empty
 
 shell_bone                  = gilza
 shell_dir                   = 0, 1, 0
@@ -691,191 +677,180 @@ freelook_z_offset_mul		= 0.3
 
 ;-----------------------------------------------------------------------Addons--------------------------------------------------------------------------
 [wpn_dvl10_m1_acog]:wpn_dvl10_m1
+visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
 
-visual					     = dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
+$spawn			= "weapons\wpn_dvl10_m1_acog"
+1icon_layer		= acog
+1icon_layer_x	= 79
+1icon_layer_y	= 0
 
-$spawn                                             = "weapons\wpn_dvl10_m1_acog"
-1icon_layer                                        = acog
-1icon_layer_x                                      = 79
-1icon_layer_y                                      = 0
+inv_weight			= 6.050
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
-inv_weight                                         = 6.050
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_acog
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
-
-hud					                               = wpn_dvl10_m1_acog_hud
+hud			= wpn_dvl10_m1_acog_hud
 
 [wpn_dvl10_m1_acog_hud]:wpn_dvl10_m1_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_acog_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.024826,-0.102698
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.024826,-0.102698
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.046365,0.004950,-0.034101
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.046365,0.004950,-0.034101
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 ;-------------------------------------------------------------------------------
 [wpn_dvl10_m1_specter]:wpn_dvl10_m1
+$spawn			= "weapons\wpn_dvl10_m1_specter"
+visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
+hud				= wpn_dvl10_m1_specter_hud
 
-$spawn					= "weapons\wpn_dvl10_m1_specter"
-visual					= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
-hud					= wpn_dvl10_m1_specter_hud
+1icon_layer		= specter
+1icon_layer_x	= 56
+1icon_layer_y	= -4
 
-1icon_layer                              = specter
-1icon_layer_x                            = 56
-1icon_layer_y                            = -4
-inv_weight                                         = 6.370
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_specter
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
+inv_weight			= 6.370
+scope_status		= 1
+scope_texture		= wpn_crosshair_specter
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
 
 [wpn_dvl10_m1_specter_hud]:wpn_dvl10_m1_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_specter_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.024826,-0.102698
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.024826,-0.102698
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.046365,0.004950,-0.044101
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.046365,0.004950,-0.044101
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 ;--------------------------------------------------------------------------------
 [wpn_dvl10_m1_pks]:wpn_dvl10_m1
+$spawn			= "weapons\wpn_dvl10_m1_pks"
 
-$spawn					= "weapons\wpn_dvl10_m1_pks"
+visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
 
-visual					     = dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
+hud				= wpn_dvl10_m1_pks_hud
 
-hud					= wpn_dvl10_m1_pks_hud
+1icon_layer		= pks
+1icon_layer_x	= 60
+1icon_layer_y	= 2
 
-1icon_layer                              = pks
-1icon_layer_x                            = 60
-1icon_layer_y                            = 2
-
-inv_weight                                         = 6.500
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_pks
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
+inv_weight			= 6.500
+scope_status		= 1
+scope_texture		= wpn_crosshair_pks
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
 [wpn_dvl10_m1_pks_hud]:wpn_dvl10_m1_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_pks_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.018526,-0.091898
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.018526,-0.091898
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.047265,0.005850,-0.030501
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.047265,0.005850,-0.030501
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 --------------------------------------------------------------------------------
 [wpn_dvl10_m1_leupold]:wpn_dvl10_m1
+$spawn			= "weapons\wpn_dvl10_m1_leupold"
 
-$spawn					= "weapons\wpn_dvl10_m1_leupold"
+visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
 
-visual					= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
+hud				= wpn_dvl10_m1_leupold_hud
 
-hud					= wpn_dvl10_m1_leupold_hud
+1icon_layer		= leupold
+1icon_layer_x	= 64
+1icon_layer_y	= 4
 
-1icon_layer                              = leupold
-1icon_layer_x                            = 64
-1icon_layer_y                            = 4
-
-inv_weight                                         = 6.380
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_leupold
-scope_zoom_factor                                  = 7
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
+inv_weight			= 6.380
+scope_status		= 1
+scope_texture		= wpn_crosshair_leupold
+scope_zoom_factor	= 7
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
 
 [wpn_dvl10_m1_leupold_hud]:wpn_dvl10_m1_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_leupold_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.023926,-0.090998
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.023926,-0.090998
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.047265,0.004950,-0.043401
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.047265,0.004950,-0.043401
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 ----------------------------------------------------------------------------------------------------------
 [wpn_dvl10_m1_pn23]:wpn_dvl10_m1
-$spawn					= "weapons\wpn_dvl10_m1_pn23"
+$spawn			= "weapons\wpn_dvl10_m1_pn23"
 
-visual					= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
+visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
 
-hud					= wpn_dvl10_m1_pn23_hud
+hud				= wpn_dvl10_m1_pn23_hud
 
-1icon_layer                              = pn23
-1icon_layer_x                            = 44
-1icon_layer_y                            = -7
+1icon_layer		= pn23
+1icon_layer_x	= 44
+1icon_layer_y	= -7
 
-;;installed_upgrades                       = up_fourte_svd_nimble
-;scope_nightvision                        = scope_nightvision_3gen
+;;installed_upgrades	= up_fourte_svd_nimble
+;scope_nightvision		= scope_nightvision_3gen
 
-nv_scope_status = 1
+nv_scope_status	= 1
 
-inv_weight                                         = 6.349
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_pn23
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
+inv_weight			= 6.349
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
 [wpn_dvl10_m1_pn23_hud]:wpn_dvl10_m1_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_pn23_hud.ogf
 
-hands_position_16x9				= 0.000000,-0.033226,-0.046598
-hands_orientation_16x9			= 1.078683,1.809961,0.000000
+hands_position_16x9		= 0.000000,-0.033226,-0.046598
+hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
-aim_hud_offset_pos_16x9				= -0.048165,0.007650,-0.036201
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.048165,0.007650,-0.036201
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 --------------------------------------------------------------------------------
 [wpn_dvl10_m1_gauss_sight]:wpn_dvl10_m1
-$spawn					= "weapons\wpn_dvl10_m1_gauss_sight"
+$spawn			= "weapons\wpn_dvl10_m1_gauss_sight"
 
-visual					= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
+visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
 
-hud					= wpn_dvl10_m1_gauss_sight_hud
+hud				= wpn_dvl10_m1_gauss_sight_hud
 
-1icon_layer                              = gauss_sight
-1icon_layer_x                            = 54
-1icon_layer_y                            = 8
+1icon_layer		= gauss_sight
+1icon_layer_x	= 54
+1icon_layer_y	= 8
 
-inv_weight                                         = 7.100
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_gauss
-scope_zoom_factor                                  = 12
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
-;;installed_upgrades                                 = up_fourtc_svd_nimble
+inv_weight			= 7.100
+scope_status		= 1
+scope_texture		= wpn_crosshair_gauss
+scope_zoom_factor	= 12
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= on
+;;installed_upgrades	= up_fourtc_svd_nimble
 
 [wpn_dvl10_m1_gauss_sight_hud]:wpn_dvl10_m1_hud
-
 item_visual				= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_gauss_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.046965,0.012150,-0.050001
-aim_hud_offset_rot_16x9				= 0.016137,0.019610,0.000000
+aim_hud_offset_pos_16x9	= -0.046965,0.012150,-0.050001
+aim_hud_offset_rot_16x9	= 0.016137,0.019610,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_dvl10_m1_marchf]:wpn_dvl10_m1
-1icon_layer                              = marchf
-1icon_layer_x                            = 64
-1icon_layer_y                            = 4
+1icon_layer		= marchf
+1icon_layer_x	= 64
+1icon_layer_y	= 4
 
-inv_weight                               = 6.340
+inv_weight		= 6.340
 
-hud                                      = wpn_dvl10_m1_marchf_hud
-visual                                   = dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
+hud				= wpn_dvl10_m1_marchf_hud
+visual			= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_world.ogf
 
-
-
-scope_status                             = 1
-scope_dynamic_zoom                       = on
-scope_texture                            = wpn_crosshair_marchf
-scope_zoom_factor                        = 6
+scope_status	= 1
+scope_dynamic_zoom	= on
+scope_texture		= wpn_crosshair_marchf
+scope_zoom_factor	= 6
 
 
 [wpn_dvl10_m1_marchf_hud]:wpn_dvl10_m1_hud
-item_visual                              = dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_marchf_hud.ogf
+item_visual		= dynamics\weapons\wpn_dvl10_m1\wpn_dvl10_m1_marchf_hud.ogf
 ;-----------------------------------------------------------------------------------------------------

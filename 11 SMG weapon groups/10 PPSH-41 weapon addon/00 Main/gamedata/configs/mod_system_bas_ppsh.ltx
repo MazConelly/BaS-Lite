@@ -25,8 +25,7 @@ sprint_allowed              = true
 
 parent_section				= wpn_ppsh_bas
 
-scopes						= 
-;uptacppsh
+scopes						= ;uptacppsh
 
 inv_grid_width     = 5
 inv_grid_height    = 2
@@ -176,7 +175,7 @@ kill_msg_y                  = 82
 kill_msg_width              = 56
 kill_msg_height             = 23
 
-hud_fov                             = 0.78
+hud_fov                     = 0.78
 ;-----------------------------------------------------------------Particles----------------------------------------------------------------------------
 flame_particles				= ghost_particles\weapons\generic_smoke_eft_sil
 smoke_particles				= ghost_particles\weapons\flame_eft_sks
@@ -199,21 +198,20 @@ snd_silncer_shot		= weapons\aps\aps_shot_sil
 snd_switch_mode			= weapons\generic\switch_mode
 ;----------------------------------------------------------------------------HUD--------------------------------------------------------------------------------------------------------
 [wpn_ppsh_bas_hud]:hud_base
+item_visual			= dynamics\weapons\wpn_ppsh_bas\wpn_ppsh_bas_hud.ogf
 
-item_visual                 = dynamics\weapons\wpn_ppsh_bas\wpn_ppsh_bas_hud.ogf
-
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
 
 ;---------------------------------------------------------------------        
-item_position               = 0, 0, 0
-item_orientation            = 0, 0, 0
+item_position			= 0, 0, 0
+item_orientation		= 0, 0, 0
 
-hands_position_16x9				= 0.043900,-0.003100,-0.055300
-hands_orientation_16x9			= -0.200000,-0.150000,-1.000000
+hands_position_16x9		= 0.043900,-0.003100,-0.055300
+hands_orientation_16x9	= -0.200000,-0.150000,-1.000000
 
-aim_hud_offset_pos_16x9				= -0.096501,0.033700,-0.104898
-aim_hud_offset_rot_16x9				= -0.008500,-0.003000,-0.010000
+aim_hud_offset_pos_16x9	= -0.096501,0.033700,-0.104898
+aim_hud_offset_rot_16x9	= -0.008500,-0.003000,-0.010000
 ;--------------------------------------------------------------------- 
 
 hands_position              = 0, -0.006, 0.1
@@ -222,8 +220,8 @@ hands_orientation           = 0, 0, -1
 aim_hud_offset_pos          = -0.0527, 0.0375, -0.2
 aim_hud_offset_rot          = 0, 0, -0.01
 
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1 
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1 
 
 anm_bore                    = blnd_ppsh_inspect_arms_b,      idle
 anm_hide                    = blnd_ppsh_holster_arms_b,      idle
@@ -244,54 +242,46 @@ fire_point                  = 0, 0, 0
 
 ;--------------------------------------------------------------------------Addons--------------------------------------------------------------
 [wpn_ppsh_bas_uptacppsh]:wpn_ppsh_bas
+inv_weight		= 3.900
 
-inv_weight			= 3.900
+hud				= wpn_ppsh_bas_uptacppsh_hud
 
-hud                     	= wpn_ppsh_bas_uptacppsh_hud
+inv_name		= st_wpn_ppsh_bas_uptacppsh
+inv_name_short	= st_wpn_ppsh_bas_uptacppsh
+description		= st_wpn_ppsh_bas_uptacppsh_descr
 
-inv_name                    = st_wpn_ppsh_bas_uptacppsh
-inv_name_short              = st_wpn_ppsh_bas_uptacppsh
-description                 = st_wpn_ppsh_bas_uptacppsh_descr
+parent_section	= wpn_ppsh_bas_uptacppsh
 
-parent_section                           = wpn_ppsh_bas_uptacppsh
+inv_grid_width	= 5
+inv_grid_height	= 2
+inv_grid_x		= 5
+inv_grid_y		= 0
 
-inv_grid_width     = 5
-inv_grid_height    = 2
-inv_grid_x         = 5
-inv_grid_y         = 0
+rpm				= 920
 
-rpm                         = 920
+fire_dispersion_base	= 0.58
+misfire_start_condition	= 0.75
+misfire_start_prob		= 0.003
+misfire_end_condition	= 0.05
+misfire_end_prob		= 0.02
 
-fire_dispersion_base        = 0.58
-misfire_start_condition     = 0.75
-misfire_start_prob          = 0.003
-misfire_end_condition       = 0.05
-misfire_end_prob            = 0.02
-
-condition_queue_shot_dec    = 0.00065
-condition_shot_dec          = 0.00065  
+condition_queue_shot_dec	= 0.00065
+condition_shot_dec			= 0.00065
 
 visual = dynamics\weapons\wpn_ppsh_bas\wpn_ppsh_uptacppsh_world.ogf
 
 [wpn_ppsh_bas_uptacppsh_hud]:wpn_ppsh_bas_hud
+item_visual				= dynamics\weapons\wpn_ppsh_bas\wpn_ppsh_uptacppsh_hud.ogf
 
-item_visual                	= dynamics\weapons\wpn_ppsh_bas\wpn_ppsh_uptacppsh_hud.ogf
+aim_hud_offset_pos_16x9	= -0.095901,-0.001100,-0.104898
+aim_hud_offset_rot_16x9	= -0.012500,0.007000,-0.010000
 
-aim_hud_offset_pos_16x9				= -0.095901,-0.001100,-0.104898
-aim_hud_offset_rot_16x9				= -0.012500,0.007000,-0.010000
-
-hands_position_16x9				= 0.044000,-0.016700,-0.055300
-hands_orientation_16x9			= 0.350000,-0.150000,-1.000000
+hands_position_16x9		= 0.044000,-0.016700,-0.055300
+hands_orientation_16x9	= 0.350000,-0.150000,-1.000000
 ;---------------------------------------------------------------------------------
-
-
-
-
-
 
 ![addons_table]
 uptacppsh	= scope
-
 
 ;--------------------------------------------------------------------------------
 [uptacppsh]:addon

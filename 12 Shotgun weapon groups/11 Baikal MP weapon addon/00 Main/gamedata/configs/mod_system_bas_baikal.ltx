@@ -8,7 +8,7 @@
 GroupControlSection         = spawn_group
 $npc                        = on
 $prefetch                   = 8
-$spawn                      = "weapons\winchester1300"
+$spawn                      = "weapons\mp133_bas"
 scheduled                   = off
 cform                       = skeleton
 
@@ -51,7 +51,7 @@ ph_mass                     = 3
 ;flame_particles             = weapons\generic_weapon05
 ;smoke_particles             = amik\weapons\smoke_particles\smoke_particles_pump_01
 
-;smoke_particles     			= ghost_particles\weapons\flame_eft_shotgun          ;particles remade incomp. 
+;smoke_particles			= ghost_particles\weapons\flame_eft_shotgun          ;particles remade incomp. 
 
 shell_point					= 0,0.180,0.647
 ;shell_particles				= weapons\12ga
@@ -81,7 +81,7 @@ scope_status                = 0
 scope_zoom_factor           = 0
 
 
-silencer_status                          = 0
+silencer_status				= 0
 
 grenade_launcher_status     = 0
 
@@ -95,7 +95,7 @@ rpm_empty_click             = 200
 
 zoom_dof                    = 0.5, 1.0, 180
 zoom_enabled                = true
-control_inertion_factor = 1.0f
+control_inertion_factor		= 1.0f
 crosshair_inertion          = 6.5
 fire_dispersion_base        = 0.454
 fire_dispersion_condition_factor = 0.001
@@ -165,7 +165,6 @@ snd_close_weapon_empty      = eft_wp\mp133\mp133_close_empty
 snd_empty					= eft_wp\shared\empty_click_rifle
 snd_reload					= eft_wp\mp133\mp133_close 
 
-
 snd_draw					= eft_wp\shared\draw_shotgun
 snd_holster					= eft_wp\shared\hide_shotgun
 snd_shoot					= eft_wp\mp133\mp133_shoot1, 3.0 ;mp133_shoot1
@@ -187,51 +186,49 @@ snd_add_cartridge2			= weapons\mp133_young_prince\mp133_insert3
 
 ;-------------------------------------------------------------------------HUD---------------------------------------------------------------------------
 [wpn_mp133_bas_hud]:hud_base
-item_visual                 = dynamics\weapons\wpn_mp133_bas\wpn_mp133_bas_hud.ogf
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
+item_visual			= dynamics\weapons\wpn_mp133_bas\wpn_mp133_bas_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
 
-hands_position              = -0.0815, -0.14, 0.05
-hands_orientation           = -0.58, 0.76, 0.6
-
+hands_position		= -0.0815, -0.14, 0.05
+hands_orientation	= -0.58, 0.76, 0.6
 
 ;------		
-item_position				= 0.001528,-0.012408,-0.099066
-item_orientation			= -0.046126,-1.000036,-0.024950
-		
-hands_position_16x9				= 0.003800,-0.001500,-0.003800
-hands_orientation_16x9			= 1.600000,2.200000,0.200000
+item_position		= 0.001528,-0.012408,-0.099066
+item_orientation	= -0.046126,-1.000036,-0.024950
 
-aim_hud_offset_pos_16x9				= -0.055500,0.033500,-0.026100
-aim_hud_offset_rot_16x9				= 0.016700,0.028050,-0.001500
+hands_position_16x9		= 0.003800,-0.001500,-0.003800
+hands_orientation_16x9	= 1.600000,2.200000,0.200000
+
+aim_hud_offset_pos_16x9	= -0.055500,0.033500,-0.026100
+aim_hud_offset_rot_16x9	= 0.016700,0.028050,-0.001500
 ;------
 
-aim_hud_offset_pos          = -0.06815, 0.06575, -0.1
-aim_hud_offset_rot          = 0.0098, -0.0099, 0
-
+aim_hud_offset_pos	= -0.06815, 0.06575, -0.1
+aim_hud_offset_rot	= 0.0098, -0.0099, 0
 
 ;-----
-anm_show			            = mp133_eft_draw
-anm_hide			            = mp133_eft_holster
+anm_show						= mp133_eft_draw
+anm_hide						= mp133_eft_holster
 anm_idle			            = mp133_eft_idle
 anm_idle_aim			        = mp133_eft_idle_aim
 anm_idle_moving			        = mp133_eft_idle_moving
 anm_idle_moving_crouch 			= mp133_eft_idle_moving, idle
-anm_idle_moving_empty_crouch 	= mp133_eft_idle_moving, idle
+anm_idle_moving_empty_crouch	= mp133_eft_idle_moving, idle
 anm_idle_sprint			        = mp133_eft_idle_sprint, idle_sprint
 anm_bore			            = mp133_eft_idle_aim
 
-anm_shots			            = mp133_eft_shoot,        shoot
-anm_shot_l			            = mp133_eft_shoot_last,   shoot_last
+anm_shots	= mp133_eft_shoot,        shoot
+anm_shot_l	= mp133_eft_shoot_last,   shoot_last
 
-anm_open			            = mp133_eft_open
-anm_add_cartridge		        = mp133_eft_insert,       insert
-anm_close_empty			        = mp133_eft_close_empty,  close_empty	
-anm_close			            = mp133_eft_close, idle			           
+anm_open			= mp133_eft_open
+anm_add_cartridge	= mp133_eft_insert,       insert
+anm_close_empty		= mp133_eft_close_empty,  close_empty	
+anm_close			= mp133_eft_close, idle			           
 ;---------
 
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1 
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1 
 
 shell_bone                  = gilza
 shell_dir                   = 0, 1, 0
@@ -249,7 +246,7 @@ freelook_z_offset_mul		= 0.3
 GroupControlSection         = spawn_group
 $npc                        = on
 $prefetch                   = 8
-$spawn                      = "weapons\winchester1300"
+$spawn                      = "weapons\mp153_bas"
 scheduled                   = off
 cform                       = skeleton
 
@@ -330,7 +327,7 @@ rpm_empty_click             = 200
 
 zoom_dof                    = 0.5, 1.0, 180
 zoom_enabled                = true
-control_inertion_factor = 1.0f
+control_inertion_factor		= 1.0f
 crosshair_inertion          = 6.8
 fire_dispersion_base        = 0.5
 fire_dispersion_condition_factor = 0.001
@@ -415,29 +412,29 @@ snd_shoot_last1				= weapons\mp153_young_prince\mp153_shoot_4
 snd_silncer_shot		    = weapons\saiga_eft\saiga_shot_sil
 ;--------------------------------------------------------------------HUD--------------------------------------------------------------------------------
 [wpn_mp153_bas_hud]:hud_base
-item_visual                 = dynamics\weapons\wpn_mp153_bas\wpn_mp153_bas_hud.ogf
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
+item_visual			= dynamics\weapons\wpn_mp153_bas\wpn_mp153_bas_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
 
-item_position               = 0, 0, 0
-item_orientation            = 0, 0, 0
+item_position		= 0, 0, 0
+item_orientation	= 0, 0, 0
 
-hands_position              = -0.06, -0.15, 0.14
-hands_orientation           = 2, 2, 0
+hands_position		= -0.06, -0.15, 0.14
+hands_orientation	= 2, 2, 0
 
-aim_hud_offset_pos          = -0.0965, 0.078, -0.23
-aim_hud_offset_rot          = 0.0275, 0.035, 0
+aim_hud_offset_pos	= -0.0965, 0.078, -0.23
+aim_hud_offset_rot	= 0.0275, 0.035, 0
 
 
-;------		
-item_position				= 0.001528,-0.012408,-0.099066
-item_orientation			= -0.046126,-1.000036,-0.024950
+;------
+item_position		= 0.001528,-0.012408,-0.099066
+item_orientation	= -0.046126,-1.000036,-0.024950
 
-hands_position_16x9				= 0.003800,-0.001500,-0.003800
-hands_orientation_16x9			= 1.600000,2.200000,0.200000
+hands_position_16x9		= 0.003800,-0.001500,-0.003800
+hands_orientation_16x9	= 1.600000,2.200000,0.200000
 
-aim_hud_offset_pos_16x9				= -0.055500,0.031300,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.055500,0.031300,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 
 ;------
 anm_show							= mp133_ghost_draw, idle_mp153
@@ -466,19 +463,18 @@ anm_close							= mp133_ghost_close, idle_mp153
 anm_close_empty						= mp153_ghost_close_empty, close_empty_mp153
 ;----
 
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1  
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1  
 
-fire_bone2                  = muzzle
+fire_point	= 0, 0.0, 0.2
+fire_point2	= 0, 0, 0
+fire_bone	= muzzle
+fire_bone2	= muzzle
 
-fire_point2                 = 0, 0, 0
 
-shell_point			                = 0.02,0.072,0.228
-shell_dir                     	    = 0.0, 1.0, 0.0
-shell_bone			                = wpn_body
-
-fire_point		                    = 0, 0.0, 0.2
-fire_bone			                = muzzle
+shell_point	= 0.02,0.072,0.228
+shell_dir	= 0.0, 1.0, 0.0
+shell_bone	= wpn_body
 
 freelook_z_offset_mul		= 0.1
 ;------------------------------------------------------------------------------------------------
@@ -487,7 +483,7 @@ freelook_z_offset_mul		= 0.1
 GroupControlSection         = spawn_group
 $npc                        = on
 $prefetch                   = 8
-$spawn                      = "weapons\winchester1300"
+$spawn                      = "weapons\mp153_m1"
 scheduled                   = off
 cform                       = skeleton
 
@@ -561,7 +557,7 @@ scopes 					    = ac10632, c-more, d0cter, aim_low, rmr, deltapoint, 0kp2, rakur
 
 grenade_launcher_status     = 0
 
-parent_section                           = wpn_mp153_m1
+parent_section				= wpn_mp153_m1
 
 hit_impulse                 = 35
 hit_power                   = 0.8, 0.8, 0.8, 0.8
@@ -573,7 +569,7 @@ rpm_empty_click             = 200
 
 zoom_dof                    = 0.5, 1.0, 180
 zoom_enabled                = true
-control_inertion_factor = 1.0f
+control_inertion_factor		= 1.0f
 crosshair_inertion          = 6.8
 fire_dispersion_base        = 0.5
 fire_dispersion_condition_factor = 0.001
@@ -625,16 +621,16 @@ kill_msg_y                  = 104
 kill_msg_width              = 75
 kill_msg_height             = 20
 
-silencer_name                            = wpn_sil_pbs1
-silencer_status                          = 2
-silencer_x                               = 204
-silencer_y                               = -12
-silencer_light_color                     = 0.6, 0.5, 0.3
-silencer_light_range                     = 0.01
-silencer_light_time                      = 0.2
-silencer_light_var_color                 = 0.05
-silencer_light_var_range                 = 0.5
-;silencer_smoke_particles                 = ghost_particles\weapons\generic_smoke_eft_sil
+silencer_name               = wpn_sil_pbs1
+silencer_status             = 2
+silencer_x                  = 204
+silencer_y                  = -12
+silencer_light_color        = 0.6, 0.5, 0.3
+silencer_light_range        = 0.01
+silencer_light_time         = 0.2
+silencer_light_var_color    = 0.05
+silencer_light_var_range    = 0.5
+;silencer_smoke_particles    = ghost_particles\weapons\generic_smoke_eft_sil
 
 scope_zoom_factor_alt             = 0
 
@@ -673,76 +669,71 @@ snd_shoot_last1				= weapons\mp153_young_prince\mp153_shoot_4
 snd_silncer_shot		    = weapons\saiga_eft\saiga_shot_sil
 ;--------------------------------------------------------------------HUD--------------------------------------------------------------------------------
 [wpn_mp153_m1_hud]:hud_base
+item_visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_hud.ogf
 
-item_visual                 = dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
 
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
+hands_position		= -0.06, -0.15, 0.14
+hands_orientation	= 2, 2, 0
 
+aim_hud_offset_pos	= -0.0965, 0.078, -0.23
+aim_hud_offset_rot	= 0.0275, 0.035, 0
 
-
-hands_position              = -0.06, -0.15, 0.14
-hands_orientation           = 2, 2, 0
-
-aim_hud_offset_pos          = -0.0965, 0.078, -0.23
-aim_hud_offset_rot          = 0.0275, 0.035, 0
-
-
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1  
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1  
 
 ;------		
-item_position				= 0.001528,-0.012408,-0.099066
-item_orientation			= -0.046126,-1.000036,-0.024950
-		
-hands_position_16x9				= 0.003800,-0.001500,-0.003800
-hands_orientation_16x9			= 1.600000,2.200000,0.200000
+item_position		= 0.001528,-0.012408,-0.099066
+item_orientation	= -0.046126,-1.000036,-0.024950
 
-aim_hud_offset_pos_16x9				= -0.055500,0.031300,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+hands_position_16x9		= 0.003800,-0.001500,-0.003800
+hands_orientation_16x9	= 1.600000,2.200000,0.200000
+
+aim_hud_offset_pos_16x9	= -0.055500,0.031300,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;------
 
-aim_hud_offset_alt_pos_16x9				= -0.012200,0.033700,-0.007300
-aim_hud_offset_alt_rot_16x9				= 0.016500,0.028050,-0.438496
-        
+aim_hud_offset_alt_pos_16x9	= -0.012200,0.033700,-0.007300
+aim_hud_offset_alt_rot_16x9	= 0.016500,0.028050,-0.438496
+
 ;------
-anm_show							= mp133_ghost_draw, idle_mp153
-anm_show_empty						= mp133_ghost_draw, idle_empty_mp153
-anm_hide							= mp133_ghost_holster, idle_mp153
-anm_hide_empty						= mp133_ghost_holster, idle_empty_mp153
-anm_idle							= mp133_ghost_idle, idle_mp153
-anm_idle_empty						= mp133_ghost_idle, idle_empty_mp153
-anm_idle_aim						= mp133_ghost_idle_aim, idle_mp153
-anm_idle_aim_empty					= mp133_ghost_idle_aim, idle_empty_mp153
-anm_idle_moving						= mp133_ghost_idle_moving, idle_mp153
-anm_idle_moving_empty				= mp133_ghost_idle_moving, idle_empty_mp153
-anm_idle_moving_crouch 				= mp133_ghost_idle_moving, idle_mp153
-anm_idle_moving_empty_crouch 		= mp133_ghost_idle_moving, idle_empty_mp153
-anm_idle_sprint						= mp133_ghost_idle_sprint, idle_mp153
-anm_idle_sprint_empty				= mp133_ghost_idle_sprint, idle_mp153
-anm_bore							= mp133_ghost_idle_aim, idle_mp153
+anm_show					= mp133_ghost_draw, idle_mp153
+anm_show_empty				= mp133_ghost_draw, idle_empty_mp153
+anm_hide					= mp133_ghost_holster, idle_mp153
+anm_hide_empty				= mp133_ghost_holster, idle_empty_mp153
+anm_idle					= mp133_ghost_idle, idle_mp153
+anm_idle_empty				= mp133_ghost_idle, idle_empty_mp153
+anm_idle_aim				= mp133_ghost_idle_aim, idle_mp153
+anm_idle_aim_empty			= mp133_ghost_idle_aim, idle_empty_mp153
+anm_idle_moving				= mp133_ghost_idle_moving, idle_mp153
+anm_idle_moving_empty		= mp133_ghost_idle_moving, idle_empty_mp153
+anm_idle_moving_crouch 		= mp133_ghost_idle_moving, idle_mp153
+anm_idle_moving_empty_crouch= mp133_ghost_idle_moving, idle_empty_mp153
+anm_idle_sprint				= mp133_ghost_idle_sprint, idle_mp153
+anm_idle_sprint_empty		= mp133_ghost_idle_sprint, idle_mp153
+anm_bore					= mp133_ghost_idle_aim, idle_mp153
 
-anm_shots							= mp133_ghost_shoot_last, shoot_mp153
-anm_shot_l							= mp133_ghost_shoot_last, shoot_last_mp153
+anm_shots					= mp133_ghost_shoot_last, shoot_mp153
+anm_shot_l					= mp133_ghost_shoot_last, shoot_last_mp153
 
-anm_open							= mp133_ghost_open, idle_mp153
-anm_open_empty						= mp133_ghost_open, idle_empty_mp153
-anm_add_cartridge					= mp133_ghost_insert, insert_mp153
-anm_close							= mp133_ghost_close, idle_mp153
-anm_close_empty						= mp153_ghost_close_empty, close_empty_mp153
+anm_open					= mp133_ghost_open, idle_mp153
+anm_open_empty				= mp133_ghost_open, idle_empty_mp153
+anm_add_cartridge			= mp133_ghost_insert, insert_mp153
+anm_close					= mp133_ghost_close, idle_mp153
+anm_close_empty				= mp153_ghost_close_empty, close_empty_mp153
 ;----
 
-shell_point			                = 0.02,0.072,0.228
-shell_dir                     	    = 0.0, 1.0, 0.0
-shell_bone			                = wpn_body
+shell_point	= 0.02,0.072,0.228
+shell_dir	= 0.0, 1.0, 0.0
+shell_bone	= wpn_body
 
-fire_point		                    = 0, 0.0, 0.2
-fire_bone			                = muzzle
+fire_point	= 0, 0.0, 0.2
+fire_bone	= muzzle
 
 freelook_z_offset_mul		= 0.1
 ;----------------------------------------------------------------------ADDONS---------------------------------------------------------------------------
 [wpn_mp153_m1_ac10632]:wpn_mp153_m1
-
 inv_weight			= 3.115
 
 hud				= wpn_mp153_m1_ac10632_hud
@@ -758,14 +749,12 @@ scope_status			= 0
 scope_dynamic_zoom = off
 
 [wpn_mp153_m1_ac10632_hud]:wpn_mp153_m1_hud
-
 item_visual                	= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_ac10632_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.055500,-0.000500,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.055500,-0.000500,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;----------------------------------------------------------------------------------------
 [wpn_mp153_m1_c-more]:wpn_mp153_m1
-
 inv_weight			= 3.3
 
 hud				= wpn_mp153_m1_c-more_hud
@@ -781,14 +770,12 @@ scope_status			= 0
 scope_dynamic_zoom = off
 
 [wpn_mp153_m1_c-more_hud]:wpn_mp153_m1_hud
-
 item_visual                	= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_c-more_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.055700,0.005300,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.055700,0.005300,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;----------------------------------------------------------------------------------------
 [wpn_mp153_m1_d0cter]:wpn_mp153_m1
-
 inv_weight			= 3.03
 
 hud				= wpn_mp153_m1_d0cter_hud
@@ -804,14 +791,12 @@ scope_status			= 0
 scope_dynamic_zoom = off
 
 [wpn_mp153_m1_d0cter_hud]:wpn_mp153_m1_hud
-
 item_visual                	= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_docter_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.055500,0.015000,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.055500,0.015000,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;----------------------------------------------------------------------------------------
 [wpn_mp153_m1_aim_low]:wpn_mp153_m1
-
 inv_weight			= 3.105
 
 hud				= wpn_mp153_m1_aim_low_hud
@@ -827,14 +812,12 @@ scope_status			= 0
 scope_dynamic_zoom = off
 
 [wpn_mp153_m1_aim_low_hud]:wpn_mp153_m1_hud
-
 item_visual                	= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_aim_low_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.055300,0.017600,-0.026100
-aim_hud_offset_rot_16x9				= 0.021000,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.055300,0.017600,-0.026100
+aim_hud_offset_rot_16x9	= 0.021000,0.028050,-0.001500
 ;---------------------------------------------------------------------------------------------------
 [wpn_mp153_m1_rmr]:wpn_mp153_m1
-
 inv_weight			= 3.034
 
 hud				= wpn_mp153_m1_rmr_hud
@@ -850,14 +833,12 @@ scope_status			= 0
 scope_dynamic_zoom = off
 
 [wpn_mp153_m1_rmr_hud]:wpn_mp153_m1_hud
-
 item_visual                	= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_rmr_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.055500,0.015200,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.055500,0.015200,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;----------------------------------------------------------------------------------------
 [wpn_mp153_m1_deltapoint]:wpn_mp153_m1
-
 inv_weight			= 3.041
 
 hud				= wpn_mp153_m1_deltapoint_hud
@@ -873,14 +854,12 @@ scope_status			= 0
 scope_dynamic_zoom = off
 
 [wpn_mp153_m1_deltapoint_hud]:wpn_mp153_m1_hud
-
 item_visual                	= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_deltapoint_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.056200,0.011700,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.056200,0.011700,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;----------------------------------------------------------------------------------------
 [wpn_mp153_m1_0kp2]:wpn_mp153_m1
-
 inv_weight			= 3.200
 
 hud				= wpn_mp153_m1_0kp2_hud
@@ -896,27 +875,25 @@ scope_status			= 0
 scope_dynamic_zoom = off
 
 [wpn_mp153_m1_0kp2_hud]:wpn_mp153_m1_hud
-
 item_visual                	= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_0kp2_hud.ogf
 
-aim_hud_offset_pos_16x9				= -0.052800,0.008500,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.052800,0.008500,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;--------------------------------------------------------------------------------------------
 [wpn_mp153_m1_rakurs]:wpn_mp153_m1
-$spawn             			= "weapons\wpn_mp153_m1_rakurs"
-hud					= wpn_mp153_m1_rakurs_hud
-visual					= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
+$spawn			= "weapons\wpn_mp153_m1_rakurs"
+hud				= wpn_mp153_m1_rakurs_hud
+visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
-1icon_layer                              = rakurs
-1icon_layer_x                            = 100
-1icon_layer_y                            = -26
+1icon_layer		= rakurs
+1icon_layer_x	= 100
+1icon_layer_y	= -26
 
-inv_weight                               = 3.500
+inv_weight		= 3.500
 
 [wpn_mp153_m1_rakurs_hud]:wpn_mp153_m1_hud
+item_visual				= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_rakurs_hud.ogf
 
-item_visual                		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_rakurs_hud.ogf
-
-aim_hud_offset_pos_16x9				= -0.054900,0.011600,-0.026100
-aim_hud_offset_rot_16x9				= 0.016500,0.028050,-0.001500
+aim_hud_offset_pos_16x9	= -0.054900,0.011600,-0.026100
+aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
 ;----------------------------------------------------------------------------------------

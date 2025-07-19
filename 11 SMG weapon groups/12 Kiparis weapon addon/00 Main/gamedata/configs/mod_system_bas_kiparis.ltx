@@ -203,11 +203,11 @@
 ; item_position				= -0.000600,-0.003698,-0.000108
 ; item_orientation			= -0.073593,1.208642,0.057375
 		
-; hands_position_16x9				= 0.057500,-0.109900,0.205000
-; hands_orientation_16x9			= 2.000000,2.000000,0.000000
+; hands_position_16x9		= 0.057500,-0.109900,0.205000
+; hands_orientation_16x9	= 2.000000,2.000000,0.000000
 		
-; aim_hud_offset_pos_16x9				= -0.063900,0.037200,-0.072501
-; aim_hud_offset_rot_16x9				= 0.056500,0.034000,0.000000
+; aim_hud_offset_pos_16x9	= -0.063900,0.037200,-0.072501
+; aim_hud_offset_rot_16x9	= 0.056500,0.034000,0.000000
 ; ;--------------------------------------------------------- 		
 
 ; hands_position              = 0.06, -0.12, 0.4
@@ -250,8 +250,6 @@
 
 ; lowered_hud_offset_pos_16x9		= 0.1,0,0
 ; lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1  
-
-
 
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m1]:identity_immunities,weapon_probability,default_weapon_params;wpn_kiparis_sounds
@@ -399,9 +397,9 @@ use_alt_aim_hud				= true
 hud_fov						= 0.78
 laser_status				= true 
 ;-----------------------------------------------------------------Particles----------------------------------------------------------------------------
-flame_particles         	= ghost_particles\weapons\generic_smoke_eft_sil         
-smoke_particles		   		= ghost_particles\weapons\flame_eft_sks  
-silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil  
+flame_particles         	= ghost_particles\weapons\generic_smoke_eft_sil
+smoke_particles		   		= ghost_particles\weapons\flame_eft_sks
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
 ;-----------------------------------------------------------------SOUNDS-------------------------------------------------------------------------------
 snd_bore                = weapons\kiparis_s\kiparis_bore
 snd_draw                = weapons\kiparis_blindside\kiparis_draw
@@ -419,20 +417,20 @@ snd_silncer_shot		= weapons\aps\aps_shot_sil
 snd_switch_mode			= weapons\generic\switch_mode
 ;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
 [wpn_kiparis_m1_hud]:hud_base
-item_visual                 = dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_hud.ogf
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
-;-------------------------------------------------------------      
-item_position				= -0.000104,-0.001260,-0.004305
-item_orientation			= -0.101368,3.963976,0.177637
-hands_position_16x9			= 0.085000,-0.011600,-0.170200
-hands_orientation_16x9		= 0.880000,-3.609997,1.500000
-aim_hud_offset_pos_16x9		= -0.083300,0.029700,-0.060000
-aim_hud_offset_rot_16x9		= 0.006000,0.012000,0.020000
+item_visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+;-------------------------------------------------------------
+item_position			= -0.000104,-0.001260,-0.004305
+item_orientation		= -0.101368,3.963976,0.177637
+hands_position_16x9		= 0.085000,-0.011600,-0.170200
+hands_orientation_16x9	= 0.880000,-3.609997,1.500000
+aim_hud_offset_pos_16x9	= -0.083300,0.029700,-0.060000
+aim_hud_offset_rot_16x9	= 0.006000,0.012000,0.020000
 ;------------------------------------------------------------
 aim_hud_offset_alt_pos_16x9	= -0.098500,-0.069501,-0.037900
 aim_hud_offset_alt_rot_16x9	= 0.002000,0.016000,0.894014
-hands_position              = 0.085, -0.045, -0.12        
+hands_position              = 0.085, -0.045, -0.12
 hands_orientation           = 1, 0.5, 1.5
 aim_hud_offset_pos          = -0.0845, 0.0355, -0.06
 aim_hud_offset_rot          = 0.009, 0.017, 0.02
@@ -474,28 +472,28 @@ fire_bone2                  = wpn_body
 fire_point                  = 0, 0, 0
 fire_point2                 = 0, 0, 0
 lowered_hud_offset_pos_16x9	= 0.1,0,0
-lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1  
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
 ;-------------------------------------------------------------------------------------Addons--------------------------------------------------------------------------------------------------
 [wpn_kiparis_m1_ac10632]:wpn_kiparis_m1
-inv_weight					= 1.515
-hud                     	= wpn_kiparis_m1_ac10632_hud
-1icon_layer					= ac10632
-1icon_layer_x				= 128
-1icon_layer_y				= -12              
-visual						= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+inv_weight		= 1.515
+hud				= wpn_kiparis_m1_ac10632_hud
+1icon_layer		= ac10632
+1icon_layer_x	= 128
+1icon_layer_y	= -12              
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
 
 [wpn_kiparis_m1_ac10632_hud]:wpn_kiparis_m1_hud
-item_visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_ac10632_hud.ogf
-aim_hud_offset_pos_16x9		= -0.083400,-0.008200,-0.060000
-aim_hud_offset_rot_16x9		= -0.002500,0.012000,0.020000
+item_visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_ac10632_hud.ogf
+aim_hud_offset_pos_16x9	= -0.083400,-0.008200,-0.060000
+aim_hud_offset_rot_16x9	= -0.002500,0.012000,0.020000
 ;-----------------------------------------------------------------------------
 [wpn_kiparis_m1_aim_low]:wpn_kiparis_m1
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-hud						= wpn_kiparis_m1_aim_low_hud
-inv_weight				= 1.505
-1icon_layer			    = aim_low
-1icon_layer_x			= 128
-1icon_layer_y			= -6
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+hud				= wpn_kiparis_m1_aim_low_hud
+inv_weight		= 1.505
+1icon_layer		= aim_low
+1icon_layer_x	= 128
+1icon_layer_y	= -6
 
 [wpn_kiparis_m1_aim_low_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_aim_low_hud.ogf
@@ -503,12 +501,12 @@ aim_hud_offset_pos_16x9	= -0.083800,0.012800,-0.060000
 aim_hud_offset_rot_16x9	= 0.006000,0.012000,0.020000
 ;-------------------------------------------------------------------------------------
 [wpn_kiparis_m1_point_aimpro]:wpn_kiparis_m1
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-hud						= wpn_kiparis_m1_point_aimpro_hud
-inv_weight				= 1.730
-1icon_layer			    = point_aimpro
-1icon_layer_x			= 140
-1icon_layer_y			= -16
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+hud				= wpn_kiparis_m1_point_aimpro_hud
+inv_weight		= 1.730
+1icon_layer		= point_aimpro
+1icon_layer_x	= 140
+1icon_layer_y	= -16
 
 [wpn_kiparis_m1_point_aimpro_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_aimpoint_pro_hud.ogf
@@ -516,12 +514,12 @@ aim_hud_offset_pos_16x9	= -0.083700,-0.015300,-0.060000
 aim_hud_offset_rot_16x9	= 0.006000,0.012000,0.020000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_kiparis_m1_d0cter]:wpn_kiparis_m1
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-hud						= wpn_kiparis_m1_d0cter_hud
-inv_weight				= 1.430
-1icon_layer			    = d0cter
-1icon_layer_x			= 140
-1icon_layer_y			= -10
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+hud				= wpn_kiparis_m1_d0cter_hud
+inv_weight		= 1.430
+1icon_layer		= d0cter
+1icon_layer_x	= 140
+1icon_layer_y	= -10
 
 [wpn_kiparis_m1_d0cter_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_docter_hud.ogf
@@ -529,12 +527,12 @@ aim_hud_offset_pos_16x9	= -0.083300,0.009900,-0.060000
 aim_hud_offset_rot_16x9	= -0.001500,0.012000,0.020000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_kiparis_m1_okep77]:wpn_kiparis_m1
-1icon_layer				= okep77
-1icon_layer_x			= 130
-1icon_layer_y			= -4
-hud						= wpn_kiparis_m1_okep77_hud
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-inv_weight				= 1.600
+1icon_layer		= okep77
+1icon_layer_x	= 130
+1icon_layer_y	= -4
+hud				= wpn_kiparis_m1_okep77_hud
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+inv_weight		= 1.600
 
 [wpn_kiparis_m1_okep77_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_okep77_hud.ogf
@@ -542,12 +540,12 @@ aim_hud_offset_pos_16x9	= -0.082000,0.005000,-0.060000
 aim_hud_offset_rot_16x9	= -0.003000,0.012000,0.020000
 ;---------------------------------------------------------------------------------------------------
 [wpn_kiparis_m1_rmr]:wpn_kiparis_m1
-1icon_layer  			= rmr
-1icon_layer_x			= 126
-1icon_layer_y			= -6
-hud						= wpn_kiparis_m1_rmr_hud
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-inv_weight				= 1.430
+1icon_layer		= rmr
+1icon_layer_x	= 126
+1icon_layer_y	= -6
+hud				= wpn_kiparis_m1_rmr_hud
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+inv_weight		= 1.430
 
 [wpn_kiparis_m1_rmr_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_rmr_hud.ogf
@@ -555,12 +553,12 @@ aim_hud_offset_pos_16x9	= -0.083300,0.007500,-0.060000
 aim_hud_offset_rot_16x9	= -0.002000,0.012000,0.020000
 ;---------------------------------------------------------------------------------------------------
 [wpn_kiparis_m1_deltapoint]:wpn_kiparis_m1
-1icon_layer  			= deltapoint
-1icon_layer_x			= 132
-1icon_layer_y			= -6
-hud						= wpn_kiparis_m1_deltapoint_hud
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-inv_weight				= 1.440
+1icon_layer		= deltapoint
+1icon_layer_x	= 132
+1icon_layer_y	= -6
+hud				= wpn_kiparis_m1_deltapoint_hud
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+inv_weight		= 1.440
 
 [wpn_kiparis_m1_deltapoint_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_deltapoint_hud.ogf
@@ -568,12 +566,12 @@ aim_hud_offset_pos_16x9	= -0.083600,0.001000,-0.060000
 aim_hud_offset_rot_16x9	= -0.002500,0.012000,0.020000
 ;----------------------------------------------------------------------------------------------------
 [wpn_kiparis_m1_compm4s]:wpn_kiparis_m1
-hud						= wpn_kiparis_m1_compm4s_hud
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-1icon_layer  			= compm4s
-1icon_layer_x			= 138
-1icon_layer_y			= -12
-inv_weight   			= 1.780
+hud				= wpn_kiparis_m1_compm4s_hud
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+1icon_layer		= compm4s
+1icon_layer_x	= 138
+1icon_layer_y	= -12
+inv_weight		= 1.780
 
 [wpn_kiparis_m1_compm4s_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_compm4s_hud.ogf
@@ -581,12 +579,12 @@ aim_hud_offset_pos_16x9	= -0.083700,-0.007400,-0.060000
 aim_hud_offset_rot_16x9	= 0.006000,0.012000,0.020000
 ;--------------------------------------------------------------------------------------------
 [wpn_kiparis_m1_rakurs]:wpn_kiparis_m1
-hud						= wpn_kiparis_m1_rakurs_hud
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-1icon_layer  			= rakurs
-1icon_layer_x			= 130
-1icon_layer_y			= -10
-inv_weight   			= 1.900
+hud				= wpn_kiparis_m1_rakurs_hud
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+1icon_layer		= rakurs
+1icon_layer_x	= 130
+1icon_layer_y	= -10
+inv_weight		= 1.900
 
 [wpn_kiparis_m1_rakurs_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_rakurs_hud.ogf
@@ -595,12 +593,12 @@ aim_hud_offset_rot_16x9	= 0.006000,0.012000,0.020000
 ;-----------------------------------------------------------------------------------------------------
 
 [wpn_kiparis_m1_aimpoint]:wpn_kiparis_m1
-visual					= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
-hud						= wpn_kiparis_m1_aimpoint_hud
-inv_weight				= 1.530
-1icon_layer			    = aimpoint
-1icon_layer_x			= 135
-1icon_layer_y			= -14
+visual			= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_world.ogf
+hud				= wpn_kiparis_m1_aimpoint_hud
+inv_weight		= 1.530
+1icon_layer		= aimpoint
+1icon_layer_x	= 135
+1icon_layer_y	= -14
 
 [wpn_kiparis_m1_aimpoint_hud]:wpn_kiparis_m1_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m1\wpn_kiparis_m1_aimpoint_hud.ogf
@@ -753,9 +751,9 @@ use_alt_aim_hud                   = true
 hud_fov                           = 0.78
 laser_status                      = true 
 ;-----------------------------------------------------------------Particles----------------------------------------------------------------------------
-flame_particles                          = ghost_particles\weapons\generic_smoke_eft_sil         
-smoke_particles		   	                 = ghost_particles\weapons\flame_eft_sks  
-silencer_smoke_particles   		         = ghost_particles\weapons\generic_smoke_eft_sil  
+flame_particles				= ghost_particles\weapons\generic_smoke_eft_sil
+smoke_particles				= ghost_particles\weapons\flame_eft_sks
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
 ;-----------------------------------------------------------------SOUNDS-------------------------------------------------------------------------------
 snd_bore                = weapons\kiparis_s\kiparis_bore
 snd_draw                = weapons\sr2m\sr2m_draw
@@ -773,20 +771,20 @@ snd_silncer_shot		= weapons\aps\aps_shot_sil
 snd_switch_mode			= weapons\generic\switch_mode
 ;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
 [wpn_kiparis_m2_hud]:hud_base
-item_visual                 = dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_hud.ogf
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
-;-------------------------------------------------------------      
-item_position				= 0.000000,0.000000,0.000000                      
-item_orientation			= 0.000000,0.000000,0.000000                      
-hands_position_16x9				= 0.010000,0.002400,0.011600
-hands_orientation_16x9			= 0.660000,0.270000,3.139997
-aim_hud_offset_pos_16x9				= -0.010000,-0.008700,0.044000
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
+item_visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+;-------------------------------------------------------------
+item_position			= 0.000000,0.000000,0.000000
+item_orientation		= 0.000000,0.000000,0.000000
+hands_position_16x9		= 0.010000,0.002400,0.011600
+hands_orientation_16x9	= 0.660000,0.270000,3.139997
+aim_hud_offset_pos_16x9	= -0.010000,-0.008700,0.044000
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
 ;------------------------------------------------------------
 aim_hud_offset_alt_pos_16x9				= 0.038800,-0.014300,0.056300
 aim_hud_offset_alt_rot_16x9				= 0.012500,0.003000,-0.357497
-hands_position              = 0.085, -0.045, -0.12        
+hands_position              = 0.085, -0.045, -0.12
 hands_orientation           = 1, 0.5, 1.5
 aim_hud_offset_pos          = -0.0845, 0.0355, -0.06
 aim_hud_offset_rot          = 0.009, 0.017, 0.02
@@ -819,208 +817,208 @@ fire_bone                   = muzzle
 fire_bone2                  = wpn_body
 fire_point                  = 0, 0, 0
 fire_point2                 = 0, 0, 0
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1  		
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
 ;-------------------------------------------------------------------------------------Addons--------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_ac10632]:wpn_kiparis_m2
-inv_weight			= 1.715
-hud                     	= wpn_kiparis_m2_ac10632_hud
-1icon_layer			    = ac10632
-1icon_layer_x			= 98
-1icon_layer_y			= -18              
-visual = dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+inv_weight		= 1.715
+hud				= wpn_kiparis_m2_ac10632_hud
+1icon_layer		= ac10632
+1icon_layer_x	= 98
+1icon_layer_y	= -18
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
 
 [wpn_kiparis_m2_ac10632_hud]:wpn_kiparis_m2_hud
-item_visual                	= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_ac10632_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009500,-0.026100,0.044000
-aim_hud_offset_rot_16x9				= 0.008500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_ac10632_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009500,-0.026100,0.044000
+aim_hud_offset_rot_16x9	= 0.008500,0.011500,0.033500
 ;-----------------------------------------------------------------------------
 [wpn_kiparis_m2_aim_low]:wpn_kiparis_m2
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-hud						= wpn_kiparis_m2_aim_low_hud
-inv_weight                                         = 1.705
-1icon_layer			    = aim_low
-1icon_layer_x			= 98
-1icon_layer_y			= -12
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+hud				= wpn_kiparis_m2_aim_low_hud
+inv_weight		= 1.705
+1icon_layer		= aim_low
+1icon_layer_x	= 98
+1icon_layer_y	= -12
 
 [wpn_kiparis_m2_aim_low_hud]:wpn_kiparis_m2_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_aim_low_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009700,-0.010000,0.044000
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.009700,-0.010000,0.044000
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
 ;-------------------------------------------------------------------------------------
 [wpn_kiparis_m2_d0cter]:wpn_kiparis_m2
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-hud						= wpn_kiparis_m2_d0cter_hud
-inv_weight                                         = 1.630
-1icon_layer			    = d0cter
-1icon_layer_x			= 98
-1icon_layer_y			= -14
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+hud				= wpn_kiparis_m2_d0cter_hud
+inv_weight		= 1.630
+1icon_layer		= d0cter
+1icon_layer_x	= 98
+1icon_layer_y	= -14
 
 [wpn_kiparis_m2_d0cter_hud]:wpn_kiparis_m2_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_docter_hud.ogf
-aim_hud_offset_pos_16x9				= -0.010000,-0.011100,0.044000
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.010000,-0.011100,0.044000
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_okep77]:wpn_kiparis_m2
-1icon_layer                              = okep77
-1icon_layer_x			= 95
-1icon_layer_y			= -12
-hud					= wpn_kiparis_m2_okep77_hud
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-inv_weight                               = 1.750
+1icon_layer		= okep77
+1icon_layer_x	= 95
+1icon_layer_y	= -12
+hud				= wpn_kiparis_m2_okep77_hud
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+inv_weight		= 1.750
 
 [wpn_kiparis_m2_okep77_hud]:wpn_kiparis_m2_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_okep77_hud.ogf
-aim_hud_offset_pos_16x9				= -0.008500,-0.014800,0.044000
-aim_hud_offset_rot_16x9				= 0.010000,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_okep77_hud.ogf
+aim_hud_offset_pos_16x9	= -0.008500,-0.014800,0.044000
+aim_hud_offset_rot_16x9	= 0.010000,0.011500,0.033500
 ;---------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_rmr]:wpn_kiparis_m2
-1icon_layer                              = rmr
-1icon_layer_x                            = 95
-1icon_layer_y                            = -12
-hud					= wpn_kiparis_m2_rmr_hud
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-inv_weight                               = 1.634
+1icon_layer		= rmr
+1icon_layer_x	= 95
+1icon_layer_y	= -12
+hud				= wpn_kiparis_m2_rmr_hud
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+inv_weight		= 1.634
 
 [wpn_kiparis_m2_rmr_hud]:wpn_kiparis_m2_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_rmr_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009700,-0.011700,0.044000
-aim_hud_offset_rot_16x9				= 0.011000,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_rmr_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009700,-0.011700,0.044000
+aim_hud_offset_rot_16x9	= 0.011000,0.011500,0.033500
 ;---------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_deltapoint]:wpn_kiparis_m2
-1icon_layer                              = deltapoint
-1icon_layer_x                            = 95
-1icon_layer_y                            = -12
-hud					= wpn_kiparis_m2_deltapoint_hud
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-inv_weight                               = 1.641
+1icon_layer		= deltapoint
+1icon_layer_x	= 95
+1icon_layer_y	= -12
+hud				= wpn_kiparis_m2_deltapoint_hud
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+inv_weight		= 1.641
 
 [wpn_kiparis_m2_deltapoint_hud]:wpn_kiparis_m2_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_deltapoint_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009800,-0.017300,0.044000
-aim_hud_offset_rot_16x9				= 0.010500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_deltapoint_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009800,-0.017300,0.044000
+aim_hud_offset_rot_16x9	= 0.010500,0.011500,0.033500
 ;----------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_compm4s]:wpn_kiparis_m2
-hud					= wpn_kiparis_m2_compm4s_hud
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-1icon_layer                              = compm4s
-1icon_layer_x                            = 100
-1icon_layer_y                            = -22
-inv_weight                               = 1.980
+hud				= wpn_kiparis_m2_compm4s_hud
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+1icon_layer		= compm4s
+1icon_layer_x	= 100
+1icon_layer_y	= -22
+inv_weight		= 1.980
 
 [wpn_kiparis_m2_compm4s_hud]:wpn_kiparis_m2_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_compm4s_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009600,-0.027800,0.044000
-aim_hud_offset_rot_16x9				= 0.008500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_compm4s_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009600,-0.027800,0.044000
+aim_hud_offset_rot_16x9	= 0.008500,0.011500,0.033500
 ;--------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_rakurs]:wpn_kiparis_m2
-hud					= wpn_kiparis_m2_rakurs_hud
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-1icon_layer                              = rakurs
-1icon_layer_x                            = 95
-1icon_layer_y                            = -16
-inv_weight                               = 2.100
+hud				= wpn_kiparis_m2_rakurs_hud
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+1icon_layer		= rakurs
+1icon_layer_x	= 95
+1icon_layer_y	= -16
+inv_weight		= 2.100
 
 [wpn_kiparis_m2_rakurs_hud]:wpn_kiparis_m2_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_rakurs_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009100,-0.015700,0.044000
-aim_hud_offset_rot_16x9				= 0.009500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_rakurs_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009100,-0.015700,0.044000
+aim_hud_offset_rot_16x9	= 0.009500,0.011500,0.033500
 ;-----------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_aimpoint]:wpn_kiparis_m2
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-hud						= wpn_kiparis_m2_aimpoint_hud
-inv_weight                                         = 1.730
-1icon_layer			    = aimpoint
-1icon_layer_x			= 95
-1icon_layer_y			= -22
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+hud				= wpn_kiparis_m2_aimpoint_hud
+inv_weight		= 1.730
+1icon_layer		= aimpoint
+1icon_layer_x	= 95
+1icon_layer_y	= -22
 
 [wpn_kiparis_m2_aimpoint_hud]:wpn_kiparis_m2_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_aimpoint_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009700,-0.029500,0.044000
-aim_hud_offset_rot_16x9				= 0.008500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.009700,-0.029500,0.044000
+aim_hud_offset_rot_16x9	= 0.008500,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_acog]:wpn_kiparis_m2
-inv_weight			= 1.950
+inv_weight		= 1.950
 hud				= wpn_kiparis_m2_acog_hud
-1icon_layer			    = acog
-1icon_layer_x			= 88
-1icon_layer_y			= -18
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_acog
-scope_zoom_factor                                  = 25
-zoom_rotate_time		                           = 0.25
-scope_dynamic_zoom		                           = off
-visual = dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+1icon_layer		= acog
+1icon_layer_x	= 88
+1icon_layer_y	= -18
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
 
 [wpn_kiparis_m2_acog_hud]:wpn_kiparis_m2_hud
 item_visual            	 	= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_acog_hud.ogf
-aim_hud_offset_pos_16x9				= -0.010000,-0.018600,0.040300
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
-hands_position_16x9				= 0.010000,-0.005000,0.021700
-hands_orientation_16x9			= 0.580000,0.390000,3.139997
+aim_hud_offset_pos_16x9	= -0.010000,-0.018600,0.040300
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
+hands_position_16x9		= 0.010000,-0.005000,0.021700
+hands_orientation_16x9	= 0.580000,0.390000,3.139997
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_e0t2]:wpn_kiparis_m2
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-hud						= wpn_kiparis_m2_e0t2_hud
-inv_weight                                         = 1.827
-1icon_layer			    = e0t2
-1icon_layer_x			= 96
-1icon_layer_y			= -20
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+hud				= wpn_kiparis_m2_e0t2_hud
+inv_weight		= 1.827
+1icon_layer		= e0t2
+1icon_layer_x	= 96
+1icon_layer_y	= -20
 
 [wpn_kiparis_m2_e0t2_hud]:wpn_kiparis_m2_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_e0t2_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009800,-0.026000,0.044000
-aim_hud_offset_rot_16x9				= 0.008000,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.009800,-0.026000,0.044000
+aim_hud_offset_rot_16x9	= 0.008000,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_kemper]:wpn_kiparis_m2
-inv_weight			= 1.866
+inv_weight		= 1.866
 hud				= wpn_kiparis_m2_kemper_hud
-1icon_layer			    = kemper
-1icon_layer_x			= 95
-1icon_layer_y			= -20
+1icon_layer		= kemper
+1icon_layer_x	= 95
+1icon_layer_y	= -20
 visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-scope_status			= 0
-scope_dynamic_zoom = off
+scope_status		= 0
+scope_dynamic_zoom	= off
 
 [wpn_kiparis_m2_kemper_hud]:wpn_kiparis_m2_hud
-item_visual                	= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_kemper_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009500,-0.029600,0.044000
-aim_hud_offset_rot_16x9				= 0.007500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_kemper_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009500,-0.029600,0.044000
+aim_hud_offset_rot_16x9	= 0.007500,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_0kp2]:wpn_kiparis_m2
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-hud						= wpn_kiparis_m2_0kp2_hud
-inv_weight                                         = 1.800
-1icon_layer			    = 0kp2
-1icon_layer_x			= 105
-1icon_layer_y			= -12
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+hud				= wpn_kiparis_m2_0kp2_hud
+inv_weight		= 1.800
+1icon_layer		= 0kp2
+1icon_layer_x	= 105
+1icon_layer_y	= -12
 
 [wpn_kiparis_m2_0kp2_hud]:wpn_kiparis_m2_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_0kp2_hud.ogf
-aim_hud_offset_pos_16x9				= -0.007100,-0.020600,0.044000
-aim_hud_offset_rot_16x9				= 0.009500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.007100,-0.020600,0.044000
+aim_hud_offset_rot_16x9	= 0.009500,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m2_pn23]:wpn_kiparis_m2
-visual					= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
-hud					= wpn_kiparis_m2_pn23_hud
-1icon_layer                              = pn23
-1icon_layer_x                            = 60
-1icon_layer_y                            = -22
-;installed_upgrades                       = up_fourte_svd_nimble
-;scope_nightvision                        = scope_nightvision_3gen
+visual			= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_world.ogf
+hud				= wpn_kiparis_m2_pn23_hud
+1icon_layer		= pn23
+1icon_layer_x	= 60
+1icon_layer_y	= -22
+;installed_upgrades	= up_fourte_svd_nimble
+;scope_nightvision	= scope_nightvision_3gen
 nv_scope_status = 1
-inv_weight                                         = 2.250
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_pn23
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
+inv_weight		= 2.250
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
 [wpn_kiparis_m2_pn23_hud]:wpn_kiparis_m2_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m2\wpn_kiparis_m2_pn23_hud.ogf
-aim_hud_offset_pos_16x9				= -0.010400,-0.023000,0.071900
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
-hands_position_16x9				= 0.010000,-0.015500,0.032400
-hands_orientation_16x9			= 0.660000,0.490000,3.139997
+aim_hud_offset_pos_16x9	= -0.010400,-0.023000,0.071900
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
+hands_position_16x9		= 0.010000,-0.015500,0.032400
+hands_orientation_16x9	= 0.660000,0.490000,3.139997
 ;------------------------------------------------------------------------------------------------
  ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3]:identity_immunities,weapon_probability,default_weapon_params;wpn_kiparis_sounds
@@ -1090,8 +1088,8 @@ ammo_elapsed                = 81
 ammo_mag_size               = 81
 startup_ammo                = 90
 scopes						= ac10632, okep77, d0cter, aim_low, e0t2, rmr, deltapoint, compm4s, 0kp2, rakurs, kemper, aimpoint, acog
-scope_status                             = 0
-scope_zoom_factor                        = 0
+scope_status				= 0
+scope_zoom_factor			= 0
 silencer_name               = wpn_sil_9mm
 silencer_status             = 2
 silencer_x                  = 170
@@ -1169,9 +1167,9 @@ use_alt_aim_hud                   = true
 hud_fov                           = 0.78
 laser_status                      = true 
 ;-----------------------------------------------------------------Particles----------------------------------------------------------------------------
-flame_particles                          = ghost_particles\weapons\generic_smoke_eft_sil         
-smoke_particles		   	                 = ghost_particles\weapons\flame_eft_sks  
-silencer_smoke_particles   		         = ghost_particles\weapons\generic_smoke_eft_sil  
+flame_particles				= ghost_particles\weapons\generic_smoke_eft_sil
+smoke_particles				= ghost_particles\weapons\flame_eft_sks
+silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
 ;-----------------------------------------------------------------SOUNDS-------------------------------------------------------------------------------
 snd_bore                = weapons\kiparis_s\kiparis_bore
 snd_draw                = weapons\sr2m\sr2m_draw
@@ -1189,20 +1187,20 @@ snd_silncer_shot		= weapons\aps\aps_shot_sil
 snd_switch_mode			= weapons\generic\switch_mode
 ;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
 [wpn_kiparis_m3_hud]:hud_base
-item_visual                 = dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_hud.ogf
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
-;-------------------------------------------------------------      
-item_position				= 0.000000,0.000000,0.000000                      
-item_orientation			= 0.000000,0.000000,0.000000                      
-hands_position_16x9				= 0.010000,0.002400,0.011600
-hands_orientation_16x9			= 0.660000,0.270000,3.139997
-aim_hud_offset_pos_16x9				= -0.010000,-0.008700,0.044000
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
+item_visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_hud.ogf
+attach_place_idx	= 0
+zoom_hide_crosshair	= true
+;-------------------------------------------------------------
+item_position			= 0.000000,0.000000,0.000000
+item_orientation		= 0.000000,0.000000,0.000000
+hands_position_16x9		= 0.010000,0.002400,0.011600
+hands_orientation_16x9	= 0.660000,0.270000,3.139997
+aim_hud_offset_pos_16x9	= -0.010000,-0.008700,0.044000
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
 ;------------------------------------------------------------
-aim_hud_offset_alt_pos_16x9				= 0.038800,-0.014300,0.056300
-aim_hud_offset_alt_rot_16x9				= 0.012500,0.003000,-0.357497
-hands_position              = 0.085, -0.045, -0.12        
+aim_hud_offset_alt_pos_16x9	= 0.038800,-0.014300,0.056300
+aim_hud_offset_alt_rot_16x9	= 0.012500,0.003000,-0.357497
+hands_position              = 0.085, -0.045, -0.12
 hands_orientation           = 1, 0.5, 1.5
 aim_hud_offset_pos          = -0.0845, 0.0355, -0.06
 aim_hud_offset_rot          = 0.009, 0.017, 0.02
@@ -1235,206 +1233,206 @@ fire_bone                   = muzzle
 fire_bone2                  = wpn_body
 fire_point                  = 0, 0, 0
 fire_point2                 = 0, 0, 0
-lowered_hud_offset_pos_16x9		= 0.1,0,0
-lowered_hud_offset_rot_16x9		= 0.1,-0.8,0.1  		
+lowered_hud_offset_pos_16x9	= 0.1,0,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
 ;-------------------------------------------------------------------------------------Addons--------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_ac10632]:wpn_kiparis_m3
-inv_weight			= 1.715
-hud                     	= wpn_kiparis_m3_ac10632_hud
-1icon_layer			    = ac10632
-1icon_layer_x			= 98
-1icon_layer_y			= -18              
-visual = dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+inv_weight		= 1.715
+hud				= wpn_kiparis_m3_ac10632_hud
+1icon_layer		= ac10632
+1icon_layer_x	= 98
+1icon_layer_y	= -18
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
 
 [wpn_kiparis_m3_ac10632_hud]:wpn_kiparis_m3_hud
-item_visual                	= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_ac10632_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009500,-0.026100,0.044000
-aim_hud_offset_rot_16x9				= 0.008500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_ac10632_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009500,-0.026100,0.044000
+aim_hud_offset_rot_16x9	= 0.008500,0.011500,0.033500
 ;-----------------------------------------------------------------------------
 [wpn_kiparis_m3_aim_low]:wpn_kiparis_m3
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-hud						= wpn_kiparis_m3_aim_low_hud
-inv_weight                                         = 1.705
-1icon_layer			    = aim_low
-1icon_layer_x			= 98
-1icon_layer_y			= -12
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+hud				= wpn_kiparis_m3_aim_low_hud
+inv_weight		= 1.705
+1icon_layer		= aim_low
+1icon_layer_x	= 98
+1icon_layer_y	= -12
 
 [wpn_kiparis_m3_aim_low_hud]:wpn_kiparis_m3_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_aim_low_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009700,-0.010000,0.044000
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.009700,-0.010000,0.044000
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
 ;-------------------------------------------------------------------------------------
 [wpn_kiparis_m3_d0cter]:wpn_kiparis_m3
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-hud						= wpn_kiparis_m3_d0cter_hud
-inv_weight                                         = 1.630
-1icon_layer			    = d0cter
-1icon_layer_x			= 98
-1icon_layer_y			= -14
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+hud				= wpn_kiparis_m3_d0cter_hud
+inv_weight		= 1.630
+1icon_layer		= d0cter
+1icon_layer_x	= 98
+1icon_layer_y	= -14
 
 [wpn_kiparis_m3_d0cter_hud]:wpn_kiparis_m3_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_docter_hud.ogf
-aim_hud_offset_pos_16x9				= -0.010000,-0.011100,0.044000
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.010000,-0.011100,0.044000
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_okep77]:wpn_kiparis_m3
-1icon_layer                              = okep77
-1icon_layer_x			= 95
-1icon_layer_y			= -12
-hud					= wpn_kiparis_m3_okep77_hud
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-inv_weight                               = 1.750
+1icon_layer		= okep77
+1icon_layer_x	= 95
+1icon_layer_y	= -12
+hud				= wpn_kiparis_m3_okep77_hud
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+inv_weight		= 1.750
 
 [wpn_kiparis_m3_okep77_hud]:wpn_kiparis_m3_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_okep77_hud.ogf
-aim_hud_offset_pos_16x9				= -0.008500,-0.014800,0.044000
-aim_hud_offset_rot_16x9				= 0.010000,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_okep77_hud.ogf
+aim_hud_offset_pos_16x9	= -0.008500,-0.014800,0.044000
+aim_hud_offset_rot_16x9	= 0.010000,0.011500,0.033500
 ;---------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_rmr]:wpn_kiparis_m3
-1icon_layer                              = rmr
-1icon_layer_x                            = 95
-1icon_layer_y                            = -12
-hud					= wpn_kiparis_m3_rmr_hud
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-inv_weight                               = 1.634
+1icon_layer		= rmr
+1icon_layer_x	= 95
+1icon_layer_y	= -12
+hud				= wpn_kiparis_m3_rmr_hud
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+inv_weight		= 1.634
 
 [wpn_kiparis_m3_rmr_hud]:wpn_kiparis_m3_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_rmr_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009700,-0.011700,0.044000
-aim_hud_offset_rot_16x9				= 0.011000,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_rmr_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009700,-0.011700,0.044000
+aim_hud_offset_rot_16x9	= 0.011000,0.011500,0.033500
 ;---------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_deltapoint]:wpn_kiparis_m3
-1icon_layer                              = deltapoint
-1icon_layer_x                            = 95
-1icon_layer_y                            = -12
-hud					= wpn_kiparis_m3_deltapoint_hud
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-inv_weight                               = 1.641
+1icon_layer		= deltapoint
+1icon_layer_x	= 95
+1icon_layer_y	= -12
+hud				= wpn_kiparis_m3_deltapoint_hud
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+inv_weight		= 1.641
 
 [wpn_kiparis_m3_deltapoint_hud]:wpn_kiparis_m3_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_deltapoint_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009800,-0.017300,0.044000
-aim_hud_offset_rot_16x9				= 0.010500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_deltapoint_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009800,-0.017300,0.044000
+aim_hud_offset_rot_16x9	= 0.010500,0.011500,0.033500
 ;----------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_compm4s]:wpn_kiparis_m3
-hud					= wpn_kiparis_m3_compm4s_hud
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-1icon_layer                              = compm4s
-1icon_layer_x                            = 100
-1icon_layer_y                            = -22
-inv_weight                               = 1.980
+hud				= wpn_kiparis_m3_compm4s_hud
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+1icon_layer		= compm4s
+1icon_layer_x	= 100
+1icon_layer_y	= -22
+inv_weight		= 1.980
 
 [wpn_kiparis_m3_compm4s_hud]:wpn_kiparis_m3_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_compm4s_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009600,-0.027800,0.044000
-aim_hud_offset_rot_16x9				= 0.008500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_compm4s_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009600,-0.027800,0.044000
+aim_hud_offset_rot_16x9	= 0.008500,0.011500,0.033500
 ;--------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_rakurs]:wpn_kiparis_m3
-hud					= wpn_kiparis_m3_rakurs_hud
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-1icon_layer                              = rakurs
-1icon_layer_x                            = 95
-1icon_layer_y                            = -16
-inv_weight                               = 2.100
+hud				= wpn_kiparis_m3_rakurs_hud
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+1icon_layer		= rakurs
+1icon_layer_x	= 95
+1icon_layer_y	= -16
+inv_weight		= 2.100
 
 [wpn_kiparis_m3_rakurs_hud]:wpn_kiparis_m3_hud
-item_visual                		= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_rakurs_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009100,-0.015700,0.044000
-aim_hud_offset_rot_16x9				= 0.009500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_rakurs_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009100,-0.015700,0.044000
+aim_hud_offset_rot_16x9	= 0.009500,0.011500,0.033500
 ;-----------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_aimpoint]:wpn_kiparis_m3
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-hud						= wpn_kiparis_m3_aimpoint_hud
-inv_weight                                         = 1.730
-1icon_layer			    = aimpoint
-1icon_layer_x			= 95
-1icon_layer_y			= -22
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+hud				= wpn_kiparis_m3_aimpoint_hud
+inv_weight		= 1.730
+1icon_layer		= aimpoint
+1icon_layer_x	= 95
+1icon_layer_y	= -22
 
 [wpn_kiparis_m3_aimpoint_hud]:wpn_kiparis_m3_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_aimpoint_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009700,-0.029500,0.044000
-aim_hud_offset_rot_16x9				= 0.008500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.009700,-0.029500,0.044000
+aim_hud_offset_rot_16x9	= 0.008500,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_acog]:wpn_kiparis_m3
-inv_weight			= 1.950
+inv_weight		= 1.950
 hud				= wpn_kiparis_m3_acog_hud
-1icon_layer			    = acog
-1icon_layer_x			= 88
-1icon_layer_y			= -18
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_acog
-scope_zoom_factor                                  = 25
-zoom_rotate_time		                           = 0.25
-scope_dynamic_zoom		                           = off
-visual = dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+1icon_layer		= acog
+1icon_layer_x	= 88
+1icon_layer_y	= -18
+scope_status		= 1
+scope_texture		= wpn_crosshair_acog
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
+scope_dynamic_zoom	= off
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
 
 [wpn_kiparis_m3_acog_hud]:wpn_kiparis_m3_hud
 item_visual            	 	= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_acog_hud.ogf
-aim_hud_offset_pos_16x9				= -0.010000,-0.018600,0.040300
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
-hands_position_16x9				= 0.010000,-0.005000,0.021700
-hands_orientation_16x9			= 0.580000,0.390000,3.139997
+aim_hud_offset_pos_16x9	= -0.010000,-0.018600,0.040300
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
+hands_position_16x9		= 0.010000,-0.005000,0.021700
+hands_orientation_16x9	= 0.580000,0.390000,3.139997
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_e0t2]:wpn_kiparis_m3
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-hud						= wpn_kiparis_m3_e0t2_hud
-inv_weight                                         = 1.827
-1icon_layer			    = e0t2
-1icon_layer_x			= 96
-1icon_layer_y			= -20
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+hud				= wpn_kiparis_m3_e0t2_hud
+inv_weight		= 1.827
+1icon_layer		= e0t2
+1icon_layer_x	= 96
+1icon_layer_y	= -20
 
 [wpn_kiparis_m3_e0t2_hud]:wpn_kiparis_m3_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_e0t2_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009800,-0.026000,0.044000
-aim_hud_offset_rot_16x9				= 0.008000,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.009800,-0.026000,0.044000
+aim_hud_offset_rot_16x9	= 0.008000,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_kemper]:wpn_kiparis_m3
-inv_weight			= 1.866
+inv_weight		= 1.866
 hud				= wpn_kiparis_m3_kemper_hud
-1icon_layer			    = kemper
-1icon_layer_x			= 95
-1icon_layer_y			= -20
+1icon_layer		= kemper
+1icon_layer_x	= 95
+1icon_layer_y	= -20
 visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-scope_status			= 0
-scope_dynamic_zoom = off
+scope_status		= 0
+scope_dynamic_zoom	= off
 
 [wpn_kiparis_m3_kemper_hud]:wpn_kiparis_m3_hud
-item_visual                	= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_kemper_hud.ogf
-aim_hud_offset_pos_16x9				= -0.009500,-0.029600,0.044000
-aim_hud_offset_rot_16x9				= 0.007500,0.011500,0.033500
+item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_kemper_hud.ogf
+aim_hud_offset_pos_16x9	= -0.009500,-0.029600,0.044000
+aim_hud_offset_rot_16x9	= 0.007500,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_0kp2]:wpn_kiparis_m3
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-hud						= wpn_kiparis_m3_0kp2_hud
-inv_weight                                         = 1.800
-1icon_layer			    = 0kp2
-1icon_layer_x			= 105
-1icon_layer_y			= -12
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+hud				= wpn_kiparis_m3_0kp2_hud
+inv_weight		= 1.800
+1icon_layer		= 0kp2
+1icon_layer_x	= 105
+1icon_layer_y	= -12
 
 [wpn_kiparis_m3_0kp2_hud]:wpn_kiparis_m3_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_0kp2_hud.ogf
-aim_hud_offset_pos_16x9				= -0.007100,-0.020600,0.044000
-aim_hud_offset_rot_16x9				= 0.009500,0.011500,0.033500
+aim_hud_offset_pos_16x9	= -0.007100,-0.020600,0.044000
+aim_hud_offset_rot_16x9	= 0.009500,0.011500,0.033500
 ;------------------------------------------------------------------------------------------------
 [wpn_kiparis_m3_pn23]:wpn_kiparis_m3
-visual					= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
-hud					= wpn_kiparis_m3_pn23_hud
-1icon_layer                              = pn23
-1icon_layer_x                            = 60
-1icon_layer_y                            = -22
-;installed_upgrades                       = up_fourte_svd_nimble
-;scope_nightvision                        = scope_nightvision_3gen
-nv_scope_status = 1
-inv_weight                                         = 2.250
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_pn23
-scope_zoom_factor                                  = 25
-zoom_rotate_time                                   = 0.25
+visual			= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_world.ogf
+hud				= wpn_kiparis_m3_pn23_hud
+1icon_layer		= pn23
+1icon_layer_x	= 60
+1icon_layer_y	= -22
+;installed_upgrades	= up_fourte_svd_nimble
+;scope_nightvision	= scope_nightvision_3gen
+nv_scope_status		= 1
+inv_weight		= 2.250
+scope_status		= 1
+scope_texture		= wpn_crosshair_pn23
+scope_zoom_factor	= 25
+zoom_rotate_time	= 0.25
 
 [wpn_kiparis_m3_pn23_hud]:wpn_kiparis_m3_hud
 item_visual				= dynamics\weapons\wpn_kiparis_m3\wpn_kiparis_m3_pn23_hud.ogf
-aim_hud_offset_pos_16x9				= -0.010400,-0.023000,0.071900
-aim_hud_offset_rot_16x9				= 0.011500,0.011500,0.033500
-hands_position_16x9				= 0.010000,-0.015500,0.032400
-hands_orientation_16x9			= 0.660000,0.490000,3.139997
+aim_hud_offset_pos_16x9	= -0.010400,-0.023000,0.071900
+aim_hud_offset_rot_16x9	= 0.011500,0.011500,0.033500
+hands_position_16x9		= 0.010000,-0.015500,0.032400
+hands_orientation_16x9	= 0.660000,0.490000,3.139997
 ;------------------------------------------------------------------------------------------------

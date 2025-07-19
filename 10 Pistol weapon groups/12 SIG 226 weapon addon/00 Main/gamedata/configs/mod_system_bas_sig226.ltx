@@ -9,7 +9,7 @@
 GroupControlSection         = spawn_group
 $npc                        = on
 $prefetch                   = 8
-$spawn                      = "weapons\sig220"
+$spawn                      = "weapons\sig226"
 scheduled                   = off
 cform                       = skeleton
 
@@ -17,8 +17,8 @@ parent_section              = wpn_sig226
 
 scopes 				        = 226sig_kit
 
-scope_status                             = 0
-scope_zoom_factor                        = 0   
+scope_status				= 0
+scope_zoom_factor			= 0   
 
 class                       = WP_PM
 slot                        = 1
@@ -31,11 +31,11 @@ single_handed               = 1
 default_to_ruck             = false
 sprint_allowed              = true
 
-icons_texture	= ui\ui_icon_bas_sig226        
-inv_grid_width     = 2
-inv_grid_height    = 1
-inv_grid_x         = 0
-inv_grid_y         = 0
+icons_texture				= ui\ui_icon_bas_sig226        
+inv_grid_width				= 2
+inv_grid_height				= 1
+inv_grid_x					= 0
+inv_grid_y					= 0
 
 inv_name                    = st_wpn_sig226
 inv_name_short              = st_wpn_sig226
@@ -119,7 +119,7 @@ zoom_dof                    = -1000, 1.0, 1000
 zoom_enabled                = true
 zoom_rotate_time            = 0.25
 reload_dof                  = 0.0, 0.5, 5, 1.7
-control_inertion_factor = 1.0f
+control_inertion_factor		= 1.0f
 crosshair_inertion          = 2.8
 fire_dispersion_base        = 0.54
 fire_dispersion_condition_factor = 0.001
@@ -165,11 +165,11 @@ kill_msg_width              = 31
 kill_msg_height             = 24
 weapon_lower_speed			= 0.2
 
-hud_fov                             = 0.78
+hud_fov						= 0.78
 
 ;----------------------------------------------------------------------PRTCLS---------------------------------------------------------------------------
  
-smoke_particles		   	    = ghost_particles\weapons\flame_eft_sks          ;particles remade incomp.	
+smoke_particles			= ghost_particles\weapons\flame_eft_sks	;particles remade incomp.	
  
 ;-----------------------------------------------------------------------SND-----------------------------------------------------------------------------	
 snd_draw				= eft_wp\shared\draw_pistol
@@ -192,20 +192,20 @@ snd_bore				= eft_wp\sil
 ;-----------------------------------------------------------------------HUD-----------------------------------------------------------------------------
 [wpn_sig226_hud]:hud_base
 
-item_visual                 = dynamics\weapons\wpn_sig226\wpn_sig226_hud.ogf
+item_visual				= dynamics\weapons\wpn_sig226\wpn_sig226_hud.ogf
 
-attach_place_idx            = 0
-zoom_hide_crosshair         = true
+attach_place_idx		= 0
+zoom_hide_crosshair		= true
 
 ;-----------
-item_position				= 0.000753,-0.003613,0.003316
-item_orientation			= 1.239378,-0.134046,-2.052052
-		
-hands_position_16x9				= -0.080400,-0.142000,-0.300000
-hands_orientation_16x9			= -0.918997,0.543006,0.150000
+item_position			= 0.000753,-0.003613,0.003316
+item_orientation		= 1.239378,-0.134046,-2.052052
 
-aim_hud_offset_pos_16x9				= -0.045799,0.029700,-0.057301
-aim_hud_offset_rot_16x9				= 0.003850,0.008450,-0.042100
+hands_position_16x9		= -0.080400,-0.142000,-0.300000
+hands_orientation_16x9	= -0.918997,0.543006,0.150000
+
+aim_hud_offset_pos_16x9	= -0.045799,0.029700,-0.057301
+aim_hud_offset_rot_16x9	= 0.003850,0.008450,-0.042100
 ;------------  
 
 hands_position              = -0.031, -0.17, 0
@@ -214,11 +214,11 @@ hands_orientation           = -0.5, 1., 1.15
 safemode_anm				= 
 safemode_anm2				= 
 
-lowered_hud_offset_pos			= 0,0.1,0
-lowered_hud_offset_rot			= 0.3,-0.1,0.1
+lowered_hud_offset_pos		= 0,0.1,0
+lowered_hud_offset_rot		= 0.3,-0.1,0.1
 
-lowered_hud_offset_pos_16x9		= 0,0.05,0
-lowered_hud_offset_rot_16x9		= 0.3,-0.1,0.1
+lowered_hud_offset_pos_16x9	= 0,0.05,0
+lowered_hud_offset_rot_16x9	= 0.3,-0.1,0.1
 
 aim_hud_offset_pos          = -0.0985, 0.0575, -0.2
 aim_hud_offset_rot          = 0.01, 0.012, -0.0075
@@ -229,33 +229,26 @@ gl_hud_offset_rot           = 0, 0, 0
 lean_hud_offset_pos         = 0, 0, 0
 lean_hud_offset_rot         = 0, 0, 0
 
-anm_show						= glock_eft_ins_draw,               idle
-anm_show_empty					= glock_eft_ins_draw,               idle_empty
-anm_hide             			= glock_eft_ins_hide,               idle
-anm_hide_empty             		= glock_eft_ins_hide,               idle_empty
-anm_idle             			= glock_eft_ins_idle,               idle
-anm_idle_empty             		= glock_eft_ins_idle,               idle_empty
-anm_shots						= glock_eft_ins_shoot,              shoot
-anm_shot_l						= glock_eft_ins_shoot_last,         shoot_last
-anm_idle_aim					= glock_eft_ins_idle_aim,           idle
-anm_idle_aim_empty				= glock_eft_ins_idle_aim,           idle_empty
-anm_reload						= glock_eft_ins_reload,             reload              ,1.5
-;anm_reload_empty				= glock_eft_ins_reload_empty,       reload_empty        ,1.4
-
-;anm_reload						= glock_eft_ins_reload_speed,       reload_speed
-;anm_reload_empty				= glock_eft_ins_reload_empty_speed, reload_empty_speed
-
-;anm_reload						= glock_eft_ins_reload_speed,       reload_speed_glock
-anm_reload_empty				= glock_eft_ins_reload_empty_speed, reload_empty_speed_glock
-
-anm_idle_moving 				= glock_eft_ins_idle_moving,        idle                       ,0.7
-anm_idle_moving_empty 			= glock_eft_ins_idle_moving,        idle_empty                 ,0.7
-anm_idle_moving_crouch			= glock_eft_ins_idle_crouch,        idle
-anm_idle_moving_crouch_empty	= glock_eft_ins_idle_crouch,        idle_empty
-anm_idle_sprint					= glock_eft_ins_idle_sprint_v4,     idle
-anm_idle_sprint_empty			= glock_eft_ins_idle_sprint_v4,     idle_empty
-anm_bore						= glock_eft_ins_idle_aim,           idle
-anm_bore_empty					= glock_eft_ins_idle_aim,           idle_empty
+anm_show					= glock_eft_ins_draw,			idle
+anm_show_empty				= glock_eft_ins_draw,			idle_empty
+anm_hide             		= glock_eft_ins_hide,			idle
+anm_hide_empty             	= glock_eft_ins_hide,			idle_empty
+anm_idle             		= glock_eft_ins_idle,			idle
+anm_idle_empty             	= glock_eft_ins_idle,			idle_empty
+anm_shots					= glock_eft_ins_shoot,			shoot
+anm_shot_l					= glock_eft_ins_shoot_last,		shoot_last
+anm_idle_aim				= glock_eft_ins_idle_aim,		idle
+anm_idle_aim_empty			= glock_eft_ins_idle_aim,		idle_empty
+anm_reload					= glock_eft_ins_reload,			reload	,1.5
+anm_reload_empty			= glock_eft_ins_reload_empty_speed, reload_empty_speed_glock
+anm_idle_moving 			= glock_eft_ins_idle_moving,	idle	,0.7
+anm_idle_moving_empty 		= glock_eft_ins_idle_moving,	idle_empty	,0.7
+anm_idle_moving_crouch		= glock_eft_ins_idle_crouch,	idle
+anm_idle_moving_crouch_empty= glock_eft_ins_idle_crouch,	idle_empty
+anm_idle_sprint				= glock_eft_ins_idle_sprint_v4,	idle
+anm_idle_sprint_empty		= glock_eft_ins_idle_sprint_v4,	idle_empty
+anm_bore					= glock_eft_ins_idle_aim,		idle
+anm_bore_empty				= glock_eft_ins_idle_aim,		idle_empty
 
 shell_bone                  = gilza
 shell_point						= -0.03,-0.05,0.05
@@ -265,61 +258,54 @@ fire_point                  = 0, 0, 0
 
 ;--------------------------------------------------------------------Addons--------------------------------------------------------------------------
 [wpn_sig226_226sig_kit]:wpn_sig226
+inv_weight		= 0.860
 
-inv_weight			    = 0.860
+hud				= wpn_sig226_226sig_kit_hud
 
-hud				        = wpn_sig226_226sig_kit_hud
+parent_section	= wpn_sig226_226sig_kit
 
-parent_section              = wpn_sig226_226sig_kit
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 0
+inv_grid_y		= 1
 
-inv_grid_width     = 2
-inv_grid_height    = 1
-inv_grid_x         = 0
-inv_grid_y         = 1
+visual			= dynamics\weapons\wpn_sig226\wpn_sig226_226sig_kit_world.ogf
 
-visual				    = dynamics\weapons\wpn_sig226\wpn_sig226_226sig_kit_world.ogf
+scope_status	= 1
 
-scope_status                = 1
+silencer_status	= 2
 
-silencer_status             = 2
+inv_name		= st_wpn_sig226_226sig_kit
+inv_name_short	= st_wpn_sig226_226sig_kit
+description		= st_wpn_sig226_226sig_kit_descr
 
-inv_name                                 = st_wpn_sig226_226sig_kit
-inv_name_short                           = st_wpn_sig226_226sig_kit
-description                              = st_wpn_sig226_226sig_kit_descr
-
-scope_dynamic_zoom      = off
+scope_dynamic_zoom	= off
 
 [wpn_sig226_226sig_kit_hud]:wpn_sig226_hud
+item_visual				= dynamics\weapons\wpn_sig226\wpn_sig226_226sig_kit_hud.ogf
 
-item_visual                	= dynamics\weapons\wpn_sig226\wpn_sig226_226sig_kit_hud.ogf
+anm_reload				= glock_eft_ins_reload,             reload              ,1.5
+anm_reload_empty		= glock_eft_ins_reload_empty,       reload_empty        ,1.4
 
-anm_reload						= glock_eft_ins_reload,             reload              ,1.5
-anm_reload_empty				= glock_eft_ins_reload_empty,       reload_empty        ,1.4
-
-aim_hud_offset_pos_16x9				= -0.046499,0.018000,-0.070000
-aim_hud_offset_rot_16x9				= 0.003350,0.008750,-0.042100
+aim_hud_offset_pos_16x9	= -0.046499,0.018000,-0.070000
+aim_hud_offset_rot_16x9	= 0.003350,0.008750,-0.042100
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 
 ![addons_table]
 226sig_kit	= scope
 
-
-
 ;--------------------------------------------------------------------------------
 [226sig_kit]:addon
-visual	= dynamics\weapons\wpn_addon_world_models\wpn_case_226sig_kit_world.ogf
+visual			= dynamics\weapons\wpn_addon_world_models\wpn_case_226sig_kit_world.ogf
 cost			= 19950
 inv_name		= st_addon_scope_226sig_kit
 inv_name_short	= st_addon_scope_226sig_kit
 description		= st_addon_scope_226sig_kit_descr
 inv_weight		= 0.355
-inv_grid_width     = 2
-inv_grid_height    = 1
-inv_grid_x         = 2
-inv_grid_y         = 0
+inv_grid_width	= 2
+inv_grid_height	= 1
+inv_grid_x		= 2
+inv_grid_y		= 0
 repair_type		= scope	
 icons_texture	= ui\ui_icon_bas_sig226
 ;-------------------------------------------------------------------------------

@@ -1,0 +1,318 @@
+;------------------------------------------------------------------------------------------------
+
+;---------------------------------------WEAPONS--------------------------------------------------
+
+;------------------------------------------------------------------------------------------------
+;------------------------------------------------------------------------------------------------
+[wpn_ak105_bas_swamp]:wpn_ak105
+$spawn					= "weapons\ak105_bas_swamp"
+parent_section			= wpn_ak105_bas_swamp
+
+icons_texture			= ui\ui_icon_bas_ak105
+inv_grid_width			= 5
+inv_grid_height			= 2
+inv_grid_x				= 4
+inv_grid_y				= 0
+inv_name				= st_wpn_ak105_bas_swamp
+inv_name_short			= st_wpn_ak105_bas_swamp
+description				= st_wpn_ak105_bas_swamp_descr
+
+inv_weight				= 3.800
+
+hud						= wpn_ak105_bas_swamp_hud
+visual					= dynamics\weapons\wpn_ak105_bas\wpn_ak105_bas_swamp_world.ogf
+position				= -0.016, 0.0, 0.0
+orientation				= 0, -0.07, 0
+fire_point				= 0, 0.0, 0.656
+fire_point2				= 0, 0.161, 0.583
+strap_bone0				= bip01_spine2
+strap_bone1				= bip01_spine1
+strap_position			= -0.26, -0.11, 0.25
+strap_orientation		= -15, -9, 110
+ph_mass					= 4
+
+smoke_particles			= ghost_particles\weapons\flame_eft_ak
+
+silencer_name			= wpn_sil_tgp-a
+silencer_x				= 214
+silencer_y				= 1
+
+scope_status			= 1
+scope_dynamic_zoom		= off
+scope_texture			= wpn_crosshair_specter
+scope_zoom_factor		= 25
+
+ammo_elapsed			= 45
+ammo_mag_size			= 45
+
+hit_impulse				= 25
+hit_power				= 0.5, 0.5, 0.5, 0.5
+hit_type				= fire_wound
+fire_distance			= 1000
+bullet_speed			= 910
+rpm						= 850
+rpm_empty_click			= 300
+
+hud_fov					= 0.78
+
+zoom_cam_dispersion		= 0.432
+zoom_cam_dispersion_inc	= 0.04
+zoom_cam_step_angle_horz= 0.80
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud			= true
+
+snd_reload_misfire		= weapons\ak74_blindside\ak74_unjam
+
+laser_status			= true
+
+snd_bore            = $no_sound
+snd_draw            = weapons\ak105_sp\hide
+snd_holster         = weapons\ak105_sp\hide
+snd_empty           = weapons\ak12custom\ak12_empty
+snd_reload          = weapons\ak105_young_prince\ak105_reload
+snd_reload_empty    = weapons\ak105_young_prince\ak105_reload_empty
+snd_reload_misfire	= weapons\ak74m_beard\ak74_misfire
+snd_shoot           = weapons\ak545_new_young_prince\ak545_shot_1
+snd_shoot1          = weapons\ak545_new_young_prince\ak545_shot_2
+snd_shoot2          = weapons\ak545_new_young_prince\ak545_shot_3
+snd_silncer_shot    = weapons\ak104_tac_prince\ak104_shot_sil_1
+snd_silncer_shot1   = weapons\ak104_tac_prince\ak104_shot_sil_2
+snd_silncer_shot2   = weapons\ak104_tac_prince\ak104_shot_sil_3
+snd_switch_mode		= weapons\generic\switch_mode
+;-----------------------------------------------------SWAMP_HUD-----------------------------------------------------------------------------
+[wpn_ak105_bas_swamp_hud]:hud_base
+item_visual			= dynamics\weapons\wpn_ak105_bas\wpn_ak105_bas_swamp_hud.ogf
+
+attach_place_idx                         = 0
+zoom_hide_crosshair                      = true   
+
+item_position		= 0.000104,-0.000122,0.005998
+item_orientation	= 0.000000,0.000000,0.000000
+
+hands_position_16x9	= 0.065000,-0.045000,-0.025000
+hands_orientation_16x9	= 0.450000,0.850000,0.000000
+
+aim_hud_offset_pos		= -0.0746,0.0541,-0.2
+aim_hud_offset_rot		= 0.0422,-0.0035,-0.0158
+
+aim_hud_offset_pos_16x9	= -0.065000,0.015000,-0.094500
+aim_hud_offset_rot_16x9	= 0.018500,0.018000,0.001000
+
+aim_hud_offset_alt_pos_16x9	= -0.088000,-0.049000,-0.050000
+aim_hud_offset_alt_rot_16x9	= 0.010150,0.012950,0.788499
+
+lowered_hud_offset_pos_16x9	= 0.1,0.01,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
+
+anm_bore						= blnd_ak74m_inspect, idle
+anm_bore_g						= blnd_ak74m_inspect_gl, idle
+anm_bore_w_gl					= blnd_ak74m_inspect_w_gl, idle
+anm_hide						= blnd_ak74m_holster, idle
+anm_hide_g						= blnd_ak74m_holster_gl, idle
+anm_hide_w_gl					= blnd_ak74m_holster, idle
+anm_idle						= blnd_ak74m_idle, idle, 0.75
+anm_idle_aim					= blnd_ak74m_idle_ads, idle
+anm_idle_aim_moving				= blnd_ak74m_idle_ads, idle, 0.50
+anm_idle_aim_moving_crouch		= blnd_ak74m_idle_ads, idle, 0.50
+anm_idle_g						= blnd_ak74m_idle_gl, idle
+anm_idle_g_aim					= blnd_ak74m_idle_ads_gl, idle
+anm_idle_moving					= blnd_ak74m_walk, idle, 0.92
+anm_idle_moving_crouch			= blnd_ak74m_walk, idle, 0.88
+anm_idle_moving_crouch_g_aim	= blnd_ak74m_idle_ads_gl, idle, 0.92
+anm_idle_moving_crouch_w_gl_aim	= blnd_ak74m_walk, idle, 0.92
+anm_idle_moving_crouch_w_gl		= blnd_ak74m_walk, idle, 0.88
+anm_idle_moving_g				= blnd_ak74m_walk_gl, idle, 0.92
+anm_idle_moving_g_aim			= blnd_ak74m_walk_gl, idle, 0.92
+anm_idle_moving_w_gl			= blnd_ak74m_walk, idle, 0.92
+anm_idle_moving_w_gl_aim		= blnd_ak74m_walk, idle, 0.92
+anm_idle_sprint					= blnd_ak74m_sprint, idle, 1.2
+anm_idle_sprint_g				= blnd_ak74m_sprint_gl, idle, 1.2
+anm_idle_sprint_w_gl			= blnd_ak74m_sprint, idle, 1.2
+anm_idle_w_gl					= blnd_ak74m_idle, idle, 0.75
+anm_idle_w_gl_aim				= blnd_ak74m_idle_ads, idle, 0.75
+anm_reload						= blnd_ak74m_reload, reload, 1.1
+anm_reload_empty				= blnd_ak74m_reload_empty, reload_empty, 1.1
+anm_reload_g					= blnd_ak74m_reload_gl, reload_gl, 1.06
+anm_reload_w_gl					= blnd_ak74m_reload, reload, 1.1
+anm_reload_empty_w_gl			= blnd_ak74m_reload_empty, reload_empty, 1.1
+anm_shots						= blnd_ak74m_shoot, shoot
+anm_shots_g						= blnd_ak74m_shoot_gl, idle
+anm_shots_w_gl					= blnd_ak74m_shoot, shoot
+anm_show						= blnd_ak74m_draw, idle
+anm_show_g						= blnd_ak74m_draw_gl, idle
+anm_show_w_gl					= blnd_ak74m_draw, idle
+anm_switch						= blnd_ak74m_switch_to_gun, idle
+anm_switch_g					= blnd_ak74m_switch_to_gl, idle
+anm_reload_misfire				= blnd_ak74m_unjam, unjam, 1.2
+anm_reload_misfire_w_gl			= blnd_ak74m_unjam, unjam, 1.2
+anm_switch_mode					= blnd_ak74m_firemode, idle, 1
+
+shell_bone	= gilza
+shell_dir	= 0, 1, 0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_bone2	= muzzle_gl
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0
+
+freelook_z_offset_mul		= 0.1
+
+;-----------------------------------------------------------------------------------------------------
+[wpn_ak105_bas_shakal]:wpn_ak105
+$spawn					= "weapons\ak105_bas_shakal"
+parent_section			= wpn_ak105_bas_shakal
+
+icons_texture			= ui\ui_icon_bas_ak105
+inv_grid_width			= 5
+inv_grid_height			= 2
+inv_grid_x				= 4
+inv_grid_y				= 2
+inv_name				= st_wpn_ak105_bas_shakal
+inv_name_short			= st_wpn_ak105_bas_shakal
+description				= st_wpn_ak105_bas_shakal_descr
+
+inv_weight				= 3.480
+
+hud						= wpn_ak105_bas_shakal_hud
+visual					= dynamics\weapons\wpn_ak105_bas\wpn_ak105_bas_swamp_world.ogf
+position				= -0.016, 0.0, 0.0
+orientation				= 0, -0.07, 0
+fire_point				= 0, 0.0, 0.656
+fire_point2				= 0, 0.161, 0.583
+strap_bone0				= bip01_spine2
+strap_bone1				= bip01_spine1
+strap_position			= -0.26, -0.11, 0.25
+strap_orientation		= -15, -9, 110
+ph_mass					= 4
+
+smoke_particles			= ghost_particles\weapons\flame_eft_ak
+
+silencer_name			= wpn_sil_tgp-a
+silencer_x				= 214
+silencer_y				= 2
+
+scope_status			= 1
+scope_dynamic_zoom		= off
+scope_texture			= wpn_crosshair_acog_rmr
+scope_zoom_factor		= 25
+
+ammo_elapsed			= 45
+ammo_mag_size			= 45
+
+hit_impulse				= 25
+hit_power				= 0.5, 0.5, 0.5, 0.5
+hit_type				= fire_wound
+fire_distance			= 1000
+bullet_speed			= 910
+rpm						= 850
+rpm_empty_click			= 300
+
+hud_fov					= 0.78
+
+zoom_cam_dispersion		= 0.432
+zoom_cam_dispersion_inc	= 0.04
+zoom_cam_step_angle_horz= 0.80
+
+scope_zoom_factor_alt	= 0
+
+use_alt_aim_hud			= true
+
+snd_reload_misfire		= weapons\ak74_blindside\ak74_unjam
+
+laser_status			= true
+
+snd_bore            = $no_sound
+snd_draw            = weapons\ak105_sp\hide
+snd_holster         = weapons\ak105_sp\hide
+snd_empty           = weapons\ak12custom\ak12_empty
+snd_reload          = weapons\ak105_young_prince\ak105_reload
+snd_reload_empty    = weapons\ak105_young_prince\ak105_reload_empty
+snd_reload_misfire	= weapons\ak74m_beard\ak74_misfire
+snd_shoot           = weapons\ak545_new_young_prince\ak545_shot_1
+snd_shoot1          = weapons\ak545_new_young_prince\ak545_shot_2
+snd_shoot2          = weapons\ak545_new_young_prince\ak545_shot_3
+snd_silncer_shot    = weapons\ak104_tac_prince\ak104_shot_sil_1
+snd_silncer_shot1   = weapons\ak104_tac_prince\ak104_shot_sil_2
+snd_silncer_shot2   = weapons\ak104_tac_prince\ak104_shot_sil_3
+snd_switch_mode		= weapons\generic\switch_mode
+;-----------------------------------------------------shakal_HUD-----------------------------------------------------------------------------
+[wpn_ak105_bas_shakal_hud]:hud_base
+item_visual			= dynamics\weapons\wpn_ak105_bas\wpn_ak105_bas_shakal_hud.ogf
+
+attach_place_idx                         = 0
+zoom_hide_crosshair                      = true   
+
+lowered_hud_offset_pos_16x9	= 0.1,0.01,0
+lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
+
+item_position		= 0.000104,-0.000122,0.005998
+item_orientation	= 0.000000,0.000000,0.000000
+
+hands_position_16x9		= 0.065000,-0.045000,-0.025000
+hands_orientation_16x9	= 0.450000,0.850000,0.000000
+
+aim_hud_offset_pos		= -0.0746,0.0541,-0.2
+aim_hud_offset_rot		= 0.0422,-0.0035,-0.0158
+
+aim_hud_offset_pos_16x9	= -0.065000,0.015000,-0.094500
+aim_hud_offset_rot_16x9	= 0.018500,0.018000,0.001000
+
+aim_hud_offset_alt_pos_16x9	= -0.088000,-0.049000,-0.050000
+aim_hud_offset_alt_rot_16x9	= 0.010150,0.012950,0.788499
+
+anm_bore						= blnd_ak74m_inspect, idle
+anm_bore_g						= blnd_ak74m_inspect_gl, idle
+anm_bore_w_gl					= blnd_ak74m_inspect_w_gl, idle
+anm_hide						= blnd_ak74m_holster, idle
+anm_hide_g						= blnd_ak74m_holster_gl, idle
+anm_hide_w_gl					= blnd_ak74m_holster, idle
+anm_idle						= blnd_ak74m_idle, idle, 0.75
+anm_idle_aim					= blnd_ak74m_idle_ads, idle
+anm_idle_aim_moving				= blnd_ak74m_idle_ads, idle, 0.50
+anm_idle_aim_moving_crouch		= blnd_ak74m_idle_ads, idle, 0.50
+anm_idle_g						= blnd_ak74m_idle_gl, idle
+anm_idle_g_aim					= blnd_ak74m_idle_ads_gl, idle
+anm_idle_moving					= blnd_ak74m_walk, idle, 0.92
+anm_idle_moving_crouch			= blnd_ak74m_walk, idle, 0.88
+anm_idle_moving_crouch_g_aim	= blnd_ak74m_idle_ads_gl, idle, 0.92
+anm_idle_moving_crouch_w_gl_aim	= blnd_ak74m_walk, idle, 0.92
+anm_idle_moving_crouch_w_gl		= blnd_ak74m_walk, idle, 0.88
+anm_idle_moving_g				= blnd_ak74m_walk_gl, idle, 0.92
+anm_idle_moving_g_aim			= blnd_ak74m_walk_gl, idle, 0.92
+anm_idle_moving_w_gl			= blnd_ak74m_walk, idle, 0.92
+anm_idle_moving_w_gl_aim		= blnd_ak74m_walk, idle, 0.92
+anm_idle_sprint					= blnd_ak74m_sprint, idle, 1.2
+anm_idle_sprint_g				= blnd_ak74m_sprint_gl, idle, 1.2
+anm_idle_sprint_w_gl			= blnd_ak74m_sprint, idle, 1.2
+anm_idle_w_gl					= blnd_ak74m_idle, idle, 0.75
+anm_idle_w_gl_aim				= blnd_ak74m_idle_ads, idle, 0.75
+anm_reload						= blnd_ak74m_reload, reload, 1.1
+anm_reload_empty				= blnd_ak74m_reload_empty, reload_empty, 1.1
+anm_reload_g					= blnd_ak74m_reload_gl, reload_gl, 1.06
+anm_reload_w_gl					= blnd_ak74m_reload, reload, 1.1
+anm_reload_empty_w_gl			= blnd_ak74m_reload_empty, reload_empty, 1.1
+anm_shots						= blnd_ak74m_shoot, shoot
+anm_shots_g						= blnd_ak74m_shoot_gl, idle
+anm_shots_w_gl					= blnd_ak74m_shoot, shoot
+anm_show						= blnd_ak74m_draw, idle
+anm_show_g						= blnd_ak74m_draw_gl, idle
+anm_show_w_gl					= blnd_ak74m_draw, idle
+anm_switch						= blnd_ak74m_switch_to_gun, idle
+anm_switch_g					= blnd_ak74m_switch_to_gl, idle
+anm_reload_misfire				= blnd_ak74m_unjam, unjam, 1.2
+anm_reload_misfire_w_gl			= blnd_ak74m_unjam, unjam, 1.2
+anm_switch_mode					= blnd_ak74m_firemode, idle, 1
+
+shell_bone	= gilza
+shell_dir	= 0, 1, 0
+shell_point	= 0, 0, 0
+
+fire_bone	= muzzle
+fire_bone2	= muzzle_gl
+fire_point	= 0, 0, 0
+fire_point2	= 0, 0, 0
+
+freelook_z_offset_mul	= 0.1

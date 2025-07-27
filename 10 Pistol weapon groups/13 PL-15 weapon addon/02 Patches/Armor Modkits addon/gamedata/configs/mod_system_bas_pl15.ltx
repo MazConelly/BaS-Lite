@@ -50,10 +50,8 @@ fire_point2                 = 0, 0.133, 0.161
 ph_mass                     = 1
 
 flame_particles             = weapons\generic_weapon03
-;smoke_particles             = weapons\generic_shoot_00
+smoke_particles		   	    = ghost_particles\weapons\flame_eft_sks
 grenade_flame_particles     = weapons\generic_weapon01
-
-smoke_particles		   	    = ghost_particles\weapons\flame_eft_sks	;particles remade incomp.		
 
 shell_point		 		    = 0, 0.133, 0.047
 shell_dir		 			= 0, 0, 0.4
@@ -160,23 +158,19 @@ kill_msg_width              = 27
 kill_msg_height             = 23
 weapon_lower_speed			= 0.2
 
-hud_fov                             = 0.78 
+hud_fov						= 0.78
 
 ;-----------------------------------------------------------------SND-----------------------------------------------------------------------------------
 snd_draw			= eft_wp\shared\draw_pistol
 snd_holster			= eft_wp\shared\hide_pistol
-
 snd_shoot           = weapons\pl15_young_prince\pl15_shot_1
 snd_shoot1          = weapons\pl15_young_prince\pl15_shot_2
 snd_shoot2          = weapons\pl15_young_prince\pl15_shot_3
-
 snd_silncer_shot    = weapons\pl15_young_prince\pl15_shot_sil_1
 snd_silncer_shot1   = weapons\pl15_young_prince\pl15_shot_sil_2
 snd_silncer_shot2   = weapons\pl15_young_prince\pl15_shot_sil_3
-
 snd_reload			= weapons\pl15_young_prince\pl15_reload
 snd_reload_empty	= weapons\pl15_young_prince\pl15_reload_empty
-
 snd_reload_misfire  = weapons\pl15\grach_unjam
 snd_empty			= eft_wp\shared\empty_click_pistol
 ;-----------------------------------------------------------------HUD-----------------------------------------------------------------------------------
@@ -207,7 +201,6 @@ gl_hud_offset_rot	= 0, 0, 0
 lean_hud_offset_pos	= 0, 0, 0
 lean_hud_offset_rot	= 0, 0, 0
 
-;------------
 aim_hud_offset_pos_16x9	= -0.040000,0.030250,-0.025180
 aim_hud_offset_rot_16x9	= 0.006100,0.003250,-0.008500
 
@@ -216,7 +209,7 @@ hands_orientation_16x9	= -1.027997,-8.133021,1.320001
 
 item_position			= 0.000253,-0.003206,-0.024966
 item_orientation		= 1.365195,8.451855,-2.489095
-;------------  
+
 anm_bore						= blnd_tt33_bore_bs,      idle
 anm_bore_empty					= blnd_tt33_bore_bs,      idle_empty
 anm_hide						= grach_holster_bs,       idle, 1.07

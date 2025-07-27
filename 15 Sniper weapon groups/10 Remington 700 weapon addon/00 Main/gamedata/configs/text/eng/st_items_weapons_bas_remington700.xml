@@ -25,7 +25,7 @@
 		%c[d_purple] • %c[ui_gray_2] Installed Promag Archangel polymer stock\n
 		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor</text>
 	</string>
-<!-- 
+
 	<string id="st_wpn_remington700_bas_magpul_pro">
 		<text>Remington 700 Magpul PRO (BaS)</text>
 	</string>
@@ -35,7 +35,7 @@
 		%c[d_purple] • %c[ui_gray_2] Installed Magpul "PRO 700" chassis\n
 		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor</text>
 	</string>
- -->
+
 	<string id="st_wpn_remington700_bas_mod_x_gen3">
 		<text>Remington 700 Modular Rifle System (BaS)</text>
 	</string>

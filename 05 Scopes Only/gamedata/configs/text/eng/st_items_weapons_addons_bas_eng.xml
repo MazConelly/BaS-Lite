@@ -499,13 +499,6 @@
 		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]PSU-1</text>
 	</string>
 
-<!-- 	<string id="st_addon_sil_rotor">
-		<text>Rotor 43 7.62x54 Muzzle Brake (BaS)</text>
-	</string>
-	<string id="st_addon_sil_rotor_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 7.62 Cal.\n \n%c[ui_gray_1]Rotor 43 muzzle brake, is designed for installation on SVDS 7.62x54. Although positioned as a muzzle brake, it also works as a sound suppressor.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]low</text>
-	</string> -->
-
 	<string id="st_addon_scope_trijicon_rmr">
 		<text>Trijicon Tactical Kit. (for picatinny/weaver) (BaS)</text>
 	</string>
@@ -541,125 +534,12 @@
 		<text>This tactical kit includes combination of two scopes made by Russin Central Design Bureau "Tochpribor" and US Trijicon companies. The kit gives ability to install two scopes 1P78 Kashtan and Trijicon RMR on rifles that have both dovetail and picatinny mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
 	</string>
 
-	<!-- <string id="st_addon_scope_kit_aus_tri">
-		<text>"Scout" Tactical kit for SA58 FAL AUS (BaS)</text>
-	</string>
-	<string id="st_addon_scope_kit_aus_tri_descr">
-		<text>\n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] DS Arms SA-58 AUS "Austrian Style".\n \n%c[ui_gray_1]
-		The kit converting the gun in to the great marksman rifle. The kit includes: Fab AG FAL pistol grip, dust cover DS Arms Extreme Duty with Picatinny rail, Vltor CASV foregrip for FAL, 21" barrel for SA-58 7.62x51 and DSA BRS stock. Also there is two scopes: Aimpoint T1 on NcStar 45 and Trijicon Acog. This upgrade is irreversible.</text>
-	</string>
-	
-	<string id="st_addon_scope_kit_fal_leup">
-		<text>"Marauder" Tactical kit for SA58 FAL AUS (BaS)</text>
-	</string>
-	<string id="st_addon_scope_kit_fal_leup_descr">
-		<text>\n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] DS Arms SA-58 AUS "Austrian Style".\n \n%c[ui_gray_1]
-		The kit converting the gun in to the great marksman rifle. The kit includes: Fab AG FAL pistol grip, dust cover DS Arms Extreme Duty with Picatinny rail, Vltor CASV foregrip for FAL, 21" barrel for SA-58 7.62x51 and DSA BRS stock. Also there is two scopes: Aimpoint T1 on NcStar 45 and Leupold Mark 8 CQBSS. This upgrade is irreversible.</text>
-	</string>	
-
-	<string id="st_addon_scope_kit_sa5x_spec">
-		<text>"Defender" Tactical kit for SA58 FAL AUS (BaS)</text>
-	</string>
-	<string id="st_addon_scope_kit_sa5x_spec_descr">
-		<text>\n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] DS Arms SA-58 AUS "Austrian Style".\n \n%c[ui_gray_1]
-		The kit converting the gun in to the great marksman rifle. The kit includes: Fab AG FAL pistol grip, dust cover DS Arms Extreme Duty with Picatinny rail, Vltor CASV foregrip for FAL, 21" barrel for SA-58 7.62x51 and DSA BRS stock. Also there is two scopes: Aimpoint T1 on NcStar 45 and ELCAN SpecterDR. This upgrade is irreversible.</text>
-	</string> -->
-
-<!-- 	<string id="st_addon_sil_apb">
-		<text>APB suppressor (BaS)</text>
-	</string>
-	<string id="st_addon_sil_apb_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] 9 mm\n \n%c[ui_gray_1]Suppressor for upgraded APS pistol.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
-	</string> -->
-
-<!-- 	<string id="st_addon_scope_apsabigo">
-		<text>Upgrade Kit for APS Pistol (BaS)</text>
-	</string>
-	<string id="st_addon_scope_apsabigo_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2]  APS pistol\n \n%c[ui_gray_1]
-		The kit includes: Threaded barrel for using with APB sound suppressor, Tritium sights and ergonomic pistol grip rubber. This upgrade is irreversible.\n </text>
-	</string> -->
-
-<!-- 	<string id="st_addon_sil_auga">
-		<text>Steyr UMS Sound Suppressor (BaS)</text>
-	</string>
-	<string id="st_addon_sil_auga_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] Aug Steyr\n \n%c[ui_gray_1]Steyr UMS (Universal Military Suppressor) - Sound Suppressor for using with 5.56 NATO Aug Steyr firearms.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
-	</string> -->
-
-<!-- 	<string id="st_addon_sil_m42k">
-		<text>AAC M4-2000 (BaS)</text>
-	</string>
-	<string id="st_addon_sil_m42k_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] M4A1 RAS (BaS), L85 (BaS)\n \n%c[ui_gray_1]Reliable universal silencer from Advanced Armament Corp for AR-15 carbines.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
-	</string> -->
-
-<!-- 	<string id="st_addon_scope_susatov">
-		<text>SUSAT for native L85 mount only (BaS)</text>
-	</string>
-	<string id="st_addon_scope_susatov_descr">
-		<text>SUSAT is 4X optical sight, developed in the UK at the Royal Arms Research and Development Center. Manufactured by Avimo as well as United Scientific Instruments. It is most often used for aimed fire from light small arms at medium and long distances. It is mounted on a special mount for the L85 “Dovetail”. (The scope has back up iron sights on top of it).</text>
-	</string> -->
-
-<!-- 	<string id="st_addon_sil_surfire">
-		<text>Silencer Surefire SOCOM556-MONSTER (BaS)</text>
-	</string>
-	<string id="st_addon_sil_surfire_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] M4 Tactical (BaS)\n \n%c[ui_gray_1]Surefire SOCOM556-MONSTER 5.56x45 and .223 silencer.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
-	</string> -->
-
-	<string id="st_grenade_launcher_scar">
-		<text>FN40GL Grenade Launcher (BaS)</text>
-	</string>
-	<string id="st_grenade_launcher_scar_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] FN SCAR\n \n%c[ui_gray_1]
-		40mm grenade launcher developed by the Belgian company FN Herstal for the FN SCAR assault rifle\n
-		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade\n</text>
-	</string>
-
-<!-- 	<string id="st_grenade_launcher_l85">
-		<text>M320 Grenade Launcher (BaS)</text>
-	</string>
-	<string id="st_grenade_launcher_l85_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] L85\n \n%c[ui_gray_1]
-		The M320 under-barrel grenade launcher developed by Heckler & Koch in 2008 to replace the M203 grenade launcher.\n
-		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade\n</text>
-	</string>	 -->
-
 	<string id="st_addon_scope_okep77">
 		<text>OKP-77 (For Picatinny/weaver) (BaS)</text>
 	</string>
 	<string id="st_addon_scope_okep77_descr">
 		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2]OTs-02 Kiparis (BaS)\n \n%c[ui_gray_1]This sight differs from the OKP-7 in a less cumbersome mount, which allows you to install the collimator on a short picatinny rail on the Kiparis SMG.\n </text>
 	</string>
-
-<!-- 	<string id="st_addon_sil_kip">
-		<text>ÏÁÑ-0217 silencer (BaS)</text>
-	</string>
-	<string id="st_addon_sil_kip_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2]OTs-02 Kiparis (BaS)\n \n%c[ui_gray_1]TsKIB COO of Tula sound suppressor for OTs-02 Kiparis SMG.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
-	</string> -->
-	
-<!-- 	<string id="st_addon_sil_scorp">
-		<text>Scorpion sound suppressor (BaS)</text>
-	</string>
-	<string id="st_addon_sil_scorp_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2]Skorpion vz.61 (BaS)\n \n%c[ui_gray_1]Silencer for Skorpion vz.61 SMG.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
-	</string> -->
-
-<!-- 	<string id="st_addon_sil_timberwolf">
-		<text>PGW Defense Timberwolf .338 LM sound suppressor (BaS)</text>
-	</string>
-	<string id="st_addon_sil_timberwolf_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2]Remington 700 AICS (BaS), Remington 700 McMillan (BaS)\n \n%c[ui_gray_1]Timberwolf is a silencer for .338 sniper rifles. Produced by the Canadian company PGW Defense.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
-	</string> -->
-
-<!-- 	<string id="st_addon_scope_uptacppsh">
-		<text>Bandolero Upgrade Kit for PPSh-41 (BaS)</text>
-	</string>
-	<string id="st_addon_scope_uptacppsh_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2]PPSh-41 (BaS)\n \n%c[ui_gray_1]Set of components for PPSh-41 upgrade.\n \n%c[d_purple] • %c[ui_gray_2] The kit includes: the EKP-8-18 collimator sight and improved barrel casing (heat is removed faster), as a result of which it became possible to increase the rate of fire compared to the original. (This upgrade is irreversible).</text>
-	</string> -->
 
 	<string id="st_addon_scope_pn23fore">
 		<text>Night sight PN-23 "Nozzle" (BaS)</text>

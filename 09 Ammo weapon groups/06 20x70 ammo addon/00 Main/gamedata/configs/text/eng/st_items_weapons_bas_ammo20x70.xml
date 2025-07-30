@@ -6,13 +6,13 @@
 
 <string_table>
 
-	<string id="ammo_20x70_buck">
+	<string id="st_ammo_20x70_buck">
 		<text>20x70 buckshot round (BaS)</text>
 	</string>
-	<string id="ammo_20x70_buck_s">
+	<string id="st_ammo_20x70_buck_s">
 		<text>20x70 shot</text>
 	</string>
-	<string id="ammo_20x70_buck_descr">
+	<string id="st_ammo_20x70_buck_descr">
 		<text>
 		Standard 20-caliber round filled with 6 mm buckshot. Highly lethal at close range. Only suitable for use with smooth-bore weapons\n \n
 		%c[d_purple] • %c[ui_gray_2] Highest pierced armor class: %c[ui_gray_1]none\n

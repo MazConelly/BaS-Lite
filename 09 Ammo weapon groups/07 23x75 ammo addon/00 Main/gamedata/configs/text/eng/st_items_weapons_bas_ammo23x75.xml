@@ -6,27 +6,27 @@
 
 <string_table>
 
-	<string id="ammo_23x75_shrapnel">
+	<string id="st_ammo_23x75_shrapnel">
 		<text>"Shrapnel-25" 23x75mm (BaS)</text>
 	</string>
-	<string id="ammo_23x75_shrapnel_descr">
+	<string id="st_ammo_23x75_shrapnel_descr">
 		<text>Cartridge with buckshot charge. Application range up to 25 meters. It is used for firing from the KS-23 carbine. Due to the fact that the barrel has rifling in the KS-23 carbine, the buckshot flies over a large area, which allows you to shoot offhand, practically without aiming.\n</text>
 	</string>
 	
-	<string id="ammo_23x75_barrikada">
+	<string id="st_ammo_23x75_barrikada">
 		<text>"Barrikada" 23x75μμ (BaS)</text>
 	</string>
-	<string id="ammo_23x75_barrikada_descr">
+	<string id="st_ammo_23x75_barrikada_descr">
 		<text>A cartridge with a steel pointed bullet. It is used to forcibly stop vehicles by damaging them. Application range up to 100 meters. It is used for firing from the KS-23 carbine.\n</text>
 	</string>
 
-<!--	 <string id="ammo_23_eco">
+<!--	 <string id="st_ammo_23_eco">
 		<text>Ecolog-23 cartridge (BaS)</text>
 	</string>
-	<string id="ammo_23_eco_s">
+	<string id="st_ammo_23_eco_s">
 		<text>Ecolog-23</text>
 	</string> 
-	<string id="ammo_23_eco_descr">
+	<string id="st_ammo_23_eco_descr">
 		<text>A special cartridge designed for the needs of the scientific staff located in the Zone. Depending on the task, it is filled with different types of solutions. Requires very careful handling. How to use: very slowly put into the weapon.\n \n%c[d_purple] • %c[ui_gray_2] Highest pierced armor class: %c[ui_gray_1]none\n%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]none\n \n%c[ui_gray_1]SPECIAL:\n \n%c[d_purple] • %c[ui_gray_2] Using a thin wolfram needle, it pierces the skin of the mutants to inject the solution.</text>
 	</string> -->
 

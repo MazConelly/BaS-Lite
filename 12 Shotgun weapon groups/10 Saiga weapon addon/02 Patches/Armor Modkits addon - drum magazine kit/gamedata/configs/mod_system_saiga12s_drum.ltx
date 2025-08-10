@@ -42,26 +42,23 @@ scheme_index = 2, 5
 ; inv_grid_height = 2
 ; inv_grid_x = 0
 ; inv_grid_y = 0
-; repair_type = scope	
+; repair_type = scope
 ; icons_texture = ui\ui_saiga12s_drum_kit
 
-![wpn_saiga12s_m1]
-scopes = kobra, okp, ekp8_02, pka, 1p76
-;, saiga_drum_kit
+; ![wpn_saiga12s_m1]
+; scopes = kobra, okp, ekp8_02, pka, 1p76, saiga_drum_kit
 
-![wpn_saiga12s]
-scopes = 1p29, kobra, ps01
-;, saiga_drum_kit
+; ![wpn_saiga12s]
+; scopes = 1p29, kobra, ps01, saiga_drum_kit
 
 ![wpn_saiga12s_isg]
 cam_dispersion = 2.8 ; broken by default
 cam_dispersion_frac = 1.0
-scopes = ac10632, eot, c-more, 0kp2, d0cter, point_aimpro, aim_low, e0t2, rmr, deltapoint, compm4s, rakurs, kemper, aimpoint, mepro, ekp8_18
-;, saiga_drum_kit
+; scopes = ac10632, eot, c-more, 0kp2, d0cter, point_aimpro, aim_low, e0t2, rmr, deltapoint, compm4s, rakurs, kemper, aimpoint, mepro, ekp8_18, saiga_drum_kit
 
 ; ---- Saiga-12s "Nerd" ----
 
-[wpn_saiga12s_m1_saiga_drum_kit]: wpn_saiga12s_m1
+[wpn_saiga12s_m1_saiga_drum_kit]:wpn_saiga12s_m1
 parent_section = wpn_saiga12s_m1_saiga_drum_kit
 inv_name = st_wpn_saiga12s_m1_drum
 inv_name_short = st_wpn_saiga12s_m1_drum
@@ -71,23 +68,24 @@ inv_grid_width = 5
 inv_grid_height = 2
 inv_grid_x = 0
 inv_grid_y = 2
-inv_weight = 4.5
+
 hud = wpn_saiga12s_m1_saiga_drum_kit_hud
-upgrades = up_gr_firstab_saiga12, up_gr_seconab_saiga12, up_gr_thirdab_saiga12, up_gr_fourtab_saiga12, up_gr_fifthab_saiga12
 visual = dynamics\weapons\wpn_saiga12s_m1_drum\wpn_saiga12s_drum_world.ogf
+
 ammo_elapsed = 20
-ammo_limit = 210
 ammo_mag_size = 20
-cam_dispersion = 3.6
-cam_dispersion_frac = 1.0
-zoom_cam_dispersion = 3.0
-zoom_cam_dispersion_frac = 0.8
-rpm = 320
+
 scopes = kobra, okp, ekp8_02, pka, 1p76
+
 silencer_x = 210
 silencer_y = 0
 
-[wpn_saiga12s_m1_saiga_drum_kit_hud]: wpn_saiga12s_m1_hud
+; rpm = 320
+
+cam_dispersion = 3.6
+zoom_cam_dispersion = 3.0
+
+[wpn_saiga12s_m1_saiga_drum_kit_hud]:wpn_saiga12s_m1_hud
 item_visual = anomaly_weapons\wpn_saiga12s_m1_drum\wpn_saiga12s_drum_hud.ogf
 anm_show = saiga12_drum_draw, draw
 anm_hide = saiga12_drum_hide, hide
@@ -102,61 +100,55 @@ anm_idle_aim = saiga12_drum_idle_aim, idle
 anm_bore = saiga12_drum_inspect, idle
 anm_reload_misfire = saiga12_drum_reload_full, reload_full
 
-
-[wpn_saiga12s_m1_saiga_drum_kit_kobra]: wpn_saiga12s_m1_saiga_drum_kit
+[wpn_saiga12s_m1_saiga_drum_kit_kobra]:wpn_saiga12s_m1_saiga_drum_kit
 inv_weight = 5.125
 hud = wpn_saiga12s_m1_saiga_drum_kit_kobra_hud
 1icon_layer = kobra
 1icon_layer_x = 72
 1icon_layer_y = -8
 
-
-[wpn_saiga12s_m1_saiga_drum_kit_kobra_hud]: wpn_saiga12s_m1_saiga_drum_kit_hud
+[wpn_saiga12s_m1_saiga_drum_kit_kobra_hud]:wpn_saiga12s_m1_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.061276,0.004225,-0.049300
 aim_hud_offset_rot_16x9 = 0.038587,0.024469,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_m1_drum\wpn_saiga12s_drum_kobra_hud.ogf
 
-
-[wpn_saiga12s_m1_saiga_drum_kit_okp]: wpn_saiga12s_m1_saiga_drum_kit
+[wpn_saiga12s_m1_saiga_drum_kit_okp]:wpn_saiga12s_m1_saiga_drum_kit
 inv_weight = 5.125
 hud = wpn_saiga12s_m1_saiga_drum_kit_okp_hud
 1icon_layer = okp
 1icon_layer_x = 72
 1icon_layer_y = -8
 
-[wpn_saiga12s_m1_saiga_drum_kit_okp_hud]: wpn_saiga12s_m1_saiga_drum_kit_hud
+[wpn_saiga12s_m1_saiga_drum_kit_okp_hud]:wpn_saiga12s_m1_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.051700,0.014900,-0.046800
 aim_hud_offset_rot_16x9 = 0.020862,0.008110,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_m1_drum\wpn_saiga12s_drum_okp_hud.ogf
 
-
-[wpn_saiga12s_m1_saiga_drum_kit_ekp8_02]: wpn_saiga12s_m1_saiga_drum_kit
+[wpn_saiga12s_m1_saiga_drum_kit_ekp8_02]:wpn_saiga12s_m1_saiga_drum_kit
 hud = wpn_saiga12s_m1_saiga_drum_kit_ekp8_02_hud
 1icon_layer = ekp8_02
 1icon_layer_x = 67
 1icon_layer_y = -11
 inv_weight = 5.125
 
-[wpn_saiga12s_m1_saiga_drum_kit_ekp8_02_hud]: wpn_saiga12s_m1_saiga_drum_kit_hud
+[wpn_saiga12s_m1_saiga_drum_kit_ekp8_02_hud]:wpn_saiga12s_m1_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.060976,0.008125,-0.043700
 aim_hud_offset_rot_16x9 = 0.060087,0.029969,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_m1_drum\wpn_saiga12s_drum_ekp_hud.ogf
 
-
-[wpn_saiga12s_m1_saiga_drum_kit_1p76]: wpn_saiga12s_m1_saiga_drum_kit
+[wpn_saiga12s_m1_saiga_drum_kit_1p76]:wpn_saiga12s_m1_saiga_drum_kit
 1icon_layer = 1p76
 1icon_layer_x = 75
 1icon_layer_y = -15
 hud = wpn_saiga12s_m1_saiga_drum_kit_1p76_hud
 inv_weight = 5.125
 
-[wpn_saiga12s_m1_saiga_drum_kit_1p76_hud]: wpn_saiga12s_m1_saiga_drum_kit_hud
+[wpn_saiga12s_m1_saiga_drum_kit_1p76_hud]:wpn_saiga12s_m1_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.061676,-0.001075,-0.030200
 aim_hud_offset_rot_16x9 = 0.038587,0.024469,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_m1_drum\wpn_saiga12s_drum_1p76_hud.ogf
 
-
-[wpn_saiga12s_m1_saiga_drum_kit_pka]: wpn_saiga12s_m1_saiga_drum_kit
+[wpn_saiga12s_m1_saiga_drum_kit_pka]:wpn_saiga12s_m1_saiga_drum_kit
 1icon_layer = pka
 1icon_layer_x = 72
 1icon_layer_y = -8
@@ -165,14 +157,14 @@ hud = wpn_saiga12s_m1_saiga_drum_kit_pka_hud
 zoom_rotate_time = 0.25
 scope_lense_fov = 16
 
-[wpn_saiga12s_m1_saiga_drum_kit_pka_hud]: wpn_saiga12s_m1_saiga_drum_kit_hud
+[wpn_saiga12s_m1_saiga_drum_kit_pka_hud]:wpn_saiga12s_m1_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.053076,0.009925,-0.062000
 aim_hud_offset_rot_16x9 = 0.038587,0.024469,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_m1_drum\wpn_saiga12s_drum_pka_hud.ogf
 
 ; ---- Saiga-12s ----
 
-[wpn_saiga12s_saiga_drum_kit]: wpn_saiga12s
+[wpn_saiga12s_saiga_drum_kit]:wpn_saiga12s
 parent_section = wpn_saiga12s_saiga_drum_kit
 inv_name = st_wpn_saiga12s_drum
 inv_name_short = st_wpn_saiga12s_drum
@@ -182,89 +174,29 @@ inv_grid_width = 5
 inv_grid_height = 2
 inv_grid_x = 0
 inv_grid_y = 0
-inv_weight = 4.5
 hud = wpn_saiga12s_saiga_drum_kit_hud
-upgrades = up_gr_firstab_saiga12, up_gr_seconab_saiga12, up_gr_thirdab_saiga12, up_gr_fourtab_saiga12, up_gr_fifthab_saiga12
 visual = dynamics\weapons\wpn_saiga12s_drum\wpn_saiga12s_drum_world.ogf
-
 position = -0.026, 0.05, 0.14
-orientation = 0, 0, 0
-fire_point = 0, 0.218, 0.656
-fire_point2 = 0, 0.161, 0.583
-strap_bone0 = bip01_spine2
-strap_bone1 = bip01_spine1
-strap_position = -0.26, -0.10, 0.05
-strap_orientation = -15, -9, 110
-ph_mass = 4
-shell_point = 0.0, 0.138, 0.07
-shell_particles = weapons\12ga
-scope_status = 0
-scope_zoom_factor = 0
-silencer_name = wpn_sil_kek12
-silencer_status = 2
+
+scopes = kobra, okp, ekp8_02, pka, 1p76
+
 silencer_x = 210
-silencer_y = 10
-silencer_light_color = 0.6, 0.5, 0.3
-silencer_light_range = 0.01
-silencer_light_time = 0.2
-silencer_light_var_color = 0.05
-silencer_light_var_range = 0.5
-grenade_class = ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybad, ammo_vog-25, ammo_vog-25_bad, ammo_vog-25_verybadp
-grenade_launcher_name = wpn_addon_grenade_launcher
-grenade_launcher_status = 0
-grenade_launcher_x = 116
-grenade_launcher_y = 15
-launch_speed = 0
-hit_impulse = 40
+silencer_y = 0
+
+ammo_elapsed = 20
+ammo_mag_size = 20
+
 hit_power = 0.788, 0.788, 0.788, 0.788
-hit_type = fire_wound
-fire_distance = 300
-bullet_speed = 325
+; rpm = 320
+
 use_aim_bullet = true
-time_to_aim = 0.0 ;  3.0
-zoom_dof = 0.5, 1.0, 180
-zoom_enabled = true
-zoom_rotate_time = 0.25
-reload_dof = 0.0, 0.5, 5, 1.7
-control_inertion_factor = 1.0f
-crosshair_inertion = 6.5
-fire_dispersion_base = 0.46
-fire_dispersion_condition_factor = 0.001
-cam_return = 0
-cam_relax_speed = 10
-cam_dispersion_inc = 0.0
-cam_max_angle = 50.0
-cam_max_angle_horz = 50.0
-cam_step_angle_horz = 1.24
-zoom_cam_relax_speed = 9
-zoom_cam_dispersion_inc = 0.0
-zoom_cam_max_angle = 50.0
-zoom_cam_max_angle_horz = 50.0
-zoom_cam_step_angle_horz = 1.12
-PDM_disp_accel_factor = 2.4
-PDM_disp_base = 0.96
-PDM_disp_crouch = 1.0
-PDM_disp_crouch_no_acc = 1.0
-PDM_disp_vel_factor = 2.4
-cam_relax_speed_ai = 360
-zoom_cam_relax_speed_ai = 360
-holder_fov_modifier = 0.7
-holder_range_modifier = 1.0
-min_radius = 0
-max_radius = 500
-hit_probability_gd_novice = 1.00
-hit_probability_gd_stalker = 1.00
-hit_probability_gd_veteran = 1.00
-hit_probability_gd_master = 1.00
-kill_msg_x = 0
-kill_msg_y = 28
-kill_msg_width = 84
-kill_msg_height = 28
+
 hud_fov = 0.78 
+
 flame_particles = ghost_particles\weapons\flame_eft_shotgun
 smoke_particles = ghost_particles\weapons\flame_eft_sks
 silencer_smoke_particles = ghost_particles\weapons\generic_smoke_eft_sil
-grenade_flame_particles = weapons\generic_weapon01
+
 snd_draw = weapons\saiga_eft\saiga_draw
 snd_holster = weapons\saiga_eft\saiga_holster
 snd_shoot = weapons\saiga12_young_prince\saiga12_shot_1
@@ -277,80 +209,67 @@ snd_silncer_shot = weapons\saiga_eft\saiga_shot_sil
 snd_empty = weapons\protecta\protecta_empty
 snd_reload_misfire = weapons\saiga_eft\reload_full
 
-ammo_elapsed = 20
-ammo_limit = 210
-ammo_mag_size = 20
 cam_dispersion = 3.6
 cam_dispersion_frac = 1.0
 zoom_cam_dispersion = 3.0
 zoom_cam_dispersion_frac = 0.8
-rpm = 320
-scopes = kobra, okp, ekp8_02, pka, 1p76
-silencer_x = 210
-silencer_y = 0
 
-[wpn_saiga12s_saiga_drum_kit_hud]: wpn_saiga12s_m1_saiga_drum_kit_hud
+[wpn_saiga12s_saiga_drum_kit_hud]:wpn_saiga12s_m1_saiga_drum_kit_hud
 item_visual = anomaly_weapons\wpn_saiga12s_drum\wpn_saiga12s_drum_hud.ogf
 hands_position_16x9 = 0.0061,-0.034,-0.2
 
-
-[wpn_saiga12s_saiga_drum_kit_kobra]: wpn_saiga12s_saiga_drum_kit
+[wpn_saiga12s_saiga_drum_kit_kobra]:wpn_saiga12s_saiga_drum_kit
 inv_weight = 5.125
 hud = wpn_saiga12s_saiga_drum_kit_kobra_hud
 1icon_layer = kobra
 1icon_layer_x = 72
 1icon_layer_y = -8
 
-
-[wpn_saiga12s_saiga_drum_kit_kobra_hud]: wpn_saiga12s_saiga_drum_kit_hud
+[wpn_saiga12s_saiga_drum_kit_kobra_hud]:wpn_saiga12s_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.061276,0.004225,-0.049300
 aim_hud_offset_rot_16x9 = 0.038587,0.024469,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_drum\wpn_saiga12s_drum_kobra_hud.ogf
 hands_position_16x9 = 0.0061,-0.0288,-0.2
 
-
-[wpn_saiga12s_saiga_drum_kit_okp]: wpn_saiga12s_saiga_drum_kit
+[wpn_saiga12s_saiga_drum_kit_okp]:wpn_saiga12s_saiga_drum_kit
 inv_weight = 5.125
 hud = wpn_saiga12s_saiga_drum_kit_okp_hud
 1icon_layer = okp
 1icon_layer_x = 72
 1icon_layer_y = -8
 
-[wpn_saiga12s_saiga_drum_kit_okp_hud]: wpn_saiga12s_saiga_drum_kit_hud
+[wpn_saiga12s_saiga_drum_kit_okp_hud]:wpn_saiga12s_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.051700,0.014900,-0.046800
 aim_hud_offset_rot_16x9 = 0.020862,0.008110,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_drum\wpn_saiga12s_drum_okp_hud.ogf
 
-
-[wpn_saiga12s_saiga_drum_kit_ekp8_02]: wpn_saiga12s_saiga_drum_kit
+[wpn_saiga12s_saiga_drum_kit_ekp8_02]:wpn_saiga12s_saiga_drum_kit
 hud = wpn_saiga12s_saiga_drum_kit_ekp8_02_hud
 1icon_layer = ekp8_02
 1icon_layer_x = 67
 1icon_layer_y = -11
 inv_weight = 5.125
 
-[wpn_saiga12s_saiga_drum_kit_ekp8_02_hud]: wpn_saiga12s_saiga_drum_kit_hud
+[wpn_saiga12s_saiga_drum_kit_ekp8_02_hud]:wpn_saiga12s_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.060976,0.008125,-0.043700
 aim_hud_offset_rot_16x9 = 0.060087,0.029969,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_drum\wpn_saiga12s_drum_ekp_hud.ogf
 hands_position_16x9 = 0.0061,-0.0288,-0.2
 
-
-[wpn_saiga12s_saiga_drum_kit_1p76]: wpn_saiga12s_saiga_drum_kit
+[wpn_saiga12s_saiga_drum_kit_1p76]:wpn_saiga12s_saiga_drum_kit
 1icon_layer = 1p76
 1icon_layer_x = 75
 1icon_layer_y = -15
 hud = wpn_saiga12s_saiga_drum_kit_1p76_hud
 inv_weight = 5.125
 
-[wpn_saiga12s_saiga_drum_kit_1p76_hud]: wpn_saiga12s_saiga_drum_kit_hud
+[wpn_saiga12s_saiga_drum_kit_1p76_hud]:wpn_saiga12s_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.061676,-0.001075,-0.030200
 aim_hud_offset_rot_16x9 = 0.038587,0.024469,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_drum\wpn_saiga12s_drum_1p76_hud.ogf
 hands_position_16x9 = 0.0061,-0.0288,-0.2
 
-
-[wpn_saiga12s_saiga_drum_kit_pka]: wpn_saiga12s_saiga_drum_kit
+[wpn_saiga12s_saiga_drum_kit_pka]:wpn_saiga12s_saiga_drum_kit
 1icon_layer = pka
 1icon_layer_x = 72
 1icon_layer_y = -8
@@ -359,7 +278,7 @@ hud = wpn_saiga12s_saiga_drum_kit_pka_hud
 zoom_rotate_time = 0.25
 scope_lense_fov = 16
 
-[wpn_saiga12s_saiga_drum_kit_pka_hud]: wpn_saiga12s_saiga_drum_kit_hud
+[wpn_saiga12s_saiga_drum_kit_pka_hud]: pn_saiga12s_saiga_drum_kit_hud
 aim_hud_offset_pos_16x9 = -0.053076,0.009925,-0.062000
 aim_hud_offset_rot_16x9 = 0.038587,0.024469,0.000000
 item_visual = anomaly_weapons\wpn_saiga12s_drum\wpn_saiga12s_drum_pka_hud.ogf
@@ -367,7 +286,7 @@ hands_position_16x9 = 0.0061,-0.0288,-0.2
 
 ; ---- Saiga-12s ISG ----
 
-[wpn_saiga12s_isg_saiga_drum_kit]: wpn_saiga12s_isg
+[wpn_saiga12s_isg_saiga_drum_kit]:wpn_saiga12s_isg
 parent_section = wpn_saiga12s_isg_saiga_drum_kit
 inv_name = st_wpn_saiga12s_isg_drum
 inv_name_short = st_wpn_saiga12s_isg_drum
@@ -377,31 +296,33 @@ inv_grid_width = 5
 inv_grid_height = 2
 inv_grid_x = 0
 inv_grid_y = 4
-inv_weight = 4.2
 hud = wpn_saiga12s_isg_saiga_drum_kit_hud
-upgrades = up_gr_firstab_saiga12, up_gr_seconab_saiga12, up_gr_thirdab_saiga12, up_gr_fourtab_saiga12, up_gr_fifthab_saiga12
 visual = dynamics\weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_world.ogf
+
 ammo_elapsed = 20
-ammo_limit = 210
 ammo_mag_size = 20
-cam_dispersion = 2.8
-cam_dispersion_frac = 1.0
-rpm = 320
+
 scopes = ac10632, eot, c-more, 0kp2, d0cter, point_aimpro, aim_low, e0t2, rmr, deltapoint, compm4s, rakurs, kemper, aimpoint, mepro, ekp8_18
+
 silencer_x = 185
 silencer_y = -4
 
-[wpn_saiga12s_isg_saiga_drum_kit_hud]: wpn_saiga12s_isg_hud
+; rpm = 320
+
+cam_dispersion = 2.8
+cam_dispersion_frac = 1.0
+
+[wpn_saiga12s_isg_saiga_drum_kit_hud]:wpn_saiga12s_isg_hud
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_hud.ogf
 anm_show = saiga_isg_draw
 anm_hide = saiga_isg_hide
 anm_idle = saiga_isg_idle
 anm_idle_sprint = saiga_isg_idle_sprint
-anm_idle_moving = saiga_isg_idle_moving, idle                      ,0.8
-anm_idle_moving_crouch = saiga_isg_idle_moving, idle                            ,0.4      
+anm_idle_moving = saiga_isg_idle_moving, idle	,0.8
+anm_idle_moving_crouch = saiga_isg_idle_moving, idle	,0.4
 anm_shots = saiga_isg_shoot, shoot
-anm_reload = saiga_isg_reload, reload_vgrip              ,1.5
-anm_reload_empty = saiga_isg_reload_empty, reload_empty_vgrip  ,1.42
+anm_reload = saiga_isg_reload, reload_vgrip	,1.5
+anm_reload_empty = saiga_isg_reload_empty, reload_empty_vgrip	,1.42
 anm_idle_aim = saiga_isg_idle_aim
 anm_bore = saiga_isg_idle_bore
 anm_reload_misfire = saiga_isg_misfire, misfire
@@ -411,39 +332,36 @@ inv_weight = 4.925
 hud = wpn_saiga12s_isg_saiga_drum_kit_ac10632_hud
 1icon_layer = ac10632
 1icon_layer_x = 83
-1icon_layer_y = -20              
+1icon_layer_y = -20
 
 [wpn_saiga12s_isg_saiga_drum_kit_ac10632_hud]:wpn_saiga12s_isg_saiga_drum_kit_hud
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_ac10632_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059295,0.001480,-0.035375
 aim_hud_offset_rot_16x9 = 0.003801,0.007557,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_eot]:wpn_saiga12s_isg_saiga_drum_kit
 inv_weight = 4.925
 hud = wpn_saiga12s_isg_saiga_drum_kit_eot_hud
 1icon_layer = eot
 1icon_layer_x = 89
-1icon_layer_y = -20             
+1icon_layer_y = -20
 
 [wpn_saiga12s_isg_saiga_drum_kit_eot_hud]:wpn_saiga12s_isg_saiga_drum_kit_hud
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_eot_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059295,-0.005520,-0.035375
 aim_hud_offset_rot_16x9 = 0.002801,0.007557,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_c-more]:wpn_saiga12s_isg_saiga_drum_kit
 inv_weight = 4.925
 hud = wpn_saiga12s_isg_saiga_drum_kit_c-more_hud
 1icon_layer = c-more
 1icon_layer_x = 89
-1icon_layer_y = -16             
+1icon_layer_y = -16
 
 [wpn_saiga12s_isg_saiga_drum_kit_c-more_hud]:wpn_saiga12s_isg_saiga_drum_kit_hud
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_c-more_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059295,0.004880,-0.035375
 aim_hud_offset_rot_16x9 = 0.002801,0.007557,0.002187
-
 
 [wpn_saiga12s_isg_saiga_drum_kit_aim_low]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_aim_low_hud
@@ -457,7 +375,6 @@ item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_aim_low_hu
 aim_hud_offset_pos_16x9 = -0.059295,0.017180,-0.035375
 aim_hud_offset_rot_16x9 = 0.005301,0.007557,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_point_aimpro]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_point_aimpro_hud
 inv_weight = 4.925
@@ -469,7 +386,6 @@ inv_weight = 4.925
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_aimpoint_pro_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059095,-0.000920,-0.035375
 aim_hud_offset_rot_16x9 = 0.010801,0.007557,0.002187
-
 
 [wpn_saiga12s_isg_saiga_drum_kit_ekp8_18]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_ekp8_18_hud
@@ -483,7 +399,6 @@ item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_ekp8_hud.o
 aim_hud_offset_pos_16x9 = -0.059495,-0.009220,-0.035375
 aim_hud_offset_rot_16x9 = 0.006801,0.007557,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_d0cter]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_d0cter_hud
 inv_weight = 4.925
@@ -495,7 +410,6 @@ inv_weight = 4.925
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_d0cter_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059295,0.017580,-0.035375
 aim_hud_offset_rot_16x9 = 0.005801,0.007557,0.002187
-
 
 [wpn_saiga12s_isg_saiga_drum_kit_mepro]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_mepro_hud
@@ -509,7 +423,6 @@ item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_mepro_hud.
 aim_hud_offset_pos_16x9 = -0.059295,-0.004820,-0.035375
 aim_hud_offset_rot_16x9 = 0.002801,0.007557,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_0kp2]:wpn_saiga12s_isg_saiga_drum_kit
 1icon_layer = 0kp2
 1icon_layer_x = 79
@@ -521,7 +434,6 @@ inv_weight = 4.925
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_0kp2_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059795,0.008880,-0.035375
 aim_hud_offset_rot_16x9 = 0.005301,0.008057,0.002187
-
 
 [wpn_saiga12s_isg_saiga_drum_kit_e0t2]:wpn_saiga12s_isg_saiga_drum_kit
 1icon_layer = e0t2
@@ -535,7 +447,6 @@ item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_e0t2_hud.o
 aim_hud_offset_pos_16x9 = -0.059295,-0.001120,-0.035375
 aim_hud_offset_rot_16x9 = 0.002801,0.007557,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_rmr]:wpn_saiga12s_isg_saiga_drum_kit
 1icon_layer = rmr
 1icon_layer_x = 85
@@ -547,7 +458,6 @@ inv_weight = 4.925
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_rmr_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059295,0.014680,-0.035375
 aim_hud_offset_rot_16x9 = 0.005301,0.007557,0.002187
-
 
 [wpn_saiga12s_isg_saiga_drum_kit_deltapoint]:wpn_saiga12s_isg_saiga_drum_kit
 1icon_layer = deltapoint
@@ -561,7 +471,6 @@ item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_deltapoint
 aim_hud_offset_pos_16x9 = -0.060095,0.009380,-0.035375
 aim_hud_offset_rot_16x9 = 0.004801,0.008057,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_compm4s]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_compm4s_hud
 1icon_layer = compm4s
@@ -574,7 +483,6 @@ item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_compm4s_hu
 aim_hud_offset_pos_16x9 = -0.059295,-0.000420,-0.035375
 aim_hud_offset_rot_16x9 = 0.002801,0.007557,0.002187
 
-
 [wpn_saiga12s_isg_saiga_drum_kit_rakurs]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_rakurs_hud
 1icon_layer = rakurs
@@ -586,7 +494,6 @@ inv_weight = 4.925
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_rakurs_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059195,0.011500,-0.035375
 aim_hud_offset_rot_16x9 = 0.005801,0.008057,0.002187
-
 
 [wpn_saiga12s_isg_saiga_drum_kit_kemper]:wpn_saiga12s_isg_saiga_drum_kit
 inv_weight = 4.925
@@ -601,7 +508,6 @@ scope_dynamic_zoom = off
 item_visual = anomaly_weapons\wpn_saiga12s_isg_drum\wpn_saiga12s_drum_kemper_hud.ogf
 aim_hud_offset_pos_16x9 = -0.059495,-0.003220,-0.035375
 aim_hud_offset_rot_16x9 = 0.001801,0.008057,0.002187
-
 
 [wpn_saiga12s_isg_saiga_drum_kit_aimpoint]:wpn_saiga12s_isg_saiga_drum_kit
 hud = wpn_saiga12s_isg_saiga_drum_kit_aimpoint_hud

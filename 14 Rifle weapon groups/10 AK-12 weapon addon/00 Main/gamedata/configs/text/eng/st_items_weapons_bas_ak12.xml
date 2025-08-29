@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Ammunition
--->
-
 <string_table>
-
     <string id="ammo_vog_30">
         <text>VOG-30 Grenade (BaS)</text>
     </string>
@@ -16,13 +10,12 @@
         <text>A VOG-30 fragmentation grenade designed to destroy enemy manpower and fire weapons located in open areas. An improved version in comparison with analogues developed in the 1980s, has a more powerful fragmentation effect, as well as autonomous sealing of the propellant charge in the cartridge.</text>
     </string>
 
-
 	<string id="st_wpn_ak12_custom">
         <text>AK-12 Monolith (BaS)</text>
     </string>
     <string id="st_wpn_ak12_custom_descr">
-        <text>A rare stuff. Modified version of AK-12 2012. Mainly used by the Monolith faction. Has several modes of firing: automatic, single and, three rounds.\n \n
-		%c[0,140,140,140]ATTACHMENTS: \n
+        <text>A rare modified version of the AK-12 2012. Mainly used by the Monolith faction. Has several modes of firing: automatic, single and, three rounds.\n
+		%c[0,140,140,140]ATTACHMENTS:\n
 		%c[0,93,0,116] • %c[0,140,140,140] The weapon can be upgraded using tactical kit\n
 		%c[0,93,0,116] • %c[0,140,140,140] Scopes: All scopes for picatinny\n
 		%c[0,93,0,116] • %c[0,140,140,140] Silencer: TGP-A suppressor</text>
@@ -32,9 +25,9 @@
 		<text>AK12 Monolith Upgraded (BaS)</text>
     </string>
     <string id="st_wpn_ak12_mono_kit_descr">
-		<text>A rare stuff. Modified version of AK-12 Monolith. Mainly used by the Monolith faction. Has several modes of firing: automatic, single and, three rounds. Thanks to the new trigger group, it is a more advanced and powerful weapon than the original. Increased rate of fire and improved balancing. 
- This is irreversible upgrade.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+        <text>A rare modified version of the AK-12 2012. Mainly used by the Monolith faction. Has several modes of firing: automatic, single and, three rounds.\n
+		Thanks to the new trigger group, it is a more advanced and powerful weapon than the original. Increased rate of fire and improved balancing. This is an irreversible upgrade.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[0,93,0,116] • %c[0,140,140,140] The weapon was upgraded using "Monolith" Tactical Kit\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon Acog and AN/PEQ-16 LAM (integrated).\n
 		%c[d_purple] • %c[ui_gray_2] "Guard" Grenade Launcher.\n
@@ -45,37 +38,28 @@
         <text>AK-12 Preacher (BaS)</text>
     </string>
     <string id="st_wpn_ak12_mono_com_descr">
-        <text>A rare stuff. Modified version of AK-12 2012. Mainly used by the Monolith squad commanders faction. Has several modes of firing: automatic, single and three rounds.\n \n
-		%c[0,140,140,140]ATTACHMENTS: \n
+        <text>A rare modified version of the AK-12 2012. Mainly used by the Monolith squad commanders faction. Has several modes of firing: automatic, single and three rounds.\n
+		%c[0,140,140,140]ATTACHMENTS:\n
 		%c[0,93,0,116] • %c[0,140,140,140] Scopes: All scopes for picatinny\n
 		%c[0,93,0,116] • %c[0,140,140,140] Silencer: TGP-A suppressor</text>
     </string>
-
-
 
 	<string id="st_grenade_launcher_monolit">
 		<text>"Guard" Grenade Launcher (BaS)</text>
 	</string>
 	<string id="st_grenade_launcher_monolit_descr">
-		<text>
-		%c[ui_gray_1]30mm light grenade launcher, developed by the designers of the Monolithh faction, based on the special silent 6G17 Canaryka grenade launcher.\n
-		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]VOG-30 30mm grenade\n	\n 
+		<text>%c[ui_gray_1]30mm light grenade launcher, developed by the designers of the Monolithh faction, based on the special silent 6G17 Canaryka grenade launcher.\n
+		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]VOG-30 30mm grenade\n
 		%c[ui_gray_2]COMPATIBILITY:\n
-		%c[d_cyan] • %c[ui_gray_2] AK-12 Monolith with Tactical Kit installed on it.
-		</text>	
+		%c[d_cyan] • %c[ui_gray_2] AK12 Monolith Upgraded.</text>	
 	</string>
 
 	<string id="st_addon_scope_mono_kit">
 		<text>Monolith AK12 tactical kit (BaS)</text>
 	</string>
 	<string id="st_addon_scope_mono_kit_descr">
-		<text>
-		%c[ui_gray_1] This kit includes: an ergonomic forend that allows installation of a 30mm underbarrel grenade launcher, as well as sights for short and medium-long distances: Trijicon Acog and AN/PEQ-16 LAM. Also high capacity 60 round magazines set is included. This is irreversible upgrade.\n \n
+		<text>%c[ui_gray_1] This kit includes: an ergonomic forend that allows installation of a 30mm underbarrel grenade launcher, as well as sights for short and medium-long distances: Trijicon Acog and AN/PEQ-16 LAM. Also high capacity 60 round magazines set is included. This is irreversible upgrade.\n
 		%c[ui_gray_2]COMPATIBILITY:\n
-		%c[d_cyan] • %c[ui_gray_2] АК12 Monolith.
-</text>
+		%c[d_cyan] • %c[ui_gray_2] АК12 Monolith.</text>
 	</string>
-	
-	
-	
 </string_table>

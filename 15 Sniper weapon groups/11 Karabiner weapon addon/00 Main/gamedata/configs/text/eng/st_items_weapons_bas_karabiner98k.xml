@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Ammunition
--->
-
 <string_table>
-
-
 	<string id="st_wpn_karabiner98k">
 		<text>Karabiner 98 Kurz (BaS)</text>
 	</string>
 	<string id="st_wpn_karabiner98k_descr">
-		<text>During World War II, certain Karabiner 98k rifles were selected for their exceptional accuracy and fitted with the ZF39 telescopic sight. These rifles were used by Nazi Germany as sniper rifles. In skilled hands, they had an effective range of up to 1000 metres. \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit (silencer adapter).\n 		
+		<text>During World War II, certain Karabiner 98k rifles were selected for their exceptional accuracy and fitted with the ZF39 telescopic sight. These rifles were used by Nazi Germany as sniper rifles. In skilled hands, they had an effective range of up to 1000 metres.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit (silencer adapter).\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: ZF-4 (included).\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: None (Barrel adapter kit needed to mount a silencer) \n</text>
+		%c[d_purple] • %c[ui_gray_2] Suppressor: None (Barrel adapter kit needed to mount a silencer)</text>
 	</string>
 
 	<string id="st_wpn_karabiner98k_silen98">
 		<text>Karabiner 98 Kurz (with silencer adapter) (BaS)</text>
 	</string>
 	<string id="st_wpn_karabiner98k_silen98_descr">
-		<text>During World War II, certain Karabiner 98k rifles were selected for their exceptional accuracy and fitted with the ZF39 telescopic sight. These rifles were used by Nazi Germany as sniper rifles. In skilled hands, they had an effective range of up to 1000 metres. \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>During World War II, certain Karabiner 98k rifles were selected for their exceptional accuracy and fitted with the ZF39 telescopic sight. These rifles were used by Nazi Germany as sniper rifles. In skilled hands, they had an effective range of up to 1000 metres.\n
+		This particular gun has an adapter that allows to attach a suppressor constructed by Forester.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: ZF-4 (included).\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: K98 Forester.\n </text>
+		%c[d_purple] • %c[ui_gray_2] Suppressor: K98 Forester.</text>
 	</string>
 
 	<string id="st_wpn_kar98_retrotac">
 		<text>Karabiner 98 Forest Hunter (BaS)</text>
 	</string>
 	<string id="st_wpn_kar98_retrotac_descr">
-		<text>Modified version of the German WWII sniper rifle Mauser Karabiner 98k - another work of the Forester, known for his love for the restoration and modernization of old captured weapons of the WWII era. The original wooden stock has been slightly lightened; a handguard is installed on its front part, allowing the installation of an additional night sight. The rifle is equipped with an excellent sniper scope manufactured by March, Japan. According to the Forester, this rifle is more suitable for hunting intruders in the Red Forest than mutants.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: March (included), PN-23 "Nozzle" \n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: K98 Forester.\n </text>
+		<text>Modified version of the German WWII sniper rifle Mauser Karabiner 98k - another work of Forester, known for his love for the restoration and modernization of old captured weapons of the WWII era. The original wooden stock has been slightly lightened; a handguard is installed on its front part, allowing the installation of an additional night sight. The rifle is equipped with an excellent sniper scope manufactured by March, Japan.\n
+		According to Forester, this rifle is more suitable for hunting intruders in the Red Forest than mutants.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: March (included), PN-23 "Nozzle"\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: K98 Forester.</text>
 	</string>
 
 
@@ -43,37 +38,39 @@
 		<text>Mauser 98k Forester (BaS)</text>
 	</string>
 	<string id="st_wpn_k98_mod_descr">
-		<text>A modified version of the WWII German sniper rifle Mauser Karabiner 98k. The wooden stock was replaced with a more organomic polymer one. The rifle is equipped with an excellent sniper scope manufactured by March, Japan. In the Zone, a rifle is used mainly for hunting mutants at long and over-long distances.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>A modified version of the WWII German sniper rifle Mauser Karabiner 98k. The wooden stock was replaced with a more organomic polymer one. The rifle is equipped with an excellent sniper scope manufactured by March, Japan. In the Zone, a rifle is used mainly for hunting mutants at long and over-long distances.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: March (integrated)\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: K98 Forester. (Barrel adapter needed to mount a silencer) \n </text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: K98 Forester. (Barrel adapter needed to mount a silencer)</text>
 	</string>
 
 	<string id="st_wpn_k98_mod_silen98">
 		<text>Mauser 98k Forester (with silencer adapter) (BaS)</text>
 	</string>
 	<string id="st_wpn_k98_mod_silen98_descr">
-		<text>A modified version of the WWII German sniper rifle Mauser Karabiner 98k. The wooden stock was replaced with a more organomic polymer one. The rifle is equipped with an excellent sniper scope manufactured by March, Japan. In the Zone, a rifle is used mainly for hunting mutants at long and over-long distances.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>A modified version of the WWII German sniper rifle Mauser Karabiner 98k. The wooden stock was replaced with a more organomic polymer one. The rifle is equipped with an excellent sniper scope manufactured by March, Japan. In the Zone, a rifle is used mainly for hunting mutants at long and over-long distances.\n
+		This particular gun has an adapter that allows to attach a suppressor constructed by Forester.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: March (integrated)\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: K98 Forester.\n </text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: K98 Forester.</text>
 	</string> 
 	
-
 	<string id="st_addon_scope_silen98">
 		<text>Silencer adapter for Mauser 98k Forester (BaS)</text>
 	</string>
 	<string id="st_addon_scope_silen98_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] Mauser 98k Forester\n \n%c[ui_gray_1]
- Adapter or muzzle device that allows to use sound suppressor with Mauser 98k Forester sniper rifle. This upgrade is irreversible. \n </text>
+		<text>%c[ui_gray_1] Adapter or muzzle device that allows to use sound suppressor with Mauser 98k Forester sniper rifle. This upgrade is irreversible.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Mauser 98k Forester</text>
 	</string>
 
 	<string id="st_addon_sil_forester">
 		<text>Sound Suppressor "K98 Forester" (BaS)</text>
 	</string>
 	<string id="st_addon_sil_forester_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] Mauser 98k Forester\n \n%c[ui_gray_1]Homemade sound suppressor made by the Forester for his own modification of the Mauser 98k sniper rifle. For attachment to the rifle barrel, a special adapter must be installed.\n \n%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]High</text>
+		<text>%c[ui_gray_1]Homemade sound suppressor made by the Forester for his own modification of the Mauser 98k sniper rifle. For attachment to the rifle barrel, a special adapter must be installed.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Mauser 98k Forester\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]High</text>
 	</string>
-
-
 </string_table>

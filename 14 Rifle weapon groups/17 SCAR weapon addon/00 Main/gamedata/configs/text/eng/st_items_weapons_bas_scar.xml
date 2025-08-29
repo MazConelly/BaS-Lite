@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Ammunition
--->
-
 <string_table>
-
 	<string id="st_wpn_scar_siber">
 		<text>FN SCAR-H (BaS)</text>
 	</string>
 	<string id="st_wpn_scar_siber_descr">
-		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor\n
-		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: FN HERSTAL FN40GL Mk2\n</text>
+		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: FN HERSTAL FN40GL Mk2</text>
 	</string>
 
 	<string id="st_wpn_scar_l_tac">
@@ -22,8 +16,8 @@
 	</string>
 	<string id="st_wpn_scar_l_tac_descr">
 		<text>The FN SCAR-L (Special Operation Forces Combat Assault Rifle - Light) assault rifle chambered in 5.56x45 NATO rounds, was adopted by USSOCOM (United States Special Operations Command) as the Mk 16. Features a side-folding polymer stock and a free-floating, cold hammer-forged Mil-Spec barrel with hardchromed bore. Fully-ambidextrous operating controls instantly adapt the SCAR to any user or any shooting position. The receiver-integrated optical rail plus three accessory rails enable mounting of a wide variety of scopes, electronic sights, tactical lights and lasers. Manufactured by Fabrique Nationale Herstal. Comes in black and flat dark earth.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, B.E. MEYERS MAWL-C1 tactical green laser aim modul (included) \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, B.E. MEYERS MAWL-C1 tactical green laser aim module (included)\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor</text>
 	</string>
 
@@ -31,9 +25,9 @@
 		<text>FN40GL Grenade Launcher (BaS)</text>
 	</string>
 	<string id="st_grenade_launcher_scar_descr">
-		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] FN SCAR\n \n%c[ui_gray_1]
-		40mm grenade launcher developed by the Belgian company FN Herstal for the FN SCAR assault rifle\n
-		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade\n</text>
+		<text>%c[ui_gray_1]40mm grenade launcher developed by the Belgian company FN Herstal for the FN SCAR assault rifle\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] FN SCAR\n		
+		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade</text>
 	</string>
-	
 </string_table>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Ammunition
--->
-
 <string_table>
-
 	<string id="st_ammo_20x70_buck">
 		<text>20x70 buckshot round (BaS)</text>
 	</string>
@@ -14,23 +8,11 @@
 	</string>
 	<string id="st_ammo_20x70_buck_descr">
 		<text>
-		Standard 20-caliber round filled with 6 mm buckshot. Highly lethal at close range. Only suitable for use with smooth-bore weapons\n \n
-		%c[d_purple] • %c[ui_gray_2] Highest pierced armor class: %c[ui_gray_1]none\n
-		%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]medium - high\n \n
-		%c[ui_gray_1]SPECIAL:\n \n
-		%c[d_purple] • %c[ui_gray_2] expanding cloud of pellets, short eff. range
-		</text>
-	</string>
-	
-	<string id="st_wpn_toz106_m1">
-		<text>TOZ-106 (BaS)</text>
-	</string>
-	<string id="st_wpn_toz106_m1_descr">
-		<text>
-		Single-barreled 20ga hunting shotgun with sliding breech bolt. Widely known by it vernacular name, the Death of the Chairman, for its compact size.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: Due to the position of the stock, it is possible to install sights only with a very low mount: Barska AC10632, C-More, Docter Sight, Aimpoint T1, Trijicon RMR, Leupold DeltaPoint PRO, OKP-7, 1P76 Rakurs. \n \n
-		%c[d_purple] • %c[ui_gray_2] Silencer: None \n
+		Standard 20-caliber round filled with 6 mm buckshot. Highly lethal at close range. Only suitable for use with smooth-bore weapons\n
+		%c[d_purple] - %c[ui_gray_2] Highest pierced armor class: %c[ui_gray_1]none\n
+		%c[d_purple] - %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]medium - high\n
+		%c[ui_gray_1]SPECIAL:\n
+		%c[d_purple] - %c[ui_gray_2] expanding cloud of pellets, short eff. range
 		</text>
 	</string>
 
@@ -39,11 +21,23 @@
 	</string>
 	<string id="st_wpn_toz106_descr">
 		<text>
-		Single-barreled 20ga hunting shotgun with sliding breech bolt. Widely known by it vernacular name, the Death of the Chairman, for its compact size.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: None \n \n
-		%c[d_purple] • %c[ui_gray_2] Silencer: None \n
+		Single-barreled 20 gauge hunting shotgun with sliding breech bolt. Widely known by it vernacular name, the Death of the Chairman, for its compact size.\n
+		This is a model with a folding stock, and very small magazine capacity.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: None\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: None\n
 		</text>
 	</string>
 
+	<string id="st_wpn_toz106_m1">
+		<text>TOZ-106 (BaS)</text>
+	</string>
+	<string id="st_wpn_toz106_m1_descr">
+		<text>
+		Single-barreled 20 gaige hunting shotgun with sliding breech bolt. Widely known by it vernacular name, the Death of the Chairman, for its compact size.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes: Due to the position of the stock, it is possible to install sights only with a very low mount: Barska AC10632, C-More, Docter Sight, Aimpoint T1, Trijicon RMR, Leupold DeltaPoint PRO, OKP-7, 1P76 Rakurs.\n
+		%c[d_purple] - %c[ui_gray_2] Silencer: None\n
+		</text>
+	</string>
 </string_table>

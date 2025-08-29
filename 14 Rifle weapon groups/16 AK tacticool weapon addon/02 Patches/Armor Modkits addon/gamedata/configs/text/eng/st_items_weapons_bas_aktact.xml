@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Ammunition
--->
-
 <string_table>
-
 
 <!-- 	<string id="st_wpn_ak74_n">
 		<text>AK-74 (BaS)</text>
 	</string>
     <string id="st_wpn_ak74_n_descr">
-		<text>The AK-74 is a 5.45x45mm assault rifle developed in the early 1970s by Mikhail Kalashnikov to replace the earlier AKM. It was introduced in 1974 and first saw service with Soviet forces engaged in the Afghanistan Conflict. The AKM rifle was adapted to fire smaller 5.45x45mm cartridge and fitted with a large muzzle brake.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>The AK-74 is a 5.45x45mm assault rifle developed in the early 1970s by Mikhail Kalashnikov to replace the earlier AKM. It was introduced in 1974 and first saw service with Soviet forces engaged in the Afghanistan Conflict. The AKM rifle was adapted to fire smaller 5.45x45mm cartridge and fitted with a large muzzle brake.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)\n
-		%c[d_purple] • %c[ui_gray_2] All dovetail mount scopes except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon. \n
+		%c[d_purple] • %c[ui_gray_2] All dovetail mount scopes except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon.\n
 		%c[d_purple] • %c[ui_gray_2] ATG suppressor\n
 		%c[ui_gray_2]COMPATIBLE MOD KITS: Mercenary modification kit</text>
 	</string> -->
@@ -24,11 +18,11 @@
 	</string>
 	<string id="st_wpn_ak74_pmc_descr">
 		<text>A modification of the Kalashnikov assault rifle, developed in 1970 for the 5.45x39 cartridge.
-		It differs from the standard version by the installed body kit, which includes a tactical grip, a forend with picatinny rails and a folding telescopic buttstock, which significantly improves ergonomics of the gun. The kit also includes a laser targeting device, a tactical flashlight and an adapter mount for sighting devices.
-		In the Zone similar models are usually used by mercenaries, Ukrainian special forces, various PMCs and other power structures for conducting special operations.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight. \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver and for Dovetail mount except of PSO scopes with eyecup, EOTS-62 and 1P59 Giperon. \n
+		It differs from the standard version by the installed body kit, which includes a tactical grip, a forend with picatinny rails and a folding telescopic buttstock, which significantly improves ergonomics of the gun. The kit also includes a laser targeting device, a tactical flashlight and an adapter mount for sighting devices.\n
+		In the Zone similar models are usually used by mercenaries, Ukrainian special forces, various PMCs and other power structures for conducting special operations.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver and for Dovetail mount except of PSO scopes with eyecup, EOTS-62 and 1P59 Giperon.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: ATG suppressor</text>
 	</string>
 
@@ -36,29 +30,29 @@
 		<text>AK-74M Beard (BaS)</text>
 	</string>
 	<string id="st_wpn_ak74m_beard_descr">
-		<text>This AK is kind of Beard's venom (not to be confused with his tea). Lightweight and tailored to the harsh conditions of the Zone. Does not provide for mounting a grenade launcher. It is made at Skadovsk and Yanov Station, from where it is distributed throughout the Zone.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>This AK is kind of Beard's venom (not to be confused with his tea). Lightweight and tailored to the harsh conditions of the Zone. Does not provide for mounting a grenade launcher. It is made at Skadovsk and Yanov Station, from where it is distributed throughout the Zone.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount (except of 1p59 Giperon and PSO scopes with an eyecup) and all red dot sights (except of Aimpoint PRO and Aimpoint T1 with high mount and Barska 11090). The use of PSO scopes with an eyecup on this weapon is highly not recommended.\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A. No Grenade Launcher available for this model\n </text>
-	</string> -->
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A. No Grenade Launcher available for this model</text>
+	</string>
 
-<!-- 	<string id="st_wpn_ak74m_n">
+	<string id="st_wpn_ak74m_n">
 		<text>АК-74М (BaS)</text>
 	</string>
     <string id="st_wpn_ak74m_n_descr">
-		<text>In 1991, the Izhmash factory began production of an improved AK-74 - the AK-74M assault rifle. Apart from several minor production improvements, the rifle also features a new foldable synthetic stock made from a black, glass-filled polyamide. The AK-74M also uses a reinforced muzzle device and dust cover. Each AK-74M is fitted with a side-rail bracket for mounting optics. The AK-74M has been accepted as the new service rifle of the Russian Federation\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>In 1991, the Izhmash factory began production of an improved AK-74 - the AK-74M assault rifle. Apart from several minor production improvements, the rifle also features a new foldable synthetic stock made from a black, glass-filled polyamide. The AK-74M also uses a reinforced muzzle device and dust cover. Each AK-74M is fitted with a side-rail bracket for mounting optics. The AK-74M has been accepted as the new service rifle of the Russian Federation\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)\n
 		%c[d_purple] • %c[ui_gray_2] All dovetail mount scopes except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon.\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A Suppressor\n </text>
-	</string> -->
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A Suppressor</text>
+	</string>
 
-<!-- 	<string id="st_wpn_ak74u_n1">
+	<string id="st_wpn_ak74u_n1">
 		<text>AKS-74U (BaS)</text>
 	</string>
 	<string id="st_wpn_ak74u_n1_descr">
-		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for dovetail mount (except of PSO scopes with eye cup and 1P59 Giperon). The use of PSO scopes with an eyecup on this weapon is highly not recommended.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-4 suppressor\n
 		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
@@ -68,8 +62,8 @@
 		<text>AKS-74U Tactical (BaS)</text>
 	</string>
 	<string id="st_wpn_ak74u_tac_descr">
-		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range. This special variant has a 45 round RPK magazine.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>The AKS-74U was intended for use mainly by Spetsnaz units, airborne infantry, rear-echelon support units and armoured vehicle crews, who require a compact but relatively powerful individual automatic weapon. The AKS-74U is significantly more manoeuvrable in tight quarters than the AKS-74, but a significant decline in muzzle velocity resulted in a decrease in effective range. This special variant has a 45 round RPK magazine.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for dovetail mount (except of PSO scopes with eye cup and 1P59 Giperon) and all Red Dot Sights except of Aimpoint PRO and Aimpoint T1 with high mount.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-4 suppressor</text>
 	</string>
@@ -78,33 +72,32 @@
     	<text>AK-104 Alpha (BaS)</text>
   	</string>
   	<string id="st_wpn_ak104_alfa_descr">
-		<text>Customized version of the 7.62 mm AK-104 assault rifle. Looks like a finger tip of some Mid-Eastern operators...\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>A customized version of the 7.62 mm AK-104 assault rifle. Looks like it received a touch from some Middle-Eastern operators...\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] All scopes for picatinny/weaver\n		
 		%c[d_purple] • %c[ui_gray_2] Silencer: ATG suppressor</text>
   	</string>
 
-<!--
-	<string id="st_wpn_akm_bas">
+<!-- 	<string id="st_wpn_akm_bas">
 		<text>AKM (BaS)</text>
 	</string>
 	<string id="st_wpn_akm_bas_descr">
-		<text>The AKM is a 7.62x39mm assault rifle designed by Mikhail Kalashnikov. It is an improved version of the AK-47 rifle and was developed in the 1950's. Introduced to the Red Army in 1959, the AKM is the most ubiquitous variant of the AK series of firearms and it has found widespread use with the former Warsaw Pact states and its many African and Asian allies. The production of AKM rifles was carried out at the Tula Arsenal and Izhevsk Mechanical Works.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>The AKM is a 7.62x39mm assault rifle designed by Mikhail Kalashnikov. It is an improved version of the AK-47 rifle and was developed in the 1950's. Introduced to the Red Army in 1959, the AKM is the most ubiquitous variant of the AK series of firearms and it has found widespread use with the former Warsaw Pact states and its many African and Asian allies. The production of AKM rifles was carried out at the Tula Arsenal and Izhevsk Mechanical Works.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: None\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: PBS-1\n
-		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)\n</text>
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)</text>
 	</string>
 
 	<string id="st_wpn_akms_bas">
 		<text>AKMS (BaS)</text>
 	</string>
 	<string id="st_wpn_akms_bas_descr">
-		<text>A variant of the AKM, equipped with an under-folding metal shoulder stock in place of the fixed wooden stock. The metal stock of the AKMS is somewhat different from the folding stock of the previous AK-47 model as it has a modified locking mechanism, which locks both support arms of the AKMS stock instead of just one.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n		
+		<text>A variant of the AKM, equipped with an under-folding metal shoulder stock in place of the fixed wooden stock. The metal stock of the AKMS is somewhat different from the folding stock of the previous AK-47 model as it has a modified locking mechanism, which locks both support arms of the AKMS stock instead of just one.\n
+		%c[ui_gray_2]ATTACHMENTS:\n		
 		%c[d_purple] • %c[ui_gray_2] Scopes: None\n
 		%c[d_purple] • %c[ui_gray_2] PBS-1 suppressor\n
-		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)\n</text>
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)</text>
 	</string>
 
 	<string id="st_wpn_akm_alfa">
@@ -113,14 +106,8 @@
   	<string id="st_wpn_akm_alfa_descr">
 		<text>Developed in Israel by Command Arms & Acessories (CAA), the AK-Alfa assault rifle was first presented to the public in 2016. This weapon is marketed under two brands - "Kalashnikov USA" and "Kalashnikov Israel". Apparently, this weapon got into the Zone with the the ISG faction. The AK-Alpha assault rifle is an attempt to improve the ergonomics of the AK rifle while maintaining its main advantages - high reliability and ease of maintenance.
 		The base for the AK-Alpha is the receiver, the barrel with the gas tube, the bolt group and the main components of the trigger of the Russian-made Saiga carbine.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver except of scopes with very low mounting: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight.\n		
-		%c[d_purple] • %c[ui_gray_2] Silencer: 5.45/7.62x39 Hexagon Sound Suppressor\n </text>
-  	</string>
-	-->
-
-
-
-
-
+		%c[d_purple] • %c[ui_gray_2] Silencer: 5.45/7.62x39 Hexagon Sound Suppressor</text>
+  	</string> -->
 </string_table>

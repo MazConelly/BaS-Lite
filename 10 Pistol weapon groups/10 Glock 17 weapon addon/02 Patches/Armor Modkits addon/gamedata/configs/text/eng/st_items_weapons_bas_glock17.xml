@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Ammunition
--->
-
 <string_table>
-
 	<string id="st_wpn_glock17">
 		<text>Glock 17 (BaS)</text>
 	</string>
 	<string id="st_wpn_glock17_descr">
-		<text>The Glock 17 is a polymer-framed, short recoil-operated, locked-breech semi-automatic pistol designed and produced by Austrian manufacturer Glock Ges.m.b.H.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>The Glock 17 is a polymer-framed, short recoil-operated, locked-breech semi-automatic pistol designed and produced by Austrian manufacturer Glock Ges.m.b.H.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: None\n 
-		%c[d_purple] • %c[ui_gray_2] Silencer: None \n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit
-		</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: None\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
 	</string>
 
-		<string id="st_wpn_glock17_m1">
+	<string id="st_wpn_glock17_m1">
 		<text>Glock 17 Tactical (BaS)</text>
 	</string>
 	<string id="st_wpn_glock17_m1_descr">
-		<text>The Glock 17 is a polymer-framed, short recoil-operated, locked-breech semi-automatic pistol designed and produced by Austrian manufacturer Glock Ges.m.b.H. The tactical variant of Glock 17 has some additional futures: integrated Aimtech glock base for Red Dot sights, installed Pachmayr tactical rubber grip and threaded barrel manufactured by Double Diamond.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		<text>The Glock 17 is a polymer-framed, short recoil-operated, locked-breech semi-automatic pistol designed and produced by Austrian manufacturer Glock Ges.m.b.H. The tactical variant of Glock 17 has some additional futures: integrated Aimtech glock base for Red Dot sights, installed Pachmayr tactical rubber grip and threaded barrel manufactured by Double Diamond.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: Docter Sight, Aimpoint T1 (low mount only), Trijicon RMR, Leupold Deltapoint PRO\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: 9mm suppressor</text>
 	</string>
-
 </string_table>

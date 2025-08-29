@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Ammunition
--->
-
 <string_table>
-
-
 	<string id="st_wpn_ak74_isg">
-		<text>Rifle Dynamics RD-74M ISG (BaS)</text>
+		<text>Rifle Dynamics RD-47 ISG (BaS)</text>
 	</string>
 	<string id="st_wpn_ak74_isg_descr">
-		<text>An advanced version of the AK-74M developed by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight. \n
-		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it. \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver.\n
+		<text>An advanced version of the AK-74M developed by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight.\n
+		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor</text>
 	</string>
 
 	<string id="st_wpn_akm_isg">
-		<text>Rifle Dynamics RD-47 ISG (BaS)</text>
+		<text>Rifle Dynamics RD-74M ISG (BaS)</text>
 	</string>
 	<string id="st_wpn_akm_isg_descr">
-		<text>A custom model developed on the basis of AKM by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight. \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver\n
+		<text>A custom model developed on the basis of AKM by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: ATG suppressor</text>
 	</string>
 
@@ -34,9 +27,9 @@
 		<text>Rifle Dynamics RD-74U ISG (BaS)</text>
 	</string>
 	<string id="st_wpn_ak74u_isg_descr">
-		<text>A custom model developed on the basis of AKSU by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver\n
+		<text>A custom model developed on the basis of AKSU by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor
 		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
 	</string>
@@ -45,13 +38,10 @@
 		<text>Rifle Dynamics RD-74U ISG Tactic (BaS)</text>
 	</string>
 	<string id="st_wpn_ak74u_m1_isg_descr">
-		<text>Modification RD-74U ISG, developed by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n \n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight. \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver\n
+		<text>Modification RD-74U ISG, developed by the American company Rifle Dynamics. It is one of the most high-tech weapons in the Zone. Used by ISG special units.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor</text>
 	</string>
-
-
-
 </string_table>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-	<string id="st_wpn_saiga12s_m1">
+<string id="st_wpn_saiga12s_m1">
 		<text>Saiga-12 "Warden" (BaS)</text>
 	</string>
 	<string id="st_wpn_saiga12s_m1_descr">
 		<text>A Saiga-12 modified during production at the request of the Ministry of Science and its personel. The expeditions of the ecologists puts both the researchers and their escorts at higher risk of encountering dangerous mutants. With suggestions from both their guards and mercenaries, simple but effective modifications were made to a basic Saiga-12 to improve its basic capabilities, giving it an edge over other shotguns against aggressive wildlife.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Dovetail mount.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
 	</string>
@@ -15,7 +15,7 @@
 	</string>
 	<string id="st_wpn_saiga12s_m2_descr">
 		<text>A Saiga-12 heavily modified for the use of mercenaries. Curiously similar to the modified samples shipped to the Ecologists, seems like it received further changes to make for a more effective warfare tool. A Picatinny rail and a massive muzzle brake compensator have been installed, significantly reducing recoil.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver and for Dovetail mount except of OKP-7, Kobra EKP-1S-03, Kobra EKP-8-02.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor</text>
 	</string>
@@ -25,9 +25,8 @@
 	</string>
 	<string id="st_wpn_saiga12s_isg_descr">
 		<text>Produced by Kalashnikov USA and based of the short-barreled Komrad semi-automatic rifle, a variant of their KS-12 which itself is a US development of the Saiga-12. It has been provided to members of ISG research teams to protect themselves from mutants. The weapon has both a dovetail mount and a Picatinny rail for use with various types of sights. This model has a new type of trigger mechanism, which allows you to fire a two rounds burst.\n
-		%c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver. \n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor</text>
 	</string>	
-
 </string_table>

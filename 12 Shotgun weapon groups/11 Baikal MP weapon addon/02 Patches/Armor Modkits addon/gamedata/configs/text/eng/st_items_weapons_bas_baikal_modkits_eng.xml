@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
-
-<!--
-	Weapons
--->
-
 <string_table>
-
 	<string id="st_wpn_mp133_bas">
 		<text>MP-133 (BaS)</text>
 	</string>
 	<string id="st_wpn_mp133_bas_descr">
-		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets. It is produced in two basic versions: standard MP-133 with tubular magazine and MP-133K with detachable box magazine, both versions can be in various barrel lengths and styles, wood or polymer furniture, fixed or side folding polymer stock or pistol grip only. The MP-133 shotgun uses traditional pump action with sliding forend that has dual action bars. Locking is achieved by a tilting locking piece, installed in the bolt and engages the notch in the barrel extension when in battery. Feed is from tubular under-barrel magazine that holds 4 rounds, though capacity can be enhanced by installing magazine extension tubes.\n </text>
+		<text>The MP-133 is a product of the Izhevsk Mechanical Plant. This shotgun is an evolution of the earlier IZh-81 pump action shotgun, and is intended for civilian and security markets. It is produced in two basic versions: standard MP-133 with tubular magazine and MP-133K with detachable box magazine, both versions can be in various barrel lengths and styles, wood or polymer furniture, fixed or side folding polymer stock or pistol grip only. The MP-133 shotgun uses traditional pump action with sliding forend that has dual action bars. Locking is achieved by a tilting locking piece, installed in the bolt and engages the notch in the barrel extension when in battery. Feed is from tubular under-barrel magazine that holds 4 rounds, though capacity can be enhanced by installing magazine extension tubes.</text>
 	</string>
 
 	<string id="st_wpn_mp153_bas">
@@ -22,13 +16,12 @@
 	</string>
 
     <string id="st_wpn_mp153_m1">
-        <text>Carabineer (BaS)</text>
+        <text>MP-153 Carabineer (BaS)</text>
     </string>
     <string id="st_wpn_mp153_m1_descr">
 		<text>A customized version of the MP-153 shotgun. Capable of semi-automatic fire like its predecessor, but provides better recoil compensation thanks to the quite effective muzzle brake. It also has Picatinny rail which allows to use reflex and holographic sights and ability to use sound suppressor.\n
-	    %c[ui_gray_2]ATTACHMENTS: \n
-		%c[d_purple] • %c[ui_gray_2] Scopes: Due to the position of the stock, it is possible to install sights only with a very low mount: Barska AC10632, C-More, Docter Sight, Aimpoint T1, Trijicon RMR, Leupold DeltaPoint PRO, OKP-7, 1P76 Rakurs. \n \n
+	    %c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Due to the position of the stock, it is possible to install sights only with a very low mount: Barska AC10632, C-More, Docter Sight, Aimpoint T1, Trijicon RMR, Leupold DeltaPoint PRO, OKP-7, 1P76 Rakurs.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
     </string>
-
 </string_table>

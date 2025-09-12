@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_scar_siber">
+		<text>FN SCAR-H (BaS)</text>
+	</string>
+	<string id="st_wpn_scar_siber_descr">
+		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount)\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: FN HERSTAL FN40GL Mk2</text>
+	</string>
+
+	<string id="st_wpn_scar_siber_m1">
+		<text>FN SCAR-H Tactical (BaS)</text>
+	</string>
+	<string id="st_wpn_scar_siber_m1_descr">
+		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n
+		This rifle has been customized for better handling, but that voids the use of a grenade launcher.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Tactical Magpull foregrip, Tritium Sights\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
+	</string>
+
+	<string id="st_wpn_scar_siber_m2">
+		<text>FN SCAR-H Expert Operator (BaS)</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2_descr">
+		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n
+		This rifle has been customized for improved performance in CQB, but that voids the use of a grenade launcher.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Tactical Magpull foregrip, Tritium Sights, B.E. MEYERS MAWL-C1 tactical green laser aim module\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount)\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
+	</string>
+
+	<string id="st_wpn_scar_siber_m2_custom">
+		<text>FN SCAR-H Specialist Operator (BaS)</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2_custom_descr">
+		<text>The Special Operations Forces Combat Assault Rifle (SCAR) is a modular rifle made by FN Herstal for SOCOM to satisfy the requirements of the SCAR competition. This family of rifle consist of two types, the SCAR-H and SCAR-L. The SCAR-H (Heavy) is chambered in 7.62x51mm NATO cartridge.\n
+		This rifle has been customized for improved performance at longer ranges, but that voids the use of a grenade launcher.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: B.E. MEYERS MAWL-C1 tactical green laser aim module\n
+		%c[d_purple] • %c[ui_gray_2] Scopes installed: Vortex RAZOR UH-1 и EOTech G33.STS magnifier\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
+	</string>
+
+	<string id="st_grenade_launcher_scar">
+		<text>FN40GL Grenade Launcher (BaS)</text>
+	</string>
+	<string id="st_grenade_launcher_scar_descr">
+		<text>%c[ui_gray_1]40mm grenade launcher developed by the Belgian company FN Herstal for the FN SCAR assault rifle\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] FN SCAR\n
+		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]M203 40mm grenade</text>
+	</string>
+</string_table>

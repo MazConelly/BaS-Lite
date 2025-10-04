@@ -72,10 +72,10 @@
 	</string>
 	<string id="st_wpn_m4_ru556_descr">
 		<text>The SR-556 is a semi-automatic AR-15 style rifle manufactured by Sturm, Ruger & Co. The rifle was introduced in 2009 in .223 Remington/5.56?45mm NATO and as a .308 Winchester AR-10 variant in 2013, the SR-762. It is one of several AR-15 rifles to use a gas piston operation. Ruger announced on May 15, 2009 on the SR-556 being produced, and in January 2016, Ruger discontinued all existing SR-556 rifles in preparation for a new takedown variant.\n
-		Several of these rifles came to the Zone through the scientists. According to rumors, six small containers with these guns were sent from foreign sponsors to Professor Sakharov, but 5 of them were lost before arrival. \n
+		Several of these rifles came to the Zone through the scientists. According to rumors, six small containers with these guns were sent from foreign sponsors to Professor Sakharov, but 5 of them were lost before arrival.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it.\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
 
@@ -86,7 +86,7 @@
 		<text>Renowned for its high production quality and good performance, the SG 550 is often referred to as the finest 5.56 mm rifle ever made. It has a side-folding skeletonised buttstock and a lightweight aluminium bipod that folds into grooves in the lower handguard.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 	    %c[d_purple] • %c[ui_gray_2] Installed Upgrades: Tactical handguard, Vertical grip, AN/PEQ-16 Laser Aim modul and Tritium sights.\n 
-		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (Picatinny).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor\n
 	    %c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
 	</string>
@@ -98,7 +98,7 @@
 		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 	    %c[d_purple] • %c[ui_gray_2] Installed Upgrades: Vertical grip, AN/PEQ-16 Laser Aim modul and Tritium sights.\n 		
-		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny).\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (Picatinny).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
 

@@ -29,7 +29,8 @@
 	</string>
 	<string id="st_wpn_ks23_descr">
 		<text>Special carbine, 23 mm - Soviet multi-functional police pump-action shotgun, designed to suppress riots, selective force, mental and chemical effects on offenders. Interestingly, having a caliber of more than 20 mm and a rifled barrel, the KS-23 should not be classified as small arms, but as small-caliber artillery.\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit, Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith and Specialized weapon mod kits</text>
 	</string>
 
 	<string id="st_wpn_ks23_23_up">
@@ -45,7 +46,8 @@
 	</string>
 	<string id="st_wpn_ks23_kaban_descr">
 		<text>Shortened version of KS-23 with removable metal stock. 23 mm - Soviet multi-functional police pump-action shotgun, designed to suppress riots, selective force, mental and chemical effects on offenders. Interestingly, having a caliber of more than 20 mm and a rifled barrel, the KS-23 should not be classified as small arms, but as small-caliber artillery.\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
 	</string>	
 
 	<string id="st_wpn_ks23_kaban_kab_up">

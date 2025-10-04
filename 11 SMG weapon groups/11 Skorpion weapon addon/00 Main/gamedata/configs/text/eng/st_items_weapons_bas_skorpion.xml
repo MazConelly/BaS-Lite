@@ -5,36 +5,33 @@
 		<text>Skorpion vz.61 (BaS)</text>
 	</string>
 	<string id="st_wpn_vz61_scorpion_descr">
-		<text>The Skorpion vz. 61 (or Sa vz. 61 Skorpion) is a Czechoslovak machine pistol developed in 1959 by Miroslav Rybar (1924–1970) and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Ceska zbrojovka arms factory in Uhersky Brod from 1963 to 1979, and chambered for .32 ACP.\n
-		Although it was developed for use with security forces, the weapon was also accepted into service with the Czechoslovak Army as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces. Currently the weapon is in use with the armed forces of several countries as a sidearm.\n
-		Originally chambered for .32 ACP but most of the models made their way into the Zone were the vz.65, vz.82 chambered for 9x18mm Makarov.\n
+		<text>The Skorpion vz. 61 (or Sa vz. 61 Skorpion) is a Czechoslovak machine pistol developed in 1959 by Miroslav Rybar (1924–1970) and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Ceska zbrojovka arms factory in Uhersky Brod from 1963 to 1979.\n
+		Although it was developed for use with security forces, the weapon was also accepted into service with the Czechoslovak Army as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces. Currently the weapon is in use with the armed forces of several countries as a sidearm. Originally chambered for .32 ACP but most of the models made their way into the Zone is vz.65, vz.82 chambered for 9x18mm Makarov.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor.</text>
+		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor</text>
 	</string>
-	
+
 	<string id="st_wpn_vz61_scorpion_m1">
 		<text>Skorpion vz.61 Improved (BaS)</text>
 	</string>
 	<string id="st_wpn_vz61_scorpion_m1_descr">
-		<text>The Skorpion vz. 61 (or Sa vz. 61 Skorpion) is a Czechoslovak machine pistol developed in 1959 by Miroslav Rybar (1924–1970) and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Ceska zbrojovka arms factory in Uhersky Brod from 1963 to 1979, and chambered for .32 ACP.\n
-		Although it was developed for use with security forces, the weapon was also accepted into service with the Czechoslovak Army as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces. Currently the weapon is in use with the armed forces of several countries as a sidearm.\n
-		Originally chambered for .32 ACP but most of the models made their way into the Zone were the vz.65, vz.82 chambered for 9x18mm Makarov.\n
+		<text>The Skorpion vz. 61 (or Sa vz. 61 Skorpion) is a Czechoslovak machine pistol developed in 1959 by Miroslav Rybar (1924–1970) and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Ceska zbrojovka arms factory in Uhersky Brod from 1963 to 1979.\n
+		Although it was developed for use with security forces, the weapon was also accepted into service with the Czechoslovak Army as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces. Currently the weapon is in use with the armed forces of several countries as a sidearm. Originally chambered for .32 ACP but most of the models made their way into the Zone is vz.65, vz.82 chambered for 9x18mm Makarov.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The weapons are equipped with: Laser sight and a mount for small Red Dot sights. The kit includes a set of magazines for 30 rounds.\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon RMR, Leupold Deltapoint PRO, Aimpoint T1 (low mount) è Docter Sight.\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor.</text>
+		%c[d_purple] • %c[ui_gray_2] Laser sight, and Picatinny rail for attaching some small sights. The kit includes a set of magazines for 30 rounds.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon RMR, Leupold Deltapoint PRO, Aimpoint T1 (low mount), Docter Sight.\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor</text>
 	</string>
-	
+
 	<string id="st_wpn_vz61_scorpion_m2">
 		<text>Skorpion vz.61 Polymer's (BaS)</text>
 	</string>
 	<string id="st_wpn_vz61_scorpion_m2_descr">
-		<text>The Skorpion vz. 61 (or Sa vz. 61 Skorpion) is a Czechoslovak machine pistol developed in 1959 by Miroslav Rybar (1924–1970) and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Ceska zbrojovka arms factory in Uhersky Brod from 1963 to 1979, and chambered for .32 ACP.\n
-		Although it was developed for use with security forces, the weapon was also accepted into service with the Czechoslovak Army as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces. Currently the weapon is in use with the armed forces of several countries as a sidearm.\n
-		Most of the models that made their way into the Zone is vz.68, chambered for 9x19mm.\n
+		<text>The Skorpion vz. 61 (or Sa vz. 61 Skorpion) is a Czechoslovak machine pistol developed in 1959 by Miroslav Rybar (1924–1970) and produced under the official designation Samopal vzor 61 ("submachine gun model 1961") by the Ceska zbrojovka arms factory in Uhersky Brod from 1963 to 1979.\n
+		Although it was developed for use with security forces, the weapon was also accepted into service with the Czechoslovak Army as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces. Currently the weapon is in use with the armed forces of several countries as a sidearm. Originally chambered for .32 ACP but most of the models made their way into the Zone is vz.65, vz.82 chambered for 9x18mm Makarov.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The weapons are equipped with: Laser sight from Zenit company, compact foregrip and mount for small Red Dot sights. The kit includes a set of drum magazines for 60 rounds.\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon RMR, Leupold Deltapoint PRO, Aimpoint T1 (low mount) è Docter Sight.\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor.</text>
+		%c[d_purple] • %c[ui_gray_2] Zenit Laser sight, Picatinny rail for attaching some small sights, and compact foregrip. The kit includes a set of drum magazines for 60 rounds.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon RMR, Leupold Deltapoint PRO, Aimpoint T1 (low mount), Docter Sight.\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor</text>
 	</string>
 </string_table>

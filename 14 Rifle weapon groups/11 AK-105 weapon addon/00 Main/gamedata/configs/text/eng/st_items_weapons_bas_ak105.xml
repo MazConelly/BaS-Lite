@@ -7,8 +7,8 @@
 		<text>The AK-105 is a 5.45x39mm carbine version of the AK-74M rifle. The AK-105 is supplementing AKS-74U carbines in Russian Army service. Ideal for CQC (close quarters combat), it's not intended for long range combat. The rifle's reiver is made of stamped steel; the magazine is made out of reinforced fibreglass and the stock is made of hollow plastic, making it lighter, more durable, and allowing a field kit to be stored inside of it.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon.\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit</text>
 	</string>
 
 	<string id="st_wpn_ak105_bas_swamp">

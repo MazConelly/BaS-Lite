@@ -5,9 +5,9 @@
 	</string>
 	<string id="st_wpn_sig226_descr">
 		<text>The SIG Sauer P226R is a full-sized, service-type pistol made by SIG Sauer, a standard service weapon of Navy SEALs. Chambered for the 9x19mm Parabellum, features a Picatinny rail mount on the underside of a frame.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.\n 
-		%c[d_purple] • %c[ui_gray_2] Silencer: none</text>
+		%c[ui_gray_2]ATTACHMENTS:\n 
+		%c[d_purple] • %c[ui_gray_2] Silencer: none\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.</text>
 	</string>
 
 	<string id="st_wpn_sig226_226sig_kit">
@@ -16,7 +16,7 @@
 	<string id="st_wpn_sig226_226sig_kit_descr">
 		<text>The SIG Sauer P226R is a full-sized, service-type pistol made by SIG Sauer, a standard service weapon of Navy SEALs. Chambered for the 9x19mm Parabellum, features a Picatinny rail mount on the underside of a frame.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Installed Tactical Kit: Threaded barrel for using with suppressor, ergonomic gripp plates and Trijicon RMR Red Dot sight with mounting plate. This upgrade is irreversible.\n 
+		%c[d_purple] • %c[ui_gray_2] Threaded barrel for using with suppressor, ergonomic gripp plates and Trijicon RMR Red Dot sight with mounting plate.\n 
 		%c[d_purple] • %c[ui_gray_2] Silencer: 9mm suppressor</text>
 	</string>
 

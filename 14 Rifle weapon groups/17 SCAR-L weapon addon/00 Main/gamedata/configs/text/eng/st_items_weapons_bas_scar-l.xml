@@ -6,7 +6,7 @@
 	<string id="st_wpn_scar_l_tac_descr">
 		<text>The FN SCAR-L (Special Operation Forces Combat Assault Rifle - Light) assault rifle chambered in 5.56x45 NATO rounds, was adopted by USSOCOM (United States Special Operations Command) as the Mk 16. Features a side-folding polymer stock and a free-floating, cold hammer-forged Mil-Spec barrel with hardchromed bore. Fully-ambidextrous operating controls instantly adapt the SCAR to any user or any shooting position. The receiver-integrated optical rail plus three accessory rails enable mounting of a wide variety of scopes, electronic sights, tactical lights and lasers. Manufactured by Fabrique Nationale Herstal. Comes in black and flat dark earth.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, B.E. MEYERS MAWL-C1 tactical green laser aim module (included)\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver, B.E. MEYERS MAWL-C1 tactical green laser aim module (included)\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor</text>
 	</string>
 </string_table>

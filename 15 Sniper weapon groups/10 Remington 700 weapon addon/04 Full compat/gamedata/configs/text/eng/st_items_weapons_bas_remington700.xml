@@ -7,7 +7,8 @@
 		<text>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit, Custom weapon mod kit, Specialized weapon mod kit, Mercenary modification kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith, Custom, Specialized, Mercenary modification kits</text>
 	</string>
 
 		<string id="st_wpn_remington700_bas_archangel">

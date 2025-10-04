@@ -6,8 +6,8 @@
 	<string id="st_wpn_remington700_bas_descr">
 		<text>The Remington Model 700 is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using: MOD X Gen.3 chassis, Promag Archangel polymer stock and The Deer Hunter .338 kit\n
-		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using: MOD X Gen.3 chassis, Promag Archangel polymer stock and The Deer Hunter .338 kit</text>
 	</string>
 
 		<string id="st_wpn_remington700_bas_archangel">

@@ -8,7 +8,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: ZF-4 (included).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: None (Barrel adapter kit needed to mount a silencer)\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_karabiner98k_silen98">
@@ -42,7 +43,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: March (integrated)\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: K98 Forester. (Barrel adapter needed to mount a silencer)\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit </text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_k98_mod_silen98">

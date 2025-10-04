@@ -8,7 +8,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] The LAM for PL-15 can be installed\n 
 		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech suppressor
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Custom weapon mod kit, Duty modification kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Custom and Duty modification kit</text>
 	</string>
 
 	<string id="st_wpn_pl15_pl15_scolaz">
@@ -20,7 +21,7 @@
 		%c[d_purple] • %c[ui_gray_2] LAM, Aimpoint T1 scope.\n 
 		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech suppressor</text>
 	</string>
-
+<!-- 
 	<string id="st_addon_scope_lazup_pl15">
 		<text>LAM for Lebedev PL-15 Pistol (BaS)</text>
 	</string>
@@ -30,7 +31,7 @@
 		%c[d_cyan] • %c[ui_gray_2] Lebedev PL-15</text>
 	</string>
 
-<!-- 	<string id="st_addon_scope_pl15_scolaz">
+	<string id="st_addon_scope_pl15_scolaz">
 		<text>Advanced Tactical Kit "Tactic" for PL-15 Pistol (BaS)</text>
 	</string>
 	<string id="st_addon_scope_pl15_scolaz_descr">

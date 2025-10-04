@@ -7,8 +7,8 @@
 		<text>The SA-58 manufactured by american company DSA (David Selveggio Arms) is a legal copy of the FAL, it's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. This modelel comes with 21" barrel length, and other "Austrian Style" stuff like original Austrian foregrip for a FAL, aluminum-alloy lower receiver, and improved Glass-filled Nylon furniture. This model used by military and Law Enforcement and can run a fully automatic. The DSA-58 can use any metric-measurement FAL magazines.\n
 	    %c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: None\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kits\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: SR-25 suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: SR-25 suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kits</text>
     </string>
 
 	<string id="st_wpn_fal_aus_kit_aus_tri">

@@ -6,53 +6,54 @@
 ;------------------------------------------------------------------------------------------------
 
 [wpn_mp153_m1]:wpn_mp153
-$spawn                      = "weapons\mp153_m1"
+$spawn						= "weapons\mp153_m1"
 parent_section				= wpn_mp153_m1
 
 icons_texture				= ui\ui_icon_bas_baikal
-inv_grid_width     = 5
-inv_grid_height    = 1
-inv_grid_x         = 12
-inv_grid_y         = 0
-inv_name                    = st_wpn_mp153_m1
-inv_name_short              = st_wpn_mp153_m1
-description                 = st_wpn_mp153_m1_descr
+inv_grid_width				= 5
+inv_grid_height				= 1
+inv_grid_x					= 12
+inv_grid_y					= 0
 
-cost                        = 40580
+inv_name					= st_wpn_mp153_m1
+inv_name_short				= st_wpn_mp153_m1
+description					= st_wpn_mp153_m1_descr
 
-hud                         = wpn_mp153_m1_hud
-visual                      = dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
-position                    = -0.07, 0.12, -0.15
+cost						= 40580
+
+hud							= wpn_mp153_m1_hud
+visual						= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
+position					= -0.07, 0.12, -0.15
 
 flame_particles				= ghost_particles\weapons\flame_eft_shotgun
 smoke_particles				= ghost_particles\weapons\flame_eft_sks
 
-ammo_class                  = ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad; ammo_12x70_buck_self
-ammo_elapsed                = 6
-ammo_mag_size               = 6
+ammo_class					= ammo_12x70_buck, ammo_12x70_buck_bad, ammo_12x70_buck_verybad, ammo_12x76_zhekan, ammo_12x76_zhekan_bad, ammo_12x76_zhekan_verybad, ammo_12x76_dart, ammo_12x76_dart_bad, ammo_12x76_dart_verybad; ammo_12x70_buck_self
+ammo_elapsed				= 6
+ammo_mag_size				= 6
 
-scopes 					    = ac10632, c-more, d0cter, aim_low, rmr, deltapoint, 0kp2, rakurs
+scopes						= ac10632, c-more, d0cter, aim_low, rmr, deltapoint, 0kp2, rakurs
 
-silencer_name               = wpn_sil_pbs1
-silencer_status             = 2
-silencer_x                  = 204
-silencer_y                  = -12
-silencer_light_color        = 0.6, 0.5, 0.3
-silencer_light_range        = 0.01
-silencer_light_time         = 0.2
-silencer_light_var_color    = 0.05
-silencer_light_var_range    = 0.5
+silencer_name				= wpn_sil_pbs1 ; wpn_sil_salvo
+silencer_status				= 2
+silencer_x					= 204
+silencer_y					= -12
+silencer_light_color		= 0.6, 0.5, 0.3
+silencer_light_range		= 0.01
+silencer_light_time			= 0.2
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
 silencer_smoke_particles	= ghost_particles\weapons\generic_smoke_eft_sil
 
-fire_distance               = 70
+fire_distance				= 70
 
-scope_zoom_factor_alt             = 0
+scope_zoom_factor_alt		= 0
 
-use_alt_aim_hud                   = true
+use_alt_aim_hud				= true
 
-hud_fov                           = 0.78
+hud_fov						= 0.78
 
-bas_state_reload                  = true
+bas_state_reload			= true
 ;------------------------------------------------------------------Sounds-------------------------------------------------------------------------------
 snd_draw				= eft_wp\shared\draw_shotgun
 snd_holster				= eft_wp\shared\hide_shotgun
@@ -60,12 +61,12 @@ snd_empty				= eft_wp\shared\empty_click_rifle
 snd_reload				= eft_wp\mp153\mp153_close_empty, 1.5
 snd_shoot_duplet		= eft_wp\mp133\mp133_shoot
 snd_bore				= eft_wp\sil
-snd_open_weapon         = eft_wp\mp133\mp133_open
+snd_open_weapon			= eft_wp\mp133\mp133_open
 snd_add_cartridge		= eft_wp\mp133\mp133_insert1, 1.0, 0.1
 snd_add_cartridge1		= eft_wp\mp133\mp133_insert2, 1.0, 0.1
 snd_add_cartridge2		= eft_wp\mp133\mp133_insert3, 1.0, 0.1
-snd_close_weapon       	= eft_wp\mp133\mp133_close, 1.0 ;mp133_close
-snd_close_weapon_empty  = weapons\mp153_young_prince\mp153_close_empty
+snd_close_weapon		= eft_wp\mp133\mp133_close, 1.0 ;mp133_close
+snd_close_weapon_empty	= weapons\mp153_young_prince\mp153_close_empty
 snd_shoot				= weapons\mp153_young_prince\mp153_shoot_1
 snd_shoot1				= weapons\mp153_young_prince\mp153_shoot_2
 snd_shoot_last			= weapons\mp153_young_prince\mp153_shoot_3
@@ -87,7 +88,6 @@ aim_hud_offset_rot	= 0.0275, 0.035, 0
 lowered_hud_offset_pos_16x9	= 0.1,0,0
 lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
 
-;------
 item_position		= 0.001528,-0.012408,-0.099066
 item_orientation	= -0.046126,-1.000036,-0.024950
 
@@ -96,12 +96,10 @@ hands_orientation_16x9	= 1.600000,2.200000,0.200000
 
 aim_hud_offset_pos_16x9	= -0.055500,0.031300,-0.026100
 aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
-;------
 
 aim_hud_offset_alt_pos_16x9	= -0.012200,0.033700,-0.007300
 aim_hud_offset_alt_rot_16x9	= 0.016500,0.028050,-0.438496
 
-;------
 anm_show					= mp133_ghost_draw, idle_mp153
 anm_show_empty				= mp133_ghost_draw, idle_empty_mp153
 anm_hide					= mp133_ghost_holster, idle_mp153
@@ -112,7 +110,7 @@ anm_idle_aim				= mp133_ghost_idle_aim, idle_mp153
 anm_idle_aim_empty			= mp133_ghost_idle_aim, idle_empty_mp153
 anm_idle_moving				= mp133_ghost_idle_moving, idle_mp153
 anm_idle_moving_empty		= mp133_ghost_idle_moving, idle_empty_mp153
-anm_idle_moving_crouch 		= mp133_ghost_idle_moving, idle_mp153
+anm_idle_moving_crouch		= mp133_ghost_idle_moving, idle_mp153
 anm_idle_moving_empty_crouch= mp133_ghost_idle_moving, idle_empty_mp153
 anm_idle_sprint				= mp133_ghost_idle_sprint, idle_mp153
 anm_idle_sprint_empty		= mp133_ghost_idle_sprint, idle_mp153
@@ -124,7 +122,6 @@ anm_open_empty				= mp133_ghost_open, idle_empty_mp153
 anm_add_cartridge			= mp133_ghost_insert, insert_mp153
 anm_close					= mp133_ghost_close, idle_mp153
 anm_close_empty				= mp153_ghost_close_empty, close_empty_mp153
-;----
 
 shell_point	= 0.02,0.072,0.228
 shell_dir	= 0.0, 1.0, 0.0
@@ -148,7 +145,7 @@ visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
 scope_status	= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_mp153_m1_ac10632_hud]:wpn_mp153_m1_hud
 item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_ac10632_hud.ogf
@@ -165,11 +162,11 @@ hud				= wpn_mp153_m1_c-more_hud
 1icon_layer_x	= 89
 1icon_layer_y	= -26
 
-visual				= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
+visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
 scope_status	= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_mp153_m1_c-more_hud]:wpn_mp153_m1_hud
 item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_c-more_hud.ogf
@@ -190,7 +187,7 @@ visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
 scope_status	= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_mp153_m1_d0cter_hud]:wpn_mp153_m1_hud
 item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_docter_hud.ogf
@@ -211,7 +208,7 @@ visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
 scope_status	= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_mp153_m1_aim_low_hud]:wpn_mp153_m1_hud
 item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_aim_low_hud.ogf
@@ -232,7 +229,7 @@ visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
 scope_status	= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_mp153_m1_rmr_hud]:wpn_mp153_m1_hud
 item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_rmr_hud.ogf
@@ -253,7 +250,7 @@ visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
 scope_status	= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_mp153_m1_deltapoint_hud]:wpn_mp153_m1_hud
 item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_deltapoint_hud.ogf
@@ -274,7 +271,7 @@ visual			= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_world.ogf
 
 scope_status	= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_mp153_m1_0kp2_hud]:wpn_mp153_m1_hud
 item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_0kp2_hud.ogf
@@ -298,4 +295,3 @@ item_visual		= dynamics\weapons\wpn_mp153_m1\wpn_mp153_m1_rakurs_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.054900,0.011600,-0.026100
 aim_hud_offset_rot_16x9	= 0.016500,0.028050,-0.001500
-;----------------------------------------------------------------------------------------

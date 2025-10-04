@@ -16,8 +16,8 @@
 	<string id="st_wpn_sr1m_descr">
 		<text>The Serdyukov semi-automatic pistol - also known as SPS and Gyurza (“Viper”), GRAU Index 6P53. Pistol designed for the Russian Federation special forces purposes by P. Serdyukov and I. Belyaev, for 9x21 mm cartridge.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.\n 
-		%c[d_purple] • %c[ui_gray_2] Silencer: None</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: None\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.</text>
 	</string>
 
 	<string id="st_wpn_sr1m_sr1upgr1">
@@ -39,8 +39,8 @@
 		<text>SR.2 "Veresk" is a Russian submachine gun (manufactured by TsNIITOCHMASH), designed to engage enemy personnel in close combat (at a distance of up to 200 m) using individual body armor. The main advantage of the SR-2 is its high firepower, high accuracy of fire and the destructive effect of a bullet at close range.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: KP SR-2 Reflex Sight\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: GZV-SR2</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: GZV-SR2\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.</text>
   	</string>
 
 	<string id="st_wpn_sr2_veresk_sr2_upkit">

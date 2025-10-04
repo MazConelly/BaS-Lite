@@ -5,7 +5,8 @@
 	</string>
 	<string id="st_wpn_sks_b_descr">
 		<text>The SKS is one of the first weapons chambered for the 7.62x39mm round. Replaced in Soviet front-line service by the AK-47 in the early 1950s, it remained in second-line service for decades and is still used as a ceremonial arm today.\n
-		%c[ui_gray_2]ATTACHMENTS:\n%c[d_purple]• %c[ui_gray_2] none\n</text>
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple]• %c[ui_gray_2] none</text>
 	</string>
 
 	<string id="st_wpn_sks_molot">
@@ -16,7 +17,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: None\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_sks_tac">

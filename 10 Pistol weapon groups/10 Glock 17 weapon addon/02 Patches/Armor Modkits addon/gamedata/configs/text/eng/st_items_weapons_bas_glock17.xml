@@ -6,9 +6,10 @@
 	<string id="st_wpn_glock17_descr">
 		<text>The Glock 17 is a polymer-framed, short recoil-operated, locked-breech semi-automatic pistol designed and produced by Austrian manufacturer Glock Ges.m.b.H.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: None\n 
+		%c[d_purple] • %c[ui_gray_2] Scopes: None\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: None\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_glock17_m1">

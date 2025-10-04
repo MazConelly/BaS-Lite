@@ -16,9 +16,9 @@
     <string id="st_wpn_ak12_custom_descr">
         <text>A rare modified version of the AK-12 2012. Mainly used by the Monolith faction. Has several modes of firing: automatic, single and, three rounds.\n
 		%c[0,140,140,140]ATTACHMENTS:\n
-		%c[0,93,0,116] • %c[0,140,140,140] The weapon can be upgraded using tactical kit\n
 		%c[0,93,0,116] • %c[0,140,140,140] Scopes: All scopes for picatinny\n
-		%c[0,93,0,116] • %c[0,140,140,140] Silencer: TGP-A suppressor</text>
+		%c[0,93,0,116] • %c[0,140,140,140] Silencer: TGP-A suppressor\n
+		%c[0,93,0,116] • %c[0,140,140,140] The weapon can be upgraded using tactical kit</text>
     </string>
 
     <string id="st_wpn_ak12_mono_kit">
@@ -28,10 +28,10 @@
         <text>A rare modified version of the AK-12 2012. Mainly used by the Monolith faction. Has several modes of firing: automatic, single and, three rounds.\n
 		Thanks to the new trigger group, it is a more advanced and powerful weapon than the original. Increased rate of fire and improved balancing. This is an irreversible upgrade.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[0,93,0,116] • %c[0,140,140,140] The weapon was upgraded using "Monolith" Tactical Kit\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon Acog and AN/PEQ-16 LAM (integrated).\n
 		%c[d_purple] • %c[ui_gray_2] "Guard" Grenade Launcher.\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor\n
+		%c[0,93,0,116] • %c[0,140,140,140] The weapon was upgraded using "Monolith" Tactical Kit</text>
     </string>
 
 	<string id="st_wpn_ak12_mono_com">
@@ -51,7 +51,7 @@
 		<text>%c[ui_gray_1]30mm light grenade launcher, developed by the designers of the Monolithh faction, based on the special silent 6G17 Canaryka grenade launcher.\n
 		%c[d_purple] • %c[ui_gray_2] ammunition: %c[ui_gray_1]VOG-30 30mm grenade\n
 		%c[ui_gray_2]COMPATIBILITY:\n
-		%c[d_cyan] • %c[ui_gray_2] AK12 Monolith Upgraded.</text>	
+		%c[d_cyan] • %c[ui_gray_2] AK12 Monolith Upgraded</text>	
 	</string>
 
 	<string id="st_addon_scope_mono_kit">

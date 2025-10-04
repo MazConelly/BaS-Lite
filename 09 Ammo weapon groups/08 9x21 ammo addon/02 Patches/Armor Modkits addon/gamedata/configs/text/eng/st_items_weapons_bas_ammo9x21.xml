@@ -17,7 +17,8 @@
 		<text>The Serdyukov semi-automatic pistol - also known as SPS and Gyurza (“Viper”), GRAU Index 6P53. Pistol designed for the Russian Federation special forces purposes by P. Serdyukov and I. Belyaev, for 9x21 mm cartridge.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: None\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit, Duty modification kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized and Duty modification kits</text>
 	</string>
 
 	<string id="st_wpn_sr1m_sr1upgr1">
@@ -28,7 +29,8 @@
 		This particular pistol has been upgraded with Tritium iron sights, a Laser Aim Module and a long barrel that allows to install a suppressor.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: SR1MP silencer 9x21\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Duty modification kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Duty modification kit</text>
 	</string>
 
 	<string id="st_wpn_sr1m_gurza_up">
@@ -38,7 +40,6 @@
 		<text>The Serdyukov semi-automatic pistol - also known as SPS and Gyurza (“Viper”), GRAU Index 6P53. Pistol designed for the Russian Federation special forces purposes by P. Serdyukov and I. Belyaev, for 9x21 mm cartridge.\n
 		This particular pistol has been upgraded with a LAM, Trijicon RMR and quadrail mount.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The pistol was upgraded using Duty weapon mod kit.
 		%c[d_purple] • %c[ui_gray_2] Silencer: SR1MP silencer 9x21\n</text>
 	</string>
 
@@ -51,7 +52,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: KP SR-2 Reflex Sight\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: GZV-SR2\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Replacement weapon mod kit, Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Replacement weapon mod kit, Specialized weapon mod kit</text>
   	</string>
 
 	<string id="st_wpn_sr2_veresk_sr2_upkit">
@@ -72,7 +74,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n		
 		%c[d_purple] • %c[ui_gray_2] All Red Dot sights for Picatinny/weaver, and two scopes with magnification: PN-23 and Leupold Mark 8 CQBSS 1.1-8x24.\n	
 		%c[d_purple] • %c[ui_gray_2] Silencer: GZV-SR2\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Duty modification kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Duty modification kit</text>
   	</string>
 
 	<string id="st_wpn_sr2_m2">

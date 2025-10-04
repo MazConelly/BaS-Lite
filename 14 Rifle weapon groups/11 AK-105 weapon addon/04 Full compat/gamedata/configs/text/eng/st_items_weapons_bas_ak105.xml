@@ -8,8 +8,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: all scopes for Dovetail mount except of PSO scopes with eye cup due to the inconvenience of using these scopes on AK type of rifles and 1P59 Giperon.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Clear Sky modification kit, Duty modification kit, Mercenary modification kit
-		</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Clear Sky modification kit, Duty modification kit, Mercenary modification kit</text>
 	</string>
 
 	<string id="st_wpn_ak105_bas_swamp">

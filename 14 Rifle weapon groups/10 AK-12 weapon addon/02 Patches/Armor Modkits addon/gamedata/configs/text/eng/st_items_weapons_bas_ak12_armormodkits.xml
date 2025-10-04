@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ak12_descr">
+		<text>The Kalashnikov AK-12 assault rifle is the newest creation of the IZMASH factory. It is intended to replace older Kalashnikov AK-74M and AK-100 series rifles for domestic use, as well as for export. The rifle is a gas operated, selective fire rifle using traditional "Kalashnikov type" action with long stroke gas piston and rotary bolt locking. The bolt group is noticeably lightened to decrease recoil and improve accuracy in automatic fire.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher\n
+		%c[d_purple] • %c[ui_gray_2] TGP-A suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Monolith Purification kit</text>
+	</string>
+
+    <string id="st_wpn_ak12_custom_descr">
+        <text>A rare modified version of the AK-12 2012. Mainly used by the Monolith faction. Has several modes of firing: automatic, single and, three rounds.\n
+		%c[0,140,140,140]ATTACHMENTS:\n
+		%c[0,93,0,116] • %c[0,140,140,140] Scopes: All scopes for picatinny\n
+		%c[0,93,0,116] • %c[0,140,140,140] Silencer: TGP-A suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Monolith, Specialized modification kits</text>
+    </string>
+
+</string_table>

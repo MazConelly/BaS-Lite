@@ -10,7 +10,8 @@
 		%c[d_purple] • %c[ui_gray_2] Scopes: Susat with L85 native mount\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO Silencer\n
 		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: none\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit</text>
 	</string>
 	
 	<string id="st_wpn_l85_m2">
@@ -23,7 +24,8 @@
 		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO Silencer\n
 		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: none\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_l85_m3">

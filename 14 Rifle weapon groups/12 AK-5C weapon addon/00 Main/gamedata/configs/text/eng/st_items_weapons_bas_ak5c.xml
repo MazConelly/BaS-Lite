@@ -6,9 +6,9 @@
 	<string id="st_wpn_ak5c_bas_descr">
 		<text>The Ak 5 or Automatkarbin 5 ("automatic carbine 5", "automatic carbine" being the Swedish term for assault rifle) is the Swedish version of the FN FNC assault rifle with certain modifications, mostly to adapt the weapon to the partially subarctic Swedish climate. The Ak 5 is the service rifle of the Swedish Armed Forces. The Bofors Ak 5C is the modernized version of the original Ak 5, following the trend of modular weapons. One of the most significant improvements is the MIL-STD-1913 rail system to which a variety of different optics, lights and sights can be mounted, such as telescopic sights and image intensifiers. The double gas position, iron sights and bolt catch of the original Ak 5 rifle family were discarded.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.\n 
 		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver.\n 
-		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit.</text>
 	</string>
 	
 	<string id="st_wpn_ak5c_bas_5c_tik">

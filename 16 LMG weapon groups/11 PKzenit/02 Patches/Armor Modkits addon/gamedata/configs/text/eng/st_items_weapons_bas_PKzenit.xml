@@ -8,7 +8,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver, Zenit Perst-3 tactical device with red laser (included)\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Gunsmith weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_pkm_zenit_shorty">

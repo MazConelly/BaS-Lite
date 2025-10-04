@@ -13,39 +13,38 @@
 		<text>OTs-02 Kiparis "Nonpro" (BaS)</text>
 	</string>
 	<string id="st_wpn_kiparis_m1_descr">
-		<text>OTs-02 "Kiparis" (Cypress) is a sub-machine gun, developed in 1972 by order of the Ministry of Defence of the USSR by weapon designers from TsKIB COO of Tula. The layout is based on the Scorpion Vz.61. It uses a free bolt recoil and closed bolt, which increases the accuracy of fire. A folding stock is used can be folded on top of the receiver.\n
-		In the Zone, this weapon is not uncommon and usually used by bandits and loners who can't afford a better weapon.\n 
-		The technician Polimer considers himself a true fan of the old, but very affordable cartridge 9x18 in the southern regions of the Zone. His inexpensive improvements are very popular among stalkers in all factions in Zone.\n
+		<text>OTs-02 "Kiparis" (Cypress) is a sub-machine gun, developed in 1972 by order of the Ministry of Defence of the USSR by weapon designers from TsKIB COO of Tula. The layout is based on the Scorpion Vz.61. It uses a free bolt recoil and closed bolt, which increases the accuracy of fire. A folding stock is used can be folded on top of the receiver.	In the Zone, this weapon is not uncommon and usually used by bandits and loners who can't afford a better weapon.\n
+		The technician Polimer considers himself a true fan of the old, but very affordable cartridge 9x18 in the southern regions of the Zone. His inexpensive improvements are very popular among stalkers in all factions in the Zone.\n
 		This model differs from the standard mainly in some simple attachments and slightly increased rate of fire.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The weapons are equipped with: the cheapest of all possible laser sight and a picatinny rail for attaching some small sights.(Also, as a bonus, Polymer gives you a set of 40 round mags when you buying it).\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot Sights for picatinny/weaver except of scopes with long mount such as: Eotech 553/XPS, C-More, OKP-7, Meprolight M21, EKP-8-18 and Kemper.\n
+		%c[d_purple] • %c[ui_gray_2] The cheapest laser sight available, Picatinny rail for attaching some small sights, handcrafted Bakelite foregrip. As a gift, Polymer gave you a set of 40 round mags.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Small scopes for Picatinny/weaver such as Trijicon Acog and Red Dot Sights.\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor</text>
 	</string>
-	
-		<string id="st_wpn_kiparis_m2">
+
+	<string id="st_wpn_kiparis_m2">
 		<text>OTs-02 Kiparis "Obligor" (BaS)</text>
 	</string>
 	<string id="st_wpn_kiparis_m2_descr">
 		<text>OTs-02 "Kiparis" (Cypress) is a sub-machine gun, developed in 1972 by order of the Ministry of Defence of the USSR by weapon designers from TsKIB COO of Tula. The layout is based on the Scorpion Vz.61. It uses a free bolt recoil and closed bolt, which increases the accuracy of fire. A folding stock is used can be folded on top of the receiver.	In the Zone, this weapon is not uncommon and usually used by bandits and loners who can't afford a better weapon.\n
-		The technician Polimer considers himself a true fan of the old, but very affordable cartridge 9x18 in the southern regions of the Zone. His inexpensive improvements are very popular among stalkers in all factions in Zone.\n
+		The technician Polimer considers himself a true fan of the old, but very affordable cartridge 9x18 in the southern regions of the Zone. His inexpensive improvements are very popular among stalkers in all factions in the Zone.\n
 		This model was made by Polymer for Duty, and differs from the standard mainly in some simple attachments and slightly increased rate of fire. Also this model comes with handcrafted Bakelite foregrip which increases the recoil control. The Bakelite grip is attached to steel brace connected to the buttom of the Kiparis's fore-end and reinforced with three titanium screws.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The weapons are equipped with: laser sight and, picatinny rail for attaching some small sights and handcrafted Bakelite foregrip. (Also, as a bonus, Polymer gives you a set of 40 round mags when you buying it).\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon Acog and Red Dot Sights for picatinny/weaver except of scopes with long mount such as: Eotech 553, C-More, Meprolight M21, EKP-8-18.\n
+		%c[d_purple] • %c[ui_gray_2] Laser sight, Picatinny rail for attaching some small sights, handcrafted Bakelite foregrip. As a gift, Polymer gave you a set of 40 round mags.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Small scopes for Picatinny/weaver such as Trijicon Acog and Red Dot Sights.\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor</text>
 	</string>
 	
-			<string id="st_wpn_kiparis_m3">
+	<string id="st_wpn_kiparis_m3">
 		<text>OTs-02 Kiparis "Zhmich (Oilcake)" (BaS)</text>
 	</string>
 	<string id="st_wpn_kiparis_m3_descr">
 		<text>OTs-02 "Kiparis" (Cypress) is a sub-machine gun, developed in 1972 by order of the Ministry of Defence of the USSR by weapon designers from TsKIB COO of Tula. The layout is based on the Scorpion Vz.61. It uses a free bolt recoil and closed bolt, which increases the accuracy of fire. A folding stock is used can be folded on top of the receiver.	In the Zone, this weapon is not uncommon and usually used by bandits and loners who can't afford a better weapon.\n
-		The technician Polimer considers himself a true fan of the old, but very affordable cartridge 9x18 in the southern regions of the Zone. His inexpensive improvements are very popular among stalkers in all factions in Zone.\n
-		This model was made by Polymer for Clear Sky, and differs from the standard mainly in some simple attachments and slightly increased rate of fire. Also this model comes with handcrafted Bakelite foregrip which increases the recoil control. The Bakelite grip is attached to steel brace connected to the buttom of the Kiparis's fore-end and reinforced with three titanium screws.\n
+		The technician Polimer considers himself a true fan of the old, but very affordable cartridge 9x18 in the southern regions of the Zone. His inexpensive improvements are very popular among stalkers in all factions in the Zone.\n
+		This model was made by Polymer for a wealthy loner, and differs from the standard mainly in some simple attachments and slightly increased rate of fire. Also this model comes with handcrafted Bakelite foregrip which increases the recoil control. The Bakelite grip is attached to steel brace connected to the buttom of the Kiparis's fore-end and reinforced with three titanium screws.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The weapons are equipped with: laser sight and, picatinny rail for attaching some small sights and handcrafted Bakelite foregrip. The kit includes a set of 81 round drum mags.\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: Trijicon Acog and Red Dot Sights for picatinny/weaver except of scopes with long mount such as: Eotech 553, C-More, Meprolight M21, EKP-8-18.\n
+		%c[d_purple] • %c[ui_gray_2] Laser sight, Picatinny rail for attaching some small sights, handcrafted Bakelite foregrip. A a set of 81 round drum mags.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Small scopes for Picatinny/weaver such as Trijicon Acog and Red Dot Sights.\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor</text>
 	</string>
-	</string_table>
+</string_table>

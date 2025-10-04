@@ -8,7 +8,8 @@
 	    %c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: None\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: SR-25 suppressor\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Replacement weapon mod kit, Custom weapon mod kit, Mercenary modification kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Replacement, Custom, and Mercenary modification kits</text>
     </string>
 
 	<string id="st_wpn_fal_aus_kit_aus_tri">

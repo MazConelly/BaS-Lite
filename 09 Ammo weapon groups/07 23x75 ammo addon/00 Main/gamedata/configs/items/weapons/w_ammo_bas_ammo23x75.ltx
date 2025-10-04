@@ -1,0 +1,117 @@
+;----------------AMMO----------------
+
+[ammo_23x75_shrapnel]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency=
+$spawn				= "weapons\ammo\ammo_23x75_shrapnel"
+class				= AMMO_S
+cform				= skeleton
+visual				= dynamics\weapons\wpn_ammo\ammo_12x70_buck.ogf
+description			= st_ammo_23x75_shrapnel_descr
+$prefetch			= 64
+
+cost				= 2100
+
+box_size			= 10
+
+inv_name			= st_ammo_23x75_shrapnel
+inv_name_short		= st_ammo_23x75_shrapnel_s
+inv_name_short		= st_ammo_23x75_shrapnel
+inv_weight			= 0.45
+
+icons_texture		= ui\ui_icon_bas_23x75
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 0
+inv_grid_y			= 3
+
+
+k_dist				= 1.0
+k_disp				= 35
+k_hit				= 6.0
+k_impulse			= 5.5
+k_ap				= 0.3
+buck_shot			= 6
+tracer				= on
+4to1_tracer			= false
+wm_size				= 0.08
+k_air_resistance	= 1.5
+
+tier				= 2
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[ammo_23x75_barrikada]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency=
+$spawn				= "weapons\ammo\ammo_23x75_barrikada"
+class				= AMMO_S
+cform				= skeleton
+visual				= dynamics\weapons\wpn_ammo\ammo_12x76_zhekan.ogf
+description			= st_ammo_23x75_barrikada_descr
+$prefetch			= 64
+
+cost				= 3500
+
+box_size			= 10
+
+inv_name			= st_ammo_23x75_barrikada
+inv_name_short		= st_ammo_23x75_barrikada_s
+inv_name_short		= st_ammo_23x75_barrikada
+inv_weight			= 0.5
+
+icons_texture		= ui\ui_icon_bas_23x75
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 2
+inv_grid_y			= 3
+
+k_dist				= 1.00
+k_disp				= 1.00
+k_hit				= 10.7
+k_impulse			= 50
+k_ap				= 0.6
+impair				= 0.05
+tracer				= off
+4to1_tracer			= on
+wm_size				= 0.2
+k_air_resistance	= 1.1
+k_bullet_speed		= 1.15
+
+tier				= 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; [ammo_23_eco]:ammo_base ; #00
+; GroupControlSection	= spawn_group
+; discovery_dependency	=
+; $spawn			= "weapons\ammo\ammo_20x70_buck" ; option for Level Editor
+; class			= AMMO_S
+; cform			= skeleton
+; visual			= dynamics\weapons\wpn_ammo\ammo_12x70_buck.ogf
+; description		= ammo_23_eco_descr
+; $prefetch		= 64
+
+; cost			= 3500
+
+; box_size		= 1
+
+; inv_name		= ammo_23_eco
+; inv_name_short	= ammo_23_eco
+; inv_name_short	= ammo_23_eco_s
+; inv_weight		= .05
+
+; icons_texture		= ui\ui_icon_bas_23x75
+; inv_grid_width		= 2
+; inv_grid_height  	= 1
+; inv_grid_x			= 4
+; inv_grid_y			= 3
+
+
+; k_disp			= 0.5
+; k_impulse		= 0.15
+; k_ap			= 0.01
+; tracer_color_ID	= 1
+; wm_size			= 0.048
+; k_air_resistance	= 0.15
+
+; tier				= 2

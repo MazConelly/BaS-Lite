@@ -1,8 +1,4 @@
 ;------------------------------------------------------------------------------------------------
-
-;---------------------------------------WEAPONS--------------------------------------------------
-
-;------------------------------------------------------------------------------------------------
 [wpn_sks_molot]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection		= spawn_group
 discovery_dependency	=
@@ -56,9 +52,8 @@ strap_orientation		= -25, -189, 65
 ph_mass					= 3
 
 flame_particles			= weapons\generic_weapon06
-;smoke_particles		= weapons\generic_shoot_00
-grenade_flame_particles	= weapons\generic_weapon01
 smoke_particles			= ghost_particles\weapons\flame_eft_sks
+grenade_flame_particles	= weapons\generic_weapon01
 
 shell_point				= 0,0.129,0.192
 shell_dir				= 0,0,0.4
@@ -87,10 +82,8 @@ ammo_limit				= 60
 ammo_mag_size			= 20
 startup_ammo			= 20
 
-
 scope_status			= 0
 scope_zoom_factor		= 0
-
 scopes					= 1p29, kobra, ps01, okp, 1p59, pso2, ekp8_02, pka, 1pn93, 1p78gs, 1pn93n2_1gs, pso1m21, usp1, 1p76
 
 silencer_status			= 0
@@ -185,7 +178,6 @@ snd_reload_misfire	= weapons\sks\reload_empty
 ;----------------------------------------------------------------------HUD------------------------------------------------------------------------------
 [wpn_sks_molot_hud]:hud_base
 item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_hud.ogf
-
 attach_place_idx		= 0
 zoom_hide_crosshair		= true
 
@@ -252,7 +244,6 @@ grenade_bone	= muzzle
 $spawn			= "weapons\wpn_sks_molot_ekp8_02"
 
 hud				= wpn_sks_molot_ekp8_02_hud
-
 visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
 1icon_layer		= ekp8_02
@@ -262,7 +253,7 @@ visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 inv_weight		= 3.873
 
 [wpn_sks_molot_ekp8_02_hud]:wpn_sks_molot_hud
-item_visual		= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_ekp8_02_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_ekp8_02_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.052185,0.007000,-0.072140
 aim_hud_offset_rot_16x9	= 0.067237,0.019310,0.000000
@@ -271,7 +262,6 @@ aim_hud_offset_rot_16x9	= 0.067237,0.019310,0.000000
 $spawn			= "weapons\wpn_sks_molot_kobra"
 
 hud				= wpn_sks_molot_kobra_hud
-
 visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
 1icon_layer		= kobra
@@ -281,29 +271,30 @@ visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 inv_weight		= 4.00
 
 [wpn_sks_molot_kobra_hud]:wpn_sks_molot_hud
-item_visual		= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_kobra_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_kobra_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.052885,0.000000,-0.050000
 aim_hud_offset_rot_16x9	= 0.033737,0.018310,0.000000
 ;--------------------------------------------------------------------------------------
 [wpn_sks_molot_ps01]:wpn_sks_molot
-$spawn				= "weapons\wpn_sks_molot_ps01"
 
-hud					= wpn_sks_molot_ps01_hud
+$spawn			= "weapons\wpn_sks_molot_ps01"
 
-1icon_layer			= ps01
-1icon_layer_x		= 40
-1icon_layer_y		= -28
+hud				= wpn_sks_molot_ps01_hud
+
+1icon_layer		= ps01
+1icon_layer_x	= 40
+1icon_layer_y	= -28
 
 scope_status		= 1
 scope_dynamic_zoom	= off
 scope_texture		= wpn_crosshair_pso1
 scope_zoom_factor	= 25
 
-inv_weight			= 4.225
+inv_weight		= 4.225
 
 [wpn_sks_molot_ps01_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pso_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pso_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049485,0.011310,-0.054140
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -315,7 +306,6 @@ hands_orientation_16x9	= 1.078683,1.809961,0.000000
 $spawn			= "weapons\wpn_sks_molot_okp"
 
 hud				= wpn_sks_molot_okp_hud
-
 visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
 1icon_layer		= okp
@@ -325,33 +315,32 @@ visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 inv_weight		= 3.825
 
 [wpn_sks_molot_okp_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_okp_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_okp_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.047885,0.013510,-0.045940
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;------------------------------------------------------------------------------------------------
 [wpn_sks_molot_1p29]:wpn_sks_molot
-1icon_layer				= 1p29
-1icon_layer_x			= 56
-1icon_layer_y			= -26
+1icon_layer		= 1p29
+1icon_layer_x	= 56
+1icon_layer_y	= -26
 
-inv_weight				= 4.400
+inv_weight		= 4.400
 
-hud						= wpn_sks_molot_1p29_hud
+hud				= wpn_sks_molot_1p29_hud
+visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
-
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_1p29
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p29
+scope_zoom_factor	= 25
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_molot_1p29_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p29_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p29_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.062585,0.006710,-0.044240
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -363,30 +352,29 @@ aim_hud_offset_alt_pos_16x9	= -0.062800,0.045010,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_molot_pso2]:wpn_sks_molot
-$spawn					= "weapons\wpn_sks_molot_pso2"
+$spawn			= "weapons\wpn_sks_molot_pso2"
 
-hud						= wpn_sks_molot_pso2_hud
+hud				= wpn_sks_molot_pso2_hud
 
-visual					= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
+visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
-1icon_layer				= pso2
-1icon_layer_x			= 38
-1icon_layer_y			= -24
+1icon_layer		= pso2
+1icon_layer_x	= 38
+1icon_layer_y	= -24
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_pso2_vss
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_pso2_vss
+scope_zoom_factor	= 25
 
-inv_weight				= 4.200
+inv_weight		= 4.200
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_molot_pso2_hud]:wpn_sks_molot_hud
-
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pso2_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pso2_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049185,0.010810,-0.056440
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -411,7 +399,7 @@ visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 inv_weight		= 4.180
 
 [wpn_sks_molot_1p76_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p76_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p76_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.052900,-0.008500,-0.034540
 aim_hud_offset_rot_16x9	= 0.020000,0.019310,0.000000
@@ -429,11 +417,11 @@ visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
 inv_weight		= 4.250
 
-zoom_rotate_time= 0.25
-scope_lense_fov	= 14
+zoom_rotate_time	= 0.25
+scope_lense_fov		= 14
 
 [wpn_sks_molot_pka_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pka_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pka_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.048185,0.004410,-0.076000
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -442,33 +430,31 @@ hands_position_16x9		= -0.017101,-0.002026,-0.190000
 hands_orientation_16x9	= 1.078683,1.809961,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_molot_1pn93]:wpn_sks_molot
-$spawn					= "weapons\wpn_sks_molot_1pn93"
+$spawn			= "weapons\wpn_sks_molot_1pn93"
 
-hud						= wpn_sks_molot_1pn93_hud
+hud				= wpn_sks_molot_1pn93_hud
+visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
+1icon_layer		= 1pn93
+1icon_layer_x	= 45
+1icon_layer_y	= -24
 
-1icon_layer				= 1pn93
-1icon_layer_x			= 45
-1icon_layer_y			= -24
-
-scope_status			= 1
-scope_dynamic_zoom		= off
-;scope_nightvision		= scope_nightvision_2gen
-scope_texture			= wpn_crosshair_1pn93
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+;scope_nightvision	= scope_nightvision_2gen
+scope_texture		= wpn_crosshair_1pn93
+scope_zoom_factor	= 25
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
-inv_weight				= 4.825
+inv_weight		= 4.825
 
-nv_scope_status			= 1
+nv_scope_status	= 1
 
 [wpn_sks_molot_1pn93_hud]:wpn_sks_molot_hud
-
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1pn93_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1pn93_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.053285,0.010110,-0.055040
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -480,15 +466,14 @@ aim_hud_offset_alt_pos_16x9	= -0.067385,0.041710,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_sks_molot_1p78gs]:wpn_sks_molot
-1icon_layer			= 1p78gs
-1icon_layer_x		= 64
-1icon_layer_y		= -32
+1icon_layer		= 1p78gs
+1icon_layer_x	= 64
+1icon_layer_y	= -32
 
-inv_weight			= 4.100
+inv_weight		= 4.100
 
-hud					= wpn_sks_molot_1p78gs_hud
-
-visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
+hud				= wpn_sks_molot_1p78gs_hud
+visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
 scope_status		= 1
 scope_dynamic_zoom	= off
@@ -496,7 +481,7 @@ scope_texture		= wpn_crosshair_1p78gs
 scope_zoom_factor	= 41
 
 [wpn_sks_molot_1p78gs_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p78gs_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p78gs_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.058685,0.016610,-0.063540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -505,32 +490,31 @@ hands_position_16x9		= -0.014401,-0.017126,-0.190000
 hands_orientation_16x9	= 1.078683,1.809961,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_molot_1pn93n2_1gs]:wpn_sks_molot
-$spawn					= "weapons\wpn_sks_molot_1pn93n2_1gs"
+$spawn			= "weapons\wpn_sks_molot_1pn93n2_1gs"
 
-hud						= wpn_sks_molot_1pn93n2_1gs_hud
+hud				= wpn_sks_molot_1pn93n2_1gs_hud
+visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
+1icon_layer		= 1pn93n2_1gs
+1icon_layer_x	= 44
+1icon_layer_y	= -28
 
-1icon_layer				= 1pn93n2_1gs
-1icon_layer_x			= 44
-1icon_layer_y			= -28
+nv_scope_status	= 1
 
-nv_scope_status			= 1
-
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_nightvision		= scope_nightvision_1gen
-scope_texture			= wpn_crosshair_1pn93n2_1gs
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_nightvision	= scope_nightvision_1gen
+scope_texture		= wpn_crosshair_1pn93n2_1gs
+scope_zoom_factor	= 25
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
-inv_weight				= 4.550
+inv_weight		= 4.550
 
 [wpn_sks_molot_1pn93n2_1gs_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1pn93n2_1gs_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1pn93n2_1gs_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.047385,0.012210,-0.063140
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -542,22 +526,21 @@ aim_hud_offset_alt_pos_16x9	= -0.065685,0.036010,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.027437,0.019160,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_sks_molot_pso1m21]:wpn_sks_molot
-inv_weight			= 4.220
+inv_weight		= 4.220
 
-hud					= wpn_sks_molot_pso1m21_hud
+hud				= wpn_sks_molot_pso1m21_hud
 
-1icon_layer			= pso1m21
-1icon_layer_x		= 40
-1icon_layer_y		= -28
+1icon_layer		= pso1m21
+1icon_layer_x	= 40
+1icon_layer_y	= -28
 
-scope_status		= 1
-scope_texture		= wpn_crosshair_vss
-scope_zoom_factor	= 25
-scope_dynamic_zoom	= off
+scope_status			= 1
+scope_texture			= wpn_crosshair_vss
+scope_zoom_factor		= 25
+scope_dynamic_zoom		= off
 
 [wpn_sks_molot_pso1m21_hud]:wpn_sks_molot_hud
-
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pso1m21_hud.ogf
+item_visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_pso1m21_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049485,0.011310,-0.054140
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -566,27 +549,26 @@ hands_position_16x9		= -0.005000,-0.015000,-0.166800
 hands_orientation_16x9	= 1.078683,1.809961,0.000000
 ;----------------------------------------------------------------------------------
 [wpn_sks_molot_usp1]:wpn_sks_molot
-1icon_layer				= usp1
-1icon_layer_x			= 56
-1icon_layer_y			= -24
+1icon_layer		= usp1
+1icon_layer_x	= 56
+1icon_layer_y	= -24
 
-inv_weight				= 4.400
+inv_weight		= 4.400
 
-hud						= wpn_sks_molot_usp1_hud
+hud				= wpn_sks_molot_usp1_hud
+visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
-
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_usp1
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_usp1
+scope_zoom_factor	= 25
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_molot_usp1_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_usp1_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_usp1_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.067385,0.001510,-0.087841
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -598,29 +580,28 @@ aim_hud_offset_alt_pos_16x9	= -0.067185,0.040310,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_molot_1p59]:wpn_sks_molot
-$spawn					= "weapons\wpn_sks_molot_1p59"
+$spawn			= "weapons\wpn_sks_molot_1p59"
 
-hud						= wpn_sks_molot_1p59_hud
+hud				= wpn_sks_molot_1p59_hud
+visual			= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_world.ogf
+1icon_layer		= 1p59
+1icon_layer_x	= 60
+1icon_layer_y	= -28
 
-1icon_layer				= 1p59
-1icon_layer_x			= 60
-1icon_layer_y			= -28
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p59
+scope_zoom_factor	= 11
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_1p59
-scope_zoom_factor		= 11
-
-inv_weight				= 4.300
+inv_weight		= 4.300
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_molot_1p59_hud]:wpn_sks_molot_hud
-item_visual				= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p59_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_molot\wpn_sks_molot_1p59_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049185,0.010810,-0.056440
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -729,7 +710,7 @@ silencer_light_var_color= 0.05
 silencer_light_var_range= 0.5
 silencer_smoke_particles= weapons\generic_shoot_00
 
-silencer_name			= wpn_sil_pbs1
+silencer_name			= wpn_sil_pbs1 ; wpn_sil_hexagon
 silencer_x				= 207
 silencer_y				= -20
 
@@ -845,11 +826,11 @@ item_orientation	= 0.000000,0.000000,0.000000
 lowered_hud_offset_pos_16x9	= 0.1,0,0
 lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1  
 
-gl_hud_offset_pos		= 0, 0, 0
-gl_hud_offset_rot		= 0, 0, 0
+gl_hud_offset_pos	= 0, 0, 0
+gl_hud_offset_rot	= 0, 0, 0
 
-lean_hud_offset_pos		= 0, 0, 0
-lean_hud_offset_rot		= 0, 0, 0
+lean_hud_offset_pos	= 0, 0, 0
+lean_hud_offset_rot	= 0, 0, 0
 
 anm_show					= sks_new_socom_draw, weapon_idle
 anm_show_empty				= sks_new_socom_draw, weapon_idle_empty
@@ -888,61 +869,59 @@ grenade_bone	= muzzle
 
 ;--------------------------------------------------------------------Addons-----------------------------------------------------------------------------
 [wpn_sks_tac_ekp8_02]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_ekp8_02"
+$spawn			= "weapons\wpn_sks_tac_ekp8_02"
 
-hud						= wpn_sks_tac_ekp8_02_hud
+hud				= wpn_sks_tac_ekp8_02_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= ekp8_02
+1icon_layer_x	= 67
+1icon_layer_y	= -26
 
-1icon_layer				= ekp8_02
-1icon_layer_x			= 67
-1icon_layer_y			= -26
-
-inv_weight				= 3.973
+inv_weight		= 3.973
 
 [wpn_sks_tac_ekp8_02_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_ekp8_02_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_ekp8_02_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.052185,0.008110,-0.072140
 aim_hud_offset_rot_16x9	= 0.067237,0.019310,0.000000
 ;--------------------------------------------------------------------------------
 [wpn_sks_tac_kobra]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_kobra"
+$spawn			= "weapons\wpn_sks_tac_kobra"
 
-hud						= wpn_sks_tac_kobra_hud
+hud				= wpn_sks_tac_kobra_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= kobra
+1icon_layer_x	= 67
+1icon_layer_y	= -25
 
-1icon_layer				= kobra
-1icon_layer_x			= 67
-1icon_layer_y			= -25
-
-inv_weight				= 4.100
+inv_weight		= 4.100
 
 [wpn_sks_tac_kobra_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_kobra_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_kobra_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.052885,-0.003000,-0.050000
 aim_hud_offset_rot_16x9	= 0.033737,0.018310,0.000000
 ;--------------------------------------------------------------------------------------
 [wpn_sks_tac_ps01]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_ps01"
+$spawn			= "weapons\wpn_sks_tac_ps01"
 
-hud						= wpn_sks_tac_ps01_hud
+hud				= wpn_sks_tac_ps01_hud
 
-1icon_layer				= ps01
-1icon_layer_x			= 40
-1icon_layer_y			= -28
+1icon_layer		= ps01
+1icon_layer_x	= 40
+1icon_layer_y	= -28
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_pso1
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_pso1
+scope_zoom_factor	= 25
 
-inv_weight				= 4.325
+inv_weight		= 4.325
 
 [wpn_sks_tac_ps01_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pso_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pso_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049485,0.011310,-0.054140
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -951,46 +930,45 @@ hands_position_16x9		= -0.005000,-0.015000,-0.166800
 hands_orientation_16x9	= 1.078683,1.809961,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_sks_tac_okp]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_okp"
+$spawn			= "weapons\wpn_sks_tac_okp"
 
-hud						= wpn_sks_tac_okp_hud
+hud				= wpn_sks_tac_okp_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= okp
+1icon_layer_x	= 75
+1icon_layer_y	= -26
 
-1icon_layer				= okp
-1icon_layer_x			= 75
-1icon_layer_y			= -26
-
-inv_weight				= 3.925
+inv_weight		= 3.925
 
 [wpn_sks_tac_okp_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_okp_hud.ogf
+
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_okp_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.047885,0.013510,-0.045940
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;------------------------------------------------------------------------------------------------
 [wpn_sks_tac_1p29]:wpn_sks_tac
-1icon_layer				= 1p29
-1icon_layer_x			= 56
-1icon_layer_y			= -24
+1icon_layer		= 1p29
+1icon_layer_x	= 56
+1icon_layer_y	= -24
 
-inv_weight				= 4.600
+inv_weight		= 4.600
 
-hud						= wpn_sks_tac_1p29_hud
+hud				= wpn_sks_tac_1p29_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
-
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_1p29
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p29
+scope_zoom_factor	= 25
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_tac_1p29_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p29_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p29_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.062585,0.006710,-0.044240
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1002,29 +980,28 @@ aim_hud_offset_alt_pos_16x9	= -0.062585,0.045010,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_tac_pso2]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_pso2"
+$spawn			= "weapons\wpn_sks_tac_pso2"
 
-hud						= wpn_sks_tac_pso2_hud
+hud				= wpn_sks_tac_pso2_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= pso2
+1icon_layer_x	= 38
+1icon_layer_y	= -28
 
-1icon_layer				= pso2
-1icon_layer_x			= 38
-1icon_layer_y			= -28
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_pso2_vss
+scope_zoom_factor	= 25
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_pso2_vss
-scope_zoom_factor		= 25
-
-inv_weight				= 4.300
+inv_weight		= 4.300
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_tac_pso2_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pso2_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pso2_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049185,0.010810,-0.056440
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1036,42 +1013,40 @@ aim_hud_offset_alt_pos_16x9	= -0.063385,0.035010,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_sks_tac_1p76]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_1p76"
+$spawn			= "weapons\wpn_sks_tac_1p76"
 
-hud						= wpn_sks_tac_1p76_hud
+hud				= wpn_sks_tac_1p76_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= 1p76
+1icon_layer_x	= 75
+1icon_layer_y	= -26
 
-1icon_layer				= 1p76
-1icon_layer_x			= 75
-1icon_layer_y			= -26
-
-inv_weight				= 4.200
+inv_weight		= 4.200
 
 [wpn_sks_tac_1p76_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p76_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p76_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.051885,-0.002190,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;--------------------------------------------------------------------------------------------
 [wpn_sks_tac_pka]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_pka"
+$spawn			= "weapons\wpn_sks_tac_pka"
 
-hud						= wpn_sks_tac_pka_hud
+hud				= wpn_sks_tac_pka_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= pka
+1icon_layer_x	= 75
+1icon_layer_y	= -28
 
-1icon_layer				= pka
-1icon_layer_x			= 75
-1icon_layer_y			= -28
+inv_weight		= 4.350
 
-inv_weight				= 4.350
-
-zoom_rotate_time		= 0.25
-scope_lense_fov			= 14
+zoom_rotate_time	= 0.25
+scope_lense_fov		= 14
 
 [wpn_sks_tac_pka_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pka_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pka_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.048185,0.004410,-0.076000
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1080,49 +1055,48 @@ hands_position_16x9		= -0.017101,-0.002026,-0.190000
 hands_orientation_16x9	= 1.078683,1.809961,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_tac_0kp2]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_0kp2"
+$spawn			= "weapons\wpn_sks_tac_0kp2"
 
-hud						= wpn_sks_tac_0kp2_hud
+hud				= wpn_sks_tac_0kp2_hud
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-1icon_layer				= 0kp2
-1icon_layer_x			= 136
-1icon_layer_y			= -28
+1icon_layer		= 0kp2
+1icon_layer_x	= 136
+1icon_layer_y	= -28
 
-inv_weight				= 3.900
+inv_weight		= 3.900
 
 [wpn_sks_tac_0kp2_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_0kp2_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_0kp2_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.053385,0.003310,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;-----------------------------------------------------------------------------------------------------
-[wpn_sks_tac_1pn93]:wpn_sks_tac
-hud						= wpn_sks_tac_1pn93_hud
+[wpn_sks_tac_1pn93]:wpn_sks_tac	;14
+hud				= wpn_sks_tac_1pn93_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= 1pn93
+1icon_layer_x	= 45
+1icon_layer_y	= -27
 
-1icon_layer				= 1pn93
-1icon_layer_x			= 45
-1icon_layer_y			= -27
+nv_scope_status	= 1
 
-nv_scope_status			= 1
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_nightvision	= scope_nightvision_2gen
+scope_texture		= wpn_crosshair_1pn93
+scope_zoom_factor	= 25
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_nightvision		= scope_nightvision_2gen
-scope_texture			= wpn_crosshair_1pn93
-scope_zoom_factor		= 25
-
-inv_weight				= 4.950
+inv_weight		= 4.950
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_tac_1pn93_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1pn93_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1pn93_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.053285,0.010110,-0.055040
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1134,7 +1108,7 @@ aim_hud_offset_alt_pos_16x9	= -0.067385,0.041710,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_sks_tac_ac10632]:wpn_sks_tac
-visual = dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
 1icon_layer		= ac10632
 1icon_layer_x	= 125
@@ -1142,17 +1116,16 @@ visual = dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
 inv_weight		= 3.815
 
-hud					= wpn_sks_tac_ac10632_hud
+hud				= wpn_sks_tac_ac10632_hud
 
 [wpn_sks_tac_ac10632_hud]:wpn_sks_tac_hud
-
-item_visual                	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_ac10632_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_ac10632_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.056585,-0.002890,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;----------------------------------------------------------------------------------------------
 [wpn_sks_tac_eot]:wpn_sks_tac
-visual = dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
 1icon_layer		= eot
 1icon_layer_x	= 140
@@ -1160,7 +1133,7 @@ visual = dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
 inv_weight		= 4.00
 
-hud					= wpn_sks_tac_eot_hud
+hud				= wpn_sks_tac_eot_hud
 
 [wpn_sks_tac_eot_hud]:wpn_sks_tac_hud
 item_visual		= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_eot_hud.ogf
@@ -1172,8 +1145,7 @@ aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 $spawn			= "weapons\ak12_m1_c-more"
 
 visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
-
-hud					= wpn_sks_tac_c-more_hud
+hud				= wpn_sks_tac_c-more_hud
 
 1icon_layer		= c-more
 1icon_layer_x	= 140
@@ -1191,8 +1163,7 @@ aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 $spawn			= "weapons\ak12_m1_d0cter"
 
 visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
-
-hud					= wpn_sks_tac_d0cter_hud
+hud				= wpn_sks_tac_d0cter_hud
 
 inv_weight		= 3.730
 
@@ -1210,8 +1181,7 @@ aim_hud_offset_rot_16x9	= 0.	,0.019310,0.000000
 $spawn			= "weapons\ak12_m1_mepro"
 
 visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
-
-hud					= wpn_sks_tac_mepro_hud
+hud				= wpn_sks_tac_mepro_hud
 
 inv_weight		= 4.072
 
@@ -1229,8 +1199,7 @@ aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 $spawn			= "weapons\ak12_m1_aim_low"
 
 visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
-
-hud					= wpn_sks_tac_aim_low_hud
+hud				= wpn_sks_tac_aim_low_hud
 
 inv_weight		= 3.805
 
@@ -1248,8 +1217,7 @@ aim_hud_offset_rot_16x9	= 0.028437,0.019310,0.000000
 $spawn			= "weapons\ak12_m1_ekp8_18"
 
 visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
-
-hud					= wpn_sks_tac_ekp8_18_hud
+hud				= wpn_sks_tac_ekp8_18_hud
 
 inv_weight		= 3.973
 
@@ -1267,8 +1235,7 @@ aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 $spawn			= "weapons\ak12_custom_e0t2"
 
 visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
-
-hud					= wpn_sks_tac_e0t2_hud
+hud				= wpn_sks_tac_e0t2_hud
 
 inv_weight		= 3.927
 
@@ -1283,15 +1250,14 @@ aim_hud_offset_pos_16x9	= -0.056585,-0.005390,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_sks_tac_deltapoint]:wpn_sks_tac
-inv_weight			= 3.741
+inv_weight		= 3.741
 
-hud						= wpn_sks_tac_deltapoint_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+hud				= wpn_sks_tac_deltapoint_hud
 
-1icon_layer			= deltapoint
-1icon_layer_x		= 140
-1icon_layer_y		= -28
-
-visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= deltapoint
+1icon_layer_x	= 140
+1icon_layer_y	= -28
 
 scope_status		= 0
 
@@ -1304,44 +1270,44 @@ aim_hud_offset_pos_16x9	= -0.057185,0.006010,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;----------------------------------------------------------------------------------------
 [wpn_sks_tac_rmr]:wpn_sks_tac
-inv_weight			= 3.734
+inv_weight		= 3.734
 
-hud					= wpn_sks_tac_rmr_hud
+hud				= wpn_sks_tac_rmr_hud
 
-1icon_layer			    = rmr
-1icon_layer_x			= 140
-1icon_layer_y			= -28
+1icon_layer		= rmr
+1icon_layer_x	= 140
+1icon_layer_y	= -28
 
-visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
 scope_status			= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_sks_tac_rmr_hud]:wpn_sks_tac_hud
-item_visual                	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_rmr_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_rmr_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.056185,0.010710,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;--------------------------------------------------------------------------------------------------
 [wpn_sks_tac_1p78gs]:wpn_sks_tac
-1icon_layer				= 1p78gs
-1icon_layer_x			= 64
-1icon_layer_y			= -28
+1icon_layer		= 1p78gs
+1icon_layer_x	= 64
+1icon_layer_y	= -28
 
-inv_weight				= 4.200
+inv_weight		= 4.200
 
-hud						= wpn_sks_tac_1p78gs_hud
+hud				= wpn_sks_tac_1p78gs_hud
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_1p78gs
-scope_zoom_factor		= 41
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p78gs
+scope_zoom_factor	= 41
 
 [wpn_sks_tac_1p78gs_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p78gs_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p78gs_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.058685,0.016610,-0.063540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1350,70 +1316,68 @@ hands_position_16x9		= -0.014401,-0.017126,-0.190000
 hands_orientation_16x9	= 1.078683,1.809961,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_tac_compm4s]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_compm4s"
+$spawn			= "weapons\wpn_sks_tac_compm4s"
 
-hud						= wpn_sks_tac_compm4s_hud
+hud				= wpn_sks_tac_compm4s_hud
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-1icon_layer				= compm4s
-1icon_layer_x			= 125
-1icon_layer_y			= -36
+1icon_layer		= compm4s
+1icon_layer_x	= 125
+1icon_layer_y	= -36
 
-inv_weight				= 4.080
+inv_weight		= 4.080
 
 [wpn_sks_tac_compm4s_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_compm4s_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_compm4s_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.057485,-0.003890,-0.034540
 aim_hud_offset_rot_16x9	= 0.028237,0.021810,0.000000
 ;--------------------------------------------------------------------------------------------
 [wpn_sks_tac_rakurs]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_rakurs"
+$spawn			= "weapons\wpn_sks_tac_rakurs"
 
-hud						= wpn_sks_tac_rakurs_hud
+hud				= wpn_sks_tac_rakurs_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= rakurs
+1icon_layer_x	= 135
+1icon_layer_y	= -32
 
-1icon_layer				= rakurs
-1icon_layer_x			= 135
-1icon_layer_y			= -32
-
-inv_weight				= 4.200
+inv_weight		= 4.200
 
 [wpn_sks_tac_rakurs_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_rakurs_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_rakurs_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.056750,0.006000,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_tac_1pn93n2_1gs]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_1pn93n2_1gs"
+$spawn			= "weapons\wpn_sks_tac_1pn93n2_1gs"
 
-hud						= wpn_sks_tac_1pn93n2_1gs_hud
+hud				= wpn_sks_tac_1pn93n2_1gs_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= 1pn93n2_1gs
+1icon_layer_x	= 38
+1icon_layer_y	= -28
 
-1icon_layer				= 1pn93n2_1gs
-1icon_layer_x			= 38
-1icon_layer_y			= -28
+nv_scope_status	= 1
 
-nv_scope_status			= 1
-
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_nightvision		= scope_nightvision_1gen
-scope_texture			= wpn_crosshair_1pn93n2_1gs
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_nightvision	= scope_nightvision_1gen
+scope_texture		= wpn_crosshair_1pn93n2_1gs
+scope_zoom_factor	= 25
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
-inv_weight				= 4.650
+inv_weight		= 4.650
 
 [wpn_sks_tac_1pn93n2_1gs_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1pn93n2_1gs_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1pn93n2_1gs_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.047385,0.012210,-0.063140
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1425,42 +1389,42 @@ aim_hud_offset_alt_pos_16x9	= -0.065685,0.036010,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.027437,0.019160,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_sks_tac_kemper]:wpn_sks_tac
-inv_weight			= 3.966
+inv_weight		= 3.966
 
-hud					= wpn_sks_tac_kemper_hud
+hud				= wpn_sks_tac_kemper_hud
 
-1icon_layer			    = kemper
-1icon_layer_x			= 140
-1icon_layer_y			= -34
+1icon_layer		= kemper
+1icon_layer_x	= 140
+1icon_layer_y	= -34
 
-visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
 scope_status			= 0
 
-scope_dynamic_zoom = off
+scope_dynamic_zoom	= off
 
 [wpn_sks_tac_kemper_hud]:wpn_sks_tac_hud
-item_visual                	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_kemper_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_kemper_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.056685,-0.006690,-0.034540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
 ;------------------------------------------------------------------------------------------------
 [wpn_sks_tac_pso1m21]:wpn_sks_tac
-inv_weight					= 4.320
+inv_weight		= 4.320
 
-hud							= wpn_sks_tac_pso1m21_hud
+hud				= wpn_sks_tac_pso1m21_hud
 
-1icon_layer					= pso1m21
-1icon_layer_x						= 40
-1icon_layer_y						= -28
+1icon_layer		= pso1m21
+1icon_layer_x	= 40
+1icon_layer_y	= -28
 
-scope_status						= 1
-scope_texture						= wpn_crosshair_vss
-scope_zoom_factor		= 25
-scope_dynamic_zoom					= off
+scope_status		= 1
+scope_texture		= wpn_crosshair_vss
+scope_zoom_factor	= 25
+scope_dynamic_zoom	= off
 
 [wpn_sks_tac_pso1m21_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pso1m21_hud.ogf
+item_visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_pso1m21_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049485,0.011310,-0.054140
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1469,27 +1433,27 @@ hands_position_16x9		= -0.005000,-0.015000,-0.166800
 hands_orientation_16x9	= 1.078683,1.809961,0.000000
 ;----------------------------------------------------------------------------------
 [wpn_sks_tac_usp1]:wpn_sks_tac	
-1icon_layer				= usp1
-1icon_layer_x			= 56
-1icon_layer_y			= -23
+1icon_layer		= usp1
+1icon_layer_x	= 56
+1icon_layer_y	= -23
 
-inv_weight				= 4.600
+inv_weight		= 4.600
 
-hud						= wpn_sks_tac_usp1_hud
+hud				= wpn_sks_tac_usp1_hud
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_usp1
-scope_zoom_factor		= 25
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_usp1
+scope_zoom_factor	= 25
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_tac_usp1_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_usp1_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_usp1_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.067385,0.001510,-0.087841
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1501,31 +1465,30 @@ aim_hud_offset_alt_pos_16x9	= -0.067185,0.040310,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_tac_kashtan_rmr]:wpn_sks_tac
-inv_grid_width     = 5
-inv_grid_height    = 2
-inv_grid_x         = 10
-inv_grid_y         = 0
+inv_grid_width		= 5
+inv_grid_height		= 2
+inv_grid_x			= 10
+inv_grid_y			= 0
 
+inv_weight		= 4.275
 
-inv_weight				= 4.275
+hud				= wpn_sks_tac_kashtan_rmr_hud
 
-hud						= wpn_sks_tac_kashtan_rmr_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p78gs
+scope_zoom_factor	= 41
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_1p78gs
-scope_zoom_factor		= 41
-
-silencer_y				= 14
+silencer_y		= 14
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_tac_kashtan_rmr_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_kashtan_rmr_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_kashtan_rmr_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.058685,0.016610,-0.063540
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1537,30 +1500,29 @@ aim_hud_offset_alt_pos_16x9	= -0.083585,-0.065790,-0.012540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.014810,0.779508
 ;-----------------------------------------------------------------------------------------------------
 [wpn_sks_tac_pritseldob]:wpn_sks_tac
-hud						= wpn_sks_tac_pritseldob_hud
+hud				= wpn_sks_tac_pritseldob_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+inv_grid_width		= 5
+inv_grid_height		= 2
+inv_grid_x			= 15
+inv_grid_y			= 0
 
-inv_grid_width     = 5
-inv_grid_height    = 2
-inv_grid_x         = 15
-inv_grid_y         = 0
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_pso2_vss
+scope_zoom_factor	= 25
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_pso2_vss
-scope_zoom_factor		= 25
+inv_weight		= 4.375
 
-inv_weight				= 4.375
-
-silencer_y				= 14
+silencer_y		= 14
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_tac_pritseldob_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_psicho_rmr_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_psicho_rmr_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049185,0.010810,-0.056440
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1572,29 +1534,28 @@ aim_hud_offset_alt_pos_16x9	= -0.079485,-0.052590,-0.027540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.782009
 ;---------------------------------------------------------------------------------------------
 [wpn_sks_tac_1p59]:wpn_sks_tac
-$spawn					= "weapons\wpn_sks_tac_1p59"
+$spawn			= "weapons\wpn_sks_tac_1p59"
 
-hud						= wpn_sks_tac_1p59_hud
+hud				= wpn_sks_tac_1p59_hud
+visual			= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
 
-visual					= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_world.ogf
+1icon_layer		= 1p59
+1icon_layer_x	= 60
+1icon_layer_y	= -28
 
-1icon_layer				= 1p59
-1icon_layer_x			= 60
-1icon_layer_y			= -28
+scope_status		= 1
+scope_dynamic_zoom	= off
+scope_texture		= wpn_crosshair_1p59
+scope_zoom_factor	= 11
 
-scope_status			= 1
-scope_dynamic_zoom		= off
-scope_texture			= wpn_crosshair_1p59
-scope_zoom_factor		= 11
-
-inv_weight				= 4.300
+inv_weight		= 4.300
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud			= true
+use_alt_aim_hud		= true
 
 [wpn_sks_tac_1p59_hud]:wpn_sks_tac_hud
-item_visual				= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p59_hud.ogf
+item_visual	= dynamics\weapons\wpn_sks_tac\wpn_sks_tac_1p59_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.049185,0.010810,-0.056440
 aim_hud_offset_rot_16x9	= 0.026737,0.019310,0.000000
@@ -1604,4 +1565,3 @@ hands_orientation_16x9	= 1.078683,1.809961,0.000000
 
 aim_hud_offset_alt_pos_16x9	= -0.071400,0.035010,-0.034540
 aim_hud_offset_alt_rot_16x9	= 0.026737,0.019310,0.000000
-;---------------------------------------------------------------------------------------------

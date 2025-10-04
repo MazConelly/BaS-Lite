@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_val_tac">
+		<text>AS Val Tactical (BaS)</text>
+	</string>
+	<string id="st_wpn_val_tac_descr">
+		<text>The AS Val is widely used by Russian Army recon units, as well as by MVD (Internal Affairs Ministry) and FSB (Federal Security Bureau) Special Forces. The AS-VAL is a gas operated, integrally suppressed weapon. The receiver is machined from steel forging for improved strength. It has a standard side-mounted rail for optical, night vision or red dot scopes but has no provision for mounting a bayonet or a grenade launcher. The integral suppressor could be easily detached for maintenance, repair, or compact storage, but the rifle should not be fired with the suppressor removed due to safety and reliability issues.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] VSS suppressor (integrated)</text>
+	</string>
+
+	<string id="st_wpn_vintorez_isg">
+		<text>Rifle Dynamics RD-9x39 ISG (BaS)</text>
+	</string>
+	<string id="st_wpn_vintorez_isg_descr">
+		<text>The brainchild of the founder of Rifle Dynamics, Jim Fuller. The model is developed on the basis of the well-known and well-established VSS Vintorez. One of the main differences from the original is the presence of a special mechanism that allows you to fire with a misfire of two bullets and a picatinny rail installed along the entire length of the weapon. Used by ISG special units.\n
+		%c[ui_gray_2]ATTACHMENTS: n
+		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight.\n
+		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver and dawtail except of 1P78 Kashtan.\n
+		%c[d_purple] • %c[ui_gray_2] Some rumors say that this gun can be used with underbarrel grenade launcher)\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: Integrated</text>
+	</string>
+
+	<string id="st_wpn_vintorez_m1">
+		<text>VSS "Savant" (BaS)</text>
+	</string>
+	<string id="st_wpn_vintorez_m1_descr">
+		<text>This is early prototype of VSS Savant. This build is more popular between pro-stalkers because of lower price than final version.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All except of EOTS-62 and Tactical Kits (two scopes)\n
+		%c[d_purple] • %c[ui_gray_2] supressor VSS (integrated)</text>
+	</string>
+
+	<string id="st_wpn_vintorez_m2">
+		<text>VSS "Merc" (BaS)</text>
+	</string>
+	<string id="st_wpn_vintorez_m2_descr">
+		<text>At the request of the Syndicate of Mercenaries, a team of enthusiastic scientists led by Professor Sakhorov was engaged in finalizing the prototype. To develop and conduct field trials, it took about 20 artifacts from gravitational anomalies. As a result, this allowed the Picatini bar to be installed on the receiver without loss of accuracy, as well as improved mechanics, which led to higher reliability indicators.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight.\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All except of 1P59 Giperon\n
+		%c[d_purple] • %c[ui_gray_2] Fab Defense stock and foregrip are installed\n
+		%c[d_purple] • %c[ui_gray_2] supressor VSS (integrated)</text>
+	</string>
+
+	<string id="st_wpn_vintorez_n1">
+		<text>VSS Vintorez (BaS)</text>
+	</string>
+	<string id="st_wpn_vintorez_n1_descr">
+		<text>Designed at TsNIITochMash by Peter Serdyukov and his team, the new rifle was intended for various Spetsnaz troops of the Soviet Army, KGB and MVD. The VSS is quite popular among its users for its stealthy capabilities and the great lethality of the heavy 9x39mm bullets. The effective range of the VSS is limited to 300-400 metres. Standard sighting equipment consists of side rail on the receiver, which usually accommodates the 4x  PSO-1M2-1 scope. Any other scope or night vision sight can be mounted on the appropriate mount. Backup iron sights consist of tangent rear and blade front. The rear sight is graduated for up to 400 metres.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] VSS suppressor (integrated)</text>
+	</string>
+
+</string_table>

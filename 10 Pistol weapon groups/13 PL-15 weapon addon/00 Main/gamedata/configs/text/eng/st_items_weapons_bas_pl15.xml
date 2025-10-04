@@ -6,9 +6,9 @@
 	<string id="st_wpn_pl15_descr">
 		<text>Russian self-loading pistol PL-15-01 chambered for 9x19 mm Parabellum. The difference between the pistol and its analogues is its ergonomics and balance, which correspond to the current ideas about human biomechanics. The automation calculation methods used during its creation contribute to a large shooting resource, and in combination with the applied ergonomics solutions, make the pistol comfortable in terms of recoil, toss after a shot and quick return to the aiming line. All this contributes to a quick re-shot and fast transfer of fire, and an ergonomic handle with a large angle of inclination makes it easier to shoot "offhand".\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The weapon can be upgraded using kit: "Tactic".\n 
 		%c[d_purple] • %c[ui_gray_2] The LAM for PL-15 can be installed\n 
-		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech suppressor</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech suppressor\n
+		%c[d_purple] • %c[ui_gray_2] The weapon can be upgraded using kit: "Tactic".</text>
 	</string>
 
 	<string id="st_wpn_pl15_pl15_scolaz">
@@ -17,7 +17,7 @@
 	<string id="st_wpn_pl15_pl15_scolaz_descr">
 		<text>Russian self-loading pistol PL-15-01 chambered for 9x19 mm Parabellum. The difference between the pistol and its analogues is its ergonomics and balance, which correspond to the current ideas about human biomechanics. The automation calculation methods used during its creation contribute to a large shooting resource, and in combination with the applied ergonomics solutions, make the pistol comfortable in terms of recoil, toss after a shot and quick return to the aiming line. All this contributes to a quick re-shot and fast transfer of fire, and an ergonomic handle with a large angle of inclination makes it easier to shoot "offhand".\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The weapon was upgraded using: "Tactic" kit (LAM, Aimpoint T1 scope).\n 
+		%c[d_purple] • %c[ui_gray_2] LAM, Aimpoint T1 scope.\n 
 		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech suppressor</text>
 	</string>
 
@@ -27,7 +27,7 @@
 	<string id="st_addon_scope_lazup_pl15_descr">
 		<text>%c[ui_gray_1]Used for aimed shooting from any position.\n
 		%c[ui_gray_2]COMPATIBILITY:\n
-		%c[d_cyan] • %c[ui_gray_2] Lebedev PL-15		</text>
+		%c[d_cyan] • %c[ui_gray_2] Lebedev PL-15</text>
 	</string>
 
 	<string id="st_addon_scope_pl15_scolaz">

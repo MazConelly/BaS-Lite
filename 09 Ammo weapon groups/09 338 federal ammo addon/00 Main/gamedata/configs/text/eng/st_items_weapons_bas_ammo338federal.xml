@@ -18,9 +18,9 @@
 	<string id="st_wpn_dvl10_descr">
 		<text>DVL-10 is a lightweight and compact sniper rifle in proprietary and current military subsonic calibers has been developed for special service and combat missions where exceptional accuracy and range are needed.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver except of red dot sights.\n 
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver except of red dot sights.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: None</text>
-	</string>	
+	</string>
 
 	<string id="st_wpn_dvl10_m1">
 		<text>DVL-10 Saboteur (BaS)</text>
@@ -29,7 +29,7 @@
 		<text>DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers and has been developed for special service and combat missions where exceptional accuracy and range are needed.\n
 		This particular model is chambered for .338 Federal and benefits from an integrated silencer.
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for picatinny/weaver except of red dot sights.\n 
+		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver except of red dot sights.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: Integrated</text>
-	</string>	
+	</string>
 </string_table>

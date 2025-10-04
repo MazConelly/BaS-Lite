@@ -31,7 +31,8 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: TGP-A suppressor
-		%c[ui_gray_2]COMPATIBLE MOD KITS: Specialized weapon mod kit</text>
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_ak74u_m1_isg">

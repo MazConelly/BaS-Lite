@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 <string id="st_wpn_korth">
-		<text>Korth PRS-4 (BaS)</text>
+		<text>Korth PRS 4" (BaS)</text>
 	</string>
 	<string id="st_wpn_korth_descr">
 		<text>Korth is a high-end firearms manufacturer based in Lollar, Hesse, Germany. Builders in the tradition of ultimate European luxury brands, Korth are perhaps best known for revolvers with price tags that might as well be written in diamongs, though the entry point is far more accessible. The starting point for a Korth is around that of a Rolex: five thousand dollars. While a Korth PRS is basically a Colt 1911 remade with German engineering, making it compatible with the same parts, a particular oddity is its roller locking system with bolt head, reminiscent of HK handguns. With a single action trigger and a precision barrel, it is a very accurate and easy to shoot cousin of the 1911.\n
 		This model has a four inches barrel and little more, just enough to get you started.\n
-		%c[ui_gray_2]ATTACHMENTS:\n		
+		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: none</text>
 	</string>
 
 	<string id="st_wpn_korth_custom">
-		<text>Korth PRS-6 (BaS)</text>
+		<text>Korth PRS 6" (BaS)</text>
 	</string>
 	<string id="st_wpn_korth_custom_descr">
 		<text>Korth is a high-end firearms manufacturer based in Lollar, Hesse, Germany. Builders in the tradition of ultimate European luxury brands, Korth are perhaps best known for revolvers with price tags that might as well be written in diamongs, though the entry point is far more accessible. The starting point for a Korth is around that of a Rolex: five thousand dollars. While a Korth PRS is basically a Colt 1911 remade with German engineering, making it compatible with the same parts, a particular oddity is its roller locking system with bolt head, reminiscent of HK handguns. With a single action trigger and a precision barrel, it is a very accurate and easy to shoot cousin of the 1911.\n

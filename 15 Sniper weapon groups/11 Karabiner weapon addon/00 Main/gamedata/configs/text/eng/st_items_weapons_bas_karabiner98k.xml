@@ -6,9 +6,9 @@
 	<string id="st_wpn_karabiner98k_descr">
 		<text>During World War II, certain Karabiner 98k rifles were selected for their exceptional accuracy and fitted with the ZF39 telescopic sight. These rifles were used by Nazi Germany as sniper rifles. In skilled hands, they had an effective range of up to 1000 metres.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit (silencer adapter).\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: ZF-4 (included).\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: None (Barrel adapter kit needed to mount a silencer)</text>
+		%c[d_purple] • %c[ui_gray_2] Suppressor: None (Barrel adapter kit needed to mount a silencer)\n
+		%c[d_purple] • %c[ui_gray_2] Can be upgraded using Tactical Kit (silencer adapter).</text>
 	</string>
 
 	<string id="st_wpn_karabiner98k_silen98">

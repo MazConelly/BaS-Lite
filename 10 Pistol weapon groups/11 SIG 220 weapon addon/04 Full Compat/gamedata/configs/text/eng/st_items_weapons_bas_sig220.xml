@@ -6,9 +6,9 @@
 	<string id="st_wpn_sig220_n_descr">
 		<text>The SIG-Sauer P220, manufactured in the late 1970s by J.P. Sauer &amp; Son Company, is often considered the best out of the box .45 caliber double action pistol. An instant success, the P220 was adopted by the Swiss and Japanese SDF and by many European police organisations. This pistol also found its way into the US, first through the Browning Arms Company of Utah and since the 1980s, through the SIGARMS Company of New Hampshire.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: none
+		%c[d_purple] • %c[ui_gray_2] Silencer: none\n
 		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
-		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit, Custom weapon mod kit</text>
+		%c[d_purple] • %c[ui_gray_2] Default: Custom weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_sig220_n_upg220">
@@ -18,7 +18,9 @@
 		<text>The SIG-Sauer P220, manufactured in the late 1970s by J.P. Sauer &amp; Son Company, is often considered the best out of the box .45 caliber double action pistol. An instant success, the P220 was adopted by the Swiss and Japanese SDF and by many European police organisations. This pistol also found its way into the US, first through the Browning Arms Company of Utah and since the 1980s, through the SIGARMS Company of New Hampshire.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Threaded barrel for using with suppressor, Tritium sights and Viridian X5L laser sight and high capacity magazine for 12 rounds.\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit</text>
 	</string>
 
 	<string id="st_wpn_sig220_n_u2p2g0r">
@@ -28,7 +30,9 @@
 		<text>The SIG-Sauer P220, manufactured in the late 1970s by J.P. Sauer & Son Company, is often considered the best out of the box .45 caliber double action pistol. An instant success, the P220 was adopted by the Swiss and Japanese SDF and by many European police organisations. This pistol also found its way into the US, first through the Browning Arms Company of Utah and since the 1980s, through the SIGARMS Company of New Hampshire.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Threaded 9x19 barrel for using with standard Gemtech suppressor, Tritium sights and Viridian X5L laser sight and high capacity 19 rounds magazine.\n
-		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech</text>
+		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit</text>
 	</string>
 
 <!-- 	<string id="st_addon_scope_upg220">

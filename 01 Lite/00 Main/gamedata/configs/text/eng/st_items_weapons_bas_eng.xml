@@ -51,7 +51,7 @@
 	<string id="st_wpn_aug_a3_custom_bas_descr">
 		<text>Steyr AUG (Armee Universal Gewehr - Army Universal Rifle) is an Austrian 5.56x45mm NATO bullpup assault rifle, designed in the 1960s by Steyr-Daimler-Puch and now manufactured by Steyr Mannlicher GmbH & Co KG. The Steyr AUG A3 differs from the base model in the presence of four Picatinny slats: the top one is used for attaching sights, a grenade launcher or a vertical front handle can be attached to the bottom, and a laser pointer or other necessary additional equipment is attached to the side.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Installed Trijicon Acog (x4) and PEQ LA5 LAM.\n 
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Trijicon Acog (x4) and PEQ LA5 LAM.\n 
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
 
@@ -63,7 +63,7 @@
 		The J-3 high-power cartridge, a 5.56 mm round made to be powerful enough to penetrate modern body armor despite the rifle's relatively short barrel length, was developed specifically for the Type 20.\n
 		It remains a mystery why, how, and in what quantity this rifle came to the participants of a scientific expedition to the Zone.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Includes: MARCH Shorty scope and AN/PEQ-15A DBAL-A2 Laser Device\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: MARCH Shorty scope and AN/PEQ-15A DBAL-A2 Laser Device\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor</text>
 	</string>
 
@@ -74,7 +74,7 @@
 		<text>The SR-556 is a semi-automatic AR-15 style rifle manufactured by Sturm, Ruger & Co. The rifle was introduced in 2009 in .223 Remington/5.56?45mm NATO and as a .308 Winchester AR-10 variant in 2013, the SR-762. It is one of several AR-15 rifles to use a gas piston operation. Ruger announced on May 15, 2009 on the SR-556 being produced, and in January 2016, Ruger discontinued all existing SR-556 rifles in preparation for a new takedown variant.\n
 		Several of these rifles came to the Zone through the scientists. According to rumors, six small containers with these guns were sent from foreign sponsors to Professor Sakharov, but 5 of them were lost before arrival.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it.\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Universal mount by NcStar with Trijicon RMR red dot sight.\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
 	</string>
@@ -109,7 +109,7 @@
         <text>This is a modification of the HK USP Match specially developed for scientists by personal order of Professor Sakhorov, designed for use in the "Specialist-Scientist" kit. The mechanism is improved with the use of artifacts; additionally, it allows the installation of a silencer and includes a set of extended magazines capable of holding 22.\n
 		(The Specialist-Scientist kit includes: VSS Savant, HK USP Match Tactical, Monolith Blade).\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] The kit includes Laser Aiming Module and Red Dot Sights mount.\n
+		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Laser Aiming Module and Red Dot Sights mount.\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: Docter Sight, Aimpoint T1 (low mount), Trijicon RMR, Leupold DeltaPoint PRO.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: Gemtech suppressor</text>
     </string>

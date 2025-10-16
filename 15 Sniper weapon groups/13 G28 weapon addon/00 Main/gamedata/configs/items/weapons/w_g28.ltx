@@ -6,6 +6,7 @@ $prefetch				= 8
 $spawn					= "weapons\g28"
 scheduled				= off
 cform					= skeleton
+parent_section			= wpn_g28
 
 class					= WP_AK74
 slot					= 2
@@ -35,9 +36,7 @@ repair_type				= rifle_7
 weapon_class			= assault_rifle
 
 hud						= wpn_g28_hud
-
 visual					= dynamics\weapons\wpn_g28\wpn_g28_world.ogf
-
 position				= -0.026, 0, 0
 orientation				= 0, 0, 0
 fire_point				= 0, 0.10, 0.575
@@ -81,6 +80,7 @@ scope_status			= 1
 scope_dynamic_zoom		= on
 scope_texture			= wpn_crosshair_valday
 scope_zoom_factor		= 6
+scopes					= pn23fore
 
 silencer_name			= wpn_sil_sr25
 silencer_status			= 2
@@ -165,10 +165,6 @@ kill_msg_x		= 175
 kill_msg_y		= 0
 kill_msg_width	= 82
 kill_msg_height	= 28
-
-scopes			= pn23fore
-
-parent_section	= wpn_g28
 
 scope_zoom_factor_alt	= 0
 
@@ -256,8 +252,6 @@ freelook_z_offset_mul	= 0.2
 [wpn_g28_pn23fore]:wpn_g28
 visual	= dynamics\weapons\wpn_g28\wpn_g28_pn23fore_world.ogf
 
-inv_grid_width	= 5
-inv_grid_height	= 2
 inv_grid_x		= 5
 inv_grid_y		= 0
 

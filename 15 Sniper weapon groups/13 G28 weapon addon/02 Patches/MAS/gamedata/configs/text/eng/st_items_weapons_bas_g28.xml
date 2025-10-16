@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_g28">
+		<text>HK G28 marksman rifle (BaS)</text>
+	</string>
+	<string id="st_wpn_g28_descr">
+		<text>The HK G28 rifle was developed by Heckler & Koch specifically for the Bundeswehr as a support weapon for small infantry units. The G28 is based on the HK MR308, which, in turn, is a civilian version of the HK 417 automatic rifle. Despite several differences, the HK G28 is 75% interchangeable with the HK 417. This rifle is designed to shoot at distances inaccessible to standard 5.56mm assault rifles.\n
+		The rear ironsight doesn't seems like the original one...\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatini rail\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Specialized weapon mod kit</text>
+	</string>
+
+	<string id="st_wpn_g28_pmii">
+		<text>HK G28 marksman rifle - PM II riflescope (BaS)</text>
+	</string>
+	<string id="st_wpn_g28_pmii_descr">
+		<text>The HK G28 rifle was developed by Heckler & Koch specifically for the Bundeswehr as a support weapon for small infantry units. The G28 is based on the HK MR308, which, in turn, is a civilian version of the HK 417 automatic rifle. Despite several differences, the HK G28 is 75% interchangeable with the HK 417. This rifle is designed to shoot at distances inaccessible to standard 5.56mm assault rifles.\n
+		The Schmidt & Bender PM II 3-12x50 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy. The scope is outfitted with an illuminate Tremor2 reticle that offers a variety of markings to calculate precise shots while taking distance and windage into account.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Schmidt & Bender PM II 3-12x50 scope, and Aimpoint T1 sight\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Default: Gunsmith weapon mod kit (this will remove the PM-II scope)</text>
+	</string>
+
+	<string id="st_wpn_g28_pmii_pn23fore">
+		<text>HK G28 marksman rifle - PM II riflescope and PN-23 "Nozzle" (BaS)</text>
+	</string>
+	<string id="st_wpn_g28_pmii_pn23fore_descr">
+		<text>The HK G28 rifle was developed by Heckler & Koch specifically for the Bundeswehr as a support weapon for small infantry units. The G28 is based on the HK MR308, which, in turn, is a civilian version of the HK 417 automatic rifle. Despite several differences, the HK G28 is 75% interchangeable with the HK 417. This rifle is designed to shoot at distances inaccessible to standard 5.56mm assault rifles.\n
+		The Schmidt & Bender PM II 3-12x50 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy. The scope is outfitted with an illuminate Tremor2 reticle that offers a variety of markings to calculate precise shots while taking distance and windage into account.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Schmidt & Bender PM II 3-12x50 scope, Aimpoint T1 sight, and PN-23 "Nozzle" night sight\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor</text>
+	</string>
+
+</string_table>

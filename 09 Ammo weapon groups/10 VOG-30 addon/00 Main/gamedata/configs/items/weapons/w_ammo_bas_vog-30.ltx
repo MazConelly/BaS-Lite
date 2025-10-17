@@ -1,0 +1,44 @@
+[ammo_vog-30]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency =
+
+class			= S_VOG25
+cform			= skeleton
+visual			= dynamics\weapons\wpn_ammo\ammo_vog_25.ogf
+description		= ammo_vog_30_descr
+
+$prefetch		= 64
+
+cost			= 1850
+
+box_size		= 1
+
+inv_name		= ammo_vog_30
+inv_name_short	= ammo_vog_30_s
+inv_weight		= 0.2 ;.08
+
+icons_texture	= ui\ui_icon_bas_vog30
+
+inv_grid_width	= 1
+inv_grid_height	= 1
+inv_grid_x		= 0
+inv_grid_y		= 1
+
+kill_msg_x		= 38
+kill_msg_y		= 233
+kill_msg_width	= 21
+kill_msg_height	= 22
+
+k_disp			= 0.6
+k_hit			= 8.0 ;	2
+k_impulse		= 1.1
+k_ap			= 0.55
+buck_shot		= 0
+tracer			= off
+wm_size			= 0.05
+
+fake_grenade_name = wpn_fake_missile
+
+tier			= 5
+snd_on_take		= other
+grenade_ammo	= true

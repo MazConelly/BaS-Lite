@@ -15,7 +15,7 @@
 		<text>Rifle Dynamics RD-9x39 ISG (BaS)</text>
 	</string>
 	<string id="st_wpn_vintorez_isg_descr">
-		<text>The brainchild of the founder of Rifle Dynamics, Jim Fuller. The model is developed on the basis of the well-known and well-established VSS Vintorez. One of the main differences from the original is the presence of a special mechanism that allows you to fire with a misfire of two bullets and a picatinny rail installed along the entire length of the weapon. Used by ISG special units.\n
+		<text>The brainchild of the founder of Rifle Dynamics, Jim Fuller. The model is developed on the basis of the well-known and well-established VSS Vintorez. One of the main differences from the original is the presence of a special mechanism that allows you to fire with a misfire of two bullets and a Picatinny rail installed along the entire length of the weapon. Used by ISG special units.\n
 		%c[ui_gray_2]ATTACHMENTS: n
 		%c[d_purple] • %c[ui_gray_2] ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-15 produced by L3 Insight Technologies. Tactical device that combines laser designators in both visible and IR band with IR searchlight.\n
 		%c[d_purple] • %c[ui_gray_2] Universal mount by NcStar with Trijicon RMR red dot sight installed on it.\n

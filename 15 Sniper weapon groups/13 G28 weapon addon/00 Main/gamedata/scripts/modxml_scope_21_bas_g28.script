@@ -8,9 +8,9 @@ function on_xml_read()
             -- Here is my code to change XML
             local arm_scope = 
 [[
-  <wpn_crosshair_valday x="0" y="0" width="2048" height="1536">
+  <wpn_crosshair_g28 x="0" y="0" width="2048" height="1536">
     <auto_static x="224" y="0" width="576" height="768" stretch="1">
-      <texture>wpn_crosshair_valday</texture>
+      <texture>wpn_crosshair_g28</texture>
     </auto_static>
     <auto_static x="0" y="0" width="224" height="768" stretch="1">
       <texture>wpn_crosshair_add_l</texture>
@@ -18,7 +18,7 @@ function on_xml_read()
     <auto_static x="800" y="0" width="224" height="768" stretch="1">
       <texture>wpn_crosshair_add_r</texture>
     </auto_static>
-  </wpn_crosshair_valday>
+  </wpn_crosshair_g28>
 ]]
             xml_obj:insertFromXMLString(arm_scope)
         end

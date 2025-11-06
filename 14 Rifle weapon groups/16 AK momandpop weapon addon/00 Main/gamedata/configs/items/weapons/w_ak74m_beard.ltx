@@ -3,7 +3,7 @@
 GroupControlSection		= spawn_group
 $npc					= on
 $prefetch				= 8
-$spawn					= "weapons\wpn_ak74m_beard"
+$spawn					= "weapons\ak74m_beard"
 scheduled				= off
 cform					= skeleton
 parent_section			= wpn_ak74m_beard
@@ -19,7 +19,7 @@ single_handed			= 0
 default_to_ruck			= false
 sprint_allowed			= true
 
-icons_texture			= ui\ui_icon_bas_akstandard
+icons_texture			= ui\ui_icon_bas_akmisc
 inv_grid_width			= 5
 inv_grid_height			= 2
 inv_grid_x				= 0
@@ -194,9 +194,8 @@ snd_switch_mode		= weapons\generic\switch_mode
 ;----------------------------------------------------------------HUD------------------------------------------------------------------------------------
 [wpn_ak74m_beard_hud]:hud_base
 item_visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_hud.ogf
-
 attach_place_idx	= 0
-zoom_hide_crosshair	= true	
+zoom_hide_crosshair	= true
 
 hands_position		= -0.055, -0.14, 0.1
 hands_orientation	= 1.5, 2.5, 0
@@ -210,19 +209,17 @@ gl_hud_offset_rot	= -0.0595, 0.022, 0
 lean_hud_offset_pos	= 0, 0, 0
 lean_hud_offset_rot	= 0, 0, 0
 
-;-------
 aim_hud_offset_pos_16x9	= -0.057300,0.023600,-0.023300
 aim_hud_offset_rot_16x9	= 0.005862,0.007610,0.000000
 
 hands_position_16x9		= -0.010601,0.009849,-0.232680
 hands_orientation_16x9	= 0.418684,0.339962,0.000000
 
-item_position			= 0.004374,-0.000073,-0.000082
-item_orientation		= 0.000000,0.000000,0.000000
+item_position		= 0.004374,-0.000073,-0.000082
+item_orientation	= 0.000000,0.000000,0.000000
 
 aim_hud_offset_alt_pos_16x9	= -0.075775,-0.051400,-0.003275
 aim_hud_offset_alt_rot_16x9	= 0.003701,0.013207,0.783423
-;-------
 
 lowered_hud_offset_pos_16x9	= 0.1,0,0
 lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
@@ -232,7 +229,7 @@ anm_hide				= ak74_eft_ins_hide
 anm_idle				= ak74_eft_ins_idle
 anm_idle_sprint			= ak74_eft_ins_idle_sprint
 anm_idle_moving			= ak74_eft_ins_idle_moving, idle, 0.9
-anm_idle_moving_crouch	= ak74_eft_ins_idle_moving, idle, 0.4;	ak74_eft_ins_idle, idle
+anm_idle_moving_crouch	= ak74_eft_ins_idle_moving, idle, 0.4; ak74_eft_ins_idle, idle
 anm_shots				= ak74_eft_ins_shoot, shoot
 ;anm_shots_aim			= ak74_eft_ins_shoot_aim, shoot
 anm_reload				= ak74_eft_ins_reload, reload, 1.5
@@ -255,7 +252,6 @@ freelook_z_offset_mul	= 0.1
 ;--------------------------------------------------------------------Addons-----------------------------------------------------------------------------
 [wpn_ak74m_beard_ekp8_02]:wpn_ak74m_beard
 hud					= wpn_ak74m_beard_ekp8_02_hud
-
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 1icon_layer			= ekp8_02
@@ -265,7 +261,7 @@ visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 inv_weight			= 3.273
 
 [wpn_ak74m_beard_ekp8_02_hud]:wpn_ak74m_beard_hud
-item_visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_ekp8_02_hud.ogf
+item_visual	= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_ekp8_02_hud.ogf
 
 aim_hud_offset_pos_16x9	= -0.056500,-0.003000,-0.050000
 aim_hud_offset_rot_16x9	= 0.001362,0.008110,0.000000
@@ -288,7 +284,6 @@ aim_hud_offset_rot_16x9	= 0.001362,0.008110,0.000000
 ;--------------------------------------------------------------------------------------
 [wpn_ak74m_beard_okp]:wpn_ak74m_beard
 hud					= wpn_ak74m_beard_okp_hud
-
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 1icon_layer			= okp
@@ -304,14 +299,14 @@ aim_hud_offset_pos_16x9	= -0.052800,0.009400,-0.023300
 aim_hud_offset_rot_16x9	= 0.003862,0.007610,0.000000
 ;------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_1p29]:wpn_ak74m_beard
+hud					= wpn_ak74m_beard_1p29_hud
+visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+
 1icon_layer			= 1p29
 1icon_layer_x		= 56
 1icon_layer_y		= 2
 
 inv_weight			= 3.8
-
-hud					= wpn_ak74m_beard_1p29_hud
-visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 scope_status		= 1
 scope_dynamic_zoom	= off
@@ -332,7 +327,6 @@ aim_hud_offset_alt_rot_16x9	= 0.002701,0.014207,0.783423
 ;-----------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_pso2]:wpn_ak74m_beard
 hud					= wpn_ak74m_beard_pso2_hud
-
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 1icon_layer			= pso2
@@ -370,7 +364,6 @@ aim_hud_offset_rot_16x9	= 0.005862,0.007610,0.000000
 ;--------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_pka]:wpn_ak74m_beard
 hud					= wpn_ak74m_beard_pka_hud
-
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 1icon_layer			= pka
@@ -406,7 +399,6 @@ aim_hud_offset_rot_16x9	= 0.002362,0.008110,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_1pn93]:wpn_ak74m_beard
 hud					= wpn_ak74m_beard_1pn93_hud
-
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 1icon_layer			= 1pn93
@@ -436,15 +428,14 @@ hands_position_16x9		= -0.003101,-0.017851,-0.215080
 hands_orientation_16x9	= 0.478684,0.339962,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_ac10632]:wpn_ak74m_beard
-visual	= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf			
+visual	= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+hud				= wpn_ak74m_beard_ac10632_hud
 
 1icon_layer		= ac10632
 1icon_layer_x	= 125
 1icon_layer_y	= -4
 
 inv_weight		= 3.115
-
-hud				= wpn_ak74m_beard_ac10632_hud
 
 [wpn_ak74m_beard_ac10632_hud]:wpn_ak74m_beard_hud
 item_visual	= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_ac10632_hud.ogf
@@ -454,14 +445,13 @@ aim_hud_offset_rot_16x9	= 0.000862,0.008110,0.000000
 ;-------------------------------------------------------------------------------
 [wpn_ak74m_beard_eot]:wpn_ak74m_beard
 visual	= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+hud				= wpn_ak74m_beard_eot_hud
 
 1icon_layer		= eot
 1icon_layer_x	= 140
 1icon_layer_y	= -6
 
 inv_weight		= 3.3
-
-hud				= wpn_ak74m_beard_eot_hud
 
 [wpn_ak74m_beard_eot_hud]:wpn_ak74m_beard_hud
 item_visual	= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_eot_hud.ogf
@@ -487,7 +477,6 @@ aim_hud_offset_rot_16x9	= 0.000362,0.008110,0.000000
 ;--------------------------------------------------------------------------------
 [wpn_ak74m_beard_d0cter]:wpn_ak74m_beard
 visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
-
 hud				= wpn_ak74m_beard_d0cter_hud
 
 inv_weight		= 3.03
@@ -504,7 +493,6 @@ aim_hud_offset_rot_16x9	= 0.003862,0.008110,0.000000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_mepro]:wpn_ak74m_beard
 visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
-
 hud				= wpn_ak74m_beard_mepro_hud
 
 inv_weight		= 3.372
@@ -521,7 +509,6 @@ aim_hud_offset_rot_16x9	= -0.001138,0.008110,0.000000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_aim_low]:wpn_ak74m_beard
 visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
-
 hud				= wpn_ak74m_beard_aim_low_hud
 
 inv_weight		= 3.105
@@ -538,7 +525,6 @@ aim_hud_offset_rot_16x9	= 0.003362,0.008110,0.000000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_ekp8_18]:wpn_ak74m_beard
 visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
-
 hud				= wpn_ak74m_beard_ekp8_18_hud
 
 inv_weight		= 3.273
@@ -555,7 +541,6 @@ aim_hud_offset_rot_16x9	= -0.000138,0.008110,0.000000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_e0t2]:wpn_ak74m_beard
 visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
-
 hud				= wpn_ak74m_beard_e0t2_hud
 
 inv_weight		= 3.227
@@ -571,15 +556,14 @@ aim_hud_offset_pos_16x9	= -0.057300,-0.010000,-0.039300
 aim_hud_offset_rot_16x9	= 0.000362,0.007610,0.000000
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_deltapoint]:wpn_ak74m_beard
-inv_weight		= 3.041
-
+visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 hud				= wpn_ak74m_beard_deltapoint_hud
 
 1icon_layer		= deltapoint
 1icon_layer_x	= 140
 1icon_layer_y	= 1
 
-visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+inv_weight		= 3.041
 
 scope_status	= 0
 
@@ -592,15 +576,14 @@ aim_hud_offset_pos_16x9	= -0.057600,0.002100,-0.032800
 aim_hud_offset_rot_16x9	= 0.002362,0.008110,0.000000
 ;----------------------------------------------------------------------------------------
 [wpn_ak74m_beard_rmr]:wpn_ak74m_beard
-inv_weight		= 3.034
-
+visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 hud				= wpn_ak74m_beard_rmr_hud
 
 1icon_layer		= rmr
 1icon_layer_x	= 140
 1icon_layer_y	= -2
 
-visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+inv_weight		= 3.034
 
 scope_status	= 0
 
@@ -613,14 +596,14 @@ aim_hud_offset_pos_16x9	= -0.057300,0.006000,-0.023300
 aim_hud_offset_rot_16x9	= 0.002862,0.007610,0.000000
 ;-------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_1p78gs]:wpn_ak74m_beard
+hud					= wpn_ak74m_beard_1p78gs_hud
+visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+
 1icon_layer			= 1p78gs
 1icon_layer_x		= 60
 1icon_layer_y		= -5
 
 inv_weight			= 3.500
-
-hud					= wpn_ak74m_beard_1p78gs_hud
-visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 scope_status		= 1
 scope_dynamic_zoom	= off
@@ -673,7 +656,6 @@ aim_hud_offset_rot_16x9	= 0.002362,0.007610,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_1pn93n2_1gs]:wpn_ak74m_beard
 hud					= wpn_ak74m_beard_1pn93n2_1gs_hud
-
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 1icon_layer			= 1pn93n2_1gs
@@ -703,15 +685,14 @@ hands_position_16x9		= -0.002301,-0.001951,-0.221080
 hands_orientation_16x9	= 0.508684,0.339962,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_kemper]:wpn_ak74m_beard
-inv_weight		= 3.266
-
+visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 hud				= wpn_ak74m_beard_kemper_hud
 
 1icon_layer		= kemper
 1icon_layer_x	= 125
 1icon_layer_y	= -6
 
-visual			= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+inv_weight		= 3.266
 
 scope_status	= 0
 
@@ -724,14 +705,14 @@ aim_hud_offset_pos_16x9	= -0.057100,-0.012000,-0.023300
 aim_hud_offset_rot_16x9	= -0.000138,0.007610,0.000000
 ;------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_usp1]:wpn_ak74m_beard
+hud					= wpn_ak74m_beard_usp1_hud
+visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+
 1icon_layer			= usp1
 1icon_layer_x		= 56
 1icon_layer_y		= 2
 
 inv_weight			= 3.800
-
-hud					= wpn_ak74m_beard_usp1_hud
-visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
 scope_status		= 1
 scope_dynamic_zoom	= off
@@ -748,9 +729,8 @@ hands_position_16x9		= -0.008201,-0.007951,-0.224080
 hands_orientation_16x9	= 0.418684,0.339962,0.000000
 ;-----------------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_pritseldob]:wpn_ak74m_beard
-hud					= wpn_ak74m_beard_pritseldob_hud
-
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
+hud					= wpn_ak74m_beard_pritseldob_hud
 
 inv_grid_width		= 5
 inv_grid_height		= 2
@@ -774,8 +754,6 @@ aim_hud_offset_pos_16x9	= -0.045600,0.007800,-0.040600
 aim_hud_offset_rot_16x9	= 0.005862,0.007610,0.000000
 ;---------------------------------------------------------------------------------------------
 [wpn_ak74m_beard_kashtan_rmr]:wpn_ak74m_beard
-inv_weight			= 3.575
-
 hud					= wpn_ak74m_beard_kashtan_rmr_hud
 visual				= dynamics\weapons\wpn_ak74m_beard\wpn_ak74m_beard_world.ogf
 
@@ -783,6 +761,8 @@ inv_grid_width		= 5
 inv_grid_height		= 2
 inv_grid_x			= 0
 inv_grid_y			= 4
+
+inv_weight			= 3.575
 
 scope_status		= 1
 scope_dynamic_zoom	= off

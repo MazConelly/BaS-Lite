@@ -75,35 +75,74 @@ k_bullet_speed		= 1.15
 
 tier				= 2
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; [ammo_23_eco]:ammo_base
-; GroupControlSection	= spawn_group
-; discovery_dependency=
-; $spawn				= "weapons\ammo\ammo_20x70_buck"
-; class				= AMMO_S
-; cform				= skeleton
-; visual				= dynamics\weapons\wpn_ammo\ammo_12x70_buck.ogf
-; $prefetch			= 64
+[ammo_23_eco]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency=
+$spawn				= "weapons\ammo\ammo_20x70_buck"
+class				= AMMO_S
+cform				= skeleton
+visual				= dynamics\weapons\wpn_ammo\ammo_12x70_buck.ogf
+$prefetch			= 64
 
-; cost				= 3500
+cost				= 3500
 
-; box_size			= 1
+box_size			= 1
 
-; inv_name			= ammo_23_eco
-; inv_name_short		= ammo_23_eco_s
-; description			= ammo_23_eco_descr
-; inv_weight			= .05
+inv_name			= ammo_23_eco
+inv_name_short		= ammo_23_eco_s
+description			= ammo_23_eco_descr
+inv_weight			= .05
 
-; icons_texture		= ui\ui_icon_bas_23x75
-; inv_grid_width		= 2
-; inv_grid_height 	= 1
-; inv_grid_x			= 4
-; inv_grid_y			= 3
+icons_texture		= ui\ui_icon_bas_23x75
+inv_grid_width		= 2
+inv_grid_height 	= 1
+inv_grid_x			= 4
+inv_grid_y			= 3
 
-; k_disp				= 0.5
-; k_impulse			= 0.15
-; k_ap				= 0.01
-; tracer_color_ID		= 1
-; wm_size				= 0.048
-; k_air_resistance	= 0.15
+k_disp				= 0.5
+k_impulse			= 0.15
+k_ap				= 0.01
+tracer_color_ID		= 1
+wm_size				= 0.048
+k_air_resistance	= 0.15
 
-; tier				= 2
+tier				= 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[ammo_23_igi_eco]:ammo_base
+GroupControlSection	= spawn_group
+discovery_dependency=
+$spawn				= "weapons\ammo\ammo_20x70_buck"
+class				= AMMO_S
+cform				= skeleton
+visual				= dynamics\weapons\wpn_ammo\ammo_12x70_buck.ogf
+description			= ammo_23_eco_descr
+$prefetch			= 64
+cost				= 3500
+can_trade			= false
+
+box_size			= 1
+inv_name			= ammo_23_igi_eco
+inv_name_short		= ammo_23_igi_eco
+inv_name_short		= ammo_23_igi_eco_s
+inv_weight			= .05
+
+icons_texture		= ui\ui_icon_igi
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 5
+inv_grid_y			= 0
+
+k_disp				= 0.5
+k_impulse			= 0.15
+k_ap				= 0.01
+tracer_color_ID		= 1
+wm_size				= 0.048
+k_air_resistance	= 0.15
+tier				= 2
+
+; OWA compat
+k_dist				= 1
+k_hit				= 1
+buck_shot			= 1
+impair				= 1.80

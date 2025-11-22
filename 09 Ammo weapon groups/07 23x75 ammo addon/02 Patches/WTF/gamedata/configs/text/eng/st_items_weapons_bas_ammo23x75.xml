@@ -20,6 +20,31 @@
 		<text>23mm shell with a pointed steel bullet. Employed to forcibly stop vehicles by destroying the engine block. Application range up to 100 meters. Imported by esoteric stalkers for hunting very large creatures.</text>
 	</string>
 
+	 <string id="st_ammo_23_eco">
+		<text>Ecolog-23 cartridge (BaS)</text>
+	</string>
+	<string id="st_ammo_23_eco_s">
+		<text>Ecolog-23</text>
+	</string> 
+	<string id="st_ammo_23_eco_descr">
+		<text>A special cartridge designed for the needs of the scientific staff located in the Zone. Depending on the task, it is filled with different types of solutions. Requires very careful handling. How to use: very slowly put into the weapon.\n%c[d_purple] • %c[ui_gray_2] Highest pierced armor class: %c[ui_gray_1]none\n%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]none\n%c[ui_gray_1]SPECIAL:\n%c[d_purple] • %c[ui_gray_2] Using a thin wolfram needle, it pierces the skin of the mutants to inject the solution.</text>
+	</string>
+
+	<string id="ammo_new_23_eco">
+		<text>23x75 "Cloudkill" Cartridge</text>
+	</string>
+	<string id="ammo_new_23_eco_s">
+		<text>23x75 Poison Cloud</text>
+	</string>
+	<string id="ammo_new_23_eco_descr">
+		<text>Special use cartridge developed by the Ecologist faction, part of an ongoing joint study with Duty. This cartridge contains a hollow metal ball filled with a liquid toxin derived from chemical anomalies. On impact with a target, the toxin vaporizes into a chemical cloud that severely weakens the targets and produces a similar effect on any nearby targets. Against all targets it induces lethargy and weakness, making them more susceptible to impacts and other forms of damage. With mutants specifically, the round weakens their ability to exert force, reducing the strength of their attacks. Specially ordered by Duty to increase the chances of surviving highly dangerous mutant raids by weakening the stronger monsters.</text>
+	</string>
+
+	<string id="st_ballistics_toxic">
+		<text>creates weakening toxin clouds</text>
+	</string>
+
+
 	<string id="st_wpn_ks23">
 		<text>KS-23 (BaS)</text>
 	</string>
@@ -42,7 +67,7 @@
 	<string id="st_wpn_ks23_kaban_descr">
 		<text>Shortened version of KS-23 with removable metal stock. 23 mm - Soviet multi-functional police pump-action shotgun, designed to suppress riots, selective force, mental and chemical effects on offenders. Interestingly, having a caliber of more than 20 mm and a rifled barrel, the KS-23 should not be classified as small arms, but as small-caliber artillery.\n
 		%c[ui_gray_2]ATTACHMENTS: Boar Tactical Kit for KS-23M Drozd.</text>
-	</string>	
+	</string>
 
 	<string id="st_wpn_ks23_kaban_kab_up">
 		<text>KS-23 Boar (BaS)</text>
@@ -54,12 +79,12 @@
 		%c[d_purple] • %c[ui_gray_2] Silencer: KZRZP suppressor</text>
 	</string>
 
-<!-- 	<string id="st_wpn_ks23_ecolog">
+	<string id="st_wpn_ks23_ecolog">
 		<text>ÊS-23 Ecolog (BaS)</text>
 	</string>
 	<string id="st_wpn_ks23_ecolog_descr">
-		<text>Modification of KS-23, developed for the needs of the scientific staff located in the Zone.\n </text>
-	</string> -->
+		<text>Modification of KS-23, developed for the needs of the scientific staff located in the Zone.</text>
+	</string>
 
 	<string id="st_addon_scope_23_up">
 		<text>510 mm Barrel for KS-23 (BaS)</text>
@@ -78,4 +103,5 @@
 		%c[ui_gray_2]COMPATIBILITY:\n
 		%c[d_cyan] • %c[ui_gray_2] Carabine KS-23M Drozd</text>
 	</string>
+
 </string_table>

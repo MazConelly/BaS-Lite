@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 	<string id="st_ammo_9x21_sp10">
-		<text>9x21 mm SP10 (BaS)</text>
+		<text>9x21mm SP10 rounds</text>
+	</string>
+	<string id="ammo_new_9x21_sp10_s">
+		<text>9x21 SP10</text>
 	</string>
 	<string id="st_ammo_9x21_sp10_descr">
-		<text>
-		Pistol cartridge with a bullet of increased penetration. Designed to destroy manpower protected by personal protective equipment. The nose part of the heat-strengthened steel core protrudes from the shell, due to which a high penetration effect of the bullet is achieved.\n
-		%c[ui_gray_2] - %c[ui_gray_2] Armor penetration power: %c[ui_gray_1]BR4\n
-		%c[ui_gray_2] - %c[ui_gray_2] Flesh damage power: %c[ui_gray_1]medium</text>
+		<text>Pistol cartridge with a bullet of increased penetration. Designed to destroy manpower protected by personal protective equipment. The nose part of the heat-strengthened steel core protrudes from the shell, due to which a high penetration effect of the bullet is achieved. Succeeded by the 9mm 7N21 and 7N31 special-issue rounds.</text>
 	</string>
 
 	<string id="st_wpn_sr1m">

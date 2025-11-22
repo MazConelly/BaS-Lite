@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 	<string id="st_ammo_20x70_buck">
-		<text>20x70 buckshot round (BaS)</text>
+		<text>20x70 Buckshot shells</text>
 	</string>
 	<string id="st_ammo_20x70_buck_s">
-		<text>20x70 shot</text>
+		<text>20x70 Buck</text>
 	</string>
 	<string id="st_ammo_20x70_buck_descr">
-		<text>
-		Standard 20-caliber round filled with 6 mm buckshot. Highly lethal at close range. Only suitable for use with smooth-bore weapons\n
-		%c[d_purple] - %c[ui_gray_2] Highest pierced armor class: %c[ui_gray_1]none\n
-		%c[d_purple] - %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]medium - high\n
-		%c[ui_gray_1]SPECIAL:\n
-		%c[d_purple] - %c[ui_gray_2] expanding cloud of pellets, short eff. range
-		</text>
+		<text>Standard 20-caliber shell filled with 5 6mm buckshot pellets. Highly lethal at close range. Due to the reduced powder charge it suffers from reduced power compared to 12 gauge shotguns. The lighter recoil makes it more popular for novice hunters. Only suitable for use with smoothbore weapons.</text>
 	</string>
 
 	<string id="st_wpn_toz106">

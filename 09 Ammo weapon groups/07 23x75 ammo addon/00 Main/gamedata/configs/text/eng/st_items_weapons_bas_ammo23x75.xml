@@ -3,7 +3,7 @@
 	<string id="st_ammo_23x75_shrapnel">
 		<text>23x75mm "Shrapnel-25" shells</text>
 	</string>
-	<string id="ammo_new_23x75_shrapnel_s">
+	<string id="st_ammo_23x75_shrapnel_s">
 		<text>23x75mm Shrapnel</text>
 	</string>
 	<string id="st_ammo_23x75_shrapnel_descr">
@@ -13,7 +13,7 @@
 	<string id="st_ammo_23x75_barrikada">
 		<text>23x75mm "Barrikada" shells</text>
 	</string>
-	<string id="ammo_new_23x75_barrikada_s">
+	<string id="st_ammo_23x75_barrikada_s">
 		<text>23x75mm Barrikada</text>
 	</string>
 	<string id="st_ammo_23x75_barrikada_descr">

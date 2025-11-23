@@ -2,7 +2,7 @@
 ;-------------------SILENCERS------------
 ;-------------------------------------------------------------------------------
 [wpn_sil_sr1m]:wpn_addon_silencer
-visual          = dynamics\weapons\wpn_addon_world_models\wpn_sil_sr1m_world.ogf
+visual			= dynamics\weapons\wpn_addon_world_models\wpn_sil_sr1m_world.ogf
 cost			= 4100
 inv_weight		= 0.490
 description		= st_addon_sil_sr1m_descr
@@ -11,11 +11,11 @@ inv_name_short	= st_addon_sil_sr1m
 inv_grid_width	= 2
 inv_grid_height	= 1
 inv_grid_x		= 0
-inv_grid_y		= 3
+inv_grid_y		= 4
 icons_texture	= ui\ui_icon_bas_9x21
 ;-------------------------------------------------------------------------------
 [wpn_sil_veresk]:wpn_addon_silencer
-visual          = dynamics\weapons\wpn_addon_world_models\wpn_sil_veresk_world.ogf
+visual			= dynamics\weapons\wpn_addon_world_models\wpn_sil_veresk_world.ogf
 cost			= 13100
 inv_weight		= 0.480
 description		= st_addon_sil_veresk_descr
@@ -23,20 +23,17 @@ inv_name		= st_addon_sil_veresk
 inv_name_short	= st_addon_sil_veresk
 inv_grid_width	= 2
 inv_grid_height	= 1
-inv_grid_x		= 0
+inv_grid_x		= 2
 inv_grid_y		= 4
 icons_texture	= ui\ui_icon_bas_9x21
-
 ;-------------------------------------------------------------------------------
 ;----------------------------------ADDONS---------------------------------------
 ;-------------------------------------------------------------------------------
-
 ![addons_table]
 ; sr1upgr1	= scope
 kp_sr2		= scope
 ; gurza_up	= scope
 ; sr2_upkit	= scope
-
 ;-------------------------------------------------------------------------------
 ; [sr1upgr1]:addon
 ; visual			= dynamics\weapons\wpn_addon_world_models\wpn_case_sr1upgr1_world.ogf
@@ -47,8 +44,8 @@ kp_sr2		= scope
 ; inv_weight		= 0.450
 ; inv_grid_width	= 2
 ; inv_grid_height	= 1
-; inv_grid_x		= 2
-; inv_grid_y		= 4
+; inv_grid_x		= 0
+; inv_grid_y		= 5
 ; repair_type		= scope
 ; icons_texture	= ui\ui_icon_bas_9x21
 ; ;-------------------------------------------------------------------------------
@@ -61,8 +58,8 @@ kp_sr2		= scope
 ; inv_weight		= 0.100
 ; inv_grid_width	= 2
 ; inv_grid_height	= 2
-; inv_grid_x		= 4
-; inv_grid_y		= 4
+; inv_grid_x		= 2
+; inv_grid_y		= 5
 ; repair_type		= scope
 ; icons_texture	= ui\ui_icon_bas_9x21
 ;-------------------------------------------------------------------------------
@@ -75,8 +72,8 @@ description		= st_addon_scope_kp_sr2_descr
 inv_weight		= 0.230
 inv_grid_width	= 1
 inv_grid_height	= 1
-inv_grid_x		= 3
-inv_grid_y		= 5
+inv_grid_x		= 4
+inv_grid_y		= 4
 repair_type		= scope
 icons_texture	= ui\ui_icon_bas_9x21
 ;--------------------------------------------------------------------------------
@@ -89,15 +86,15 @@ icons_texture	= ui\ui_icon_bas_9x21
 ; inv_weight		= 0.500
 ; inv_grid_width	= 3
 ; inv_grid_height	= 2
-; inv_grid_x		= 6
-; inv_grid_y		= 4
+; inv_grid_x		= 4
+; inv_grid_y		= 5
 ; repair_type		= scope
 ; icons_texture	= ui\ui_icon_bas_9x21
 ;-------------------------------------------------------------------------------
 
 
 ![wpn_sr1m]
-scopes	= ; sr1upgr1, gurza_up
+<scopes	= sr1upgr1, gurza_up
 
 ![wpn_sr2_veresk]
-scopes	= kp_sr2 ;, sr2_upkit
+<scopes	= sr2_upkit

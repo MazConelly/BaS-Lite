@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_addon_scope">
+		<text>PSO-1M Scope (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>%c[ui_gray_1]PSO (for Pritsel Snaipersky Optichesky, "Optical Sniper Sight") is a series of Soviet-made optical scopes produced by Novosibirsk Instrument-Making Plant (NPZ Optics State Plant). In common use since 1964 when it was introduced as a standard issue telescopic sight for SVD sniper rifle. The scope has been later adapted to assault rifles such as AK-74 or AN-94. Recognized for its durability, versatility and very well-designed reticle pattern featuring convenient range-finder scale. This particular scope has 4.0x magnification rate, making it usable mainly for combat at long ranges. It is attached to weapons by means of a dovetail mount, which is standard in Warsaw Pact countries.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]4.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]PSO-1</text>
+	</string>
+
+	<string id="st_addon_scope_1p29">
+		<text>1P29 "Tulip" Scope (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_1p29_descr">
+		<text>%c[ui_gray_1]The USP-1 sight (index 1P29) has an optical arrangement with a prism-erecting system. Sighting angles are set mechanically by turning the sight body relative to the weapon mounting bracket. Requires no batteries as it is tritium illuminated. The ranging scale at the edge of the sight's field of view provides a means to find visually the range of up to 1200 m of a target 1.5 m high.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]4.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]PSU-1</text>
+	</string>
+
+	<string id="st_addon_scope_ac10632">
+		<text>Barska AC10632 Sight (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_ac10632_descr">
+		<text>%c[ui_gray_1]The Barska Electro Sight Multi Reticle Red Dot Sight AC10632 was developed in order to be the best product for anybody looking for a high quality sights. Can be mounted on NATO weapons and on AK-12.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]none (collimator)\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]very good</text>
+	</string>
+
+	<string id="st_addon_scope_acog">
+		<text>ACOG Scope (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>%c[ui_gray_1]ACOG stands for Advanced Combat Optical Gunsights and refers to a family of firearm scopes produced by the Trijicon company. Scopes of this type are usually of high quality and have an internal tritium-based reticle illumination. This particular type has a USMC-style reticle and features adjustable magnification.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]4x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]very good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]USMC</text>
+	</string>
+
+	<string id="st_addon_scope_eotech">
+		<text>EOTech 553 Sight (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_eotech_descr">
+		<text>%c[ui_gray_1]Holographic sight for NATO assault rifles and sub-machine guns.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]none (collimator)\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]very good</text>
+	</string>
+
+	<string id="st_addon_scope_galil_susat">
+		<text>Galil 4.0x Scope (SUSAT)</text>
+	</string>
+	<string id="st_addon_scope_galil">
+		<text>Galil 4.0x Scope</text>
+	</string>
+	<string id="st_addon_scope_galil_descr">
+		<text>%c[ui_gray_1]Optical sight for the Israeli IMI Galil rifle.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] automatic rifle Galil AR\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]4.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]SUSAT</text>
+	</string>
+
+	<string id="st_addon_scope_kobra">
+		<text>EKP 1S-03 "Kobra" Sight (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_kobra_descr">
+		<text>%c[ui_gray_1]The Kobra sight is an open collimator combat optic using a laser generated HUD to superimpose a reticle pattern onto a filtered lens. It is designed for engaging fast moving targets and targets appearing for a short period of time in close quarters and urban combat in various light conditions. It provides clear targeting from 104 lx to 10-2 lx (daylight, twilight and moonlight), one or two eye targeting. Effective when shooting from moving vehicles.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1] none (collimator)\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]very good</text>
+	</string>
+
+	<string id="st_addon_scope_po4x34">
+		<text>PO4x34 Scope</text>
+	</string>
+	<string id="st_addon_scope_po4x34_descr">
+		<text>%c[ui_gray_1]Optical sight for the OTs-14 weapon series.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] OTs-14 weapon series\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]4.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]4x34</text>
+	</string>
+
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>PSO-1M2-1 Scope (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>%c[ui_gray_1]The PSO-1M2-O1 features an extremely effective and useful height-based rangefinder for dual use, with graduated scales for both standing and prone figure estimation. The 400 meter Simonov height based gradient (choke style) rangefinder has a chevron for use with the 9x39 caliber rifles.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] all Warsaw Pact rifles\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]4.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]very good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]PSO-1-1</text>
+	</string>
+
+	<string id="st_addon_scope_pu">
+		<text>PU Scope</text>
+	</string>
+	<string id="st_addon_scope_pu_descr">
+		<text>%c[ui_gray_1]Standard-issue telescopic sight of the Red Army in World War II and years after it, designed to fit infantry and precision rifles such as Mosin-Nagant or SVT-40. It features a fixed 3.5x zoom making it a good choice for long-distance combat. Like all Soviet designs, it is durable and effective, remaining in production and use to this day.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] historic Russian rifles\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]3.5x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]average\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]PU</text>
+	</string>
+
+	<string id="st_addon_scope_zf4">
+		<text>ZF-4 Scope</text>
+	</string>
+	<string id="st_addon_scope_zf4_descr">
+		<text>%c[ui_gray_1]ZF-4 is one of the first telescopic sights ever created. Designed and manufactured in Germany during World War II, it was intended to provide regular infantry with the ability to fight at long distances. In the end, due to insufficient numbers produced, it has been primarily used by German snipers and elite combat squads. The scope is still in use since weapons it has been designed for are commonly available, hence it remains a relatively popular model in the Zone as well.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] historic German rifles\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]2.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]ZF-41</text>
+	</string>
+
+	<string id="st_addon_scope_cmore">
+        <text>C-MORE Tactical Sight (BaS+Van)</text>
+    </string>
+    <string id="st_addon_scope_cmore_descr">
+        <text>High performance red dot sight that provides an unlimited field of view, while eliminating obstruction and tunnel vision common to tube style scopes. The Railway series has a standard rail base pre-installed to allow the sight to be attached to most Weaver or Picatinny rail mounts or receivers.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]none (collimator)\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n</text>
+    </string>
+	
+	<string id="st_addon_scope_ac11090">
+        <text>AC11090 Sight</text>
+    </string>
+    <string id="st_addon_scope_ac11090_descr">
+        <text>Cheap 2x magnification red dot sight for NATO assault rifles, sub-machine guns and on AK-12.</text>
+    </string>
+	
+	<string id="st_addon_sil_45">
+		<text>.45 ACP suppressor</text>
+	</string>
+	<string id="st_addon_sil_45_descr">
+		<text>%c[ui_gray_1]Suppressor for .45 ACP pistols and sub-machine guns.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] .45 caliber weapons\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high (pistol)</text>
+	</string>
+
+	<string id="st_addon_sil_57">
+		<text>5.7x28 suppressor (BaS+Van) </text>
+	</string>
+	<string id="st_addon_sil_57_descr">
+		<text>%c[ui_gray_1]Suppressor for the FN-P90 PDW and FN Five-seveN pistol.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 5.7 mm caliber weapons\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+
+	<string id="st_addon_sil_6p9">
+		<text>6P9 suppressor</text>
+	</string>
+	<string id="st_addon_sil_6p9_descr">
+		<text>%c[ui_gray_1]Suppressor for the PB pistol.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm caliber weapons\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very good</text>
+	</string>
+
+	<string id="st_addon_sil_9a91">
+		<text>9A-91/VSK-94 suppressor</text>
+	</string>
+	<string id="st_addon_sil_9a91_descr">
+		<text>%c[ui_gray_1]Suppressor for the 9A-91 carbine and VSK-94.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 9x39 caliber weapons\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high</text>
+	</string>
+
+	<string id="st_addon_sil_9mm">
+		<text>9mm suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_9mm_descr">
+		<text>%c[ui_gray_1]Suppressor for 9mm pistols and sub-machine guns. An effective sound suppressor for caliber 9x18 weapons. It is very archaic and yet quite effective. Its body contains a tightly-packed roll of fine brass mesh. The front of the unit comprises a set of rubber wipes with caliber-sized holes for the bullet to pass through. Normally used for close-combat engagements against armored enemies and for assassinations.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm caliber weapons\n		
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high</text>
+	</string>
+
+	<string id="st_addon_sil_aps">
+		<text>APS suppressor</text>
+	</string>
+	<string id="st_addon_sil_aps_descr">
+		<text>%c[ui_gray_1]Suppressor for the OTs-33 "Pernach" pistol.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm caliber weapons\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_atg">
+		<text>ATG suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_atg_descr">
+		<text>%c[ui_gray_1]The tactical automatic silencer (ATG) is designed to reduce the sound and fierceness of the shot when firing from 5.45 mm Kalashnikov assault rifles AK74, AKS74, AK74M, AK105; 5.56 mm Kalashnikov assault rifles AK101 and AK102, as well as 7.62 mm Kalashnikov assault rifles AK103 and AK104.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 5.45, 5.56, 7.62 Cal.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_gemtech">
+		<text>Gemtech suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_gemtech_descr">
+		<text>%c[ui_gray_1]Suppressor for the Glock, FN-FNP, Walther etc.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 9 mm, .45 caliber weapons\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+
+	<string id="st_addon_sil_kzrzp">
+		<text>KZRZP suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_kzrzp_descr">
+		<text>%c[ui_gray_1]Suppressor for the SVD sniper rifle.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 7.62 caliber weapons\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_nato">
+		<text>NATO suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_nato_descr">
+		<text>%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] .45, 5.56, 7.62 caliber weapons\n
+		%c[ui_gray_1]Suppressor for the standard NATO 5.56x45mm caliber rifles.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+
+	<string id="st_addon_sil_pbs1">
+		<text>PBS-1 suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_pbs1_descr">
+		<text>%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 7.62 caliber weapons\n
+		%c[ui_gray_1]Suppressor for noiseless and flameless firing from Kalashnikov 7.62mm.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_pbs4">
+		<text>PBS-4 suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_pbs4_descr">
+		<text>%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 5.45 caliber weapons\n
+		%c[ui_gray_1]Suppressor for AKS-74U rifle.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_sr25">
+		<text>SR-25 suppressor</text>
+	</string>
+	<string id="st_addon_sil_sr25_descr">
+		<text>
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 7.62 mm caliber weapons\n
+		%c[ui_gray_1]Suppressor for the SR-25\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high</text>
+	</string>
+
+	<string id="st_addon_sil_tgp-a">
+		<text>TGP-A suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_sil_tgp-a_descr">
+		<text>%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 5.45 caliber weapons\n
+		%c[ui_gray_1]Suppressor for AK rifle series and RPK-74 machine guns.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_sil_vihr">
+		<text>SR-3M suppressor</text>
+	</string>
+	<string id="st_addon_sil_vihr_descr">
+		<text>%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 9x39 caliber weapons\n
+		%c[ui_gray_1]Suppressor for the SR-3M rifle.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]very high</text>
+	</string>
+
+	<string id="st_addon_silencer">
+		<text>US Army small-bore rifle suppressor (BaS+Van)</text>
+	</string>
+	<string id="st_addon_silencer_descr">
+		<text>
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 5.56x45 caliber weapons\n
+		%c[ui_gray_1]Advanced rifle suppressor of US design and manufacture, which has apparently 'disappeared' from one of the US Army supply containers. It consists of hi-grade steel body filled with four extension chambers, followed by a series of Z-type titanium baffles. The unit almost completely reduces muzzle flash and considerably suppresses sound emitted when firing. It also requires minimum maintenance. Suppressors of this and similar types are commonly used on all small-bore Western-made rifles and remain in active service in Western armed forces.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]medium</text>
+	</string>
+
+	<string id="st_addon_silencer_svu">
+		<text>SVU suppressor</text>
+	</string>
+	<string id="st_addon_silencer_svu_descr">
+		<text>
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] SVU rifles\n
+		%c[ui_gray_1]This specially designed three-chambered suppressor is not intended to completely silence the SVU rifle since the soldier would not be using subsonic ammunition. Its main purpose is to quiet and diffuse the noise enough to make detection by the enemy difficult. Its special feature is a very effective muzzle break placed on end of suppressor, capable of reducing recoil by about 40%. Above capabilities come at the cost of reduced muzzle velocity and thus significantly lower the weapon's damage output.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]low\n
+		%c[ui_gray_1]SPECIAL:\n
+		%c[d_red] • %c[ui_gray_2] enhanced recoil reduction</text>
+	</string>
+
+	<string id="st_addon_trijicon_acog">
+		<text>ACOG Scope (BaS+Van)</text>
+	</string>
+	<string id="st_addon_trijicon_acog_descr">
+		<text>Detachable optical scope made specifically for NATO rifles. ACOG stands for Advanced Combat Optical Gunsights and refers to a family of firearm scopes produced by the Trijicon company. Scopes of this type are usually of high quality and have an internal tritium-based reticle illumination. This particular type has a modern 'trijicon' reticle pattern and fixed magnification of 2.0x.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]2.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]very good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]trijicon</text>
+	</string>
+
+	<string id="st_addon_scope_okp-7">
+		<text>OKP-7 Sight (dovetail mount) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_okp-7_descr">
+		<text>The original design can be used under any conditions, and also, if necessary, allows the use of a standard mechanical device. The main feature of the sight is the mount of the reflector without a mechanical frame, covering an appreciable part of the firing sector. Reflector protection in extreme conditions is provided by a thin and durable metal visor, which practically does not interfere with firing.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_rmr">
+		<text>Trijicon RMR Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_rmr_descr">
+		<text>Trijicon RMR (RMR) is a compact reflex sight. The RM07C is an LED sight powered by a standard CR2032 battery. Housed in rugged forged aluminum, it's extremely tough yet lightweight. The easy-to-use adjusters with audible clicks allow for quick windage and elevation adjustments. Featuring eight available brightness settings, the reticle can be manually adjusted by pressing the plus or minus buttons on either side of the unit. To switch to auto adjust mode, simply press both buttons simultaneously and release.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_aimpoint">
+		<text>Aimpoint Micro T1 Sight (high spacer) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_aimpoint_descr">
+		<text>No matter what your mission, the size and weight of your equipment is a critical factor. With the Aimpoint® Micro T-1, Aimpoint has introduced an aiming system that provides the performance of our full-sized sights in a small package.\n
+		Since its introduction in 2007, the Aimpoint® Micro T-1 has become very popular worldwide due to its size, light weight and robust build quality.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_ekp8_02">
+		<text>EKP 8-02 "Cobra" Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_ekp8_02_descr">
+		<text>The Cobra sight provides confident aiming in natural light conditions (bright sunny day, deep twilight and moonlit night) due to the presence of 16 levels of manual brightness adjustment of the aiming mark. The location of the aiming mark and target in the same plane allows for aiming with both one and two eyes, which creates an unlimited field of view for the shooter, and conduct effective high-speed shooting at quickly moving, small and suddenly appearing for a short time targets.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_specterDR">
+		<text>ELCAN SpecterDR Scope (BaS)</text>
+	</string>
+	<string id="st_addon_scope_specterDR_descr">
+		<text>The SpecterDR 4x/1x Dual Role Optical Sight represents a revolution in optical sight design. The world’s first truly dual field of view combat optical sight, the SpecterDR switches instantly from a 4x magnified sight to a 1x CQB sight with the throw of a lever. Unlike zoom sights, the SpecterDR offers an optimized optical path and identical eye relief in both 4x and 1x modes.\n
+		Depending upon the situation, the user may adjust the sight to illuminate the cross-hair or just a brilliant red dot in the center. In 1x mode, the SpecterDR has by far the largest field of view in the industry. In 4x mode the SpecterDR offers a generous field of view, long eye relief, and ELCAN’S legendary crystal clear image.\n
+		The SpecterDR 4x/1x offers the best single solution for both Medium Range and CQB engagements and is designed to withstand the rigors of modern professional use. (The scope has back up iron sights on top of it).\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_pso2">
+		<text>PSO-1М Scope (no eyecup) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_pso2_descr">
+		<text>Military grade sniper optical scope PSO 1M2-1, manufactured by Zenit-Belomo. This optical scope is designed for precision sight fire with Special Sniper Rifle (VSS) and Dragunov Sniper Rifle (SVD) on the variety of targets with 4x magnification and 6 degree FOV.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_0kp2">
+		<text>OKP-7 Sight (For Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_0kp2_descr">
+		<text>The original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing. This variant is installed on the dovetail type mount.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_d0cter">
+		<text>Docter Sight III (BaS)</text>
+	</string>
+	<string id="st_addon_scope_d0cter_descr">
+		<text>The Docter Optic Sight III Red Dot Sight features a high-strength monoblock housing, water-tight desing, infinitely adjustable reticle, three magnet-controlled illuminated dot intensities, automatic illuminated dot regulation, anatomically adapted brightness progression, battery indicator, control cap with safety strap eyelet, and easy mounting.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_1p59">
+		<text>1P59 "Giperon" pancratic sniper Scope (BaS)</text>
+	</string>
+	<string id="st_addon_scope_1p59_descr">
+		<text>The Giperon pancratic sniper sights are designed for target reconnaissance and aimed fire from sniper rifles, and providing for automatic input of the sighting angle during target ranging. Compared to the organic PSO-1 sight, the 1P59 Giperon pancratic sight improves the effectiveness of SVD fire 1.3-2 times (depending on the target range and size) through a greater magnification, a more accurate rangefinder, combining target ranging and sighting angle input operations, as well as the sighting angle input scale incorporated within the field of view of the sight.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_1pn93">
+		<text>1PN93-4 Night Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_1pn93_descr">
+		<text>The 1PN93 SVD night sights are designed for target detection and recognition and aimed fire at point-blank range under natural night illumination conditions. 1PN93-4 is Gen. 3 of night optic.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_pks">
+		<text>PKS-07 (NOT IN USE) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_pks_descr">
+		<text>PKS-07 Tactical Sniper Sight w/ Dual Black/Red Rangefinding Reticle, Universal AK/SKS/SVD Version is a unique sniper scope based on collimator technology. The scope was created in LOMO (Saint-Petersburg, Russia) especially for the VSK-94 sniper platform. As it was technologically more advanced as well as lighter, the Russian military has chosen it over the PSO-3 as the standard optic for the SV-98. We offer an AA version with linearly marked elevation turrets, exclusively imported by Kalinka Optics It fits AK and SVD rifles and is optimized for use on SVD, Tigr, PSL Mosin and similar rifles. It's fully coated prismatic lens system provides a remarkable, high contrast, wide angle field of view and lower eyepiece location for comfortable aiming. The scope has an illuminated rangefinding reticle. The scope has POSP-style windage and elevation adjustments (every elevation turret' click moves POI by 4.5 cm at 100 m, every windage turret' click moves POI by 2.5 cm at 100 m). The special protective lens coatings protect the scope from scratching and fouling in the extreme battlefield conditions where it was designed to operate. Notice the extreme temperature rating on this scope, you'll quit before it will. It comes with a cover case and rubber eyepiece. A definite BEST CHOICE!</text>
+	</string>
+
+	<string id="st_addon_scope_leupold">
+		<text>Leupold Mark 8 CQBSS 1.1-8x24 Scope (BaS)</text>
+	</string>
+	<string id="st_addon_scope_leupold_descr">
+		<text>From close quarters to long range target engagements, the Leupold Mark 8 CQBSS 1.1-8x24mm incorporates everything Military, Law Enforcement and Competition shooters need into one extremely versatile riflescope. The illuminated front focal plane reticles provide accurate range estimation throughout the entire zoom range. Eight brightness settings ensure optimal visibility of the illuminated reticle in all lighting conditions and are compatible with night vision devices. An off position between each numbered brightness setting ensures long battery life and nearly instant return to the desired reticle intensity.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_mepro">
+		<text>Meprolight M21 Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_mepro_descr">
+		<text>Meprolight Mepro M21 is a battle-proven red dot sight, tested in the harshest conditions imaginable.
+		It doesn’t work on a battery but is powered by a fibre optic collector system during the day and by tritium at night – when all other sights fail, M21 will continue to work.\n
+		With a QD-detachable mount, you will be able to mount and dismount this sight from the Picatinny platform in a matter of seconds.\n
+		it can be paired with night vision goggles and scopes which greatly increases its usability.
+		Meprolight is an Israeli company, founded in 1990. They offer includes day optical devices, night vision devices, thermal imaging devices, self-illuminated night sights, etc. Their products have been tested to withstand the harshest conditions imaginable, which is why they are popular with the military and law enforcement. The company complies with NATO and US military specifications as well as International MIL Standards.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_aim_low">
+		<text>Aimpoint Micro T1 Sight (low spacer) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_aim_low_descr">
+		<text>No matter what your mission, the size and weight of your equipment is a critical factor. With the Aimpoint® Micro T-1, Aimpoint has introduced an aiming system that provides the performance of our full-sized sights in a small package.\n
+		Since its introduction in 2007, the Aimpoint® Micro T-1 has become very popular worldwide due to its size, light weight and robust build quality.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_aimpoint_pro">
+		<text>Aimpoint PRO Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_aimpoint_pro_descr">
+		<text>Aimpoint Patrol Rifle Optic is designed with input from a distinguished group of current and former professionals. The Patrol Rifle Optic incorporates many never before seen features to maximize this sight's performance within the challenging conditions faced by modern law enforcement.\n
+		The Aimpoint® PRO sight comes in a ready-to-go kit at a budget friendly price, a concept that appeals strongly to Law Enforcement units.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_1p76">
+		<text>1P76 "Rakurs-А" Sight (for Dovetail mount) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_1p76_descr">
+		<text>The 1P76 optical sight designed for battlefield surveillance, target selection, target ranging and aimed fire against luminous and illuminated targets during the day, at dusk and at night.\n
+		The sights have a wide field of view that allows for quick terrain observation in a fast-moving combat situation simultaneously with the naked eye and through the sight without loss of target visibility.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_pka">
+		<text>PK-A Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_pka_descr">
+		<text>Another long time favorite, the PK-A is a sturdy and robust red dot tube optic. Originally appearing to be an adaptation of the original PSO SVD optic, the PK-A has a similar construction and the same style of hammer grey finish.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_ekp8_18">
+		<text>EKP 8-18 "Kobra" Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_ekp8_18_descr">
+		<text>Kobra Military 8-18 Red Dot Weaver Rifle Scope, Screw Mount. The world famous Kobra is an open collimator "red dot" combat optic using laser-generated "heads-up display" (HUD) technology to superimpose a reticle pattern onto a filtered lens which acts as an aiming device for the shooter. This system presents an unobstructed field of view, in 1x power which allows for extremely comfortable, "both eyes open" shooting.\n
+		On average, most users will see a 1.5 times faster target acquisition and a 50% smaller shot group at 100 meters, in comparison to the iron sights. It is designed for engaging fast moving targets and targets appearing for a short period of time in close quarters and urban combat situations in various light conditions.\n
+		It provides clear targeting from 104 lx to 10-2 lx (daylight, twilight and moonlight), one- or two-eye targeting, is very effective when shooting from moving vehicles, and allows for perfect kill shots on fast-moving, small and spontaneously appearing targets.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_deltapoint">
+		<text>Deltapoint PRO Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_deltapoint_descr">
+		<text>The DeltaPoint Pro is proof that you don’t have to compromise performance, even on a small sight. Its incredibly wide field-of-view and crystal-clear glass dominates the competition, while its rugged aluminum housing and steel sheath ensure it will perform in the harshest conditions. Ease-of-use was also a focus when designing this elite red dot sight, which is why we put an easy access battery compartment on top and gave it click-adjustments for more precision. And this isn't just a pistol sight either; the DP Pro is just as at home on ARs, shotguns, and pretty much anything else that goes bang.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_e0t2">
+		<text>EOTech XPS3-0 Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_e0t2_descr">
+		<text>The XPS3 is smaller and lighter than all other holographic weapon sights but just as fast. Law enforcement officers and hunters appreciate the light weight and compact size for carrying convenience on the job and in the woods. The XPS3 runs on a single 123 battery. The single-lithium-battery configuration allows more rail space, leaving more room for rear-iron sights, magnifiers, or a night vision mount.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_pn23">
+		<text>PN-23 Night Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_pn23_descr">
+		<text>The PN23 is a dedicated night vision sight. It features a compact size teamed with a useful 3x magnification range. This provides an impressive 400 meter recognition range with a very wide field of view at 12°. The illuminated reticle is designed to provide both speed and precision.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_gauss_sight">
+		<text>EOTS-62 Scope (BaS)</text>
+	</string>
+	<string id="st_addon_scope_gauss_sight_descr">
+		<text>(In current beta version of BaS this scope is not working. Don't buy!) The Electroptical Targeting System EOTS-62, was developed by in secret laboratories inside the Zone for use with ultra-precise weapon known as “Type 62”. It can be mounted on a “Picatinny rail” type mount. Has a target detection function.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_marchf">
+		<text>March Tactical 3-24x42 FFP Scope (BaS)</text>
+	</string>
+	<string id="st_addon_scope_marchf_descr">
+		<text>March Tactical 3-24x42 First Focal Plane scope, reliable and accurate with ammunition of any power. Made by japanese DEON Optical Design Corporation company. The March-F 3-24x42 Tactical Riflescope is the go to scope for both long range hunters and tactical shooters all over the world. The scope has a 42mm objective lens made of extra low dispersion optical glass that allows for a bright and clear sight picture in most light conditions. The scope features tactical exposed turrets for windage and elevation, parallax correction from 10 yards to infinity, and an Illuminated tactical reticle in the first focal plane.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_rakurs">
+		<text>1P76 "Rakurs-А" Sight (for Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_rakurs_descr">
+		<text>The 1P76 optical sight designed for battlefield surveillance, target selection, target ranging and aimed fire against luminous and illuminated targets during the day, at dusk and at night.\n
+		The sights have a wide field of view that allows for quick terrain observation in a fast-moving combat situation simultaneously with the naked eye and through the sight without loss of target visibility.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_compm4s">
+		<text>Aimpoint CompM4s Sight (for Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_compm4s_descr">
+		<text>The Aimpoint® CompM4s sight, with low battery compartment, belongs to the CompM4 series of sights which are the finest sights Aimpoint has ever produced. Improvements include advanced energy efficiency that provides up to 8 years of continuous use from a single AA battery!\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_susat">
+		<text>SUSAT Scope for Picatinny/weaver mount (BaS)</text>
+	</string>
+	<string id="st_addon_scope_susat_descr">
+		<text>SUSAT is 4X optical sight, developed in the UK at the Royal Arms Research and Development Center. Manufactured by Avimo as well as United Scientific Instruments. It is most often used for aimed fire from light small arms at medium and long distances. (The scope has back up iron sights on top of it).\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_1p78gs">
+		<text>1P78 Kashtan Scope (BaS)</text>
+	</string>
+	<string id="st_addon_scope_1p78gs_descr">
+		<text>1P78 is one of the newest optics to enter into service with the Russian armed forces. The design is similar in concept to the ACOG with a relatively low magnification (2.8x) and ability to point and shoot without having to adjust any controls.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_1pn93n2_1gs">
+		<text>1PN93-1 Night Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_1pn93n2_1gs_descr">
+		<text>The generation 2 night sight with fixed magnification (4 diopters). Option 1PN93-1 is designed for combat in conditions of poor visibility at medium distances. Designed for mounting on weapons with standard dovetail mount (like Warsaw Treaty countries).\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
+	</string>
+
+	<string id="st_addon_scope_kemper">
+		<text>Firefield Kemper XL-M Reflex Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_kemper_descr">
+		<text>The Kemper XL-M is a panoramic open red dot sight, ideal for high-speed shooting, offhand shooting and shooting at moving targets. Unlike the civilian model, the "M" -armic variant of the sight is made of a more durable aluminum alloy - i.e. Specially designed for harsh environments. Installed on Weaver/Picatinny rails.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Picatinny/weaver rail</text>
+	</string>
+
+	<string id="st_addon_scope_usp1">
+		<text>1P29 "Tulpan" Scope (No Eyecup) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_usp1_descr">
+		<text>%c[ui_gray_1]The USP-1 sight (index 1P29) has an optical arrangement with a prism-erecting system. Sighting angles are set mechanically by turning the sight body relative to the weapon mounting bracket. Requires no batteries as it is tritium illuminated. The ranging scale at the edge of the sight's field of view provides a means to find visually the range of up to 1200 m of a target 1.5 m high.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]4.0x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]good\n
+		%c[d_purple] • %c[ui_gray_2] Reticle pattern: %c[ui_gray_1]PSU-1</text>
+	</string>
+
+	<string id="st_addon_scope_trijicon_rmr">
+		<text>Trijicon ACOG & RMR Tactical Kit (for Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_trijicon_rmr_descr">
+		<text>This tactical kit includes two scopes made by Trijicon US company, a Trijicon ACOG BAC 5.56 BDC scope and a Trijicon RMR sight for rifles that have Picatinny or weaver mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
+	</string>
+
+	<string id="st_addon_scope_mark8_rmr">
+		<text>Leupold & RMR Tactical Kit (for Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_mark8_rmr_descr">
+		<text>This tactical kit includes a Leupold Mark 8 CQBSS scope and a Trijicon RMR sight for rifles that have Picatinny or weaver mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
+	</string>
+
+	<string id="st_addon_scope_pritseldob">
+		<text>PSO & RMR Tactical Kit (for dovetail mount and Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_pritseldob_descr">
+		<text>This tactical kit includes a PSO-1М2-1 scope and a Trijicon RMR sight for rifles that have both dovetail and Picatinny mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
+	</string>
+
+	<string id="st_addon_scope_spec_alt">
+		<text>SpecterDR & RMR Tactical Kit (for Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_spec_alt_descr">
+		<text>This tactical kit includes a SpecterDR DFOV14-C2 1-4x scope and a Trijicon RMR sight for rifles that have Picatinny or weaver mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
+	</string>
+
+	<string id="st_addon_scope_kashtan_rmr">
+		<text>1P78 Kashtan & RMR Tactical Kit (for dovetail mount and Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_kashtan_rmr_descr">
+		<text>This tactical kit includes a 1P78 Kashtan scope and a Trijicon RMR sight for rifles that have both dovetail and Picatinny mounts. This setup allows shooter to use his rifle on short and long distances without any discomfort.</text>
+	</string>
+
+	<string id="st_addon_scope_pn23fore">
+		<text>PN-23 "Nozzle" Night Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_pn23fore_descr">
+		<text>%c[ui_gray_1]A variant of the PN-23 sight, repeating the functionality of such systems as STIC - i.e. the sight is attached in front of the standard one.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2]Some sniper rifles with integrated scopes (BaS)</text>
+	</string>
+</string_table>

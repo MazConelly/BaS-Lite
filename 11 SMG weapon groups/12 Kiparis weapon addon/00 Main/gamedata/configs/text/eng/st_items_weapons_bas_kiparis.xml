@@ -47,4 +47,15 @@
 		%c[d_purple] • %c[ui_gray_2] Scopes: Small scopes for Picatinny/weaver such as Trijicon Acog and Red Dot Sights.\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: 9mm supressor</text>
 	</string>
+
+	<string id="st_addon_scope_okep77">
+		<text>OKP-77 (For Picatinny/weaver) (BaS)</text>
+	</string>
+	<string id="st_addon_scope_okep77_descr">
+		<text>The original design can be used under any conditions, and also, if necessary, allows the use of a standard mechanical device. The main feature of the sight is the mount of the reflector without a mechanical frame, covering an appreciable part of the firing sector. Reflector protection in extreme conditions is provided by a thin and durable metal visor, which practically does not interfere with firing.\n
+		%c[ui_gray_1]This sight differs from the OKP-7 in a less cumbersome mount, which allows you to install the collimator on a short Picatinny rail on the Kiparis SMG.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2]OTs-02 Kiparis (BaS)</text>
+	</string>
+
 </string_table>

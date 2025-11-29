@@ -53,7 +53,7 @@
 		%c[d_purple] • %c[ui_gray_2] Scopes: All scopes for Picatinny/weaver\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: AAC 7.62 SDN-6</text>
     </string>
-	
+
 	<string id="st_addon_scope_kit_aus_tri">
 		<text>"Scout" Tactical kit for SA58 FAL AUS (BaS)</text>
 	</string>

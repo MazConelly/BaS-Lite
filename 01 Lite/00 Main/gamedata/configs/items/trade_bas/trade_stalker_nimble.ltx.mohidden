@@ -1,0 +1,5 @@
+[common_supplies]
+
+[supplies_1]:common_supplies
+
+[supplies_2]:supplies_1

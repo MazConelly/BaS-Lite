@@ -19,7 +19,7 @@
 		<text>The development of the SA80 system, which included two weapons - the SA80 IW assault rifle and SA80 LSW light machine gun, began in the late 1960s when the British Army decided to develop a new rifle, to replace the ageing 7.62x51mm L1 SLR British made FN FAL. The standard individual weapon for the British armed forces, the L85 (in its original A1 version) had numerous performance issues. The A2 variant came to be as the result of a significant upgrade in the early 2000s by Heckler & Koch and remains in service as of 2020. L85A2 is extremely reliable over a range of climates for various operational scenarios. The current L85A2 rifles are recognised as reliable and accurate, especially when using standard issue SUSAT telescope sights.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
         %c[d_purple] • %c[ui_gray_2] Upgraded: Picatinny rail installed on top of the native dovetail mount\n		
-		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO Silencer\n
 		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: none</text>
 	</string>
@@ -30,8 +30,8 @@
 	<string id="st_wpn_l85_m3_descr">
 		<text>The development of the SA80 system, which included two weapons - the SA80 IW assault rifle and SA80 LSW light machine gun, began in the late 1960s when the British Army decided to develop a new rifle, to replace the ageing 7.62x51mm L1 SLR British made FN FAL. The standard individual weapon for the British armed forces, the L85 (in its original A1 version) had numerous performance issues. The A2 variant came to be as the result of a significant upgrade in the early 2000s by Heckler & Koch and remains in service as of 2020. L85A2 is extremely reliable over a range of climates for various operational scenarios. The current L85A2 rifles are recognised as reliable and accurate, especially when using standard issue SUSAT telescope sights.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
-        %c[d_purple] • %c[ui_gray_2] Upgraded: Picatinny rail installed on top of the native dovetail mount, quadrail fore-end, foregrip and B.E. MEYERS MAWL-C1 tactical green laser aim modul.\n		
-		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
+        %c[d_purple] • %c[ui_gray_2] Upgraded: Picatinny rail installed on top of the native dovetail mount, quadrail fore-end, foregrip and B.E. MEYERS MAWL-C1 tactical green laser aim module.\n		
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO Silencer\n
 		%c[d_purple] • %c[ui_gray_2] Grenade Launcher: Heckler&Koch M320</text>
 	</string>

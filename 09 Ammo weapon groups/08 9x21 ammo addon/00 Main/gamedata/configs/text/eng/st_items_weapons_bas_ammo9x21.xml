@@ -128,7 +128,7 @@
 		<text>Upgrade Kit for SR-2M Veresk SMG (BaS)</text>
 	</string>
 	<string id="st_addon_scope_sr2_upkit_descr">
-		<text>%c[ui_gray_1]The kit includes: tactical forend with picatinny rails, LAM and KP SR-2 Reflex Sight. This upgrade is irreversible.\n
+		<text>%c[ui_gray_1]The kit includes: tactical forend with Picatinny rails, LAM and KP SR-2 Reflex Sight. This upgrade is irreversible.\n
 		%c[ui_gray_2]COMPATIBILITY:\n
 		%c[d_cyan] • %c[ui_gray_2] SR-2M SMG</text>
 	</string>	

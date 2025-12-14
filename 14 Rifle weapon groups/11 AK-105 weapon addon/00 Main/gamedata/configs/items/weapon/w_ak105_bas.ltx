@@ -493,7 +493,7 @@ hands_orientation_16x9	= 1.252664,0.997510,-0.140000
 aim_hud_offset_alt_pos_16x9	= -0.051050,0.042925,-0.044250
 aim_hud_offset_alt_rot_16x9	= 0.017706,0.022549,-0.011500
 ;-----------------------------------------------------------------------------------------------------
-[wpn_ak105_bas_usp1]:wpn_ak105_bas																	
+[wpn_ak105_bas_usp1]:wpn_ak105_bas
 1icon_layer		= usp1
 1icon_layer_x	= 50
 1icon_layer_y	= 4
@@ -524,16 +524,19 @@ hands_orientation_16x9	= 1.252664,0.997510,-0.140000
 aim_hud_offset_alt_pos_16x9	= -0.059000,0.037655,-0.039850
 aim_hud_offset_alt_rot_16x9	= 0.015256,0.022499,-0.011500
 ;-----------------------------------------------------------------------------------------------------
-[wpn_ak105_bas_swamp]:wpn_ak105_bas																
+[wpn_ak105_bas_swamp]:wpn_ak105_bas
+$spawn				= "weapons\ak105_bas_swamp"
+parent_section		= wpn_ak105_bas_swamp
+
 inv_grid_width		= 5
 inv_grid_height		= 2
-inv_grid_x			= 4
+inv_grid_x			= 8
 inv_grid_y			= 0
 
 parent_section		= wpn_ak105_bas_swamp
 
 inv_name			= st_wpn_ak105_bas_swamp
-inv_name_short		= st_wpn_ak105_bas_swamp
+inv_name_short		= st_wpn_ak105_bas_swamp_s
 description			= st_wpn_ak105_bas_swamp_descr
 
 position			= -0.016, 0.0, 0.0
@@ -657,17 +660,19 @@ freelook_z_offset_mul	= 0.1
 lowered_hud_offset_pos_16x9	= 0.1,0.01,0
 lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
 ;-----------------------------------------------------------------------------------------------------
-[wpn_ak105_bas_shakal]:wpn_ak105_bas															
+[wpn_ak105_bas_shakal]:wpn_ak105_bas
+$spawn				= "weapons\ak105_bas_shakal"
+parent_section		= wpn_ak105_bas_shakal
 
 inv_grid_width		= 5
 inv_grid_height		= 2
-inv_grid_x			= 4
-inv_grid_y			= 2
+inv_grid_x			= 13
+inv_grid_y			= 0
 
 parent_section		= wpn_ak105_bas_shakal
 
 inv_name			= st_wpn_ak105_bas_shakal
-inv_name_short		= st_wpn_ak105_bas_shakal
+inv_name_short		= st_wpn_ak105_bas_shakal_s
 description			= st_wpn_ak105_bas_shakal_descr
 
 position			= -0.016, 0.0, 0.0

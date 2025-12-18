@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
 	<string id="st_ammo_9x21_sp10">
-		<text>9x21 mm SP10 (BaS)</text>
+		<text>9x21mm SP10 rounds</text>
+	</string>
+	<string id="st_ammo_9x21_sp10_s">
+		<text>9x21 SP10</text>
 	</string>
 	<string id="st_ammo_9x21_sp10_descr">
-		<text>
-		Pistol cartridge with a bullet of increased penetration. Designed to destroy manpower protected by personal protective equipment. The nose part of the heat-strengthened steel core protrudes from the shell, due to which a high penetration effect of the bullet is achieved.\n
+		<text>Pistol cartridge with a bullet of increased penetration. Designed to destroy manpower protected by personal protective equipment. The nose part of the heat-strengthened steel core protrudes from the shell, due to which a high penetration effect of the bullet is achieved. Succeeded by the 9mm 7N21 and 7N31 special-issue rounds.\n
 		%c[ui_gray_2] - %c[ui_gray_2] Armor penetration power: %c[ui_gray_1]BR4\n
 		%c[ui_gray_2] - %c[ui_gray_2] Flesh damage power: %c[ui_gray_1]medium</text>
 	</string>
 
 	<string id="st_wpn_sr1m">
 		<text>Serdyukov SR1MP Gyurza (BaS)</text>
+	</string>
+	<string id="st_wpn_sr1m_s">
+		<text>SR1MP (BaS)</text>
 	</string>
 	<string id="st_wpn_sr1m_descr">
 		<text>The Serdyukov semi-automatic pistol - also known as SPS and Gyurza (“Viper”), GRAU Index 6P53. Pistol designed for the Russian Federation special forces purposes by P. Serdyukov and I. Belyaev, for 9x21 mm cartridge.\n
@@ -22,7 +27,10 @@
 	</string>
 
 	<string id="st_wpn_sr1m_sr1upgr1">
-		<text>Serdyukov SR1MP Improved (BaS)</text>
+		<text>Serdyukov SR1MP Gyurza (Improved) (BaS)</text>
+	</string>
+	<string id="st_wpn_sr1m_sr1upgr1_s">
+		<text>SR1MP (Improved) (BaS)</text>
 	</string>
 	<string id="st_wpn_sr1m_sr1upgr1_descr">
 		<text>The Serdyukov semi-automatic pistol - also known as SPS and Gyurza (“Viper”), GRAU Index 6P53. Pistol designed for the Russian Federation special forces purposes by P. Serdyukov and I. Belyaev, for 9x21 mm cartridge.\n
@@ -43,9 +51,11 @@
 		%c[d_purple] • %c[ui_gray_2] Silencer: SR1MP silencer 9x21\n</text>
 	</string>
 
-
 	<string id="st_wpn_sr2_veresk">
 		<text>SR-2M Veresk (BaS)</text>
+  	</string>
+	<string id="st_wpn_sr2_veresk_s">
+		<text>SR-2M (BaS)</text>
   	</string>
   	<string id="st_wpn_sr2_veresk_descr">
 		<text>SR.2 "Veresk" is a Russian submachine gun (manufactured by TsNIITOCHMASH), designed to engage enemy personnel in close combat (at a distance of up to 200 m) using individual body armor. The main advantage of the SR-2 is its high firepower, high accuracy of fire and the destructive effect of a bullet at close range.\n
@@ -59,6 +69,9 @@
 	<string id="st_wpn_sr2_veresk_sr2_upkit">
 		<text>SR-2M Veresk (Upgraded) (BaS)</text>
   	</string>
+	<string id="st_wpn_sr2_veresk_sr2_upkit_s">
+		<text>SR-2M (Upgraded) (BaS)</text>
+  	</string>
   	<string id="st_wpn_sr2_veresk_sr2_upkit_descr">
 		<text>SR.2 "Veresk" is a Russian submachine gun (manufactured by TsNIITOCHMASH), designed to engage enemy personnel in close combat (at a distance of up to 200 m) using individual body armor. The main advantage of the SR-2 is its high firepower, high accuracy of fire and the destructive effect of a bullet at close range.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
@@ -67,6 +80,9 @@
 
 	<string id="st_wpn_sr2_m1">
 		<text>SR-2M Veresk (Modernized)(BaS)</text>
+  	</string>
+	<string id="st_wpn_sr2_m1_s">
+		<text>SR-2M (Modernized)(BaS)</text>
   	</string>
   	<string id="st_wpn_sr2_m1_descr">
 		<text>SR.2 "Veresk" is a Russian submachine gun (manufactured by TsNIITOCHMASH), designed to engage enemy personnel in close combat (at a distance of up to 200 m) using individual body armor. The main advantage of the SR-2 is its high firepower, high accuracy of fire and the destructive effect of a bullet at close range.\n
@@ -142,7 +158,7 @@
 		<text>Upgrade Kit for SR-2M Veresk SMG (BaS)</text>
 	</string>
 	<string id="st_addon_scope_sr2_upkit_descr">
-		<text>%c[ui_gray_1]The kit includes: tactical forend with picatinny rails, LAM and KP SR-2 Reflex Sight. This upgrade is irreversible.\n
+		<text>%c[ui_gray_1]The kit includes: tactical forend with Picatinny rails, LAM and KP SR-2 Reflex Sight. This upgrade is irreversible.\n
 		%c[ui_gray_2]COMPATIBILITY:\n
 		%c[d_cyan] • %c[ui_gray_2] SR-2M SMG</text>
 	</string>	 -->

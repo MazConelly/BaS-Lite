@@ -4,6 +4,9 @@
 	<string id="st_wpn_sig552_tac_siber">
 		<text>SIG SG552 Tac Commando (BaS)</text>
 	</string>
+	<string id="st_wpn_sig552_tac_siber_s">
+		<text>SIG552 Tactical (BaS)</text>
+	</string>
 	<string id="st_wpn_sig552_tac_siber_descr">
 		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities.\n
 		%c[ui_gray_2]ATTACHMENTS:\n

@@ -7,7 +7,7 @@
 		<text>23x75mm Shrapnel</text>
 	</string>
 	<string id="st_ammo_23x75_shrapnel_descr">
-		<text>23mm shell with 8 #00 pellets. Application range up to 25 meters. It is used for firing from the KS-23 carbine. Due to the fact that the barrel has rifling in the KS-23 carbine, the buckshot flies over a large area, which allows you to shoot offhand, practically without aiming. Fielded in limited quantities with the KS-23 as a hunting round for extremely tough mutants.\n</text>
+		<text>23mm shell with buckshot charge, fired from the KS-23 carbine, with a range up to 25 meters. Due to the rifling of the KS-23 barrel, the buckshot flies over a large area, which allows you to shoot offhand, practically without aiming. Fielded in limited quantities with the KS-23 as a hunting round for extremely tough mutants.\n</text>
 	</string>
 
 	<string id="st_ammo_23x75_barrikada">
@@ -17,9 +17,19 @@
 		<text>23x75mm Barrikada</text>
 	</string>
 	<string id="st_ammo_23x75_barrikada_descr">
-		<text>23mm shell with a pointed steel bullet. Employed to forcibly stop vehicles by destroying the engine block. Application range up to 100 meters. Imported by esoteric stalkers for hunting very large creatures.</text>
+		<text>23mm shell with a pointed steel bullet, fired from the KS-23 carbine, with a range up to 100 meters. Employed to forcibly stop vehicles by destroying the engine block. Imported by particular stalkers for hunting very large creatures.</text>
 	</string>
 
+<!--	 <string id="st_ammo_23_eco">
+		<text>Ecolog-23 cartridge (BaS)</text>
+	</string>
+	<string id="st_ammo_23_eco_s">
+		<text>Ecolog-23</text>
+	</string> 
+	<string id="st_ammo_23_eco_descr">
+		<text>A special cartridge designed for the needs of the scientific staff located in the Zone. Depending on the task, it is filled with different types of solutions. Requires very careful handling. How to use: very slowly put into the weapon.\n%c[d_purple] • %c[ui_gray_2] Highest pierced armor class: %c[ui_gray_1]none\n%c[d_purple] • %c[ui_gray_2] Tissue damage rating: %c[ui_gray_1]none\n%c[ui_gray_1]SPECIAL:\n%c[d_purple] • %c[ui_gray_2] Using a thin wolfram needle, it pierces the skin of the mutants to inject the solution.</text>
+	</string> -->
+	
 	<string id="st_wpn_ks23">
 		<text>KS-23 (BaS)</text>
 	</string>

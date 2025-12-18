@@ -3,6 +3,9 @@
 	<string id="st_wpn_howa20">
 		<text>Howa Type 20 (BaS)</text>
 	</string>
+	<string id="st_wpn_howa20_s">
+		<text>Howa 20 (BaS)</text>
+	</string>
 	<string id="st_wpn_howa20_descr">
 		<text>The Howa Type 20 Assault Rifle, referred to as the Type 20 5.56mm Rifle, is an ambidextrous assault rifle resistant to corrosion for exposure to seawater, developed for the Japan Ground Self-Defense Force by Howa. A small arms test was made by the JGSDF in 2018 to compare the HK416, SCAR-L, and Type 20. All three rifles satisfied the JGSDF's requirements of better environment durability, fire power and extensibility over the then-in-service Type 89, but the Type 20 received the highest score. It is speculated that the design was influenced by Japan's experience of procuring and utilizing a number of foreign rifles, and has been compared to the HK433 and the SCAR.\n
 		The J-3 high-power cartridge, a 5.56 mm round made to be powerful enough to penetrate modern body armor despite the rifle's relatively short barrel length, was developed specifically for the Type 20.\n

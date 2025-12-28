@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_rem700_aics">
+		<text>Remington 700 AICS (BaS)</text>
+	</string>
+	<string id="st_wpn_rem700_aics_descr">
+		<text>Model 700 rifles have been produced in the USA by Remington since 1962. It is possibly the most widely used bolt-action sniper and hunting rifle in the United States. It is the top product of Remington Arms. There are many variants of the rifle for different cartridges, however, the .338 Lapua Magnum cartridge was chosen for ammunition for this model for firing at long and extra-long distances.n
+		The rifle is fitted with a AICS (Accuracy International Chassis Systems) stock, 22" PGW Defense C14 fluted barrel and muzzle brake compensator, as well as a Badger Ordanance Embedded Front Rail for additional night sights.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Schmidt&Bender PM II 3-12x50 (included), PN-23 "Nozzle"\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: M700 .338LMn </text>
+	</string>
+
+	<string id="st_wpn_rem700_mcmillan">
+		<text>Remington 700 McMillan (BaS)</text>
+	</string>
+	<string id="st_wpn_rem700_mcmillan_descr">
+		<text>Model 700 rifles have been produced in the USA by Remington since 1962. It is possibly the most widely used bolt-action sniper and hunting rifle in the United States. It is the top product of Remington Arms. There are many variants of the rifle for different cartridges, however, the .338 Lapua Magnum cartridge was chosen for ammunition for this model for firing at long and extra-long distances.\n
+		The rifle is fitted with a McMillan A5 stock, 26" PGW Defense C14 fluted barrel and muzzle brake compensator, as well as a Badger Ordanance Embedded Front Rail for additional night sights.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes: Schmidt&Bender PM II 3-12x50 (included), PN-23 "Nozzle" \n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: M700 .338LM\n </text>
+	</string>
+
+</string_table>

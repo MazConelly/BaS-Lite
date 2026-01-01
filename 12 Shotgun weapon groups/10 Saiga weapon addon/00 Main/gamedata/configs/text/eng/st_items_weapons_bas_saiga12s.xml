@@ -24,9 +24,10 @@
 		<text>KS-12 Komrad ISG (BaS)</text>
 	</string>
 	<string id="st_wpn_saiga12s_isg_descr">
-		<text>Produced by Kalashnikov USA and based of the short-barreled Komrad semi-automatic rifle, a variant of their KS-12 which itself is a US development of the Saiga-12. It has been provided to members of ISG research teams to protect themselves from mutants. The weapon has both a dovetail mount and a Picatinny rail for use with various types of sights. This model has a new type of trigger mechanism, which allows you to fire a two rounds burst.\n
+		<text>A short barreled variant of the KS-12, itself a variant of the Saiga-12 semiautomatic shotgun, produced by Kalashnikov USA to work around the US ban on Russian guns. The weapon has a Picatinny rail for use with various types of sights, and includes a higher capacity magazine.\n
+		This model has a new type of trigger mechanism, which allows you to fire a two rounds burst, and both a dovetail mount and Picatinny rail for use with various types of sights. It has been provided to members of ISG research teams to protect themselves from mutants.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All Red Dot scopes for Picatinny/weaver.\n
 		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor</text>
-	</string>	
+	</string>
 </string_table>

@@ -236,7 +236,10 @@ shell_bone	= shell
 shell_point	= 0.000000, -0.093500, 0.010000
 ;-------------------------------------------------------------------ADDONS------------------------------------------------------------------------------
 [wpn_fal_aus_kit_aus_tri]:wpn_fal_aus
+parent_section	= wpn_fal_aus_kit_aus_tri
+
 visual			= dynamics\weapons\wpn_fal_aus\wpn_fal_aus_kit_aus_world.ogf
+hud				= wpn_fal_aus_kit_aus_tri_hud
 
 inv_name		= st_wpn_fal_aus_kit_aus_tri
 inv_name_short	= st_wpn_fal_aus_kit_aus_tri
@@ -248,12 +251,11 @@ inv_grid_x		= 0
 inv_grid_y		= 2
 
 inv_weight		= 4.455
+
 scope_status		= 1
 scope_texture		= wpn_crosshair_acog_rmr
 scope_zoom_factor	= 25
 zoom_rotate_time	= 0.25
-
-hud				= wpn_fal_aus_kit_aus_tri_hud
 
 [wpn_fal_aus_kit_aus_tri_hud]:wpn_fal_aus_hud
 item_visual	= dynamics\weapons\wpn_fal_aus\wpn_fal_aus_kit_aus_tri_hud.ogf
@@ -268,13 +270,14 @@ aim_hud_offset_alt_pos_16x9	= -0.076300,-0.046100,-0.054975
 aim_hud_offset_alt_rot_16x9	= 0.017951,0.026557,0.783423
 ;----------------------------------------------------------------------------------------------------------------------------
 [wpn_fal_aus_kit_sa5x_spec]:wpn_fal_aus
+parent_section	= wpn_fal_aus_kit_sa5x_spec
+
 visual			= dynamics\weapons\wpn_fal_aus\wpn_fal_aus_kit_aus_world.ogf
+hud				= wpn_fal_aus_kit_sa5x_spec_hud
 
 inv_name		= st_wpn_fal_aus_kit_sa5x_spec
 inv_name_short	= st_wpn_fal_aus_kit_sa5x_spec
 description		= st_wpn_fal_aus_kit_sa5x_spec_descr
-
-hud				= wpn_fal_aus_kit_sa5x_spec_hud
 
 inv_grid_width	= 6
 inv_grid_height	= 2
@@ -282,6 +285,7 @@ inv_grid_x		= 0
 inv_grid_y		= 4
 
 inv_weight		= 4.875
+
 scope_status	= 1
 scope_texture	= wpn_crosshair_specter
 scope_zoom_factor	= 25
@@ -301,20 +305,22 @@ aim_hud_offset_alt_pos_16x9	= -0.076300,-0.046100,-0.054975
 aim_hud_offset_alt_rot_16x9	= 0.017951,0.026557,0.783423
 ; ---------------------------------------------------------------------------------------------------------------------------
 [wpn_fal_aus_kit_fal_leup]:wpn_fal_aus
-visual				= dynamics\weapons\wpn_fal_aus\wpn_fal_aus_kit_aus_world.ogf
+parent_section	= wpn_fal_aus_kit_fal_leup
 
-inv_name			= st_wpn_fal_aus_kit_fal_leup
-inv_name_short		= st_wpn_fal_aus_kit_fal_leup
-description			= st_wpn_fal_aus_kit_fal_leup_descr
+visual			= dynamics\weapons\wpn_fal_aus\wpn_fal_aus_kit_aus_world.ogf
+hud				= wpn_fal_aus_kit_fal_leup_hud
 
-hud					= wpn_fal_aus_kit_fal_leup_hud
+inv_name		= st_wpn_fal_aus_kit_fal_leup
+inv_name_short	= st_wpn_fal_aus_kit_fal_leup
+description		= st_wpn_fal_aus_kit_fal_leup_descr
 
-inv_grid_width		= 6
-inv_grid_height		= 2
-inv_grid_x			= 0
-inv_grid_y			= 6
+inv_grid_width	= 6
+inv_grid_height	= 2
+inv_grid_x		= 0
+inv_grid_y		= 6
 
 inv_weight		= 4.785
+
 scope_status		= 1
 scope_texture		= wpn_crosshair_leupold_rmr
 scope_zoom_factor	= 7

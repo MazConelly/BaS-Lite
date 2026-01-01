@@ -23,4 +23,13 @@
 		%c[d_purple] • %c[ui_gray_2] Suppressor: M700 .338LM\n </text>
 	</string>
 
+	<string id="st_addon_sil_lapu7">
+		<text>M700 .338LM Sound Suppressor (BaS)</text>
+	</string>
+	<string id="st_addon_sil_lapu7_descr">
+		<text>%c[ui_gray_1]Sound suppressor with anti-heat casing for Remington M700 .338 Lapua Magnum\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Remington M700 .338 Lapua Magnum.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]Medium</text>
+	</string>
 </string_table>

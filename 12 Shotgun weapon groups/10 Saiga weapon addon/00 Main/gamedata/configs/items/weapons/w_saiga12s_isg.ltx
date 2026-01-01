@@ -1,5 +1,3 @@
-
-;---------------------------------------------------------------------------------------------
 ;------------------------------------------------------------------------------------------------
 [wpn_saiga12s_isg]:identity_immunities,weapon_probability,default_weapon_params;wpn_saiga_sounds
 GroupControlSection		= spawn_group
@@ -80,7 +78,7 @@ ammo_elapsed			= 10
 ammo_mag_size			= 10
 startup_ammo			= 90
 
-scopes					= ac10632, eot, c-more
+scopes					= ac10632, eot, c-more, 0kp2, d0cter, point_aimpro, aim_low, e0t2, rmr, deltapoint, compm4s, rakurs, kemper, aimpoint, mepro, ekp8_18
 scope_status			= 0
 scope_zoom_factor		= 0
 
@@ -179,26 +177,24 @@ hud_fov		= 0.78
 laser_status = true
 
 ;---------------------------------------------------------------------SND-------------------------------------------------------------------------------
-snd_draw	= weapons\saiga_eft\saiga_draw
-snd_holster	= weapons\saiga_eft\saiga_holster
-
-snd_shoot	= weapons\saiga12_young_prince\saiga12_shot_1
-snd_shoot1	= weapons\saiga12_young_prince\saiga12_shot_2
-snd_shoot2	= weapons\saiga12_young_prince\saiga12_shot_3
-snd_shoot3	= weapons\saiga12_young_prince\saiga12_shot_4
-
+snd_draw			= weapons\saiga_eft\saiga_draw
+snd_holster			= weapons\saiga_eft\saiga_holster
 snd_reload			= weapons\ak12custom\ak12_m1_reload
 snd_reload_empty	= weapons\ak12custom\ak12_m1_reload_empty
-snd_silncer_shot	= weapons\saiga_eft\saiga_shot_sil
 snd_empty			= weapons\protecta\protecta_empty
 snd_reload_misfire	= weapons\ak12custom\ak12_m1_misfire
+snd_shoot			= weapons\saiga12_young_prince\saiga12_shot_1
+snd_shoot1			= weapons\saiga12_young_prince\saiga12_shot_2
+snd_shoot2			= weapons\saiga12_young_prince\saiga12_shot_3
+snd_shoot3			= weapons\saiga12_young_prince\saiga12_shot_4
+snd_silncer_shot	= weapons\saiga_eft\saiga_shot_sil
 ;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
 [wpn_saiga12s_isg_hud]:hud_base
 item_visual	= dynamics\weapons\wpn_saiga12s_isg\wpn_saiga12s_isg_hud.ogf
 
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
-		
+
 hands_position		= -0.062, -0.18, 0.1655
 hands_orientation	= 0.55, 2.39, 0.15
 
@@ -232,14 +228,14 @@ anm_show				= ak74_eft_ins_vgrip_draw
 anm_hide				= ak74_eft_ins_vgrip_hide
 anm_idle				= ak74_eft_ins_vgrip_idle
 anm_idle_sprint			= ak74_eft_ins_vgrip_idle_sprint
-anm_idle_moving			= ak74_eft_ins_vgrip_idle_moving, idle	,0.8
-anm_idle_moving_crouch	= ak74_eft_ins_vgrip_idle_moving, idle	,0.4
+anm_idle_moving			= ak74_eft_ins_vgrip_idle_moving, idle, 0.8
+anm_idle_moving_crouch	= ak74_eft_ins_vgrip_idle_moving, idle, 0.4
 anm_shots				= ak74_eft_ins_vgrip_shoot, shoot
 ;anm_shots_aim			= ak74_eft_ins_vgrip_shoot_aim, shoot
-;anm_reload				= ak74_eft_ins_vgrip_reload, reload_vgrip	,1.5
-anm_reload				= ak74_eft_ins_vgrip_reload_60rnd, reload_vgrip	,1.5
-anm_reload_empty		= ak74_eft_ins_vgrip_reload_empty_60rnd, reload_empty_vgrip	,1.42
-;anm_reload_empty		= ak74_eft_ins_vgrip_reload_empty, reload_empty_vgrip	,1.42
+;anm_reload				= ak74_eft_ins_vgrip_reload, reload_vgrip, 1.5
+anm_reload				= ak74_eft_ins_vgrip_reload_60rnd, reload_vgrip, 1.5
+anm_reload_empty		= ak74_eft_ins_vgrip_reload_empty_60rnd, reload_empty_vgrip, 1.42
+;anm_reload_empty		= ak74_eft_ins_vgrip_reload_empty, reload_empty_vgrip, 1.42
 anm_idle_aim			= ak74_eft_ins_vgrip_idle_aim
 anm_bore				= ak74_eft_ins_vgrip_idle_bore
 anm_reload_misfire		= ak12_mono_ins_vgrip_misfire, misfire
@@ -253,7 +249,7 @@ fire_bone2	= wpn_body
 fire_point	= 0, 0.049711, 0.675578
 fire_point2	= 0, -0.029, 0.575
 
-freelook_z_offset_mul		= 0.7
+freelook_z_offset_mul	= 0.7
 ;--------------------------------------------------------------------Addons-----------------------------------------------------------------------------
 [wpn_saiga12s_isg_ac10632]:wpn_saiga12s_isg
 inv_weight		= 3.315

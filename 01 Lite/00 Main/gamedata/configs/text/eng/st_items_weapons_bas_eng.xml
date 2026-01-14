@@ -1,59 +1,5 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <string_table>
-<!-- 	<string id="st_not_in_use">
-        <text>Предмет не используется/The Item is not in use (BaS)</text>
-    </string>
-    <string id="st_not_in_use_descr">
-        <text>Предмет не используется/The Item is not in use </text>
-    </string> -->
-
-	<string id="st_knifebf4">
-        <text>The «OTs-04» Combat knife (BaS)</text>
-    </string>
-    <string id="st_knifebf4_descr">
-        <text>The OTs-04 knife was developed at the Tula Central Design Research Bureau (TsKIB) in the late 80s - early 90s and was intended for special forces of the Interior Ministry troops.</text>
-    </string>
-
-	<string id="st_kukri">
-        <text>Kukri (BaS)</text>
-    </string>
-    <string id="st_kukri_descr">
-        <text>This is a special blade made of high-carbon steel with excellent cutting and chopping properties. Ideal for cutting mutants of all stripes, and for protection against them.</text>
-		</string>
-
-	<string id="st_tactical_knife">
-		<text>Monolith's Blade (BaS)</text>
-	</string>
-	<string id="st_tactical_knife_descr">
-		<text>[RUSSIAN ACCENT "ON"] It is rumoured, these blades are produced in very a few by masters from a groupment Monolith. Threw composition of alloy not known - it is talked to extract him it is possible only in the heart of sarcophagus.[RUSSIAN ACCENT "OFF"]</text>
-	</string>
-
-	<string id="st_tomahawk">
-		<text>Gerber Downrange Tomahawk (BaS)</text>
-	</string>
-	<string id="st_tomahawk_descr">
-		<text>Tactical tomahawk, multi-tool and breaching tool, all-in-one solution.</text>
-	</string>
-
-	<string id="st_wpn_aug_a1_custom_bas">
-		<text>Steyr AUG A1 CQB (BaS)</text>
-	</string>
-	<string id="st_wpn_aug_a1_custom_bas_descr">
-		<text>Steyr AUG A1 in standard rifle configuration (military green colour). The AUG is an Austrian bullpup 5.56mm assault rifle, designed in the 1960s by Steyr Mannlicher GmbH&Co KG (formerly Steyr-Daimler-Puch). The AUG (Armee-Universal-Gewehr "universal army rifle") was adopted by the Austrian Army as the StG 77 (Sturmgewehr 77) in 1978, where it replaced the 7.62mm StG 58 automatic rifle (a licence-built FN FAL). In production since 1978, it is the standard small arm of the Austrian Bundesheer and various national police units. CQB - has less weight and increased rate of fire compared to the original.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] 1.5x scope (integrated).\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
-	</string>
-
-	<string id="st_wpn_aug_a3_custom_bas">
-		<text>Steyr AUG A3 Commando (BaS)</text>
-	</string>
-	<string id="st_wpn_aug_a3_custom_bas_descr">
-		<text>Steyr AUG (Armee Universal Gewehr - Army Universal Rifle) is an Austrian 5.56x45mm NATO bullpup assault rifle, designed in the 1960s by Steyr-Daimler-Puch and now manufactured by Steyr Mannlicher GmbH & Co KG. The Steyr AUG A3 differs from the base model in the presence of four Picatinny slats: the top one is used for attaching sights, a grenade launcher or a vertical front handle can be attached to the bottom, and a laser pointer or other necessary additional equipment is attached to the side.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Trijicon Acog (x4) and PEQ LA5 LAM.\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
-	</string>
 
 	<string id="st_wpn_howa20">
 		<text>Howa Type 20 (BaS)</text>
@@ -77,18 +23,6 @@
 		%c[d_purple] • %c[ui_gray_2] Installed Upgrades: Universal mount by NcStar with Trijicon RMR red dot sight.\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight, 1P76 Rakurs (low mount).\n
 		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor</text>
-	</string>
-
-	<string id="st_wpn_sig550_tac_siber">
-		<text>SIG SG550 Tactical (BaS)</text>
-	</string>
-	<string id="st_wpn_sig550_tac_siber_descr">
-		<text>Renowned for its high production quality and good performance, the SG 550 is often referred to as the finest 5.56 mm rifle ever made. It has a side-folding skeletonised buttstock and a lightweight aluminium bipod that folds into grooves in the lower handguard.\n
-		%c[ui_gray_2]ATTACHMENTS:\n
-	    %c[d_purple] • %c[ui_gray_2] Installed Upgrades: Tactical handguard, Vertical grip, AN/PEQ-16 Laser Aim modul and Tritium sights.\n
-		%c[d_purple] • %c[ui_gray_2] Scopes: All for Picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (Picatinny).\n
-		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor\n
-	    %c[d_purple] • %c[ui_gray_2] M203 grenade launcher</text>
 	</string>
 
 	<string id="st_wpn_usp_tac">

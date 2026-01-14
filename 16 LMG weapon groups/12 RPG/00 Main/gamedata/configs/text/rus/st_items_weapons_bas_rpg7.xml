@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_rpg7">
+		<text>РПГ-7 (BaS)</text>
+	</string>
+	<string id="st_wpn_rpg7_s">
+		<text>РПГ7</text>
+	</string>
+	<string id="st_wpn_rpg7_descr">
+		<text>Простота, прочность, низкая стоимость и эффективность РПГ-7 сделало его самым популярным безоткатным противотанковым орудием в мире. В настоящее время он выпускается в разных модификациях девятью странами и состоит на вооружении более 40 стран мира.\n \n
+		%c[ui_gray_2]НАВЕСНОЕ ОБОРУДОВАНИЕ: \n
+		%c[d_purple] • %c[ui_gray_2] прицел: ПГО-7В\n </text>
+	</string>
+
+</string_table>

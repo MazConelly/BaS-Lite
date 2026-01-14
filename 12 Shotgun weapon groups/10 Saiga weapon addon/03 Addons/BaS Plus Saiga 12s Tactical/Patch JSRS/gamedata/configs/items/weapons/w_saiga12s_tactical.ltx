@@ -3,7 +3,7 @@
 GroupControlSection			= spawn_group
 $npc						= on
 $prefetch					= 8
-$spawn						= "weapons\ak-74"
+$spawn						= "weapons\saiga12s_tactical"
 scheduled					= off
 cform						= skeleton
 parent_section				= wpn_saiga12s_tactical
@@ -19,7 +19,7 @@ single_handed				= 0
 default_to_ruck				= false
 sprint_allowed				= true
 
-icons_texture				= ui\ui_icon_bas_saiga		
+icons_texture				= ui\ui_icon_bas_saiga
 inv_grid_width				= 5
 inv_grid_height				= 2
 inv_grid_x					= 10
@@ -48,9 +48,8 @@ strap_orientation			= -15, -9, 110
 ph_mass						= 4
 
 flame_particles				= weapons\generic_weapon05
-;smoke_particles				= weapons\generic_shoot_00
-grenade_flame_particles		= weapons\generic_weapon01
 smoke_particles				= ghost_particles\weapons\flame_eft_shotgun
+grenade_flame_particles		= weapons\generic_weapon01
 
 shell_point					= 0.0, 0.138, 0.07
 shell_dir					= 0.0, 1.0, 0.0
@@ -79,17 +78,15 @@ ammo_elapsed				= 10
 ammo_mag_size				= 10
 startup_ammo				= 90
 
-scopes						= aimpoint, d0cter, rmr, ac10632, c-more, aim_low; eot, c-more, 0kp2, d0cter, aimpoint_pro, aim_low, e0t2, rmr, deltapoint, compm4s, rakurs, kemper, aimpoint, mepro, ekp8_18 
+scopes						= aimpoint, d0cter, rmr, ac10632, c-more, aim_low; eot, c-more, 0kp2, d0cter, aimpoint_pro, aim_low, e0t2, rmr, deltapoint, compm4s, rakurs, kemper, aimpoint, mepro, ekp8_18
 
 scope_status				= 0
 scope_zoom_factor			= 0
 
 silencer_name				= wpn_sil_nato
+silencer_status				= 2
 silencer_x					= 183
 silencer_y					= 11
-
-silencer_status				= 2
-
 silencer_light_color		= 0.6, 0.5, 0.3
 silencer_light_range		= 0.01
 silencer_light_time			= 0.2
@@ -172,14 +169,13 @@ kill_msg_height				= 28
 
 scope_zoom_factor_alt	= 0
 
-use_alt_aim_hud	= true		
+use_alt_aim_hud	= true
 
 ;---------------------------------------------------------------------SND-------------------------------------------------------------------------------
 
 ;---------------------------------------------------------------------HUD-------------------------------------------------------------------------------
 [wpn_saiga12s_tactical_hud]:hud_base
-
-item_visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_hud.ogf
+item_visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_hud.ogf
 
 attach_place_idx	= 0
 zoom_hide_crosshair	= true
@@ -210,7 +206,7 @@ anm_hide				= ak74_eft_ins_vgrip_hide
 anm_idle				= ak74_eft_ins_vgrip_idle
 anm_idle_sprint			= ak74_eft_ins_vgrip_idle_sprint
 anm_idle_moving			= ak74_eft_ins_vgrip_idle_moving, idle, 0.8
-anm_idle_moving_crouch	= ak74_eft_ins_vgrip_idle_moving, idle, 0.4		
+anm_idle_moving_crouch	= ak74_eft_ins_vgrip_idle_moving, idle, 0.4
 anm_shots				= ak74_eft_ins_vgrip_shoot, shoot
 anm_shots_aim			= ak74_eft_ins_vgrip_shoot_aim, shoot
 ;anm_reload				= ak74_eft_ins_vgrip_reload, reload_vgrip, 1.5
@@ -236,7 +232,6 @@ freelook_z_offset_mul	= 0.7
 $spawn			= "weapons\saiga12_m2_d0cter"
 
 visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
-
 hud				= wpn_saiga12s_tactical_d0cter_hud
 
 inv_weight		= 3.230
@@ -246,7 +241,7 @@ inv_weight		= 3.230
 1icon_layer_y	= -3
 
 [wpn_saiga12s_tactical_d0cter_hud]:wpn_saiga12s_tactical_hud
-item_visual				= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_d0cter_hud.ogf
+item_visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_d0cter_hud.ogf
 
 aim_hud_offset_pos		= -0.0784, 0.0195, -0.03
 aim_hud_offset_pos_16x9	= -0.0784, 0.0195, -0.03
@@ -254,17 +249,19 @@ aim_hud_offset_rot		= -0.001, 0.0156, 0
 aim_hud_offset_rot_16x9	= -0.001, 0.0156, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga12s_tactical_rmr]:wpn_saiga12s_tactical
+$spawn			= "weapons\wpn_saiga12s_isg_rmr"
+hud				= wpn_saiga12s_tactical_rmr_hud
+
+visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
+
 1icon_layer		= rmr
 1icon_layer_x	= 85
 1icon_layer_y	= 1
-$spawn			= "weapons\wpn_saiga12s_isg_rmr"
-hud				= wpn_saiga12s_tactical_rmr_hud
-visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
 
 inv_weight		= 3.234
 
 [wpn_saiga12s_tactical_rmr_hud]:wpn_saiga12s_tactical_hud
-item_visual				= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_rmr_hud.ogf
+item_visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_rmr_hud.ogf
 
 aim_hud_offset_pos		= -0.0785, 0.0175, -0.03
 aim_hud_offset_pos_16x9	= -0.0785, 0.0175, -0.03
@@ -275,7 +272,6 @@ aim_hud_offset_rot_16x9	= -0.001, 0.0156, 0
 $spawn			= "weapons\wpn_saiga12s_isg_aimpoint"
 
 visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
-
 hud				= wpn_saiga12s_tactical_aimpoint_hud
 
 inv_weight		= 3.330
@@ -285,7 +281,7 @@ inv_weight		= 3.330
 1icon_layer_y	= -7
 
 [wpn_saiga12s_tactical_aimpoint_hud]:wpn_saiga12s_tactical_hud
-item_visual				= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_aimpoint_hud.ogf
+item_visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_aimpoint_hud.ogf
 
 aim_hud_offset_pos		= -0.0784, 0.0021, -0.03
 aim_hud_offset_pos_16x9	= -0.0784, 0.0021, -0.03
@@ -293,18 +289,17 @@ aim_hud_offset_rot		= -0.001, 0.0156, 0
 aim_hud_offset_rot_16x9	= -0.001, 0.0156, 0
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_saiga12s_tactical_ac10632]:wpn_saiga12s_tactical
-inv_weight		= 3.315
-
 hud				= wpn_saiga12s_tactical_ac10632_hud
+visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
 
 1icon_layer		= ac10632
 1icon_layer_x	= 83
-1icon_layer_y	= -7				
+1icon_layer_y	= -7
 
-visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
+inv_weight		= 3.315
 
 [wpn_saiga12s_tactical_ac10632_hud]:wpn_saiga12s_tactical_hud
-item_visual				= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_ac10632_hud.ogf
+item_visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_ac10632_hud.ogf
 
 aim_hud_offset_pos		= -0.0784, 0.0035, -0.03
 aim_hud_offset_pos_16x9	= -0.0784, 0.0035, -0.03
@@ -312,18 +307,17 @@ aim_hud_offset_rot		= -0.001, 0.0156, 0
 aim_hud_offset_rot_16x9	= -0.001, 0.0156, 0
 ;-----------------------------------------------------------------------------
 [wpn_saiga12s_tactical_c-more]:wpn_saiga12s_tactical
-inv_weight		= 3.500
-
 hud				= wpn_saiga12s_tactical_c-more_hud
+visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
 
 1icon_layer		= c-more
 1icon_layer_x	= 89
-1icon_layer_y	= -4				
+1icon_layer_y	= -4
 
-visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
+inv_weight		= 3.500
 
 [wpn_saiga12s_tactical_c-more_hud]:wpn_saiga12s_tactical_hud
-item_visual				= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_c-more_hud.ogf
+item_visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_c-more_hud.ogf
 
 aim_hud_offset_pos		= -0.0785, 0.0073, -0.03
 aim_hud_offset_pos_16x9	= -0.0785, 0.0073, -0.03
@@ -334,7 +328,6 @@ aim_hud_offset_rot_16x9	= -0.001, 0.0156, 0
 $spawn			= "weapons\saiga12_m2_aim_low"
 
 visual			= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_world.ogf
-
 hud				= wpn_saiga12s_tactical_aim_low_hud
 
 inv_weight		= 3.305
@@ -344,7 +337,7 @@ inv_weight		= 3.305
 1icon_layer_y	= 0
 
 [wpn_saiga12s_tactical_aim_low_hud]:wpn_saiga12s_tactical_hud
-item_visual				= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_aim_low_hud.ogf
+item_visual	= dynamics\weapons\wpn_saiga12s_tactical\wpn_saiga12s_tactical_aim_low_hud.ogf
 
 aim_hud_offset_pos		= -0.0784, 0.0186, -0.03
 aim_hud_offset_pos_16x9	= -0.0784, 0.0186, -0.03

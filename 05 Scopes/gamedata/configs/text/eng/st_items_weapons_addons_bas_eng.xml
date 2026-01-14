@@ -498,6 +498,13 @@
 		%c[d_cyan] • %c[ui_gray_2] Dovetail mount</text>
 	</string>
 
+	<string id="st_addon_scope_pgo7gs">
+		<text>PGO-7V Sight (BaS)</text>
+	</string>
+	<string id="st_addon_scope_pgo7gs_descr">
+		<text>The PGO-7 optical sight is the main sight of the RPG-7 hand grenade launcher. It serves to aim a grenade launcher when firing at targets located at different ranges.</text>
+	</string>
+
 	<string id="st_addon_scope_ekp8_18">
 		<text>EKP 8-18 "Kobra" Sight (BaS)</text>
 	</string>
@@ -664,4 +671,5 @@
 		%c[ui_gray_2]COMPATIBILITY:\n
 		%c[d_cyan] • %c[ui_gray_2]Some sniper rifles with integrated scopes (BaS)</text>
 	</string>
+
 </string_table>

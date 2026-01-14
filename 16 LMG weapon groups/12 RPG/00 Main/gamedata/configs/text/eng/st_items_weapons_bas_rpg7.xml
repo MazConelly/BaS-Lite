@@ -4,19 +4,15 @@
 	<string id="st_wpn_rpg7">
 		<text>RPG-7 (BaS)</text>
 	</string>
+	<string id="st_wpn_rpg7_s">
+		<text>RPG7</text>
+	</string>
 	<string id="st_wpn_rpg7_descr">
 		<text>The RPG-7 is a further development of the previous RPG-2 anti-tank grenade launcher. The RPG-7, in its first version, known as RPG-7V, has been adopted by the Soviet army in 1961, and is still fielded in Russia and at least 50 more countries. By far, RPG-7 can be considered as one of the most successful anti-tank grenade launchers ever made. Initially thought of as an anti-armour weapon, it was later adopted for other fire support missions with the introduction of other types of grenades, such as anti-infantry HE-FRAG and multi-purpose Thermobaric/FAE.\n
 		The RPG-7 is a shoulder fired, single shot, smoothbore recoilless launcher, grenades are loaded from the front, and the rear of the barrel is fitted with venturi nozzle. Due to the recoilless design, the backblast is dangerous. The RPG-7 is usually issued with 2.7X fixed magnification optical sight, designated PGO-7.\n
 		It is a simple and inexpensive, but possess a high threat to modern tanks and can also serve in a number of other roles, making it a flexible weapon.\n
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] Scopes: PGO-7V Sight</text>
-	</string>
-
-	<string id="st_addon_scope_pgo7gs">
-		<text>PGO-7V Sight (BaS)</text>
-	</string>
-	<string id="st_addon_scope_pgo7gs_descr">
-		<text>The PGO-7 optical sight is the main sight of the RPG-7 hand grenade launcher. It serves to aim a grenade launcher when firing at targets located at different ranges.</text>
 	</string>
 
 </string_table>

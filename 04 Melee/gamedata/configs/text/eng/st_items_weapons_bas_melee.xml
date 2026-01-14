@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_knifebf4">
+        <text>The «OTs-04» Combat knife (BaS)</text>
+    </string>
+    <string id="st_knifebf4_descr">
+        <text>The OTs-04 knife was developed at the Tula Central Design Research Bureau (TsKIB) in the late 80s - early 90s and was intended for special forces of the Interior Ministry troops.</text>
+    </string>
+
+	<string id="st_kukri">
+        <text>Kukri (BaS)</text>
+    </string>
+    <string id="st_kukri_descr">
+        <text>This is a special blade made of high-carbon steel with excellent cutting and chopping properties. Ideal for cutting mutants of all stripes, and for protection against them.</text>
+		</string>
+
+	<string id="st_tactical_knife">
+		<text>Monolith's Blade (BaS)</text>
+	</string>
+	<string id="st_tactical_knife_descr">
+		<text>[RUSSIAN ACCENT "ON"] It is rumoured, these blades are produced in very a few by masters from a groupment Monolith. Threw composition of alloy not known - it is talked to extract him it is possible only in the heart of sarcophagus.[RUSSIAN ACCENT "OFF"]</text>
+	</string>
+
+	<string id="st_tomahawk">
+		<text>Gerber Downrange Tomahawk (BaS)</text>
+	</string>
+	<string id="st_tomahawk_descr">
+		<text>Tactical tomahawk, multi-tool and breaching tool, all-in-one solution.</text>
+	</string>
+
+</string_table>

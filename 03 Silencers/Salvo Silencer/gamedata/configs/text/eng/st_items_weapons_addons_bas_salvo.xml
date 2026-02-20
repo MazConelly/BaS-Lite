@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_addon_sil_salvo">
+		<text>Salvo 12 sound suppressor (BaS)</text>
+	</string>
+	<string id="st_addon_sil_salvo_s">
+		<text>Salvo 12</text>
+	</string>
+	<string id="st_addon_sil_salvo_descr">
+		<text>%c[ui_gray_1]Salvo 12 silencer for 12" shotguns made by SilencerCo. Designed to operate with most pump action and semi automatic shotguns and almost all commercially available ammunition, at its full length of 12" the Salvo 12 brings sound down to 136.8 dB at the muzzle with #7 shot. Configurations of 6", 8", 10", and 12" allow the end user to customize the Salvo 12 for sporting clay, waterfowl, turkey hunting, home defense, and many other applications and accept the appropriate tradeoff of size for sound reduction.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 12 gauge shotguns\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]high\n</text>
+	</string>
+</string_table>

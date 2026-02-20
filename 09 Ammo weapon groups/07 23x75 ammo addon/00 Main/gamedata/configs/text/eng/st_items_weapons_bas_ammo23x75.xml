@@ -41,6 +41,9 @@
 	<string id="st_wpn_ks23_23_up">
 		<text>KS-23 Short Barrel (BaS)</text>
 	</string>
+	<string id="st_wpn_ks23_23_up_s">
+		<text>KS-23 (short)</text>
+	</string>
 	<string id="st_wpn_ks23_23_up_descr">
 		<text>Special carbine, 23 mm - Soviet multi-functional police pump-action shotgun, designed to suppress riots, selective force, mental and chemical effects on offenders. Interestingly, having a caliber of more than 20 mm and a rifled barrel, the KS-23 should not be classified as small arms, but as small-caliber artillery.\n
 		This modification of the KS-23 has a short 510mm barrel installed on it instead of standard long 700mm one.</text>

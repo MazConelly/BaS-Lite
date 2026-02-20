@@ -76,8 +76,8 @@ ammo_elapsed			= 20
 ammo_mag_size			= 20
 startup_ammo			= 90
 
-; scope_status			= 0
-; scope_dynamic_zoom		= off
+scope_status			= 0
+scope_dynamic_zoom		= off
 ; scope_texture			= 
 ; scope_zoom_factor		= 
 
@@ -193,15 +193,16 @@ attach_place_idx	= 0
 zoom_hide_crosshair	= true
 
 ; hands_position		= 0.04, 0.02, 0.3
-hands_position		= 0.01144, 0.001071, 0.008502
 ; hands_orientation	= 2, 2, 0
-hands_orientation	= 3.518286, 3.162557, -4.080054
 
 ; aim_hud_offset_pos	= -0.1271, 0.063, -0.3
 ; aim_hud_offset_pos	= -0.07667, 0.033253, -0.078973
-aim_hud_offset_pos	= -0.002338, -0.122803, 0.1017
 ; aim_hud_offset_rot	= 0.04, 0.035, 0
-aim_hud_offset_rot	= 0.038315, 0.03181, -0.055187
+
+        aim_hud_offset_pos               = -0.001798, -0.122967, 0.09192
+        aim_hud_offset_pos_16x9          = -0.001798, -0.122967, 0.09192
+        aim_hud_offset_rot               = 0.001441, -0.000455, -0.001823
+        aim_hud_offset_rot_16x9          = 0.001441, -0.000455, -0.001823
 
 gl_hud_offset_pos		= 0, 0, 0
 gl_hud_offset_pos_16x9	= 0, 0, 0
@@ -209,25 +210,41 @@ gl_hud_offset_rot		= 0, 0, 0
 gl_hud_offset_rot_16x9	= 0, 0, 0
 
 ; hands_position_16x9		= 0.010000,0.003200,0.008500
-hands_position_16x9		= 0.01144, 0.001071, 0.008502
 ; hands_orientation_16x9	= 0.000000,-0.430000,0.000000
-hands_orientation_16x9	= 3.518286, 3.162557, -4.080054
+
+        hands_position                   = 0.018959, 0.009163, 0.008502
+        hands_position_16x9              = 0.018959, 0.009163, 0.008502
+        hands_orientation                = -0.757332, -0.951134, -4.080054
+        hands_orientation_16x9           = -0.757332, -0.951134, -4.080054
 
 ; aim_hud_offset_pos_16x9	= -0.078000,0.027700,-0.066525
 ; aim_hud_offset_pos_16x9	= -0.07667, 0.033253, -0.078973
-aim_hud_offset_pos_16x9	= -0.002338, -0.122803, 0.1017
 ; aim_hud_offset_rot_16x9	= 0.037250,0.043436,-0.055187
-aim_hud_offset_rot_16x9	= 0.038315, 0.03181, -0.055187
 
 item_position		= 0.000000, 0.000000, 0.000000
 item_orientation	= 0.000000, 0.000000, 0.000000
 
-aim_hud_offset_alt_pos_16x9	= -0.0735,-0.0206,-0.031525
-aim_hud_offset_alt_rot_16x9	= 0.01225,0.010936,-0.055187
+; aim_hud_offset_alt_pos_16x9	= -0.0735,-0.0206,-0.031525
+; aim_hud_offset_alt_rot_16x9	= 0.01225,0.010936,-0.055187
 
-lowered_hud_offset_pos_16x9	= 0.1,0,0
+        aim_hud_offset_alt_pos           = -0.0735, -0.0206, -0.031525
+        aim_hud_offset_alt_pos_16x9      = -0.0735, -0.0206, -0.031525
+        aim_hud_offset_alt_rot           = 0.01225, 0.010936, -0.055187
+        aim_hud_offset_alt_rot_16x9      = 0.01225, 0.010936, -0.055187
+
+        attach_base_hud_offset_pos       = -0.082309, 0.15121, -0.179468
+        attach_base_hud_offset_pos_16x9  = -0.082309, 0.15121, -0.179468
+        attach_base_hud_offset_rot       = 0.001418, -8e-06, -0.14694
+        attach_base_hud_offset_rot_16x9  = 0.001418, -8e-06, -0.14694
+        attach_mount_hud_offset_pos      = 0.001398, 0.095697, -0.003114
+        attach_mount_hud_offset_pos_16x9 = 0.001398, 0.095697, -0.003114
+
+; lowered_hud_offset_pos_16x9	= 0.1,0,0
 lowered_hud_offset_rot_16x9	= 0.1,-0.8,0.1
 
+        lowered_hud_offset_pos           = 0.1, 0, 0
+        lowered_hud_offset_pos_16x9      = 0.1, 0, 0
+		
 anm_show				= mka_sh_draw
 anm_show_empty			= mka_sh_draw, idle_empty
 anm_hide				= mka_sh_holster
@@ -261,13 +278,6 @@ fire_bone2	= wpn_body
 
 freelook_z_offset_mul	= 0.2
 
-attach_base_hud_offset_pos			= -0.07403, 0.157608, -0.178995
-attach_base_hud_offset_pos_16x9		= -0.07403, 0.157608, -0.178995
-attach_base_hud_offset_rot			= 0.036688, 0.042383, -0.074598
-attach_base_hud_offset_rot_16x9		= 0.036688, 0.042383, -0.074598
-attach_mount_hud_offset_pos			= 0.001183, 0.095155, -0.011006
-attach_mount_hud_offset_pos_16x9	= 0.001183, 0.095155, -0.011006
-
 ;------------------------------------------------------------------Addons-------------------------------------------------------------------
 [wpn_g28_pmii]:wpn_g28
 $spawn					= "weapons\g28_pmii"
@@ -287,7 +297,7 @@ inv_weight				= 7.1 ; 4.00
 cost					= 80200
 
 scope_status			= 1
-scopes					= ; pn23fore, assigned by the scopes module
+scopes					= none ; pn23fore, assigned by the scopes module
 scope_dynamic_zoom		= on
 scope_texture			= wpn_crosshair_g28
 scope_zoom_factor		= 6

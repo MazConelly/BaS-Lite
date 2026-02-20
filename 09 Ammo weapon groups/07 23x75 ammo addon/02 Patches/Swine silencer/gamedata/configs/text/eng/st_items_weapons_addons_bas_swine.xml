@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_addon_sil_hex23">
+		<text>Swine 23 sound suppressor (BaS)</text>
+	</string>
+	<string id="st_addon_sil_hex23_s">
+		<text>Swine 23</text>
+	</string>
+	<string id="st_addon_sil_hex23_descr">
+		<text>%c[ui_gray_1]Zone made silencer to reduce the noise produced by a 23x75 gauge shotgun's shot, so as not to attract (too much) (relatively) (at least a bit) attention. The design turned out to be thunderous and heavy, inconvenient for a silencer, but that's as good as it gets.\n
+		%c[d_purple] • %c[ui_gray_2] Sound suppression: %c[ui_gray_1]low\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] 23mm Cal.\n</text>
+	</string>
+</string_table>

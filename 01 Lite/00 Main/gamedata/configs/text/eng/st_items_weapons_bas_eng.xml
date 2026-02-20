@@ -40,6 +40,9 @@
 	<string id="st_grenade_launcher">
 		<text>GP-25 "Kostyor" grenade launcher (BaS+Van)</text>
 	</string>
+	<string id="st_grenade_launcher_s">
+		<text>GP-25 "Kostyor"</text>
+	</string>
 	<string id="st_grenade_launcher_descr">
 		<text>A single shot, front loaded, rifled under-barrel grenade launcher for assault rifles made in Warsaw Pact countries. Designed to greatly expand fire-power of a basic infantry squad. The firing mechanism is self-cocking, with a manual safety catch and automatic shot prevention if incorrectly installed onto a rifle.\n
 		%c[d_purple] • %c[ui_gray_2] muzzle velocity: %c[ui_gray_1]~76 m/sec\n
@@ -50,6 +53,9 @@
 	
 	<string id="st_grenade_launcher_m203">
 		<text>M203 grenade launcher (BaS+Van)</text>
+	</string>
+	<string id="st_grenade_launcher_m203_s">
+		<text>M203</text>
 	</string>
 	<string id="st_grenade_launcher_m203_descr">
 		<text>A modified M203 grenade launcher whose length has been decreased by three inches, and which can be attached to weapons by means of a Picatinny rail. Thanks to a changed mount, this grenade launcher is widely used around the world and can be installed on most currently produced rifles. Although of more modern design, it has almost the same properties as its Soviet counterpart - the GP-25 grenade launcher.\n

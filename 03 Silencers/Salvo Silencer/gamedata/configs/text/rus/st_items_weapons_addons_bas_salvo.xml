@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_addon_sil_salvo">
+		<text>Salvo 12 sound suppressor (BaS)</text>
+	</string>
+	<string id="st_addon_sil_salvo_s">
+		<text>Salvo 12</text>
+	</string>
+	<string id="st_addon_sil_salvo_descr">
+		<text>\n \n%c[ui_gray_2]СОВМЕСТИМОСТЬ:\n \n%c[d_cyan] • %c[ui_gray_2] 12й калибр\n \n%c[ui_gray_1]Стандартный глушитель Salvo 12 для оружия 12го калибра производства компании SilencerCo.\n \n%c[d_purple] • %c[ui_gray_2] Глушение звука: %c[ui_gray_1]высокое</text>
+	</string>
+</string_table>

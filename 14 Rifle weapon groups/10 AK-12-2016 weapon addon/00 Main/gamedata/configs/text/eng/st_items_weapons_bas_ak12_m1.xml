@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_ak12_m1">
+        <text>АК-12 (2016) (BaS)</text>
+    </string>
+	<string id="st_wpn_ak12_m1_s">
+        <text>АК-12 2016</text>
+    </string>
+    <string id="st_wpn_ak12_m1_descr">
+        <text>The version of the AK-12 presented to the public in 2016. It differs from the previous version of the AK-12 shown in 2015 quite significantly in appearance and design. The mechanical design was revised both to eliminate a number of identified shortcomings and problems, and to improve manufacturing, taking into account the wishes of the military.\n 
+		%c[0,140,140,140]ATTACHMENTS: \n
+		%c[0,93,0,116] • %c[0,140,140,140] Scopes: All scopes for Picatinny\n
+		%c[0,93,0,116] • %c[0,140,140,140] GP-25 grenade launcher\n
+		%c[0,93,0,116] • %c[0,140,140,140] Silencer: TGP-A\n</text>
+    </string>
+</string_table>
+<!-- 5.45/7.62 Hexagon Sound Suppressor -->

@@ -6,7 +6,16 @@
 		%c[ui_gray_2]ATTACHMENTS:\n
 		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
 		%c[d_purple] • %c[ui_gray_2] ACOG, Barska ES AC10632, EOTech scopes\n
-		%c[ui_gray_2]COMPATIBLE MOD KITS:\N
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
+		%c[d_purple] • %c[ui_gray_2] Specialized weapon mod kit</text>
+	</string>
+
+	<string id="st_wpn_sig552_siber_descr">
+		<text>The SG 552 Commando is designed for urban combat, making it the most compact member of SIG's renowned SG 550 family, which enhances its CQC capabilities.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes: All for picatinny/weaver (except of Red Dot Sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter Sight and 1P76 Rakurs (picatinny)\n
+		%c[d_purple] • %c[ui_gray_2] Suppressor: NATO suppressor\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS:\n
 		%c[d_purple] • %c[ui_gray_2] Specialized weapon mod kit</text>
 	</string>
 
